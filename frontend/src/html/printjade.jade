@@ -4,12 +4,12 @@
     .mm-print-jade-opening
       span(ng-show="element.tagName != 'DIV' || !selAttributes.length") {{element.tagName|lowercase}}
       span(ng-repeat="attr in selAttributes")
-        | {{ {id: '#', class: '.'}[attr.name] }}{{attr.value}}
+        | {{ {id: '#', class: '.'}[attr.name] }}{{attr.value|htmlEscape}}
       span(ng-show='genAttributes.length')
         | (
         span(ng-repeat='attr in genAttributes')
           span(ng-show="$index") , 
-          | {{attr.name}}="{{attr.value}}"
+          | {{attr.name}}="{{attr.value|htmlEscape}}"
         | )
     div(ng-repeat='child in childNodes')
       // We need to escape this recursive directive
@@ -19,8 +19,8 @@
                             </div>'")
   .mm-print-jade-text(ng-switch-when='3')
     // Text 
-    | | {{element.textContent}}
+    | | {{element.textContent|htmlEscape}}
   .mm-print-jade-comment(ng-switch-when='8')
     // Comment 
-    | // {{element.textContent}}
+    | // {{element.textContent|htmlEscape}}
   // Others unrecognized at the moment 

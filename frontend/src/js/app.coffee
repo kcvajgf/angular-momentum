@@ -2,6 +2,7 @@
 momentum = angular.module "Momentum", [
   "Momentum.controllers"
   "Momentum.directives"
+  "Momentum.filters"
   "Momentum.test"
 ]
 
