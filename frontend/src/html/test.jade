@@ -2,11 +2,6 @@ div
   .row
     .span12
       h3 mmSelector test
-      form.clearfix
-        .pull-left(style="margin-right: 3px") Selector:
-        input.pull-left(ng-model="mySelector")
-        .pull-left
-          .text-error(ng-show="myError") There's an error in your selector
       #selector-area(
         mm-selector="{{mySelector}}"
         add-class="selector-test"
@@ -41,6 +36,13 @@ div
 
       .y This is a div with class "y", but should be excluded
       button.btn This is a button with class "btn", but should be excluded
+
+      form.clearfix
+        .pull-left(style="margin-right: 3px") Selector:
+        input.pull-left(ng-model="mySelector")
+        .pull-left
+          .text-error(ng-show="myError") There's an error in your selector
+
   .row
     .span6.print-area
       h3 mmPrintHtml test
