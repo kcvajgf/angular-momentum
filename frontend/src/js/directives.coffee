@@ -82,8 +82,6 @@ momentum.directive 'mmCompileHtml', ['$compile', ($compile) ->
       $compile(element.contents()) scope
 ]
 
-
-# TODO escape strings from html, e.g. &quot;, &lt;, &amp;
 momentum.directive 'mmPrintHtml', [->
   scope:
     element: '=mmPrintHtml'
