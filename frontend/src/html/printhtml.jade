@@ -1,0 +1,27 @@
+.mm-print-html-node(class="additionalClasses({element: element})", ng-switch='element.nodeType')
+  .mm-print-html-element(ng-switch-when='1')
+    // Element 
+    div(ng-show='childNodes.length')
+      .mm-print-html-opening
+        | &lt;{{element.tagName|lowercase}}
+        span(ng-repeat='attr in attributes')  {{attr.name}}="{{attr.value}}"
+        | &gt;
+      div(ng-repeat='child in childNodes')
+        // We need to escape this recursive directive
+        div(mm-compile-html="'<div mm-print-html=child \
+                                   additional-classes=additionalClasses({element:element}) \
+                                   filter-attributes=filterAttributes({attributes:attributes})> \
+                              </div>'")
+      .mm-print-html-closing
+        | &lt;/{{element.tagName|lowercase}}&gt;
+    .mm-print-html-openclosing(ng-hide='childNodes.length')
+      | &lt;{{element.tagName|lowercase}}
+      span(ng-repeat='attr in attributes')  {{attr.name}}="{{attr.value}}"
+      | &gt;&lt;/{{element.tagName|lowercase}}&gt;
+  .mm-print-html-text(ng-switch-when='3')
+    // Text 
+    | {{element.textContent}}
+  .mm-print-html-comment(ng-switch-when='8')
+    // Comment 
+    | &lt;!--{{element.textContent}}--&gt;
+  // Others unrecognized at the moment 

@@ -1,4 +1,5 @@
 div
+  h3 mmSelector test
   form.clearfix
     .pull-left(style="margin-right: 3px") Selector:
     input.pull-left(ng-model="mySelector")
@@ -6,7 +7,7 @@ div
       .text-error(ng-show="myError") There's an error in your selector
   #selector-area(
     mm-selector="{{mySelector}}"
-    add-class="foo bar"
+    add-class="selector-test"
     do-action="printOut(element, true)"
     undo-action="printOut(element, false)"
     error="myError")
@@ -21,11 +22,20 @@ div
         .y This is a div with class "y"
   .y This is a div with class "y", but should be excluded
   button.btn This is a button with class "btn", but should be excluded
-  style
-    .subok *, .subok {
-      margin: 10px;
-      border: thin solid #EEE;
-    }
-    .foo {
-      border: thin solid blue;
-    }
+
+  h3 mmPrintHtml test
+  #subok2(foo="bar", baz, big=1)
+    span.empty
+    .bar(baz="boobar").selector-test The
+    | quick 
+    span brown 
+    | fox 
+    br
+    | jumps 
+    // comment!
+    span.fa
+      | over 
+      span.fb the 
+      | lazy 
+    | dog. &lt;hey&gt; jude
+  div(mm-print-html="printElement", filter-attributes="filterAttributes(attributes)")

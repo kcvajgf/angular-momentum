@@ -74,3 +74,30 @@ momentum.directive 'mmSelector', ['$parse', ($parse) ->
 
       oldSelected = newSelected
 ]
+
+momentum.directive 'mmCompileHtml', ['$compile', ($compile) ->
+  (scope, element, attrs) ->
+    scope.$watch attrs.mmCompileHtml, (value) ->
+      element.html value
+      $compile(element.contents()) scope
+]
+
+
+# TODO escape strings from html, e.g. &quot;, &lt;, &amp;
+momentum.directive 'mmPrintHtml', [->
+  scope:
+    element: '=mmPrintHtml'
+    additionalClasses: '&'
+    filterAttributes: '&'
+  templateUrl: '/html/printhtml.html'
+  link: (scope, element, attrs) ->
+    scope.$watch 'element.childNodes', (childNodes) ->
+      scope.childNodes = childNodes
+
+    scope.$watch 'element.attributes', (attributes) ->
+      if attributes?
+        scope.attributes = scope.filterAttributes attributes: attributes
+        scope.attributes = (a for a in (scope.attributes ? attributes))
+      else
+        scope.attributes = null
+]
