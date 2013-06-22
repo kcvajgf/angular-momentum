@@ -98,6 +98,12 @@ momentum.directive 'mmPrintHtml', [->
         scope.attributes = (a for a in (scope.attributes ? attributes))
       else
         scope.attributes = null
+
+    voids = "AREA BASE BR COL EMBED HR IMG INPUT KEYGEN LINK MENUITEM META PARAM SOURCE TRACK WBR".split /\s+/
+    voidSet = {}
+    for v in voids
+      voidSet[v] = true
+    scope.isVoid = (element) -> element of voidSet
 ]
 
 momentum.directive 'mmPrintJade', [->
