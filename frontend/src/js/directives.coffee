@@ -121,15 +121,16 @@ momentum.directive 'mmPrintJade', [->
       # filter class and id
       scope.selAttributes = []
       scope.genAttributes = []
-      for a in scope.attributes
-        if a.name == 'id'
-          scope.selAttributes.push a
-        else if a.name == 'class'
-          # only handles simple 'class' values, so beware
-          for c in a.value.trim().split(/\s+/)
-            scope.selAttributes.push
-              name: 'class'
-              value: c
-        else
-          scope.genAttributes.push a
+      if scope.attributes?
+        for a in scope.attributes
+          if a.name == 'id'
+            scope.selAttributes.push a
+          else if a.name == 'class'
+            # only handles simple 'class' values, so beware
+            for c in a.value.trim().split(/\s+/)
+              scope.selAttributes.push
+                name: 'class'
+                value: c
+          else
+            scope.genAttributes.push a
 ]
