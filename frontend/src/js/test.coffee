@@ -15,5 +15,9 @@ momentum.controller 'TestCtrl', ['$scope', ($scope) ->
       for a in attributes
         name: a.name
         value: if a.name == "class" then filterClass(a.value) else a.value
-
+  $scope.additionalClasses = (element) ->
+    if $(element).hasClass("selector-test")
+      "node-has-class"
+    else 
+      ""
 ]

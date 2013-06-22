@@ -1,4 +1,4 @@
-.mm-print-html-node(class="additionalClasses({element: element})", ng-switch='element.nodeType')
+.mm-print-html-node(class="{{additionalClasses({element: element})}}", ng-switch='element.nodeType')
   .mm-print-html-element(ng-switch-when='1')
     // Element 
     div(ng-show='childNodes.length')
