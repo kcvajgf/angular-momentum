@@ -1,0 +1,17 @@
+div
+  input(ng-model="mySelector")
+  div(ng-show="myError")
+    | Error:
+    | {{myError}}
+  div(mm-selector="{{mySelector}}", add-class="foo bar", error="myError")
+    .a.b.c
+      .fool.feel INFOOL
+    .d.e.f#x
+      | INX
+      #y IN
+      | OUTX
+  #y Y
+  style
+    .foo {
+      border: thin solid black;
+    }

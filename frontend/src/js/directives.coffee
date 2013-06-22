@@ -42,3 +42,35 @@ momentum.directive 'mmTab', [->
   link: (scope, element, attrs, tabsCtrl) ->
     tabsCtrl.register scope
 ]
+
+momentum.directive 'mmSelector', ['$parse', ($parse) ->
+  link: (scope, element, attrs) ->
+    doAction   = if attrs.doAction   then $parse(attrs.doAction)
+    undoAction = if attrs.undoAction then $parse(attrs.undoAction)
+    error =      if attrs.error      then $parse(attrs.error)
+
+    oldSelected = null
+    attrs.$observe 'mmSelector', (newSelector) ->
+      try
+        newSelected = element.find(newSelector)
+        error.assign scope, null
+      catch er
+        error.assign scope, er
+        return
+
+      if oldSelected?
+        if undoAction?
+          oldSelected.each (index, elt) ->
+            undoAction scope, element: elt
+        if attrs.addClass
+          oldSelected.removeClass attrs.addClass
+
+      if newSelected?
+        if doAction?
+          newSelected.each (index, elt) ->
+            doAction   scope, element: elt
+        if attrs.addClass
+          newSelected.addClass attrs.addClass
+
+      oldSelected = newSelected
+]

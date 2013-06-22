@@ -20,6 +20,9 @@ momentum.config ["$routeProvider", ($routeProvider) ->
   $routeProvider.when "/",
     redirectTo: "/home"
 
+  $routeProvider.when "/test",
+    templateUrl: "/html/test.html"
+
   $routeProvider.when "",
     redirectTo: "/home"
   
