@@ -1,46 +1,50 @@
 div
-  h3 mmSelector test
-  form.clearfix
-    .pull-left(style="margin-right: 3px") Selector:
-    input.pull-left(ng-model="mySelector")
-    .pull-left
-      .text-error(ng-show="myError") There's an error in your selector
-  #selector-area(
-    mm-selector="{{mySelector}}"
-    add-class="selector-test"
-    do-action="printOut(element, true)"
-    undo-action="printOut(element, false)"
-    error="myError")
-    .subok
-      | This is a div with class "subok"
-      .a.b.c
-        | This is a div class "a b c"
-        .fool.feel#fiil This is a div with id "fiil" class "fool feel"
-        button.btn This is a button with class "btn"
-      .d.e.f#x
-        | This is a div with class "d e f" and id "x"
-        .y This is a div with class "y"
-      | What follows are more stuff...
-      #subok2(foo="bar", baz, big=1)
-        span.empty(fuu="xu&'")
-        div
-        .bar(baz="boobar") The
-        | quick 
-        span brown 
-        | fox 
-        br
-        | jumps 
-        // comment!
-        span.fa
-          | over 
-          span.fb the 
-          | lazy 
-        | dog. &lt;hey&gt; jude
+  .row
+    .span12
+      h3 mmSelector test
+      form.clearfix
+        .pull-left(style="margin-right: 3px") Selector:
+        input.pull-left(ng-model="mySelector")
+        .pull-left
+          .text-error(ng-show="myError") There's an error in your selector
+      #selector-area(
+        mm-selector="{{mySelector}}"
+        add-class="selector-test"
+        do-action="printOut(element, true)"
+        undo-action="printOut(element, false)"
+        error="myError")
+        .subok
+          | This is a div with class "subok"
+          .a.b.c
+            | This is a div class "a b c"
+            .fool.feel#fiil This is a div with id "fiil" class "fool feel"
+            button.btn This is a button with class "btn"
+          .d.e.f#x
+            | This is a div with class "d e f" and id "x"
+            .y This is a div with class "y"
+          | What follows are more stuff...
+          #subok2(foo="bar", baz, big=1)
+            span.empty(fuu="xu&'")
+            div
+            .bar(baz="boobar") The
+            | quick 
+            span brown 
+            | fox 
+            br
+            | jumps 
+            // comment!
+            span.fa
+              | over 
+              span.fb the 
+              | lazy 
+            | dog. &lt;hey&gt; jude
 
-  .y This is a div with class "y", but should be excluded
-  button.btn This is a button with class "btn", but should be excluded
-
-  h3 mmPrintHtml test
-  div(mm-print-html="printElement", filter-attributes="filterAttributes(attributes)")
-  h3 mmPrintJade test
-  div(mm-print-jade="printElement", filter-attributes="filterAttributes(attributes)")
+      .y This is a div with class "y", but should be excluded
+      button.btn This is a button with class "btn", but should be excluded
+  .row
+    .span6.print-area
+      h3 mmPrintHtml test
+      div(mm-print-html="printElement", filter-attributes="filterAttributes(attributes)")
+    .span6.print-area
+      h3 mmPrintJade test
+      div(mm-print-jade="printElement", filter-attributes="filterAttributes(attributes)")
