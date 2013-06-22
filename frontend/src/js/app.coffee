@@ -2,6 +2,7 @@
 momentum = angular.module "Momentum", [
   "Momentum.controllers"
   "Momentum.directives"
+  "Momentum.test"
 ]
 
 momentum.config ["$routeProvider", ($routeProvider) ->
@@ -22,6 +23,7 @@ momentum.config ["$routeProvider", ($routeProvider) ->
 
   $routeProvider.when "/test",
     templateUrl: "/html/test.html"
+    controller: "TestCtrl"
 
   $routeProvider.when "",
     redirectTo: "/home"

@@ -1,17 +1,34 @@
 div
-  input(ng-model="mySelector")
-  div(ng-show="myError")
-    | Error:
-    | {{myError}}
-  div(mm-selector="{{mySelector}}", add-class="foo bar", error="myError")
-    .a.b.c
-      .fool.feel INFOOL
-    .d.e.f#x
-      | INX
-      #y IN
-      | OUTX
-  #y Y
+  form.clearfix
+    input.pull-left(ng-model="mySelector")
+    .pull-left
+      .text-error(ng-show="myError") There's an error in your selector
+  div(
+    mm-selector="{{mySelector}}"
+    add-class="foo bar"
+    do-action="printOut(element, true)"
+    undo-action="printOut(element, false)"
+    error="myError")
+    .subok
+      .a.b.c
+        | INF
+        .fool.feel INFOOL
+        | ENF
+      .d.e.f#x
+        | INX
+        .y IN
+        | OUTX
+  .y Y
   style
+    .fool, .subok .y {
+      margin: 10px;
+    }
+    .subok > div {
+      margin: 10px;
+    }
+    .subok *, .subok {
+      border: thin solid #EEE;
+    }
     .foo {
-      border: thin solid black;
+      border: thin solid blue;
     }

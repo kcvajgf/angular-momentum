@@ -59,11 +59,11 @@ momentum.directive 'mmSelector', ['$parse', ($parse) ->
         return
 
       if oldSelected?
+        if attrs.addClass
+          oldSelected.removeClass attrs.addClass
         if undoAction?
           oldSelected.each (index, elt) ->
             undoAction scope, element: elt
-        if attrs.addClass
-          oldSelected.removeClass attrs.addClass
 
       if newSelected?
         if doAction?
