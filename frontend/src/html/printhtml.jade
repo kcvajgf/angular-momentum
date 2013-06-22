@@ -14,14 +14,15 @@
                               </div>'")
       .mm-print-html-closing
         | &lt;/{{element.tagName|lowercase}}&gt;
-    .mm-print-html-openclosing(ng-show='!childNodes.length && isVoid(element.tagName)')
-      | &lt;{{element.tagName|lowercase}}
-      span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
-      |  /&gt;
-    .mm-print-html-openclosing(ng-show='!childNodes.length && !isVoid(element.tagName)')
-      | &lt;{{element.tagName|lowercase}}
-      span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
-      | &gt;&lt;/{{element.tagName|lowercase}}&gt;
+    div(ng-hide='childNodes.length')
+      .mm-print-html-openclosing(ng-show='isVoid(element.tagName)')
+        | &lt;{{element.tagName|lowercase}}
+        span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
+        |  /&gt;
+      .mm-print-html-openclosing(ng-show='!isVoid(element.tagName)')
+        | &lt;{{element.tagName|lowercase}}
+        span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
+        | &gt;&lt;/{{element.tagName|lowercase}}&gt;
   .mm-print-html-text(ng-switch-when='3')
     // Text 
     | {{element.textContent|htmlEscape}}
