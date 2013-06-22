@@ -1,5 +1,6 @@
 div
   form.clearfix
+    .pull-left(style="margin-right: 3px") Selector:
     input.pull-left(ng-model="mySelector")
     .pull-left
       .text-error(ng-show="myError") There's an error in your selector
@@ -10,23 +11,19 @@ div
     undo-action="printOut(element, false)"
     error="myError")
     .subok
+      | This is a div with class "subok"
       .a.b.c
-        | INF
-        .fool.feel INFOOL
-        | ENF
+        | This is a div class "a b c"
+        .fool.feel#fiil This is a div with id "fiil" class "fool feel"
+        button.btn This is a button with class "btn"
       .d.e.f#x
-        | INX
-        .y IN
-        | OUTX
-  .y Y
+        | This is a div with class "d e f" and id "x"
+        .y This is a div with class "y"
+  .y This is a div with class "y", but should be excluded
+  button.btn This is a button with class "btn", but should be excluded
   style
-    .fool, .subok .y {
-      margin: 10px;
-    }
-    .subok > div {
-      margin: 10px;
-    }
     .subok *, .subok {
+      margin: 10px;
       border: thin solid #EEE;
     }
     .foo {
