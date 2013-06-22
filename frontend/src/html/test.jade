@@ -6,6 +6,7 @@ div
       #selector-area(
         mm-selector="{{mySelector}}"
         add-class="selector-test"
+        selected-count="myCount"
         do-action="printOut(element, true)"
         undo-action="printOut(element, false)"
         error="myError")
@@ -44,6 +45,13 @@ div
         input.pull-left(ng-model="mySelector")
         .pull-left
           .text-error(ng-show="myError") There's an error in your selector
+          .text-info(ng-hide="myError") 
+            | Selected 
+            ng-pluralize(count="myCount", when="{\
+              0: 'no elements',\
+              one: '{} element',\
+              other: '{} elements' \
+            }")
 
   .row
     .span6.print-area
