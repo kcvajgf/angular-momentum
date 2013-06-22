@@ -4,7 +4,7 @@ div
     input.pull-left(ng-model="mySelector")
     .pull-left
       .text-error(ng-show="myError") There's an error in your selector
-  div(
+  #selector-area(
     mm-selector="{{mySelector}}"
     add-class="foo bar"
     do-action="printOut(element, true)"
