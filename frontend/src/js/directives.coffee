@@ -141,4 +141,6 @@ momentum.directive 'mmPrintJade', [->
                 value: c
           else
             scope.genAttributes.push a
+
+      null # return null at the end, instead of a list created by the for loop above
 ]
