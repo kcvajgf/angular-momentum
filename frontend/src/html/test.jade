@@ -23,9 +23,11 @@ div
   .y This is a div with class "y", but should be excluded
   button.btn This is a button with class "btn", but should be excluded
 
-  h3 mmPrintHtml test
+  h5 Stuff
+
   #subok2(foo="bar", baz, big=1)
     span.empty
+    div
     .bar(baz="boobar").selector-test The
     | quick 
     span brown 
@@ -38,4 +40,8 @@ div
       span.fb the 
       | lazy 
     | dog. &lt;hey&gt; jude
+
+  h3 mmPrintHtml test
   div(mm-print-html="printElement", filter-attributes="filterAttributes(attributes)")
+  h3 mmPrintJade test
+  div(mm-print-jade="printElement", filter-attributes="filterAttributes(attributes)")

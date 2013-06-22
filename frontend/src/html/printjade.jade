@@ -1,0 +1,26 @@
+.mm-print-jade-node(class="additionalClasses({element: element})", ng-switch='element.nodeType')
+  .mm-print-jade-element(ng-switch-when='1')
+    // Element 
+    .mm-print-jade-opening
+      span(ng-show="element.tagName != 'DIV' || !selAttributes.length") {{element.tagName|lowercase}}
+      span(ng-repeat="attr in selAttributes")
+        | {{ {id: '#', class: '.'}[attr.name] }}{{attr.value}}
+      span(ng-show='genAttributes.length')
+        | (
+        span(ng-repeat='attr in genAttributes')
+          span(ng-show="$index") , 
+          | {{attr.name}}="{{attr.value}}"
+        | )
+    div(ng-repeat='child in childNodes')
+      // We need to escape this recursive directive
+      div(mm-compile-html="'<div mm-print-jade=child \
+                                 additional-classes=additionalClasses({element:element}) \
+                                 filter-attributes=filterAttributes({attributes:attributes})> \
+                            </div>'")
+  .mm-print-jade-text(ng-switch-when='3')
+    // Text 
+    | | {{element.textContent}}
+  .mm-print-jade-comment(ng-switch-when='8')
+    // Comment 
+    | // {{element.textContent}}
+  // Others unrecognized at the moment 
