@@ -6,12 +6,12 @@
         | &lt;{{element.tagName|lowercase}}
         span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
         | &gt;
-      div(ng-repeat='child in childNodes')
-        // We need to escape this recursive directive
-        div(mm-compile-html="'<div mm-print-html=child \
-                                   additional-classes=additionalClasses({element:element}) \
-                                   filter-attributes=filterAttributes({attributes:attributes})> \
-                              </div>'")
+      // We need to escape this recursive directive
+      .mm-print-html-child(ng-repeat='child in childNodes'
+        mm-compile-html="'<div mm-print-html=child \
+                               additional-classes=additionalClasses({element:element}) \
+                               filter-attributes=filterAttributes({attributes:attributes})> \
+                          </div>'")
       .mm-print-html-closing
         | &lt;/{{element.tagName|lowercase}}&gt;
     div(ng-hide='childNodes.length')

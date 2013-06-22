@@ -11,12 +11,12 @@
           span(ng-show="$index") , 
           | {{attr.name}}="{{attr.value|htmlEscape}}"
         | )
-    div(ng-repeat='child in childNodes')
-      // We need to escape this recursive directive
-      div(mm-compile-html="'<div mm-print-jade=child \
-                                 additional-classes=additionalClasses({element:element}) \
-                                 filter-attributes=filterAttributes({attributes:attributes})> \
-                            </div>'")
+    // We need to escape this recursive directive
+    .mm-print-jade-child(ng-repeat='child in childNodes'
+      mm-compile-html="'<div mm-print-jade=child \
+                             additional-classes=additionalClasses({element:element}) \
+                             filter-attributes=filterAttributes({attributes:attributes})> \
+                        </div>'")
   .mm-print-jade-text(ng-switch-when='3')
     // Text 
     | | {{element.textContent|htmlEscape}}
