@@ -2,15 +2,25 @@
   .mm-print-jade-element(ng-switch-when='1')
     // Element 
     .mm-print-jade-opening
-      span(ng-show="element.tagName != 'DIV' || !selAttributes.length") {{element.tagName|lowercase}}
-      span(ng-repeat="attr in selAttributes")
-        | {{ {id: '#', class: '.'}[attr.name] }}{{attr.value|htmlEscape}}
+      span.mm-print-jade-tag(ng-show="element.tagName != 'DIV' || !selAttributes.length")
+        | {{element.tagName|lowercase}}
+      span(ng-repeat="attr in selAttributes", ng-switch="attr.name")
+        span.mm-print-jade-id(ng-switch-when="id")
+          span.mm-print-jade-hash #
+          span.mm-print-jade-value {{attr.value|htmlEscape}}
+        span.mm-print-jade-class(ng-switch-when="class")
+          span.mm-print-jade-dot {{'.'}}
+          span.mm-print-jade-value {{attr.value|htmlEscape}}
       span(ng-show='genAttributes.length')
-        | (
+        span.mm-print-jade-openparen (
         span(ng-repeat='attr in genAttributes')
-          span(ng-show="$index") , 
-          | {{attr.name}}="{{attr.value|htmlEscape}}"
-        | )
+          span.mm-print-jade-comma(ng-show="$index") , 
+          span.mm-print-jade-attr {{attr.name}}
+          span.mm-print-jade-eq =
+          span.mm-print-jade-quote "
+          span.mm-print-jade-quoted {{attr.value|htmlEscape}}
+          span.mm-print-jade-quote "
+        span.mm-print-jade-closeparen )
     // We need to escape this recursive directive
     .mm-print-jade-child(ng-repeat='child in childNodes'
       mm-compile-html="'<div mm-print-jade=child \
@@ -19,8 +29,10 @@
                         </div>'")
   .mm-print-jade-text(ng-switch-when='3')
     // Text 
-    | | {{element.textContent|htmlEscape}}
+    span.mm-print-jade-bar |
+    span.mm-print-jade-txt  {{element.textContent|htmlEscape}}
   .mm-print-jade-comment(ng-switch-when='8')
     // Comment 
-    | // {{element.textContent|htmlEscape}}
+    span.mm-print-jade-slash {{'//'}}
+    span.mm-print-jade-cmt &nbsp;{{element.textContent|htmlEscape}}
   // Others unrecognized at the moment 

@@ -22,6 +22,10 @@
   font-family monospace
   white-space nowrap
   border thin solid white
+
+// syntax highlighting
+
+.mm-print-html-node
   // Hopefully there's a better way to implement this 
   .mm-print-html-element
     .mm-print-html-lt, .mm-print-html-gt, .mm-print-html-eq, .mm-print-html-slash
@@ -39,6 +43,33 @@
       color green
     color green
 
+.mm-print-jade-node
+  // Hopefully there's a better way to implement this 
+  .mm-print-jade-element
+    .mm-print-jade-tag
+      color #008
+    .mm-print-jade-id
+      color #088
+    .mm-print-jade-class
+      color #F88
+    .mm-print-jade-attr
+      color #840
+    .mm-print-jade-openparen, .mm-print-jade-closeparen, .mm-print-jade-eq
+      color #008
+    .mm-print-jade-quote, .mm-print-jade-quoted
+      color #00F
+  .mm-print-jade-text
+    .mm-print-jade-txt
+    color #111
+    .mm-print-jade-bar
+      color #008
+  .mm-print-jade-comment
+    .mm-print-jade-slash
+      color green
+    .mm-print-jade-cmt
+      color green
+
+// what to do when part of the tree is selected
 .mm-print-html-node.node-has-class, .mm-print-jade-node.node-has-class
   border thin solid blue
 
