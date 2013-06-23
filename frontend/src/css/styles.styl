@@ -15,12 +15,29 @@
   .selector-test
     border thin solid blue
 
+
 .mm-print-html-node, .mm-print-jade-node
   padding 0 20px
   margin 2px 0
   font-family monospace
   white-space nowrap
   border thin solid white
+  // Hopefully there's a better way to implement this 
+  .mm-print-html-element
+    .mm-print-html-lt, .mm-print-html-gt, .mm-print-html-eq, .mm-print-html-slash
+      color #008
+    .mm-print-html-quote, .mm-print-html-quoted
+      color #00F
+    .mm-print-html-tag
+      color #00B
+    .mm-print-html-attr
+      color #840
+  .mm-print-html-text
+    color #111
+  .mm-print-html-comment
+    .mm-print-html-lt, .mm-print-html-gt, .mm-print-html-bang, .mm-print-html-dash
+      color green
+    color green
 
 .mm-print-html-node.node-has-class, .mm-print-jade-node.node-has-class
   border thin solid blue

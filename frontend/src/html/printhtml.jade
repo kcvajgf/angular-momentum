@@ -3,9 +3,15 @@
     // Element 
     div(ng-show='childNodes.length')
       .mm-print-html-opening
-        | &lt;{{element.tagName|lowercase}}
-        span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
-        | &gt;
+        span.mm-print-html-lt &lt;
+        span.mm-print-html-tag {{element.tagName|lowercase}}
+        span(ng-repeat='attr in attributes') 
+          span.mm-print-html-attr  {{attr.name|htmlEscape}}
+          span.mm-print-html-eq =
+          span.mm-print-html-quote "
+          span.mm-print-html-quoted {{attr.value|htmlEscape}}
+          span.mm-print-html-quote "
+        span.mm-print-html-gt &gt;
       // We need to escape this recursive directive
       .mm-print-html-child(ng-repeat='child in childNodes'
         mm-compile-html="'<div mm-print-html=child \
@@ -13,20 +19,45 @@
                                filter-attributes=filterAttributes({attributes:attributes})> \
                           </div>'")
       .mm-print-html-closing
-        | &lt;/{{element.tagName|lowercase}}&gt;
+        span.mm-print-html-lt &lt;
+        span.mm-print-html-slash /
+        span.mm-print-html-tag {{element.tagName|lowercase}}
+        span.mm-print-html-gt &gt;
     div(ng-hide='childNodes.length')
       .mm-print-html-openclosing(ng-show='isVoid(element.tagName)')
-        | &lt;{{element.tagName|lowercase}}
-        span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
-        |  /&gt;
+        span.mm-print-html-lt &lt;
+        span.mm-print-html-tag {{element.tagName|lowercase}}
+        span(ng-repeat='attr in attributes') 
+          span.mm-print-html-attr  {{attr.name|htmlEscape}}
+          span.mm-print-html-eq =
+          span.mm-print-html-quote "
+          span.mm-print-html-quoted {{attr.value|htmlEscape}}
+          span.mm-print-html-quote "
+        span.mm-print-html-slash  /
+        span.mm-print-html-gt &gt;
       .mm-print-html-openclosing(ng-show='!isVoid(element.tagName)')
-        | &lt;{{element.tagName|lowercase}}
-        span(ng-repeat='attr in attributes')  {{attr.name|htmlEscape}}="{{attr.value|htmlEscape}}"
-        | &gt;&lt;/{{element.tagName|lowercase}}&gt;
+        span.mm-print-html-lt &lt;
+        spann.mm-print-html-tag {{element.tagName|lowercase}}
+        span(ng-repeat='attr in attributes') 
+          span.mm-print-html-attr  {{attr.name|htmlEscape}}
+          span.mm-print-html-eq =
+          span.mm-print-html-quote "
+          span.mm-print-html-quoted {{attr.value|htmlEscape}}
+          span.mm-print-html-quote "
+        span.mm-print-html-gt &gt;
+        span.mm-print-html-lt &lt;
+        span.mm-print-html-slash /
+        span.mm-print-html-tag {{element.tagName|lowercase}}
+        span.mm-print-html-gt &gt;
   .mm-print-html-text(ng-switch-when='3')
     // Text 
-    | {{element.textContent|htmlEscape}}
+    span.mm-print-html-text {{element.textContent|htmlEscape}}
   .mm-print-html-comment(ng-switch-when='8')
     // Comment 
-    | &lt;!--{{element.textContent|htmlEscape}}--&gt;
+    span.mm-print-html-lt &lt;
+    span.mm-print-html-bang !
+    span.mm-print-html-dash --
+    span.mm-print-html-cmt {{element.textContent|htmlEscape}}
+    span.mm-print-html-dash --
+    span.mm-print-html-gt &gt;
   // Others unrecognized at the moment 
