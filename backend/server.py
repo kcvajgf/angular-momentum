@@ -35,7 +35,7 @@ def index_message():
 # Used in RESTful services to create new objects
 @app.route('/messages/', methods=['POST'], strict_slashes=False)
 def post_message():
-    message = request.form['message']
+    message = request.json['message']
     msg = Message(message=message)
     db_session.add(msg)
     db_session.commit()
@@ -48,7 +48,7 @@ def post_message():
 def put_message(id):
     try:
         message = db_session.query(Message).filter_by(id=id).one()
-        message.message = request.form['message']
+        message.message = request.json['message']
         db_session.add(message)
         db_session.commit()
         return 'Updated the message!'
