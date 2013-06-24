@@ -3,10 +3,10 @@ div
   .row
     h3 Messages
     #messages
-      .row(ng-repeat="(id, message) in messages")
+      .row(ng-repeat="message in messages")
         .span1.id
           strong ID
-          p {{id}}
+          p {{message.id}}
         .span3.message
           strong Message
-          p {{message}}
+          p {{message.message}}
