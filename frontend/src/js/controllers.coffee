@@ -3,13 +3,9 @@ momentum = angular.module "Momentum.controllers", []
 momentum.controller "SelectorsController", [
  '$scope', '$location', '$http',
  ($scope,   $location,   $http) ->
-
-  if $location.search().source?
-    1 # get from server
-  else # sample data
-    $scope.htmlData = """
-      <div class="subok">This is a div with class(subok)<div class="a b c">This is a div class (a b c)<div id="fiil" class="fool feel">This is a div with id (fiil) class (fool feel)</div><button class="btn">This is a button with class (btn)</button></div><div id="x" class="d e f">This is a div with class (d e f) and id (x)<div class="y">This is a div with class (y)</div></div>
-    """
+  $scope.htmlData = """
+    <form class="subok">This is a form with class (subok)<div class="a b c">This is a div class (a b c)<div id="fiil" class="fool feel">This is a div with id (fiil) class (fool feel)</div><button class="btn">This is a button with class (btn)</button><input type="text" placeholder="This is an input"></input></div><div id="x" class="c d e">This is a div with class (c d e) and id (x)<div class="y">This is a div with class (y). <em>This is emphasized text.</em></div></div><button id="submit" class="btn btn-success">This is a button with id (submit) and class (btn btn-success)</button></form>
+  """
   $scope.printElement = $("#selector-area")[0]
 
   filterClass = (classes) ->

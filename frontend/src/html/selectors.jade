@@ -14,6 +14,9 @@
           one: '{} element',\
           other: '{} elements' \
         }")
+      label
+        input(type="checkbox", ng-model="showBorders")
+        |  Show borders
     .span6
       h3 Your HTML Data
       .row
@@ -22,11 +25,12 @@
     .span6
       h3 Jade
       .row
-        .span6(mm-print-jade-contents="printElement", additional-classes="additionalClasses(element)", filter-attributes="filterAttributes(attributes)")
+        #jade-contents.span6(mm-print-jade-contents="printElement", additional-classes="additionalClasses(element)", filter-attributes="filterAttributes(attributes)")
     .span5
       h3 Render Area
       .row
         #selector-area.span5(
+          ng-class="{'show-borders':showBorders}"
           mm-selector="{{selector}}"
           add-class="selector-test"
           selected-count="myCount"

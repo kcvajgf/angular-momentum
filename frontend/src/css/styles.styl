@@ -10,11 +10,14 @@
   border thin solid gray
   *
     margin 10px
-    border thin solid #EEE
+    border thin solid white
 
   .selector-test
     border thin solid blue
-
+  &.show-borders *
+    border thin solid #CCC
+    .selector-test
+      border thin solid blue
 
 .mm-print-html-node, .mm-print-jade-node
   padding 0 20px
@@ -80,3 +83,5 @@
 #selectors
   #html-data
     min-height 80px
+  #jade-contents
+    margin-left -10px
