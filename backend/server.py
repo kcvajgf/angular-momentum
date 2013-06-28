@@ -4,6 +4,7 @@ from flask import Flask, request # This the microframework library we'll use to 
 import sqlalchemy
 from models import Message
 from database import db_session, db_init
+from subprocess import call, Popen, PIPE, STDOUT
 
 app = Flask(__name__)
 db_init()
@@ -70,19 +71,17 @@ def delete_message(id):
 
 # Compiles Jade
 @app.route('/compilejade', methods=['POST'], strict_slashes=False)
-def get_message():
-    from subprocess import call
-    k = 0
-    for i in xrange(3000000): # simulate backend delay
-        k += 1
-    k = str(k)
-    # TODO actually compile Jade here!!!
-    return request.json['data'] + "\n//COMPILE JADE!!"
+def compile_jade():
+    p = Popen(['/home/vagrant/angular-momentum/backend/node_modules/jade/bin/jade', '--pretty'], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    out, err = p.communicate(input=request.json['data'])
+    if err:
+        return err, 404
+    else:
+        return out
 
 # Compiles Stylus
 @app.route('/compilestyl', methods=['POST'], strict_slashes=False)
-def get_message():
-    from subprocess import call
+def compile_styl():
     k = 0
     for i in xrange(3000000): # simulate backend delay
         k += 1

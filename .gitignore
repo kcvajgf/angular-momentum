@@ -1,6 +1,7 @@
 .vagrant
 .DS_Store
 /backend/database.json
+/backend/node_modules/
 /backend/build/
 *.pyc
 *.swp
