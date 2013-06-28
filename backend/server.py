@@ -72,8 +72,23 @@ def delete_message(id):
 @app.route('/compilejade', methods=['POST'], strict_slashes=False)
 def get_message():
     from subprocess import call
+    k = 0
+    for i in xrange(3000000): # simulate backend delay
+        k += 1
+    k = str(k)
     # TODO actually compile Jade here!!!
-    return request.json['data'] + " COMPILE!!"
+    return request.json['data'] + "\n//COMPILE JADE!!"
+
+# Compiles Stylus
+@app.route('/compilestyl', methods=['POST'], strict_slashes=False)
+def get_message():
+    from subprocess import call
+    k = 0
+    for i in xrange(3000000): # simulate backend delay
+        k += 1
+    k = str(k)
+    # TODO actually compile Stylus here!!!
+    return request.json['data'] + "\n//COMPILE STYLUS!!"
 
 if __name__ == '__main__':
     print 'Listening on port 8080...'

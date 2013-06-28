@@ -1,0 +1,40 @@
+#css-test
+  .row
+    h1 Styling Practice
+    p.lead This lets you practice your Styling Skills
+  form.row
+    .span6
+      div
+        textarea#styl-data(
+          ng-model="stylData"
+          placeholder="Type Stylus here..."
+        )
+      button.btn.btn-primary(ng-click="compile()") Compile
+    .span6
+      textarea#css-data(
+        ng-model="cssData"
+        placeholder='Compiled CSS will go here...'
+        disabled
+      )
+      .text-info(ng-show="compiling")
+        | Compiling...
+      .text-error(ng-show="error")
+        | There seems to be an error.
+      div(ng-bind-html-unsafe="cssRender")
+  .row
+    .span6
+      h3 Jade
+      .row
+        #jade-contents.span6(mm-print-jade-contents="printElement", additional-classes="additionalClasses(element)", filter-attributes="filterAttributes(attributes)")
+    .span5
+      h3 Render Area
+      .row
+        #selector-area.span5(
+          ng-class="{'show-borders':showBorders}"
+          mm-selector="{{selector}}"
+          add-class="selector-test"
+          selected-count="myCount"
+          do-action="printOut(element, true)"
+          undo-action="printOut(element, false)"
+          error="myError"
+          ng-bind-html-unsafe="htmlData")
