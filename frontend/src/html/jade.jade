@@ -1,0 +1,18 @@
+#jade-test
+  .row
+    h1 Jade Practice
+    p.lead This lets you practice your Jade Skills
+  form.row
+    .span6
+      div
+        textarea#jade-data(
+          ng-model="jadeData"
+          placeholder="Type Jade here..."
+        )
+      button.btn.btn-primary(ng-click="compile()") Compile
+    .span6
+      textarea#html-data(
+        ng-model="htmlData"
+        placeholder='Compiled HTML will go here...'
+        disabled
+      )

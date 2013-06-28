@@ -26,8 +26,20 @@ momentum.controller "CSSController", ['$scope', ($scope) ->
   console.log "Hello CSS"
 ]
 
-momentum.controller "JadeController", ['$scope', ($scope) ->
+momentum.controller "JadeController", [
+ '$scope', '$http',
+ ($scope,   $http) ->
   console.log "Hello Jade"
+  $scope.compile = ->
+    $scope.error = null
+    $http.post('/api/compilejade',
+      data: $scope.jadeData
+    ).success (response) ->
+      console.log "Success!"
+      $scope.htmlData = response
+    .error (response) ->
+      console.log "Error!"
+      $scope.error = response
 ]
 
 momentum.controller "JQueryController", ['$scope', ($scope) ->

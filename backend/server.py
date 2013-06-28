@@ -68,6 +68,13 @@ def delete_message(id):
     except sqlalchemy.orm.exc.NoResultFound:
         return 'Message does not exist', 404
 
+# Compiles Jade
+@app.route('/compilejade', methods=['POST'], strict_slashes=False)
+def get_message():
+    from subprocess import call
+    # TODO actually compile Jade here!!!
+    return request.json['data'] + " COMPILE!!"
+
 if __name__ == '__main__':
     print 'Listening on port 8080...'
     app.run(host='0.0.0.0', port=8080, debug=True)
