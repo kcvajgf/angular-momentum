@@ -9,7 +9,7 @@ momentum = angular.module "Momentum", [
 momentum.config ["$routeProvider", ($routeProvider) ->
 
   $routeProvider.when "/home",
-    redirectTo: "/selectors"
+    redirectTo: "/jade"
 
   $routeProvider.when "/selectors",
     templateUrl: "/html/selectors.html"
