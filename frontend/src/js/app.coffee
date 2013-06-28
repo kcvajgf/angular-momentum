@@ -15,7 +15,7 @@ momentum.config ["$routeProvider", ($routeProvider) ->
     templateUrl: "/html/selectors.html"
     controller: "SelectorsController"
     
-  $routeProvider.when "/css",
+  $routeProvider.when "/styl",
     templateUrl: "/html/css.html"
     controller: "CSSController"
     
