@@ -32,12 +32,15 @@ momentum.controller "JadeController", [
   console.log "Hello Jade"
   $scope.compile = ->
     $scope.error = null
+    $scope.compiling = true
     $http.post('/api/compilejade',
       data: $scope.jadeData
     ).success (response) ->
+      $scope.compiling = false
       console.log "Success!"
       $scope.htmlData = response
     .error (response) ->
+      $scope.compiling = false
       console.log "Error!"
       $scope.error = response
 ]

@@ -16,3 +16,7 @@
         placeholder='Compiled HTML will go here...'
         disabled
       )
+      .text-info(ng-show="compiling")
+        | Compiling...
+      .text-error(ng-show="error")
+        | There seems to be an error.
