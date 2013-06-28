@@ -1,0 +1,9 @@
+.mm-print-jade-node(class="{{additionalClasses({element: element})}}", ng-switch='element.nodeType')
+  .mm-print-jade-element(ng-switch-when='1')
+    // Element 
+    // We need to escape this recursive directive
+    .mm-print-jade-child(ng-repeat='child in childNodes'
+      mm-compile-html="'<div mm-print-jade=child \
+                             additional-classes=additionalClasses({element:element}) \
+                             filter-attributes=filterAttributes({attributes:attributes})> \
+                        </div>'")

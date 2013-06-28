@@ -1,0 +1,36 @@
+#selectors
+  .row
+    h1 Selector Practice
+    p.lead This lets you practice your Selector Skills
+  form.row
+    .span6
+      h3(style="margin-right: 3px") Your Selector
+      input(ng-model="selector")
+      .text-error(ng-show="myError") There's an error in your selector
+      .text-info(ng-hide="myError") 
+        | Selected 
+        ng-pluralize(count="myCount", when="{\
+          0: 'no elements',\
+          one: '{} element',\
+          other: '{} elements' \
+        }")
+    .span6
+      h3 Your HTML Data
+      .row
+        textarea.span6#html-data(ng-model="htmlData")
+  .row
+    .span6
+      h3 Jade
+      .row
+        .span6(mm-print-jade-contents="printElement", additional-classes="additionalClasses(element)", filter-attributes="filterAttributes(attributes)")
+    .span5
+      h3 Render Area
+      .row
+        #selector-area.span5(
+          mm-selector="{{selector}}"
+          add-class="selector-test"
+          selected-count="myCount"
+          do-action="printOut(element, true)"
+          undo-action="printOut(element, false)"
+          error="myError"
+          ng-bind-html-unsafe="htmlData")

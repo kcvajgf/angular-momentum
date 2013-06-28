@@ -9,22 +9,29 @@ momentum = angular.module "Momentum", [
 momentum.config ["$routeProvider", ($routeProvider) ->
 
   $routeProvider.when "/home",
-    templateUrl: "/html/messages.html"
-    controller: 'MessagesController'
+    redirectTo: "/selectors"
 
-  $routeProvider.when "/message",
-    templateUrl: "/html/message.html"
-    controller: 'MessageController'
-  
+  $routeProvider.when "/selectors",
+    templateUrl: "/html/selectors.html"
+    controller: "SelectorsController"
+    
+  $routeProvider.when "/css",
+    templateUrl: "/html/css.html"
+    controller: "CSSController"
+    
+  $routeProvider.when "/jade",
+    templateUrl: "/html/jade.html"
+    controller: "JadeController"
+    
+  $routeProvider.when "/jquery",
+    templateUrl: "/html/jquery.html"
+    controller: "JQueryController"
+
   $routeProvider.when "/404",
     templateUrl: "/html/404.html"
 
   $routeProvider.when "/",
     redirectTo: "/home"
-
-  $routeProvider.when "/test",
-    templateUrl: "/html/test.html"
-    controller: "TestCtrl"
 
   $routeProvider.when "",
     redirectTo: "/home"

@@ -144,3 +144,38 @@ momentum.directive 'mmPrintJade', [->
 
       null # return null at the end, instead of a list created by the for loop above
 ]
+
+momentum.directive 'mmPrintJadeContents', [->
+  scope:
+    element: '=mmPrintJadeContents'
+    additionalClasses: '&'
+    filterAttributes: '&'
+  templateUrl: '/html/printjadecontents.html'
+  link: (scope, element, attrs) ->
+    scope.$watch 'element.childNodes', (childNodes) ->
+      scope.childNodes = childNodes
+
+    scope.$watch 'element.attributes', (attributes) ->
+      if attributes?
+        scope.attributes = scope.filterAttributes attributes: attributes
+        scope.attributes = (a for a in (scope.attributes ? attributes))
+      else
+        scope.attributes = null
+      # filter class and id
+      scope.selAttributes = []
+      scope.genAttributes = []
+      if scope.attributes?
+        for a in scope.attributes
+          if a.name == 'id'
+            scope.selAttributes.push a
+          else if a.name == 'class'
+            # only handles simple 'class' values, so beware
+            for c in a.value.trim().split(/\s+/)
+              scope.selAttributes.push
+                name: 'class'
+                value: c
+          else
+            scope.genAttributes.push a
+
+      null # return null at the end, instead of a list created by the for loop above
+]
