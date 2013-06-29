@@ -1,0 +1,9 @@
+.mm-print-html-node(class="{{additionalClasses({element: element})}}", ng-switch='element.nodeType')
+  .mm-print-html-element(ng-switch-when='1')
+    // Element 
+    // We need to escape this recursive directive
+    .mm-print-html-child(ng-repeat='child in childNodes'
+      mm-compile-html="'<div mm-print-html=child \
+                             additional-classes=additionalClasses({element:element}) \
+                             filter-attributes=filterAttributes({attributes:attributes})> \
+                        </div>'")

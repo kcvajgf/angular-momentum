@@ -30,19 +30,6 @@ momentum.controller "CSSController", [
   """
   $scope.printElement = $("#selector-area")[0]
 
-  filterClass = (classes) ->
-    (c for c in classes.trim().split(/\s+/) when c != "selector-test").join ' '
-  $scope.filterAttributes = (attributes) ->
-    if attributes?
-      for a in attributes when a.name != 'ng-bind-html-unsafe'
-        name: a.name
-        value: if a.name == "class" then filterClass(a.value) else a.value
-  $scope.additionalClasses = (element) ->
-    if $(element).hasClass("selector-test")
-      "node-has-class"
-    else 
-      ""
-
   $scope.compile = ->
     $http.post('/api/compilestyl',
       data: $scope.stylData
@@ -67,6 +54,9 @@ momentum.controller "CSSController", [
 momentum.controller "JadeController", [
  '$scope', '$http',
  ($scope,   $http) ->
+
+  $scope.printElement = $("#render-area")[0]
+
   $scope.compile = ->
     $scope.error = null
     $scope.compiling = true

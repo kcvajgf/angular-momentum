@@ -110,6 +110,30 @@ momentum.directive 'mmPrintHtml', [->
     scope.isVoid = (element) -> element of voidSet
 ]
 
+momentum.directive 'mmPrintHtmlContents', [->
+  scope:
+    element: '=mmPrintHtmlContents'
+    additionalClasses: '&'
+    filterAttributes: '&'
+  templateUrl: '/html/printhtmlcontents.html'
+  link: (scope, element, attrs) ->
+    scope.$watch 'element.childNodes', (childNodes) ->
+      scope.childNodes = childNodes
+
+    scope.$watch 'element.attributes', (attributes) ->
+      if attributes?
+        scope.attributes = scope.filterAttributes attributes: attributes
+        scope.attributes = (a for a in (scope.attributes ? attributes))
+      else
+        scope.attributes = null
+
+    voids = "AREA BASE BR COL EMBED HR IMG INPUT KEYGEN LINK MENUITEM META PARAM SOURCE TRACK WBR".split /\s+/
+    voidSet = {}
+    for v in voids
+      voidSet[v] = true
+    scope.isVoid = (element) -> element of voidSet
+]
+
 momentum.directive 'mmPrintJade', [->
   scope:
     element: '=mmPrintJade'
