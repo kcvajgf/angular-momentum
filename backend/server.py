@@ -82,12 +82,12 @@ def compile_jade():
 # Compiles Stylus
 @app.route('/compilestyl', methods=['POST'], strict_slashes=False)
 def compile_styl():
-    k = 0
-    for i in xrange(3000000): # simulate backend delay
-        k += 1
-    k = str(k)
-    # TODO actually compile Stylus here!!!
-    return request.json['data'] + "\n//COMPILE STYLUS!!"
+    p = Popen(['/home/vagrant/angular-momentum/backend/node_modules/stylus/bin/stylus'], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    out, err = p.communicate(input=request.json['data'])
+    if err:
+        return err, 404
+    else:
+        return out
 
 if __name__ == '__main__':
     print 'Listening on port 8080...'

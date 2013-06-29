@@ -44,22 +44,24 @@ momentum.controller "CSSController", [
       ""
 
   $scope.compile = ->
-    # style only selector area part
-    modStylData = "html body #css-test #selector-area\n" + ("  #{x}" for x in $scope.stylData.split("\n")).join("\n")
-
-    $scope.error = null
-    $scope.compiling = true
     $http.post('/api/compilestyl',
-      data: modStylData
+      data: $scope.stylData
     ).success (response) ->
-      $scope.compiling = false
-      console.log "Success!"
-      $scope.cssData = response
-      $scope.cssRender = "<style>#{$scope.cssData}</style>"
+      modStylData = "html body #css-test #selector-area\n" + ("  #{x}" for x in $scope.stylData.split("\n")).join("\n")
+      console.log "Success part 1!", response
+      $http.post('/api/compilestyl',
+        data: modStylData
+      ).success (response2) ->
+        $scope.compiling = false
+        console.log "Success!", response2
+        $scope.cssData = response
+        $scope.cssRender = "<style>#{response2}</style>"
     .error (response) ->
       $scope.compiling = false
       console.log "Error!"
       $scope.error = response
+      $scope.cssData = response
+    # style only selector area part
 ]
 
 momentum.controller "JadeController", [
@@ -78,6 +80,7 @@ momentum.controller "JadeController", [
       $scope.compiling = false
       console.log "Error!"
       $scope.error = response
+      $scope.htmlData = response
 ]
 
 momentum.controller "JQueryController", ['$scope', ($scope) ->
