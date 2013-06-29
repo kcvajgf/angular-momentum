@@ -9,8 +9,7 @@
           ng-model="jadeData"
           placeholder="Type Jade here..."
         )
-      button.btn.btn-primary(ng-click="compile()") Compile
-    .span6
+      button#compile.btn.btn-primary(ng-click="compile()") Compile!
       textarea#html-data(
         ng-model="htmlData"
         placeholder='Compiled HTML will go here...'
@@ -20,3 +19,6 @@
         | Compiling...
       .text-error(ng-show="error")
         | There seems to be an error.
+    .span6
+      h3 Render area
+      #render-area(ng-hide="error", ng-bind-html-unsafe="htmlData")
