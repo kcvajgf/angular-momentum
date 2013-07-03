@@ -35,6 +35,8 @@ def index_message():
 # Used in RESTful services to create new objects
 @app.route('/messages/', methods=['POST'], strict_slashes=False)
 def post_message():
+    # Note: When using jQuery's methods (e.g. $.post or $.ajax) to send data,
+    # use request.form instead. AngularJS's $http service uses request.json.
     message = request.json['message']
     msg = Message(message=message)
     db_session.add(msg)
@@ -48,7 +50,13 @@ def post_message():
 def put_message(id):
     try:
         message = db_session.query(Message).filter_by(id=id).one()
+<<<<<<< HEAD
         message.message = request.json['message']
+||||||| merged common ancestors
+        message.message = request.form['message']
+=======
+        message.message = request.json['message'] # See note above about request.form
+>>>>>>> upstream/master
         db_session.add(message)
         db_session.commit()
         return 'Updated the message!'
