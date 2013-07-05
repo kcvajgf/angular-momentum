@@ -50,13 +50,7 @@ def post_message():
 def put_message(id):
     try:
         message = db_session.query(Message).filter_by(id=id).one()
-<<<<<<< HEAD
-        message.message = request.json['message']
-||||||| merged common ancestors
-        message.message = request.form['message']
-=======
         message.message = request.json['message'] # See note above about request.form
->>>>>>> upstream/master
         db_session.add(message)
         db_session.commit()
         return 'Updated the message!'
