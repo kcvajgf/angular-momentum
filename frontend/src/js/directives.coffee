@@ -42,3 +42,24 @@ momentum.directive 'mmTab', [->
   link: (scope, element, attrs, tabsCtrl) ->
     tabsCtrl.register scope
 ]
+
+momentum.directive 'mmProblem', [->
+  scope:
+    problem: '=mmProblem'
+    attempt: '&'
+  templateUrl: "/html/problem.html"
+  link: (scope, element, attrs) ->
+    scope.submit = (answer) ->
+      scope.attempt answer: answer
+]
+
+momentum.directive 'mmAnswerBox', [->
+  scope:
+    problem: '=mmAnswerBox'
+    attempt: '&'
+  templateUrl: "/html/answer_box.html"
+  link: (scope, element, attrs) ->
+    scope.submit = ->
+      if scope.answer?.length
+        scope.attempt answer: scope.answer
+]

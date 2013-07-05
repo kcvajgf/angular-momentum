@@ -1,0 +1,4 @@
+h4 Problem {{problem.index}}
+h5 {{problem.title}}
+div(ng-bind-html-unsafe="problem.html")
+div(mm-answer-box="problem", attempt="submit(answer)")

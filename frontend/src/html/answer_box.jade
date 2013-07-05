@@ -1,0 +1,11 @@
+div(ng-show="problem.hasAnswered")
+  h4(ng-show="problem.answer != null") Answer: {{problem.answer}}
+  h4(ng-show="problem.answer == null")
+    i.icon-spinner.icon-spin
+    |  Loading Answer...
+div(ng-show="!problem.hasAnswered")
+  //div(ng-show="!problem.hasAnswered && problem.canAnswer")
+  h4 Answer:
+  form(ng-submit="submit()")
+    input(ng-model="answer", placeholder="Answer here...")
+    button.btn.btn-primary(ng-disabled="!answer.length", type="submit") Submit
