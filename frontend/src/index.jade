@@ -20,11 +20,14 @@ html(ng-app="Momentum")
     script(src='/lib/jquery-1.9.1.js') 
     script(src='/lib/bootstrap/js/bootstrap.js')
     script(src='/lib/angular-1.1.5/angular.js')
+    script(src='/lib/angular-1.1.5/angular-resource.js')
 
     // import the javascript code we created in the /js/ folder
     script(src='/js/app.js', type='text/javascript')
     script(src='/js/problems.js', type='text/javascript')
     script(src='/js/directives.js', type='text/javascript')
+    script(src='/js/register.js', type='text/javascript')
+    script(src='/js/resources.js', type='text/javascript')
 
   body
     #sticky-wrap
@@ -40,7 +43,7 @@ html(ng-app="Momentum")
                   a(href='#/?#') B
               .pull-right(ng-hide="loggedIn")
                 form.navbar-form
-                  a.btn Sign in/up
+                  a.btn(href='#/register?#') Sign in/up
               .pull-right(ng-show="loggedIn")
                 a.btn(href='#/?#') Name
                 |  

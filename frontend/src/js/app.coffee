@@ -1,7 +1,9 @@
 
 momentum = angular.module "Momentum", [
   "Momentum.problems"
+  "Momentum.register"
   "Momentum.directives"
+  "Momentum.resources"
 ]
 
 momentum.config ["$routeProvider", ($routeProvider) ->
@@ -12,6 +14,10 @@ momentum.config ["$routeProvider", ($routeProvider) ->
   $routeProvider.when "/problems",
     templateUrl: "/html/problems.html"
     controller: "ProblemsCtrl"
+
+  $routeProvider.when "/register",
+    templateUrl: "/html/register.html"
+    controller: "RegisterCtrl"
 
   $routeProvider.when "/404",
     templateUrl: "/html/404.html"

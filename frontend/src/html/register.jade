@@ -1,0 +1,12 @@
+#register
+  h3 Sign up
+  form(ng-submit="signUp()")
+    input(type='text', ng-model="signUp.username", placeholder="Username...")
+    input(type='email', ng-model="signUp.email", placeholder="Email...")
+    input(type='password', ng-model="signUp.password", placeholder="Password...")
+    button.btn.btn-primary(type='submit', ng-disabled="processing") Sign Up
+  h3 Login
+  form(ng-submit="login()")
+    input(type='text', ng-model="login.username", placeholder="Username...")
+    input(type='password', ng-model="login.password", placeholder="Password...")
+    button.btn.btn-primary(type='submit', ng-disabled="processing") Login

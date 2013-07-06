@@ -1,74 +1,138 @@
 # Welcome to our simple demo server!
 import json # This is a library for encoding objects into JSON
 from flask import Flask, request # This the microframework library we'll use to build our backend.
+from flask.ext.login import LoginManager, login_user, logout_user, current_user, login_required
 import sqlalchemy
-from models import Message
+from models import User, Problem, Solved
 from database import db_session, db_init
+from md5 import md5
+from datetime import datetime
 
 app = Flask(__name__)
 db_init()
+app.config['SECRET_KEY'] = 'My secret key'
 
-# Function that maps to HTTP GET requests
-# Example: accessing localhost:8080/messages/1
-# Used in RESTful services to get objects
-# By default, if we don't specify a methods attribute
-# the handlers only respond to GET
-@app.route('/messages/<int:id>/', strict_slashes=False)
-def get_message(id):
+login_manager = LoginManager()
+login_manager.init_app(app)
+
+def authenticate(username, password):
+    user = User.query.filter_by(username=username).one()
+    password = md5(password).hexdigest()
+    if user.password == password:
+        return user
+
+@login_manager.user_loader
+def load_user(id):
     try:
-        message = db_session.query(Message).filter_by(id=id).one()
-        return message.message
+        return User.query.get(id)
     except sqlalchemy.orm.exc.NoResultFound:
-        return 'Message does not exist', 404
+        return None
 
-# Function that maps to HTTP GET requests
-# Example: accessing localhost:8080/messages/
-# Used in RESTful services to get objects
-@app.route('/messages/', strict_slashes=False)
-def index_message():
-    messages = db_session.query(Message).all()
-    jsonable = [{'id': msg.id, 'message': msg.message} for msg in messages]
-    return json.dumps(jsonable)
-
-# Function that maps to HTTP POST requests
-# Example: submitting forms with method POST to localhost:8080/messages/
-# Used in RESTful services to create new objects
-@app.route('/messages/', methods=['POST'], strict_slashes=False)
-def post_message():
-    # Note: When using jQuery's methods (e.g. $.post or $.ajax) to send data,
-    # use request.form instead. AngularJS's $http service uses request.json.
-    message = request.json['message']
-    msg = Message(message=message)
-    db_session.add(msg)
+@app.route('/users/', methods=['POST'], strict_slashes=False)
+def create_user():
+    username = request.json['username']
+    email = request.json['email']
+    password = md5(request.json['password']).hexdigest()
+    user = User(username=username, email=email, password=password)
+    db_session.add(user)
     db_session.commit()
-    return str(msg.id)
-    
-# Function that maps to HTTP PUT requests
-# Example: submitting forms with method PUT to localhost:8080/messages/1
-# Used in RESTful services to update objects
-@app.route('/messages/<int:id>/', methods=['PUT'], strict_slashes=False)
-def put_message(id):
-    try:
-        message = db_session.query(Message).filter_by(id=id).one()
-        message.message = request.json['message'] # See note above about request.form
-        db_session.add(message)
-        db_session.commit()
-        return 'Updated the message!'
-    except sqlalchemy.orm.exc.NoResultFound:
-        return 'Message does not exist', 404
+    login_user(user)
+    return str(user.id)
 
-# Function that maps to HTTP DELETE requests
-# Example: submitting forms with method DELETE to localhost:8080/messages/1
-# Used in RESTful services to delete objects
-@app.route('/messages/<int:id>/', methods=['DELETE'], strict_slashes=False)
-def delete_message(id):
+@app.route('/login/', methods=['POST'], strict_slashes=False)
+def login():
+    username = request.json['username']
+    password = request.json['password']
+    user = authenticate(username, password)
+    if user:
+        login_user(user)
+        return json.dumps({'ok': True})
+    else:
+        return json.dumps({'ok': False})
+
+@app.route('/logout/', methods=['POST'], strict_slashes=False)
+def logout():
+    logout_user()
+    return json.dumps({'ok': True})
+
+@app.route('/problems/', methods=['GET'], strict_slashes=False)
+def get_problems():
+    # include answers for current user
+    query = Problem.query.filter(Problem.release <= datetime.now())
+    if 'from' in request.args:
+        query = query.filter(Problem.index >= request.args['from'])
+    if 'to' in request.args:
+        query = query.filter(Problem.index <= request.args['to'])
+
+    problems = [{
+        'id': problem.id,
+        'index': problem.index,
+        'title': problem.title,
+        'html': problem.html,
+        'answer': problem.answer,
+        'release': str(problem.release),
+    } for problem in query.all()]
+
+    if current_user.is_authenticated():
+        solveds = Solved.query.filter_by(user_id=current_user.id)
+        if 'from' in request.args:
+            solveds = solveds.filter(Solved.problem.index >= request.args['from'])
+        if 'to' in request.args:
+            solveds = solveds.filter(Solved.problem.index <= request.args['to'])
+
+        solveds = set(s.problem_id for s in solveds)
+        for problem in problems:
+            if problem['id'] not in solveds:
+                del problem['answer']
+    else:
+        for problem in problems:
+            del problem['answer']
+
+    return json.dumps(problems)
+
+@app.route('/problems/<int:id>', methods=['GET'], strict_slashes=False)
+def get_problem(id):
     try:
-        message = db_session.query(Message).filter_by(id=id).one()
-        db_session.delete(message)
-        db_session.commit()
-        return 'Deleted the message!'
+        problem = Problem.query.get(id)
+        if not problem or not (current_user.is_authenticated() and current_user.is_admin or problem.is_active()):
+            return 'Not found', 404
+        problem = {
+            'id': problem.id,
+            'index': problem.index,
+            'title': problem.title,
+            'html': problem.html,
+            'answer': problem.answer,
+            'release': str(problem.release),
+        }
+        if current_user.is_authenticated():
+            if not Solved.query.filter_by(user_id=current_user.id, problem_id=id).count() > 0:
+                del problem['answer']
+        else:
+            del problem['answer']
+
+        return json.dumps(problem)
     except sqlalchemy.orm.exc.NoResultFound:
-        return 'Message does not exist', 404
+        return 'Not found', 404
+
+@app.route('/problems/<int:id>/answer', methods=['POST'], strict_slashes=False)
+@login_required
+def answer_problem(id):
+    answer = request.args['answer']
+    problem = Problem.query.get(id)
+    if problem.is_active():
+        if answer == problem.answer:
+            solved = Solved(user_id=current_user.id, problem_id=problem.id)
+            db_session.add(solved)
+            db_session.commit()
+            return json.dumps({'ok': True, 'correct': True, 'answer': problem.answer})
+        return json.dumps({'ok': True, 'correct': False})
+    return json.dumps({'ok': False})
+
+@app.route('/problems/', methods=['POST'], strict_slashes=False)
+@login_required
+def make_problem():
+    # check if admin first!
+    return "TODO"
 
 if __name__ == '__main__':
     print 'Listening on port 8080...'
