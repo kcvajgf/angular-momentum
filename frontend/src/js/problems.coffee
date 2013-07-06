@@ -1,20 +1,25 @@
 
 momentum = angular.module "Momentum.problems", []
 
-momentum.controller 'ProblemsCtrl', ['$scope', ($scope) ->
-  $scope.problems = [
-      index: 1
-      title: 'First dummy problem'
-      html: '<div>What is 1 + 1?</div>'
-    ,
-      index: 2
-      title: 'Second dummy problem'
-      html: '<div>What is 2 * 2?</div>'
-    ,
-      index: 3
-      title: 'Third dummy problem'
-      html: "<div>What is avogadro's number modulo 100?</div>"
-  ]
+momentum.controller 'ProblemsCtrl', [
+ '$scope', 'Problem', '$http', 'toastr',
+ ($scope,   Problem,   $http,   toastr) ->
+  $scope.problems = Problem.query()
   $scope.attempt = (problem, answer) ->
-    alert "Attempting problem #{problem.index} with answer '#{answer}'"
+    $scope.submitting = true
+    $http.post "/api/problems/#{problem.id}/answer",
+      answer: answer
+    .success (response) ->
+      console.log 'Success', response
+      if response.correct
+        toastr.success "Congratulations! Your answer for problem #{problem.index} is correct!"
+        problem.answer = response.answer
+        problem.has_answered = true
+      else
+        toastr.error "Sorry, your answer for problem #{problem.index} is incorrect..."
+      $scope.submitting = false
+    .error (errorResponse) ->
+      console.error 'Error', errorResponse
+      toastr.info "Sorry, an error occurred while submitting form problem #{problem.index}. Please try again later."
+      $scope.submitting = false
 ]

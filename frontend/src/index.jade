@@ -16,11 +16,15 @@ html(ng-app="Momentum")
     // import the css styles we created in the /css/ folder
     link(href='/css/styles.css', rel='stylesheet')
 
+    // CSS from libraries
+    link(href='/lib/toastr/toastr.css', rel='stylesheet')
+
     // import the jquery, bootstrap, and Angular JS libraries
     script(src='/lib/jquery-1.9.1.js') 
     script(src='/lib/bootstrap/js/bootstrap.js')
     script(src='/lib/angular-1.1.5/angular.js')
     script(src='/lib/angular-1.1.5/angular-resource.js')
+    script(src='/lib/toastr/toastr.js')
 
     // import the javascript code we created in the /js/ folder
     script(src='/js/app.js', type='text/javascript')
@@ -28,26 +32,29 @@ html(ng-app="Momentum")
     script(src='/js/directives.js', type='text/javascript')
     script(src='/js/register.js', type='text/javascript')
     script(src='/js/resources.js', type='text/javascript')
+    script(src='/js/services.js', type='text/javascript')
 
-  body
+  body(ng-controller="AuthCtrl")
     #sticky-wrap
       .navbar.navbar-fixed-top
         .navbar-inner
           .container
-            a.brand(href='#/?#') Solve
+            a.brand(href='#/?#') Solve hey
             div
               ul.nav
                 li
                   a(href='#/problems?#') Problems
                 li
                   a(href='#/?#') B
-              .pull-right(ng-hide="loggedIn")
+              .pull-right
+                //(ng-hide="CurrentUser.isLoggedIn()")
                 form.navbar-form
                   a.btn(href='#/register?#') Sign in/up
-              .pull-right(ng-show="loggedIn")
-                a.btn(href='#/?#') Name
+              .pull-right
+                //(ng-show="CurrentUser.isLoggedIn()")
+                a.btn(href='#/profile?#') Name
                 |  
-                a.btn(href='#/?#') Log out
+                a.btn(ng-click='logOut()') Log out
       #content(ng-view)
       #sticky-push
     footer.navbar

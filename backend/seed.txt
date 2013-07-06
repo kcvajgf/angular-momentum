@@ -1,0 +1,8 @@
+insert into problems(index, title, html, answer, release) values (1, 'Addition', '<div>What is 1 + 5?</div>', '6', current_timestamp);
+
+insert into problems(index, title, html, answer, release) values (2, 'Multiplication', '<div>What is 1 * 5?</div>', '5', current_timestamp);
+
+insert into problems(index, title, html, answer, release) values (3, 'Subtraction', '<div>What is 1 - 5?</div>', '-4', current_timestamp);
+
+insert into problems(index, title, html, answer, release) values (4, 'Division', '<div>What is 4 / 2?</div>', '2', '2013-08-06 10:43:05.919402');
+

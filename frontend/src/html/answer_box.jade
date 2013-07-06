@@ -1,10 +1,9 @@
-div(ng-show="problem.hasAnswered")
+div(ng-show="problem.has_answered")
   h4(ng-show="problem.answer != null") Answer: {{problem.answer}}
   h4(ng-show="problem.answer == null")
     i.icon-spinner.icon-spin
     |  Loading Answer...
-div(ng-show="!problem.hasAnswered")
-  //div(ng-show="!problem.hasAnswered && problem.canAnswer")
+div(ng-show="!problem.has_answered && problem.can_answer")
   h4 Answer:
   form(ng-submit="submit()")
     input(ng-model="answer", placeholder="Answer here...")

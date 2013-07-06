@@ -46,7 +46,11 @@ def login():
     user = authenticate(username, password)
     if user:
         login_user(user)
-        return json.dumps({'ok': True})
+        return json.dumps({'ok': True, 'user': {
+            'username': user.username,
+            'email': user.email,
+            'is_admin': user.is_admin,
+        }})
     else:
         return json.dumps({'ok': False})
 
@@ -80,10 +84,13 @@ def get_problems():
         if 'to' in request.args:
             solveds = solveds.filter(Solved.problem.index <= request.args['to'])
 
-        solveds = set(s.problem_id for s in solveds)
+        solveds = set(s.problem_id for s in solveds.all())
         for problem in problems:
-            if problem['id'] not in solveds:
+            if problem['id'] in solveds:
+                problem['has_answered'] = True
+            else:
                 del problem['answer']
+            problem['can_answer'] = True
     else:
         for problem in problems:
             del problem['answer']
@@ -105,8 +112,11 @@ def get_problem(id):
             'release': str(problem.release),
         }
         if current_user.is_authenticated():
-            if not Solved.query.filter_by(user_id=current_user.id, problem_id=id).count() > 0:
+            if Solved.query.filter_by(user_id=current_user.id, problem_id=id).count() > 0:
+                problem['has_answered'] = True
+            else:
                 del problem['answer']
+            problem['can_answer'] = True
         else:
             del problem['answer']
 
@@ -117,13 +127,14 @@ def get_problem(id):
 @app.route('/problems/<int:id>/answer', methods=['POST'], strict_slashes=False)
 @login_required
 def answer_problem(id):
-    answer = request.args['answer']
+    answer = request.json['answer']
     problem = Problem.query.get(id)
     if problem.is_active():
         if answer == problem.answer:
-            solved = Solved(user_id=current_user.id, problem_id=problem.id)
-            db_session.add(solved)
-            db_session.commit()
+            if Solved.query.filter_by(user_id=current_user.id, problem_id=problem.id).count() == 0:
+                solved = Solved(user_id=current_user.id, problem_id=problem.id)
+                db_session.add(solved)
+                db_session.commit()
             return json.dumps({'ok': True, 'correct': True, 'answer': problem.answer})
         return json.dumps({'ok': True, 'correct': False})
     return json.dumps({'ok': False})

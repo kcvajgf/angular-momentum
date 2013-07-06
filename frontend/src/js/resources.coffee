@@ -8,3 +8,11 @@ momentum.factory 'User', ['$resource', ($resource) ->
     update:
       method: 'PUT'
 ]
+
+momentum.factory 'Problem', ['$resource', ($resource) ->
+  $resource '/api/problems/:id',
+    id: '@id'
+  ,
+    update:
+      method: 'PUT'
+]
