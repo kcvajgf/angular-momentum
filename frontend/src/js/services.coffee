@@ -3,7 +3,7 @@ momentum = angular.module "Momentum.services", []
 
 momentum.factory 'toastr', [-> toastr]
 
-momentum.factory 'CurrentUser', ['User', '$q', '$http', '$window', (User, $q, $http, $window) ->
+momentum.factory 'CurrentUser', ['User', '$q', '$http', '$window', '$timeout', (User, $q, $http, $window, $timeout) ->
   storage = $window.localStorage
   CurrentUser = 
     signUp: (data) ->
@@ -49,10 +49,24 @@ momentum.factory 'CurrentUser', ['User', '$q', '$http', '$window', (User, $q, $h
   $window.onblur = ->
     console.log "ON BLUR!"
 
+  checkUser = ->
+    $http.get("/api/current_user")
+    .success (response) ->
+      if response.user?
+        CurrentUser.setData response.user
+      else
+        CurrentUser.setData null
+    .error (errorResponse) ->
+      console.error "Error retrieving user:", errorResponse
+      $timeout ->
+        checkUser()
+      , 2000
+
   userData = storage.getItem 'currentUser'
   if userData?
     userData = angular.fromJson userData
     CurrentUser.setData userData
-  # TODO check if logged in
+    checkUser()
+
   CurrentUser
 ]

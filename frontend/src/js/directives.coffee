@@ -71,7 +71,13 @@ momentum.directive 'mmEditProblem', ['toastr', (toastr) ->
   templateUrl: "/html/edit_problem.html"
   link: (scope, element, attrs) ->
     scope._save = ->
-      scope.save problem: scope.problem
+      scope.saving = true
+      scope.save(problem: scope.problem).then (response) ->
+        toastr.success "Saved successfully!"
+        scope.saving = false
+      , (error) ->
+        toastr.error "Save failed."
+        scope.saving = false
     scope.attempt = (answer) ->
       if answer == scope.problem.answer
         toastr.success "Congratulations! Your answer for problem #{scope.problem.index} is correct!"
@@ -80,4 +86,7 @@ momentum.directive 'mmEditProblem', ['toastr', (toastr) ->
     scope.$watch 'problem.has_answered', (has_answered) ->
       if has_answered
         scope.problem.has_answered = false
+    scope.$watch 'problem.can_edit', (can_edit) ->
+      if can_edit
+        scope.problem.can_edit = false
 ]

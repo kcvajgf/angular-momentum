@@ -1,9 +1,10 @@
-div(ng-show="problem.has_answered")
-  h4(ng-show="problem.answer != null") Answer: {{problem.answer}}
-  h4(ng-show="problem.answer == null")
+.row-fluid(ng-show="problem.has_answered")
+  div(ng-show="problem.answer != null") Answer: {{problem.answer}}
+  div(ng-show="problem.answer == null")
     i.icon-spinner.icon-spin
     |  Loading Answer...
-div(ng-show="!problem.has_answered && problem.can_answer")
-  h4 Answer:
-  input(ng-model="answer", placeholder="Answer here...")
-  button.btn.btn-primary(ng-disabled="!answer.length", ng-click="submit()") Submit
+.row-fluid(ng-show="!problem.has_answered && problem.can_answer")
+  div Answer:
+  form.input-append(ng-submit="submit()")
+    input(ng-model="answer", placeholder="Answer here...")
+    button.btn.btn-primary(ng-disabled="!answer.length", type='submit') Submit

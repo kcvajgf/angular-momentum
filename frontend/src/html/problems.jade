@@ -1,6 +1,7 @@
-#problems
-  h3 Problems
-  div(ng-hide="problems.length")
-    i.icon-spinner.icon-spin
-    |  Loading
-  div(ng-repeat="problem in problems", mm-problem="problem", attempt="attempt(problem, answer)")
+#problems.container
+  .row
+    h3 Problems
+    div(ng-hide="problems.length")
+      i.icon-spinner.icon-spin
+      |  Loading
+    div(ng-repeat="problem in problems | orderBy: 'index'", mm-problem="problem", attempt="attempt(problem, answer)")

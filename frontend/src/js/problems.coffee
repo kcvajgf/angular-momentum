@@ -25,11 +25,22 @@ momentum.controller 'ProblemsCtrl', [
 ]
 
 momentum.controller 'EditProblemCtrl', [
- '$scope', 'Problem', '$routeParams', '$location', 'CurrentUser',
- ($scope,   Problem,   $routeParams,   $location,   CurrentUser) ->
+ '$scope', 'Problem', '$routeParams', '$location', 'CurrentUser', '$q',
+ ($scope,   Problem,   $routeParams,   $location,   CurrentUser,   $q) ->
   unless CurrentUser.user?.is_admin
     $location.path '/404'
     $location.search null
     $location.hash null
-  $scope.problem = Problem.get(index: $routeParams.index)
+  $scope.problem = index: $routeParams.index
+  Problem.get index: $routeParams.index, (problem) ->
+    $scope.problem = problem
+    console.log $scope.problem
+  $scope.save = (problem) ->
+    d = $q.defer()
+    problem.$update (response) ->
+      console.log $scope.problem
+      d.resolve response
+    , (errorResponse) ->
+      d.reject errorResponse
+    d.promise
 ]

@@ -1,0 +1,246 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: problems; Type: TABLE; Schema: public; Owner: momentum; Tablespace: 
+--
+
+CREATE TABLE problems (
+    id integer NOT NULL,
+    index integer,
+    title character varying(255),
+    html character varying,
+    answer character varying(255),
+    release timestamp without time zone
+);
+
+
+ALTER TABLE public.problems OWNER TO momentum;
+
+--
+-- Name: problems_id_seq; Type: SEQUENCE; Schema: public; Owner: momentum
+--
+
+CREATE SEQUENCE problems_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.problems_id_seq OWNER TO momentum;
+
+--
+-- Name: problems_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: momentum
+--
+
+ALTER SEQUENCE problems_id_seq OWNED BY problems.id;
+
+
+--
+-- Name: solved; Type: TABLE; Schema: public; Owner: momentum; Tablespace: 
+--
+
+CREATE TABLE solved (
+    user_id integer NOT NULL,
+    problem_id integer NOT NULL,
+    created_at timestamp without time zone
+);
+
+
+ALTER TABLE public.solved OWNER TO momentum;
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: momentum; Tablespace: 
+--
+
+CREATE TABLE users (
+    id integer NOT NULL,
+    username character varying(255),
+    email character varying(255),
+    password character varying,
+    is_admin boolean
+);
+
+
+ALTER TABLE public.users OWNER TO momentum;
+
+--
+-- Name: users_id_seq; Type: SEQUENCE; Schema: public; Owner: momentum
+--
+
+CREATE SEQUENCE users_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.users_id_seq OWNER TO momentum;
+
+--
+-- Name: users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: momentum
+--
+
+ALTER SEQUENCE users_id_seq OWNED BY users.id;
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: momentum
+--
+
+ALTER TABLE ONLY problems ALTER COLUMN id SET DEFAULT nextval('problems_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: momentum
+--
+
+ALTER TABLE ONLY users ALTER COLUMN id SET DEFAULT nextval('users_id_seq'::regclass);
+
+
+--
+-- Data for Name: problems; Type: TABLE DATA; Schema: public; Owner: momentum
+--
+
+COPY problems (id, index, title, html, answer, release) FROM stdin;
+1	1	Addition	<div>What is 1 + 5?</div>	6	2013-07-06 10:43:05.908071
+3	3	Subtraction	<div>What is 1 - 5?</div>	-4	2013-07-06 10:43:05.919402
+4	4	Division	<div>What is 4 / 2?</div>	2	2013-08-06 10:43:05.919402
+2	2	Multiplication	<div>What is 1 * 5?</div>	5	2013-07-06 10:43:05.918151
+\.
+
+
+--
+-- Name: problems_id_seq; Type: SEQUENCE SET; Schema: public; Owner: momentum
+--
+
+SELECT pg_catalog.setval('problems_id_seq', 4, true);
+
+
+--
+-- Data for Name: solved; Type: TABLE DATA; Schema: public; Owner: momentum
+--
+
+COPY solved (user_id, problem_id, created_at) FROM stdin;
+1	1	\N
+1	2	\N
+\.
+
+
+--
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: momentum
+--
+
+COPY users (id, username, email, password, is_admin) FROM stdin;
+2	kevinsogo2	kevin2@kevin.com	5f4dcc3b5aa765d61d8327deb882cf99	t
+1	kevinsogo	kevin@kevin.com	5f4dcc3b5aa765d61d8327deb882cf99	f
+\.
+
+
+--
+-- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: momentum
+--
+
+SELECT pg_catalog.setval('users_id_seq', 2, true);
+
+
+--
+-- Name: problems_index_key; Type: CONSTRAINT; Schema: public; Owner: momentum; Tablespace: 
+--
+
+ALTER TABLE ONLY problems
+    ADD CONSTRAINT problems_index_key UNIQUE (index);
+
+
+--
+-- Name: problems_pkey; Type: CONSTRAINT; Schema: public; Owner: momentum; Tablespace: 
+--
+
+ALTER TABLE ONLY problems
+    ADD CONSTRAINT problems_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: solved_pkey; Type: CONSTRAINT; Schema: public; Owner: momentum; Tablespace: 
+--
+
+ALTER TABLE ONLY solved
+    ADD CONSTRAINT solved_pkey PRIMARY KEY (user_id, problem_id);
+
+
+--
+-- Name: users_pkey; Type: CONSTRAINT; Schema: public; Owner: momentum; Tablespace: 
+--
+
+ALTER TABLE ONLY users
+    ADD CONSTRAINT users_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: users_username_key; Type: CONSTRAINT; Schema: public; Owner: momentum; Tablespace: 
+--
+
+ALTER TABLE ONLY users
+    ADD CONSTRAINT users_username_key UNIQUE (username);
+
+
+--
+-- Name: solved_problem_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: momentum
+--
+
+ALTER TABLE ONLY solved
+    ADD CONSTRAINT solved_problem_id_fkey FOREIGN KEY (problem_id) REFERENCES problems(id);
+
+
+--
+-- Name: solved_user_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: momentum
+--
+
+ALTER TABLE ONLY solved
+    ADD CONSTRAINT solved_user_id_fkey FOREIGN KEY (user_id) REFERENCES users(id);
+
+
+--
+-- Name: public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM PUBLIC;
+REVOKE ALL ON SCHEMA public FROM postgres;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+

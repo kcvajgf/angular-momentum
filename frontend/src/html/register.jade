@@ -1,19 +1,20 @@
-#register
-  h3 Sign up
-  form(ng-submit="signUp()")
-    div
-      input(type='text', ng-model="signUp.username", placeholder="Username...")
-    div
-      input(type='email', ng-model="signUp.email", placeholder="Email...")
-    div
-      input(type='password', ng-model="signUp.password", placeholder="Password...")
-    div
-      button.btn.btn-primary(type='submit', ng-disabled="processing") Sign Up
-  h3 Login
-  form(ng-submit="login()")
-    div
-      input(type='text', ng-model="login.username", placeholder="Username...")
-    div
-      input(type='password', ng-model="login.password", placeholder="Password...")
-    div
-      button.btn.btn-primary(type='submit', ng-disabled="processing") Login
+#register.container
+  .row
+    h3 Sign up
+    form(ng-submit="signUp()")
+      div
+        input(type='text', ng-model="signUp.username", placeholder="Username...")
+      div
+        input(type='email', ng-model="signUp.email", placeholder="Email...")
+      div
+        input(type='password', ng-model="signUp.password", placeholder="Password...")
+      div
+        button.btn.btn-primary(type='submit', ng-disabled="processing") Sign Up
+    h3 Login
+    form(ng-submit="login()")
+      div
+        input(type='text', ng-model="login.username", placeholder="Username...")
+      div
+        input(type='password', ng-model="login.password", placeholder="Password...")
+      div
+        button.btn.btn-primary(type='submit', ng-disabled="processing") Login

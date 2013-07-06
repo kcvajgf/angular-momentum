@@ -1,6 +1,6 @@
 html(ng-app="Momentum")
   head
-    title Angular Momentum
+    title Solve
 
     // import the bootstrap stylesheets
     link(href='/lib/flatstrap/css/bootstrap.css', rel='stylesheet')
@@ -50,7 +50,9 @@ html(ng-app="Momentum")
                 form.navbar-form
                   a.btn(href='#/register?#') Sign in/up
               .pull-right(ng-show="CurrentUser.isLoggedIn()")
-                a.btn(href='#/profile?#') Name
+                a.btn(href='#/profile?#')
+                  i.icon-user
+                  |  {{CurrentUser.user.username}}
                 |  
                 a.btn(ng-click='logOut()') Log out
       #content(ng-view)

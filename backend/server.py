@@ -7,6 +7,7 @@ from models import User, Problem, Solved
 from database import db_session, db_init
 from md5 import md5
 from datetime import datetime
+from functools import wraps
 
 app = Flask(__name__)
 db_init()
@@ -15,11 +16,25 @@ app.config['SECRET_KEY'] = 'My secret key'
 login_manager = LoginManager()
 login_manager.init_app(app)
 
+def admin_required(func):
+    @wraps(func)
+    @login_required
+    def new_func(*args, **kwargs):
+        if current_user.is_admin:
+            return func(*args, **kwargs)
+        else:
+            return "Forbidden", 403
+    return new_func
+
+
 def authenticate(username, password):
-    user = User.query.filter_by(username=username).one()
-    password = md5(password).hexdigest()
-    if user.password == password:
-        return user
+    try:
+        user = User.query.filter_by(username=username).one()
+        password = md5(password).hexdigest()
+        if user.password == password:
+            return user
+    except sqlalchemy.orm.exc.NoResultFound:
+        return None
 
 @login_manager.user_loader
 def load_user(id):
@@ -46,11 +61,7 @@ def login():
     user = authenticate(username, password)
     if user:
         login_user(user)
-        return json.dumps({'ok': True, 'user': {
-            'username': user.username,
-            'email': user.email,
-            'is_admin': user.is_admin,
-        }})
+        return json.dumps({'ok': True, 'user': user.details()})
     else:
         return json.dumps({'ok': False})
 
@@ -61,20 +72,15 @@ def logout():
 
 @app.route('/problems/', methods=['GET'], strict_slashes=False)
 def get_problems():
-    query = Problem.query.filter(Problem.release <= datetime.now())
+    query = Problem.query
     if 'from' in request.args:
         query = query.filter(Problem.index >= request.args['from'])
     if 'to' in request.args:
         query = query.filter(Problem.index <= request.args['to'])
+    if not (current_user.is_authenticated() and current_user.is_admin):
+        query = query.filter(Problem.active())
 
-    problems = [{
-        'id': problem.id,
-        'index': problem.index,
-        'title': problem.title,
-        'html': problem.html,
-        'answer': problem.answer,
-        'release': str(problem.release),
-    } for problem in query.all()]
+    problems = [problem.details() for problem in query.all()]
 
     if current_user.is_authenticated():
         solveds = Solved.query.filter_by(user_id=current_user.id)
@@ -103,18 +109,12 @@ def get_problem(index):
         problem = Problem.query.filter_by(index=index).first()
         if not problem or not (current_user.is_authenticated() and current_user.is_admin or problem.is_active()):
             return 'Not found', 404
-        problem = {
-            'id': problem.id,
-            'index': problem.index,
-            'title': problem.title,
-            'html': problem.html,
-            'answer': problem.answer,
-            'release': str(problem.release),
-        }
+        problem = problem.details()
+        problem['release'] = str(problem['release'])
         if current_user.is_authenticated():
             if Solved.query.filter_by(user_id=current_user.id, problem_id=problem['id']).count() > 0:
                 problem['has_answered'] = True
-            else:
+            elif not current_user.is_admin:
                 del problem['answer']
             problem['can_answer'] = True
             problem['can_edit'] = current_user.is_admin
@@ -129,7 +129,7 @@ def get_problem(index):
 @login_required
 def answer_problem(index):
     answer = request.json['answer']
-    problem = Problem.query.filter_by(index=index)
+    problem = Problem.query.filter_by(index=index).first()
     if problem.is_active():
         if answer == problem.answer:
             if Solved.query.filter_by(user_id=current_user.id, problem_id=problem.id).count() == 0:
@@ -141,11 +141,27 @@ def answer_problem(index):
     return json.dumps({'ok': False})
 
 @app.route('/problems/', methods=['POST'], strict_slashes=False)
-@login_required
+@admin_required
 def make_problem():
-    # check if admin first!
     return "TODO"
 
+@app.route('/problems/<int:index>', methods=['PUT'], strict_slashes=False)
+@admin_required
+def update_problem(index):
+    problem = Problem.query.filter_by(index=index).first()
+    print request.json
+    print problem
+    problem = problem.details()
+    problem['can_answer'] = True
+    problem['can_edit'] = True
+    return json.dumps(problem)
+
+@app.route('/current_user', methods=['GET'], strict_slashes=False)
+def get_current_user():
+    if current_user.is_authenticated():
+        return json.dumps({'ok': True, 'user': current_user.details()})
+    else:
+        return json.dumps({'ok': False})
 if __name__ == '__main__':
     print 'Listening on port 8080...'
     app.run(host='0.0.0.0', port=8080, debug=True)
