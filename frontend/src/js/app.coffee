@@ -20,8 +20,13 @@ momentum.config ["$routeProvider", ($routeProvider) ->
     templateUrl: "/html/register.html"
     controller: "RegisterCtrl"
 
+  $routeProvider.when "/edit",
+    templateUrl: "/html/admin_problem.html"
+    controller: "EditProblemCtrl"
+
   $routeProvider.when "/404",
     templateUrl: "/html/404.html"
+    controller: "NotFoundCtrl"
 
   $routeProvider.when "/",
     redirectTo: "/home"
@@ -30,4 +35,9 @@ momentum.config ["$routeProvider", ($routeProvider) ->
     redirectTo: "/home"
   
   $routeProvider.otherwise redirectTo: "/404"
+]
+
+momentum.controller "NotFoundCtrl", ['$location', ($location) ->
+  $location.search null
+  $location.hash ''
 ]

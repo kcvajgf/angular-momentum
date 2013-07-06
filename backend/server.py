@@ -61,7 +61,6 @@ def logout():
 
 @app.route('/problems/', methods=['GET'], strict_slashes=False)
 def get_problems():
-    # include answers for current user
     query = Problem.query.filter(Problem.release <= datetime.now())
     if 'from' in request.args:
         query = query.filter(Problem.index >= request.args['from'])
@@ -91,16 +90,17 @@ def get_problems():
             else:
                 del problem['answer']
             problem['can_answer'] = True
+            problem['can_edit'] = current_user.is_admin
     else:
         for problem in problems:
             del problem['answer']
 
     return json.dumps(problems)
 
-@app.route('/problems/<int:id>', methods=['GET'], strict_slashes=False)
-def get_problem(id):
+@app.route('/problems/<int:index>', methods=['GET'], strict_slashes=False)
+def get_problem(index):
     try:
-        problem = Problem.query.get(id)
+        problem = Problem.query.filter_by(index=index).first()
         if not problem or not (current_user.is_authenticated() and current_user.is_admin or problem.is_active()):
             return 'Not found', 404
         problem = {
@@ -112,11 +112,12 @@ def get_problem(id):
             'release': str(problem.release),
         }
         if current_user.is_authenticated():
-            if Solved.query.filter_by(user_id=current_user.id, problem_id=id).count() > 0:
+            if Solved.query.filter_by(user_id=current_user.id, problem_id=problem['id']).count() > 0:
                 problem['has_answered'] = True
             else:
                 del problem['answer']
             problem['can_answer'] = True
+            problem['can_edit'] = current_user.is_admin
         else:
             del problem['answer']
 
@@ -124,11 +125,11 @@ def get_problem(id):
     except sqlalchemy.orm.exc.NoResultFound:
         return 'Not found', 404
 
-@app.route('/problems/<int:id>/answer', methods=['POST'], strict_slashes=False)
+@app.route('/problems/<int:index>/answer', methods=['POST'], strict_slashes=False)
 @login_required
-def answer_problem(id):
+def answer_problem(index):
     answer = request.json['answer']
-    problem = Problem.query.get(id)
+    problem = Problem.query.filter_by(index=index)
     if problem.is_active():
         if answer == problem.answer:
             if Solved.query.filter_by(user_id=current_user.id, problem_id=problem.id).count() == 0:

@@ -63,3 +63,21 @@ momentum.directive 'mmAnswerBox', [->
       if scope.answer?.length
         scope.attempt answer: scope.answer
 ]
+
+momentum.directive 'mmEditProblem', ['toastr', (toastr) ->
+  scope:
+    problem: '=mmEditProblem'
+    save: '&'
+  templateUrl: "/html/edit_problem.html"
+  link: (scope, element, attrs) ->
+    scope._save = ->
+      scope.save problem: scope.problem
+    scope.attempt = (answer) ->
+      if answer == scope.problem.answer
+        toastr.success "Congratulations! Your answer for problem #{scope.problem.index} is correct!"
+      else
+        toastr.error "Sorry, your answer for problem #{scope.problem.index} is incorrect..."
+    scope.$watch 'problem.has_answered', (has_answered) ->
+      if has_answered
+        scope.problem.has_answered = false
+]

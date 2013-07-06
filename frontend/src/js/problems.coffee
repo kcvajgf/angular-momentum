@@ -7,7 +7,7 @@ momentum.controller 'ProblemsCtrl', [
   $scope.problems = Problem.query()
   $scope.attempt = (problem, answer) ->
     $scope.submitting = true
-    $http.post "/api/problems/#{problem.id}/answer",
+    $http.post "/api/problems/#{problem.index}/answer",
       answer: answer
     .success (response) ->
       console.log 'Success', response
@@ -22,4 +22,14 @@ momentum.controller 'ProblemsCtrl', [
       console.error 'Error', errorResponse
       toastr.info "Sorry, an error occurred while submitting form problem #{problem.index}. Please try again later."
       $scope.submitting = false
+]
+
+momentum.controller 'EditProblemCtrl', [
+ '$scope', 'Problem', '$routeParams', '$location', 'CurrentUser',
+ ($scope,   Problem,   $routeParams,   $location,   CurrentUser) ->
+  unless CurrentUser.user?.is_admin
+    $location.path '/404'
+    $location.search null
+    $location.hash null
+  $scope.problem = Problem.get(index: $routeParams.index)
 ]

@@ -5,6 +5,5 @@ div(ng-show="problem.has_answered")
     |  Loading Answer...
 div(ng-show="!problem.has_answered && problem.can_answer")
   h4 Answer:
-  form(ng-submit="submit()")
-    input(ng-model="answer", placeholder="Answer here...")
-    button.btn.btn-primary(ng-disabled="!answer.length", type="submit") Submit
+  input(ng-model="answer", placeholder="Answer here...")
+  button.btn.btn-primary(ng-disabled="!answer.length", ng-click="submit()") Submit

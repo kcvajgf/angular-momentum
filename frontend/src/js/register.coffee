@@ -18,7 +18,7 @@ momentum.controller 'AuthCtrl', ['$scope', 'CurrentUser', '$location', ($scope, 
 momentum.controller 'RegisterCtrl', ['$scope', 'User', 'CurrentUser', '$location', ($scope, User, CurrentUser, $location) ->
   $scope.redirectNext = ->
     next = $location.search().next or '/'
-    nextSearch = $location.search().nextSearch or ''
+    nextSearch = angular.fromJson $location.search().nextSearch or {}
     nextHash = $location.search().nextHash or ''
     $location.path next
     $location.search nextSearch

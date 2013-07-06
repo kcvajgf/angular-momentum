@@ -1,0 +1,19 @@
+form(ng-submit="_save()")
+  h4 Editing Problem {{problem.index}} 
+  .control-group
+    label Title
+    input(type='text', ng-model="problem.title", placeholder="Title...")
+  .control-group
+    label Body
+    textarea(ng-model="problem.html", placeholder="Problem body in HTML...")
+  .control-group
+    label Answer
+    input(type='text', ng-model="problem.answer", placeholder="Answer...")
+  .control-group
+    label Release Date
+    input(type='text', ng-model="problem.release", placeholder="Release Date...")
+  button.btn.btn-primary(type="submit") Save
+  div
+    h5 Preview
+    div(mm-problem="problem", attempt="attempt(answer)")
+

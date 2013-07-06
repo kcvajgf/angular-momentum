@@ -39,19 +39,17 @@ html(ng-app="Momentum")
       .navbar.navbar-fixed-top
         .navbar-inner
           .container
-            a.brand(href='#/?#') Solve hey
+            a.brand(href='#/?#') Solve
             div
               ul.nav
                 li
                   a(href='#/problems?#') Problems
                 li
-                  a(href='#/?#') B
-              .pull-right
-                //(ng-hide="CurrentUser.isLoggedIn()")
+                  a(href='#/admin?#') Account
+              .pull-right(ng-hide="CurrentUser.isLoggedIn()")
                 form.navbar-form
                   a.btn(href='#/register?#') Sign in/up
-              .pull-right
-                //(ng-show="CurrentUser.isLoggedIn()")
+              .pull-right(ng-show="CurrentUser.isLoggedIn()")
                 a.btn(href='#/profile?#') Name
                 |  
                 a.btn(ng-click='logOut()') Log out
