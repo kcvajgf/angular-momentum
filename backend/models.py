@@ -1,8 +1,15 @@
 from sqlalchemy import *
 from database import Base
 
-class Message(Base):
-    __tablename__ = 'messages'
+class User(Base):
+    __tablename__ = "users"
     id = Column(Integer, primary_key=True)
-    message = Column(String(255))
+    username = Column(String(255)) # make this unique!
+    email = Column(String(255))
 
+class Session(Base):
+    __tablename__ = "sessions"
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer) # foreign key
+    #expiry = date
+    
