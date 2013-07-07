@@ -7,6 +7,23 @@
   div(ng-hide="problems.length")
     i.icon-spinner.icon-spin
     |  Loading
-  ul.nav.nav-stacked
-    li.problem-tab(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'", ng-class="{active: problem.index == currentIndex}")
-      a(ng-click="setProblem(problem)") {{problem.index}}. {{problem.title}}
+  table.table
+    tr
+      th #
+      th Title
+      th Submitted
+      th Solvers
+      th Last Post
+    tr(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'", ng-class="{active: problem.index == currentIndex}")
+      td {{problem.index}}
+      td
+        a(ng-click="setProblem(problem)") {{problem.title}}
+      td.text-success
+        i.icon-ok(ng-show="problem.has_answered")
+      td
+        a(ng-href="#/problems/{{problem.index}}/scoreboard?#")
+          {{problem.solve_count || 0}}
+      td
+        a(ng-href="#/problems/{{problem.index}}/forum?#", ng-show="problem.has_answered") 
+         | Go to forum
+        // display last post

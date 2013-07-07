@@ -1,16 +1,15 @@
 #problems.container
   h3 Problems
-  div(ng-repeat="problem in upcomingProblems | orderBy: 'index'", mm-upcoming="problem")
   label.checkbox(ng-show="CurrentUser.user.is_admin")
     input(type="checkbox", ng-model="showInactive")
     | Show Inactive
-  div(ng-hide="problems.length")
+  div(ng-show="loadingProblem")
     i.icon-spinner.icon-spin
-    |  Loading
-  .tabbable.tabs-left
+    |  Loading  
+  .tabbable.tabs-right
     ul.nav.nav-tabs
       li.problem-tab(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'", ng-class="{active: problem.index == currentIndex}")
         a(ng-click="setProblem(problem)") {{problem.index}}
           span(ng-show="!problem.active") *
-    .tab-content
+    .tab-content(ng-hide="loadingProblem")
       div(mm-problem="currentProblem", attempt="attempt(currentProblem, answer)")

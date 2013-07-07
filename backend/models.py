@@ -51,7 +51,11 @@ class Problem(Base):
             'release': str(self.release),
             'is_live': self.is_live,
             'active': self.is_active(now),
+            'solve_count': self.solve_count(),
         }
+
+    def solve_count(self):
+        return db_session.query(Solved).filter_by(problem_id=self.id).count()
 
     def is_active(self, now=None):
         if now is None:

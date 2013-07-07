@@ -70,6 +70,7 @@ momentum.directive 'mmEditProblem', ['toastr', (toastr) ->
     save: '&'
   templateUrl: "/html/edit_problem.html"
   link: (scope, element, attrs) ->
+    scope.showForm = true
     scope._save = ->
       scope.saving = true
       scope.save(problem: scope.problem).then (response) ->
@@ -79,7 +80,7 @@ momentum.directive 'mmEditProblem', ['toastr', (toastr) ->
         toastr.error "Save failed."
         scope.saving = false
     scope.attempt = (answer) ->
-      if answer == scope.problem.answer
+      if answer.trim() == scope.problem.answer.trim()
         toastr.success "Congratulations! Your answer for problem #{scope.problem.index} is correct!"
       else
         toastr.error "Sorry, your answer for problem #{scope.problem.index} is incorrect..."
@@ -97,6 +98,7 @@ momentum.directive 'mmNewProblem', ['toastr', (toastr) ->
     save: '&'
   templateUrl: "/html/new_problem.html"
   link: (scope, element, attrs) ->
+    scope.showForm = true
     scope._save = ->
       scope.saving = true
       scope.save(problem: scope.problem).then (response) ->

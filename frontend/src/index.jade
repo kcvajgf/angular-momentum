@@ -51,9 +51,15 @@ html(ng-app="Momentum")
                   a(href='#/profile?#') Profile
                 li(ng-if="CurrentUser.isLoggedIn() && CurrentUser.user.is_admin")
                   a(href='#/problems/new?#') New Problem
-              .pull-right(ng-hide="CurrentUser.isLoggedIn()")
-                form.navbar-form
-                  a.btn(href='#/register?#') Sign in/up
+              .pull-right(ng-hide="CurrentUser.isLoggedIn()", ng-controller="RegisterCtrl")
+                form.navbar-form.form-inline.navbar-login(ng-submit="login()")
+                  input(type='text', ng-model="login.username", placeholder="Username...")
+                  |  
+                  input(type='password', ng-model="login.password", placeholder="Password...")
+                  |  
+                  button.btn.btn-primary(type='submit', ng-disabled="processing") Login
+                  |  
+                  a.btn(href='#/register?#') Sign up
               .pull-right(ng-show="CurrentUser.isLoggedIn()")
                 a.btn(href='#/account?#')
                   i.icon-user

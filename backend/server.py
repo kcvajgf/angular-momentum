@@ -91,7 +91,7 @@ def get_problems():
         if 'to' in request.args:
             solveds = solveds.filter(Problem.index <= request.args['to'])
 
-        solveds = set(s.problem_id for s in solveds.all())
+        solveds = set(s.problem_id for s, p in solveds.all())
         for problem in problems:
             if problem['id'] in solveds:
                 problem['has_answered'] = True
@@ -142,7 +142,22 @@ def get_problem_info():
         'title': problem.title,
         'is_live': problem.is_live,
         'active': problem.is_active(now),
+        'solve_count': problem.solve_count(),
     } for problem in query.all()]
+
+    if current_user.is_authenticated():
+        solveds = db_session.query(Solved, Problem).filter_by(user_id=current_user.id).filter(Solved.problem_id == Problem.id)
+        if 'from' in request.args:
+            solveds = solveds.filter(Problem.index >= request.args['from'])
+        if 'to' in request.args:
+            solveds = solveds.filter(Problem.index <= request.args['to'])
+
+        solveds = set(s.problem_id for s, p in solveds.all())
+        for problem in problems:
+            if problem['id'] in solveds:
+                problem['has_answered'] = True
+            problem['can_answer'] = True
+            problem['can_edit'] = current_user.is_admin
 
     return json.dumps(problems)
 
@@ -171,7 +186,7 @@ def get_problem(index):
 @app.route('/problems/<int:index>/answer', methods=['POST'], strict_slashes=False)
 @login_required
 def answer_problem(index):
-    answer = request.json['answer']
+    answer = request.json['answer'].strip()
     problem = Problem.query.filter_by(index=index).first()
     if problem.is_active():
         if answer == problem.answer:
@@ -193,7 +208,7 @@ def make_problem():
         index=index,
         title=request.json['title'],
         html=request.json['html'],
-        answer=request.json['answer'],
+        answer=request.json['answer'].strip(),
         release=request.json['release'],
         is_live=request.json['is_live'],
     )
@@ -211,7 +226,7 @@ def update_problem(index):
     problem = Problem.query.filter_by(index=index).first()
     problem.title = request.json.get('title', problem.title)
     problem.html = request.json.get('html', problem.html)
-    problem.answer = request.json.get('answer', problem.answer)
+    problem.answer = request.json.get('answer', problem.answer).strip()
     problem.release = request.json.get('release', problem.release)
     problem.is_live = request.json.get('is_live', problem.is_live)
     db_session.add(problem)

@@ -33,6 +33,7 @@ momentum.controller 'RegisterCtrl', ['$scope', 'User', 'CurrentUser', '$location
     ).then (result) ->
       console.log "Success signup", result
       $scope.processing = false
+      $scope.signUp.username = $scope.signUp.email = $scope.signUp.password = ''
       $scope.redirectNext()
     , (error) ->
       console.error "Error", error
@@ -46,6 +47,7 @@ momentum.controller 'RegisterCtrl', ['$scope', 'User', 'CurrentUser', '$location
     ).then (response) ->
       console.log "Success login", response
       $scope.processing = false
+      $scope.login.username = $scope.login.password = ''
       $scope.redirectNext()
     , (error) ->
       console.log "Error", error

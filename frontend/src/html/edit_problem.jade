@@ -1,30 +1,37 @@
 .row
-  .span6
+  div(class="{{ {true: 'span5', false: 'span12'}[!!showForm] }}")
+    h3 Editing Problem {{problem.index}} (Preview)
+    label.checkbox Show form
+      input(type='checkbox', ng-model='showForm')
+    div(mm-problem="problem", attempt="attempt(answer)")
+
+  .span7(ng-if="showForm")
     h3 Editing Problem {{problem.index}} 
-    form(ng-submit="_save()", ng-if="problem.id != null")
+    form.form-horizontal.edit-problem(ng-submit="_save()", ng-if="problem.id != null")
       .control-group
-        label Title
-        input(type='text', ng-model="problem.title", placeholder="Title...")
+        label.control-label Title
+        .controls
+          input(type='text', ng-model="problem.title", placeholder="Title...")
       .control-group
-        label Body
-        textarea(ng-model="problem.html", placeholder="Problem body in HTML...")
+        label.control-label Body
+        .controls
+          textarea.html-area(ng-model="problem.html", placeholder="Problem body in HTML...")
       .control-group
-        label Answer
-        input(type='text', ng-model="problem.answer", placeholder="Answer...")
+        label.control-label Answer
+        .controls
+          input(type='text', ng-model="problem.answer", placeholder="Answer...")
       .control-group
-        label Release Date
-        input(type='text', ng-model="problem.release", placeholder="Release Date...")
+        label.control-label Release Date
+        .controls
+          input(type='text', ng-model="problem.release", placeholder="Release Date...")
       .control-group
-        label Is Live
-        input(type='checkbox', ng-model="problem.is_live")
-      button.btn.btn-primary(type="submit", ng-disabled="saving") Save
+        .controls
+          label.checkbox Is Live
+            input(type='checkbox', ng-model="problem.is_live")
+          button.btn.btn-primary(type="submit", ng-disabled="saving") Save
       div(ng-show="saving")
         i.icon-spinner.icon-spin
         |  Saving...
     div(ng-if="problem.id == null")
       i.icon-spinner.icon-spin
       |  Loading problem data...
-  .span6
-    h3 Preview
-    div(mm-problem="problem", attempt="attempt(answer)")
-
