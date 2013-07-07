@@ -33,6 +33,7 @@ html(ng-app="Momentum")
     script(src='/js/register.js', type='text/javascript')
     script(src='/js/resources.js', type='text/javascript')
     script(src='/js/services.js', type='text/javascript')
+    script(src='/js/filters.js', type='text/javascript')
 
   body(ng-controller="AuthCtrl")
     #sticky-wrap
@@ -45,12 +46,16 @@ html(ng-app="Momentum")
                 li
                   a(href='#/problems?#') Problems
                 li
-                  a(href='#/admin?#') Account
+                  a(href='#/problems/all?#') All Problems
+                li(ng-if="CurrentUser.isLoggedIn()")
+                  a(href='#/profile?#') Profile
+                li(ng-if="CurrentUser.isLoggedIn() && CurrentUser.user.is_admin")
+                  a(href='#/problems/new?#') New Problem
               .pull-right(ng-hide="CurrentUser.isLoggedIn()")
                 form.navbar-form
                   a.btn(href='#/register?#') Sign in/up
               .pull-right(ng-show="CurrentUser.isLoggedIn()")
-                a.btn(href='#/profile?#')
+                a.btn(href='#/account?#')
                   i.icon-user
                   |  {{CurrentUser.user.username}}
                 |  
@@ -62,8 +67,11 @@ html(ng-app="Momentum")
         .container
           .outer-wrapper
             .inner-wrapper
+              a.brand(href='#/?#') Solve
               ul.nav
                 li
-                  a(href='#/?#') A
+                  a(href='#/scoreboard?#') Scoreboard
                 li
-                  a(href='#/?#') B
+                  a(href='#/statistics?#') Statistics
+                li
+                  a(href='#/news?#') News

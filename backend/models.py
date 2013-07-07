@@ -1,6 +1,6 @@
 from sqlalchemy import *
 from sqlalchemy.orm import *
-from database import Base
+from database import Base, db_session, db_init
 from flask.ext.login import UserMixin
 from datetime import datetime
 
@@ -20,11 +20,15 @@ class User(Base, UserMixin):
     problems_solved = relationship("Solved")
     is_admin = Column(Boolean, index=True)
 
+    def solve_count(self):
+        return db_session.query(Solved).filter_by(user_id=self.id).count()
+
     def details(self):
         return {
             'username': self.username,
             'email': self.email,
-            'is_admin': self.is_admin,            
+            'is_admin': self.is_admin,
+            'solve_count': self.solve_count(),
         }
 
 class Problem(Base):
@@ -37,7 +41,7 @@ class Problem(Base):
     release = Column(DateTime, index=True)
     is_live = Column(Boolean, index=True)
 
-    def details(self):
+    def details(self, now=None):
         return {
             'id': self.id,
             'index': self.index,
@@ -46,7 +50,7 @@ class Problem(Base):
             'answer': self.answer,
             'release': str(self.release),
             'is_live': self.is_live,
-            'active': self.is_active(),
+            'active': self.is_active(now),
         }
 
     def is_active(self, now=None):
@@ -59,4 +63,10 @@ class Problem(Base):
         if now is None:
             now = datetime.now()
         return (cls.is_live == True) & (cls.release <= now)
+
+    @classmethod
+    def upcoming(cls, now=None):
+        if now is None:
+            now = datetime.now()
+        return (cls.is_live == True) & (cls.release > now)
 

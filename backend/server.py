@@ -3,6 +3,7 @@ import json # This is a library for encoding objects into JSON
 from flask import Flask, request # This the microframework library we'll use to build our backend.
 from flask.ext.login import LoginManager, login_user, logout_user, current_user, login_required
 import sqlalchemy
+from sqlalchemy.sql import func
 from models import User, Problem, Solved
 from database import db_session, db_init
 from md5 import md5
@@ -72,22 +73,23 @@ def logout():
 
 @app.route('/problems/', methods=['GET'], strict_slashes=False)
 def get_problems():
+    now = datetime.now()
     query = Problem.query
     if 'from' in request.args:
         query = query.filter(Problem.index >= request.args['from'])
     if 'to' in request.args:
         query = query.filter(Problem.index <= request.args['to'])
     if not (current_user.is_authenticated() and current_user.is_admin):
-        query = query.filter(Problem.active())
+        query = query.filter(Problem.active(now))
 
-    problems = [problem.details() for problem in query.all()]
+    problems = [problem.details(now) for problem in query.all()]
 
     if current_user.is_authenticated():
-        solveds = Solved.query.filter_by(user_id=current_user.id)
+        solveds = db_session.query(Solved, Problem).filter_by(user_id=current_user.id).filter(Solved.problem_id == Problem.id)
         if 'from' in request.args:
-            solveds = solveds.filter(Solved.problem.index >= request.args['from'])
+            solveds = solveds.filter(Problem.index >= request.args['from'])
         if 'to' in request.args:
-            solveds = solveds.filter(Solved.problem.index <= request.args['to'])
+            solveds = solveds.filter(Problem.index <= request.args['to'])
 
         solveds = set(s.problem_id for s in solveds.all())
         for problem in problems:
@@ -100,6 +102,47 @@ def get_problems():
     else:
         for problem in problems:
             del problem['answer']
+
+    return json.dumps(problems)
+
+@app.route('/problems/upcoming/', methods=['GET'], strict_slashes=False)
+def upcoming_problems():
+    now = datetime.now()
+    query = Problem.query.filter(Problem.upcoming(now))
+    problems = [{
+        'id': problem.id,
+        'index': problem.index,
+        'release': str(problem.release),
+        'is_live': problem.is_live,
+        'active': problem.is_active(now),
+        'now': str(now),
+    } for problem in query.all()]
+
+    return json.dumps(problems)
+
+@app.route('/problems/max_active/', methods=['GET'], strict_slashes=False)
+def max_active():
+    query = db_session.query(func.max(Problem.index)).filter(Problem.active())
+    return str(query.first()[0])
+
+@app.route('/problems/info/', methods=['GET'], strict_slashes=False)
+def get_problem_info():
+    now = datetime.now()
+    query = Problem.query
+    if 'from' in request.args:
+        query = query.filter(Problem.index >= request.args['from'])
+    if 'to' in request.args:
+        query = query.filter(Problem.index <= request.args['to'])
+    if not (current_user.is_authenticated() and current_user.is_admin):
+        query = query.filter(Problem.active(now))
+
+    problems = [{
+        'id': problem.id,
+        'index': problem.index,
+        'title': problem.title,
+        'is_live': problem.is_live,
+        'active': problem.is_active(now),
+    } for problem in query.all()]
 
     return json.dumps(problems)
 
@@ -143,14 +186,37 @@ def answer_problem(index):
 @app.route('/problems/', methods=['POST'], strict_slashes=False)
 @admin_required
 def make_problem():
-    return "TODO"
+    index = request.json['index']
+    if Problem.query.filter_by(index=index).count() > 0:
+        return "Already exists", 422
+    problem = Problem(
+        index=index,
+        title=request.json['title'],
+        html=request.json['html'],
+        answer=request.json['answer'],
+        release=request.json['release'],
+        is_live=request.json['is_live'],
+    )
+    db_session.add(problem)
+    db_session.commit()
+    
+    problem = problem.details()
+    problem['can_answer'] = True
+    problem['can_edit'] = True
+    return json.dumps(problem)
 
 @app.route('/problems/<int:index>', methods=['PUT'], strict_slashes=False)
 @admin_required
 def update_problem(index):
     problem = Problem.query.filter_by(index=index).first()
-    print request.json
-    print problem
+    problem.title = request.json.get('title', problem.title)
+    problem.html = request.json.get('html', problem.html)
+    problem.answer = request.json.get('answer', problem.answer)
+    problem.release = request.json.get('release', problem.release)
+    problem.is_live = request.json.get('is_live', problem.is_live)
+    db_session.add(problem)
+    db_session.commit()
+
     problem = problem.details()
     problem['can_answer'] = True
     problem['can_edit'] = True

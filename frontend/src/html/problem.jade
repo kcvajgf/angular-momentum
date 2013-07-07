@@ -1,5 +1,11 @@
-h4 Problem {{problem.index}} 
-  a(ng-show="problem.can_edit", ng-href='#/edit?index={{problem.index}}#') Edit
-h5 {{problem.title}}
-div(ng-bind-html-unsafe="problem.html")
-div(mm-answer-box="problem", attempt="submit(answer)")
+.problem
+  .index 
+    a(ng-show="problem.can_edit", ng-href='#/problems/edit/{{problem.index}}?#') 
+      i.icon-edit
+      span.words  Problem {{problem.index}} 
+    span.words(ng-hide="problem.can_edit") 
+      |  Problem {{problem.index}} 
+    span.text-info(ng-show="!problem.active") (Not yet active) 
+  .title {{problem.title}}
+  .body(ng-bind-html-unsafe="problem.html")
+  .answer(mm-answer-box="problem", attempt="submit(answer)")

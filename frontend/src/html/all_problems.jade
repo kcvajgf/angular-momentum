@@ -7,6 +7,6 @@
   div(ng-hide="problems.length")
     i.icon-spinner.icon-spin
     |  Loading
-  ul.nav.nav-stacked
-    li.problem-tab(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'", ng-class="{active: problem.index == currentIndex}")
-      a(ng-click="setProblem(problem)") {{problem.index}}. {{problem.title}}
+  .row-fluid
+    .span10
+      div(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'", mm-problem="problem", attempt="attempt(problem, answer)")

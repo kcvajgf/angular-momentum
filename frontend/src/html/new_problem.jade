@@ -1,0 +1,30 @@
+.row
+  .span6
+    h3 New Problem
+    form(ng-submit="_save()")
+      .control-group
+        label Problem Number
+        input(type='text', ng-model="problem.index", placeholder="Problem number...")
+      .control-group
+        label Title
+        input(type='text', ng-model="problem.title", placeholder="Title...")
+      .control-group
+        label Body
+        textarea(ng-model="problem.html", placeholder="Problem body in HTML...")
+      .control-group
+        label Answer
+        input(type='text', ng-model="problem.answer", placeholder="Answer...")
+      .control-group
+        label Release Date
+        input(type='text', ng-model="problem.release", placeholder="Release Date...")
+      .control-group
+        label Is Live
+        input(type='checkbox', ng-model="problem.is_live")
+      button.btn.btn-primary(type="submit", ng-disabled="saving") Save
+      div(ng-show="saving")
+        i.icon-spinner.icon-spin
+        |  Saving...
+  .span6
+    h3 Preview
+    div(mm-problem="problem", attempt="attempt(answer)")
+

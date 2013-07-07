@@ -5,6 +5,7 @@ momentum = angular.module "Momentum", [
   "Momentum.directives"
   "Momentum.resources"
   "Momentum.services"
+  "Momentum.filters"
 ]
 
 momentum.config ["$routeProvider", ($routeProvider) ->
@@ -12,17 +13,32 @@ momentum.config ["$routeProvider", ($routeProvider) ->
   $routeProvider.when "/home",
     templateUrl: "/html/home.html"
 
+  $routeProvider.when "/problems/all",
+    templateUrl: "/html/all_problems.html"
+    controller: "AllProblemsCtrl"
+    reloadOnSearch: false
+
+  $routeProvider.when "/problems/new",
+    templateUrl: "/html/admin_new_problem.html"
+    controller: "NewProblemCtrl"
+
+  $routeProvider.when "/problems/edit/:index",
+    templateUrl: "/html/admin_problem.html"
+    controller: "EditProblemCtrl"
+
+  $routeProvider.when "/problems/:index",
+    templateUrl: "/html/problem_one.html"
+    controller: "ProblemOneCtrl"
+    reloadOnSearch: false
+
   $routeProvider.when "/problems",
     templateUrl: "/html/problems.html"
     controller: "ProblemsCtrl"
+    reloadOnSearch: false
 
   $routeProvider.when "/register",
     templateUrl: "/html/register.html"
     controller: "RegisterCtrl"
-
-  $routeProvider.when "/edit",
-    templateUrl: "/html/admin_problem.html"
-    controller: "EditProblemCtrl"
 
   $routeProvider.when "/404",
     templateUrl: "/html/404.html"

@@ -90,3 +90,46 @@ momentum.directive 'mmEditProblem', ['toastr', (toastr) ->
       if can_edit
         scope.problem.can_edit = false
 ]
+
+momentum.directive 'mmNewProblem', ['toastr', (toastr) ->
+  scope:
+    problem: '=mmNewProblem'
+    save: '&'
+  templateUrl: "/html/new_problem.html"
+  link: (scope, element, attrs) ->
+    scope._save = ->
+      scope.saving = true
+      scope.save(problem: scope.problem).then (response) ->
+        toastr.success "Saved successfully!"
+        scope.saving = false
+      , (error) ->
+        toastr.error "Save failed."
+        scope.saving = false
+    scope.attempt = (answer) ->
+      if answer == scope.problem.answer
+        toastr.success "Congratulations! Your answer for problem #{scope.problem.index} is correct!"
+      else
+        toastr.error "Sorry, your answer for problem #{scope.problem.index} is incorrect..."
+    scope.$watch 'problem.has_answered', (has_answered) ->
+      if has_answered
+        scope.problem.has_answered = false
+    scope.$watch 'problem.can_edit', (can_edit) ->
+      if can_edit
+        scope.problem.can_edit = false
+    scope.$watch 'problem.can_answer', (can_answer) ->
+      unless can_answer
+        scope.problem.can_answer = true
+]
+
+momentum.directive 'mmUpcoming', [->
+  scope:
+    problem: '=mmUpcoming'
+  template: """
+    <div class="text-info">
+      Problem {{problem.index}} will be released on {{release | date: 'd MMMM yyyy, h:mm a'}} ({{problem.release | timeFrom: problem.now}}) 
+    </div>
+  """
+  link: (scope, element, attrs) ->
+    scope.$watch 'problem.release', (release) ->
+      scope.release = new Date release
+]

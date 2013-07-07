@@ -15,7 +15,7 @@ json_file.close()
 # We flatten the dictionary database_details as keyword arguments to the format function.
 # The format function formats a string with the proper details.
 database_url = '{driver}://{user}:{password}@{host}/{database}'.format(**database_details)
-engine = create_engine(database_url)
+engine = create_engine(database_url, echo=True)
 
 
 # Much of the code that follows was taken from http://flask.pocoo.org/docs/patterns/sqlalchemy/

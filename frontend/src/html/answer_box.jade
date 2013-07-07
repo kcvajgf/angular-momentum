@@ -1,10 +1,12 @@
-.row-fluid(ng-show="problem.has_answered")
-  div(ng-show="problem.answer != null") Answer: {{problem.answer}}
-  div(ng-show="problem.answer == null")
-    i.icon-spinner.icon-spin
-    |  Loading Answer...
-.row-fluid(ng-show="!problem.has_answered && problem.can_answer")
-  div Answer:
-  form.input-append(ng-submit="submit()")
-    input(ng-model="answer", placeholder="Answer here...")
-    button.btn.btn-primary(ng-disabled="!answer.length", type='submit') Submit
+.answer-box
+  .row-fluid.answer-form(ng-show="problem.has_answered")
+    .pull-left.answer-label Answer:
+    .pull-left.answer-value(ng-show="problem.answer != null") {{problem.answer}}
+    .pull-left.answer-value(ng-show="problem.answer == null")
+      i.icon-spinner.icon-spin
+      |  Loading Answer...
+  .row-fluid(ng-show="!problem.has_answered && problem.can_answer")
+    form.answer-form.form-inline(ng-submit="submit()")
+      label Answer:
+      input.span6(ng-model="answer", placeholder="Answer here...")
+      button.btn.btn-primary(ng-disabled="!answer.length", type='submit') Submit
