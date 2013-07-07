@@ -80,7 +80,7 @@ class Post(Base):
     problem_index = Column(Integer, ForeignKey('problems.index'))
     content = Column(Text)
     author_id = Column(Integer, ForeignKey('users.id'))
-    created_at = Column(DateTime)
+    created_at = Column(DateTime, index=True)
 
     def details(self):
         return {

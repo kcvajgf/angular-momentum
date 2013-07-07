@@ -1,0 +1,9 @@
+#forum.container
+  h3 Problem {{problem.index}} Forum
+  div(ng-show="loadingProblem")
+    i.icon-spinner.icon-spin
+    |  Loading  
+  div(ng-hide="loadingProblem")
+    div(ng-repeat="post in posts | orderBy: 'created_at'")
+      div(mm-post="post")
+    div(mm-make-post, save="makePost(content)")

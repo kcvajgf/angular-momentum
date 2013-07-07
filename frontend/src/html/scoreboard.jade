@@ -1,8 +1,8 @@
 .scoreboard
-  .index 
+  h3
     span.words
       |  Problem {{problem.index}} Scoreboard 
-    span.text-info(ng-show="!problem.active") (Not yet active) 
+  span.text-info(ng-show="!problem.active") (Not yet active) 
   .title {{problem.title}}
   table.table
     tr
@@ -11,7 +11,5 @@
       th Solving Time
     tr(ng-repeat="solver in solvers | orderBy: 'created_at'")
       td {{$index + 1}}
-      td
-        {{solver.user.username}}
-      td
-        {{(solver.created_at - release)}}
+      td {{solver.user.username}}
+      td {{(solver.created_at - release)| timeElapsed}}

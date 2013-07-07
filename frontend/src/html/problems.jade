@@ -24,6 +24,6 @@
         a(ng-href="#/problems/{{problem.index}}/scoreboard?#")
           {{problem.solve_count || 0}}
       td
-        a(ng-href="#/problems/{{problem.index}}/forum?#", ng-show="problem.has_answered") 
+        a(ng-href="#/problems/{{problem.index}}/forum?#", ng-show="CurrentUser.user.is_admin || problem.has_answered") 
          | Go to forum
         // display last post

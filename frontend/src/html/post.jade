@@ -1,0 +1,7 @@
+.post
+  .row-fluid
+    .span3
+      div {{post.author.username}}
+      div {{post.created_at | date: "d MMMM yyyy, h:mm:ss a" }}
+    .span9
+      | {{post.content}}

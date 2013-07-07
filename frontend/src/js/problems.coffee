@@ -5,7 +5,7 @@ momentum.controller 'ProblemOneCtrl', [
  '$scope', 'Problem', '$http', 'toastr', '$routeParams', '$location',
  ($scope,   Problem,   $http,   toastr,   $routeParams,   $location) ->
   $scope.currentIndex = parseInt $routeParams.index
-  $scope.showInactive = $location.search().showinactive
+  $scope.showInactive = $location.search()?.showinactive
   width = 10
 
   loadStuff = ->
@@ -81,7 +81,7 @@ momentum.controller 'ScoreboardCtrl', [
  '$scope', 'Problem', '$http', 'toastr', '$routeParams', '$location',
  ($scope,   Problem,   $http,   toastr,   $routeParams,   $location) ->
   $scope.currentIndex = parseInt $routeParams.index
-  $scope.showInactive = $location.search().showinactive
+  $scope.showInactive = $location.search()?.showinactive
   width = 10
 
   loadStuff = ->
@@ -132,12 +132,81 @@ momentum.controller 'ScoreboardCtrl', [
     $location.path "/problems/#{problem.index}/scoreboard/"
 ]
 
+momentum.controller 'ForumCtrl', [
+ '$scope', 'Problem', '$http', 'toastr', '$routeParams', '$location', '$q',
+ ($scope,   Problem,   $http,   toastr,   $routeParams,   $location,   $q) ->
+  $scope.currentIndex = parseInt $routeParams.index
+  $scope.showInactive = $location.search()?.showinactive
+  width = 10
+
+  loadStuff = ->
+    if not $scope.loadingProblem  
+      $scope.loadingProblem = true
+      $http.get("/api/problems/#{$scope.currentIndex}/posts")
+      .success (response) ->
+        $scope.posts = response
+        for post in $scope.posts
+          post.created_at = new Date post.created_at
+        $scope.loadingProblem = false
+      .error (errorResponse) ->
+        console.error "Some error", errorResponse
+        $location.path "problems/#{$scope.currentIndex}"
+        $location.search {}
+        $location.hash null
+        $scope.loadingProblem = false
+      
+    if not $scope.loadingProblems
+      $scope.loadingProblems = true
+      $http.get("/api/problems/info/"
+        params:
+          from: $scope.currentIndex - width
+          to: $scope.currentIndex + width
+      ).success (response) ->
+        $scope.problems = response
+        $scope.problemMap = {}
+        for problem in $scope.problems
+          $scope.problemMap[problem.index] = problem
+        $scope.loadingProblems = false
+      .error (errorResponse) ->
+        console.error "Some error", errorResponse
+
+      $http.get("/api/problems/upcoming/")
+      .success (response) ->
+        $scope.upcomingProblems = response
+      .error (errorResponse) ->
+        console.error "Some error", errorResponse
+
+  loadStuff()
+
+  $scope.$watch (->
+    if $scope.upcomingProblems?
+      for problem in $scope.upcomingProblems
+        if problem.release <= problem.now
+          loadStuff()
+          break
+    null
+  )
+  
+  $scope.makePost = (content) ->
+    d = $q.defer()
+    $http.post("/api/problems/#{$scope.currentIndex}/posts",
+      content: content
+    ).success (response) ->
+      $scope.posts = response
+      for post in $scope.posts
+        post.created_at = new Date post.created_at
+      d.resolve response
+    .error (errorResponse) ->
+      d.reject errorResponse
+    d.promise
+]
+
 momentum.controller 'ProblemsCtrl', [
  '$scope', 'Problem', '$http', 'toastr', '$routeParams', '$location',
  ($scope,   Problem,   $http,   toastr,   $routeParams,   $location) ->
 
   $scope.currentIndex = $routeParams.index
-  $scope.showInactive = $location.search().showinactive
+  $scope.showInactive = $location.search()?.showinactive
 
   loadStuff = ->
     return if $scope.loadingProblems
@@ -205,7 +274,7 @@ momentum.controller 'AllProblemsCtrl', [
  ($scope,   Problem,   $http,   toastr,   $routeParams,   $location) ->
 
   $scope.currentIndex = $routeParams.index
-  $scope.showInactive = $location.search().showinactive
+  $scope.showInactive = $location.search()?.showinactive
 
   loadStuff = ->
     return if $scope.loadingProblems
@@ -272,7 +341,7 @@ momentum.controller 'EditProblemCtrl', [
  ($scope,   Problem,   $routeParams,   $location,   CurrentUser,   $q) ->
   unless CurrentUser.user?.is_admin
     $location.path '/404'
-    $location.search null
+    $location.search {}
     $location.hash null
   $scope.problem = index: $routeParams.index
   Problem.get index: $routeParams.index, (problem) ->
@@ -292,7 +361,7 @@ momentum.controller 'NewProblemCtrl', [
  ($scope,   Problem,   $http,   $location,   CurrentUser,   $q) ->
   unless CurrentUser.user?.is_admin
     $location.path '/404'
-    $location.search null
+    $location.search {}
     $location.hash null
   $scope.problem = {}
   $scope.save = (problem) ->
@@ -303,7 +372,7 @@ momentum.controller 'NewProblemCtrl', [
       console.log $scope.problem, $scope.problem.id
       d.resolve response
       $location.path "/problems/edit/#{$scope.problem.index}"
-      $location.search null
+      $location.search {}
       $location.hash null
     .error (errorResponse) ->
       d.reject errorResponse

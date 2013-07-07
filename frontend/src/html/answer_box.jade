@@ -5,6 +5,11 @@
     .pull-left.answer-value(ng-show="problem.answer == null")
       i.icon-spinner.icon-spin
       |  Loading Answer...
+    .pull-right.answer-links
+      |  Go to problem {{problem.index}} 
+      a(ng-href="#/problems/{{problem.index}}/forum?#") forum
+      |  / 
+      a(ng-href="#/problems/{{problem.index}}/scoreboard?#") scoreboard
   .row-fluid(ng-show="!problem.has_answered && problem.can_answer")
     form.answer-form.form-inline(ng-submit="submit()")
       label Answer:

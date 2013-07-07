@@ -1,0 +1,7 @@
+.post
+  .row-fluid
+    .span3
+      div {{CurrentUser.user.username}}
+    form.span9(ng-submit="submit()")
+      textarea.post-area(ng-model="content", placeholder="Make post")
+      button.btn.btn-primary(type="submit") Post

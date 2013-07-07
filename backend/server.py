@@ -254,7 +254,7 @@ def get_posts(index):
         posts = [post.details() for post in posts.all()]
 
         return json.dumps(posts)
-    return json.dumps([])
+    return 'Forbidden', 403
 
 @app.route('/problems/<int:index>/posts', methods=['POST'], strict_slashes=False)
 @login_required
@@ -264,7 +264,11 @@ def make_post(index):
         post = Post(problem_index=index, content=content, author_id=current_user.id, created_at=datetime.now())
         db_session.add(post)
         db_session.commit()
-        return "OK"
+        posts = Post.query.filter_by(problem_index=index)
+
+        posts = [post.details() for post in posts.all()]
+
+        return json.dumps(posts)
     return 'Forbidden', 403
 
 @app.route('/problems/<int:index>/posts/<int:post_id>', methods=['PUT'], strict_slashes=False)

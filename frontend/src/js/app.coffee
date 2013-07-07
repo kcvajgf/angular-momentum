@@ -26,6 +26,10 @@ momentum.config ["$routeProvider", ($routeProvider) ->
     templateUrl: "/html/problem_scoreboard.html"
     controller: "ScoreboardCtrl"
 
+  $routeProvider.when "/problems/:index/forum",
+    templateUrl: "/html/problem_forum.html"
+    controller: "ForumCtrl"
+
   $routeProvider.when "/problems/:index/edit",
     templateUrl: "/html/admin_problem.html"
     controller: "EditProblemCtrl"
@@ -58,6 +62,6 @@ momentum.config ["$routeProvider", ($routeProvider) ->
 ]
 
 momentum.controller "NotFoundCtrl", ['$location', ($location) ->
-  $location.search null
+  $location.search {}
   $location.hash ''
 ]

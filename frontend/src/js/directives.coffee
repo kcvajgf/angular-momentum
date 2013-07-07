@@ -146,3 +146,26 @@ momentum.directive 'mmScoreboard', [->
       scope.release = new Date release
 
 ]
+
+momentum.directive 'mmPost', [->
+  scope:
+    post: '=mmPost'
+  templateUrl: '/html/post.html'
+  link: (scope, element, attrs) ->
+]
+momentum.directive 'mmMakePost', [->
+  scope:
+    save: '&'
+  templateUrl: '/html/make_post.html'
+  link: (scope, element, attrs) ->
+    scope.submitting = true
+    scope.submit = ->
+      scope.save(content: scope.content).then (result) ->
+        console.log "Success submitting", result
+        scope.content = ''
+        scope.submitting = false
+      , (error) ->
+        console.error "Some error submitting", error
+        scope.submitting = false
+]
+
