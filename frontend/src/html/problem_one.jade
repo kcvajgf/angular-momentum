@@ -3,6 +3,7 @@
   label.checkbox(ng-show="CurrentUser.user.is_admin")
     input(type="checkbox", ng-model="showInactive")
     | Show Inactive
+  a.btn.btn-link(ng-href="#/problems?#") Back to Problems
   div(ng-show="loadingProblem")
     i.icon-spinner.icon-spin
     |  Loading  

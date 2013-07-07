@@ -18,7 +18,13 @@ momentum.filter 'timeFrom', [->
     else if diff <= 1000*60*60*48
       "#{p2(diff / (1000*60*60) >> 0)}:#{p2((diff / (1000*60) >> 0) % 60)}:#{p2((diff / 1000 >> 0) % 60)} remaining"
     else
-      "#{diff / (1000*60*60*24) >> 0} days, #{(diff / (1000*60*60) >> 0) % 24} hours remaining"
+      h = (diff / (1000*60*60) >> 0) % 24
+      if h > 1
+        "#{diff / (1000*60*60*24) >> 0} days, #{h} hours remaining"
+      else if h == 1
+        "#{diff / (1000*60*60*24) >> 0} days, #{h} hour remaining"
+      else
+        "#{diff / (1000*60*60*24) >> 0} days remaining"
 ]
 
 momentum.filter 'timeElapsed', [->

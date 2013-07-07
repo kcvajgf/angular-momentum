@@ -39,9 +39,13 @@ insert into problems(index, title, html, answer, release, is_live) values (38, '
 insert into problems(index, title, html, answer, release, is_live) values (37, 'xy Division', '<div>What is 4 / 2?</div>', '2', '2013-09-06 10:43:05.919402', true);
 insert into problems(index, title, html, answer, release, is_live) values (40, 'xy Modulo', '<div>What is 4 % 3?</div>', '1', '2023-08-06 10:43:05.919402', true);
 
-insert into users(username, email, password, is_admin) values ('kevinsogo', 'kevin@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', true);
-insert into users(username, email, password, is_admin) values ('kevinsogo2', 'kevin2@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false);
-insert into users(username, email, password, is_admin) values ('kevinsogo3', 'kevin3@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false);
+insert into users(username, email, password, is_admin, country) values ('kevinsogo', 'kevin@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', true, 'PH');
+insert into users(username, email, password, is_admin, country) values ('kevinsogo2', 'kevin2@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false, 'PH');
+insert into users(username, email, password, is_admin, country) values ('kevinsogo3', 'kevin3@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false, 'PH');
+insert into users(username, email, password, is_admin, country) values ('kevinsogo4', 'kevin4@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false, 'US');
+insert into users(username, email, password, is_admin, country) values ('kevinsogo5', 'kevin5@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false, 'UK');
+insert into users(username, email, password, is_admin, country) values ('kevinsogo6', 'kevin6@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false, 'UK');
+insert into users(username, email, password, is_admin, country) values ('kevinsogo7', 'kevin7@kevin.com', '5f4dcc3b5aa765d61d8327deb882cf99', false, 'NL');
 
 insert into posts(problem_index, content, author_id, created_at) values (1, 'First post!', 1, current_timestamp);
 insert into posts(problem_index, content, author_id, created_at) values (1, 'Second post!', 2, current_timestamp);

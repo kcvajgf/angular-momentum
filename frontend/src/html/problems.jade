@@ -4,6 +4,7 @@
   label.checkbox(ng-show="CurrentUser.user.is_admin")
     input(type="checkbox", ng-model="showInactive")
     | Show Inactive
+  a.btn.btn-link(ng-href="#/problems/all?#") Show All In One Page
   div(ng-hide="problems.length")
     i.icon-spinner.icon-spin
     |  Loading

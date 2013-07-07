@@ -13,6 +13,14 @@ momentum.config ["$routeProvider", ($routeProvider) ->
   $routeProvider.when "/home",
     templateUrl: "/html/home.html"
 
+  $routeProvider.when "/problems",
+    templateUrl: "/html/problems.html"
+    controller: "ProblemsCtrl"
+    reloadOnSearch: false
+
+  $routeProvider.when "/problems/",
+    redirectTo: "/problems"
+    
   $routeProvider.when "/problems/all",
     templateUrl: "/html/all_problems.html"
     controller: "AllProblemsCtrl"
@@ -37,11 +45,6 @@ momentum.config ["$routeProvider", ($routeProvider) ->
   $routeProvider.when "/problems/:index",
     templateUrl: "/html/problem_one.html"
     controller: "ProblemOneCtrl"
-    reloadOnSearch: false
-
-  $routeProvider.when "/problems",
-    templateUrl: "/html/problems.html"
-    controller: "ProblemsCtrl"
     reloadOnSearch: false
 
   $routeProvider.when "/register",

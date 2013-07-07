@@ -18,6 +18,7 @@ class User(Base, UserMixin):
     email = Column(String(255), index=True)
     password = Column(String)
     problems_solved = relationship("Solved")
+    country = Column(String(255), index=True)
     is_admin = Column(Boolean, index=True)
 
     def solve_count(self):
@@ -29,6 +30,7 @@ class User(Base, UserMixin):
             'email': self.email,
             'is_admin': self.is_admin,
             'solve_count': self.solve_count(),
+            'country': self.country,
         }
 
 class Problem(Base):

@@ -45,8 +45,6 @@ html(ng-app="Momentum")
               ul.nav
                 li
                   a(href='#/problems?#') Problems
-                li
-                  a(href='#/problems/all?#') All Problems
                 li(ng-if="CurrentUser.isLoggedIn()")
                   a(href='#/profile?#') Profile
                 li(ng-if="CurrentUser.isLoggedIn() && CurrentUser.user.is_admin")
