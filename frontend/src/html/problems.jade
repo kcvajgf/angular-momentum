@@ -11,10 +11,10 @@
     tr
       th #
       th Title
-      th Submitted
+      th Solved
       th Solvers
       th Last Post
-    tr(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'", ng-class="{active: problem.index == currentIndex}")
+    tr(ng-repeat="problem in problems | filter: problemFilter | orderBy: 'index'")
       td {{problem.index}}
       td
         a(ng-click="setProblem(problem)") {{problem.title}}

@@ -4,7 +4,7 @@ from flask import Flask, request # This the microframework library we'll use to 
 from flask.ext.login import LoginManager, login_user, logout_user, current_user, login_required
 import sqlalchemy
 from sqlalchemy.sql import func
-from models import User, Problem, Solved
+from models import User, Problem, Solved, Post
 from database import db_session, db_init
 from md5 import md5
 from datetime import datetime
@@ -85,15 +85,15 @@ def get_problems():
     problems = [problem.details(now) for problem in query.all()]
 
     if current_user.is_authenticated():
-        solveds = db_session.query(Solved, Problem).filter_by(user_id=current_user.id).filter(Solved.problem_id == Problem.id)
+        solveds = db_session.query(Solved, Problem).filter_by(user_id=current_user.id).filter(Solved.problem_index == Problem.index)
         if 'from' in request.args:
             solveds = solveds.filter(Problem.index >= request.args['from'])
         if 'to' in request.args:
             solveds = solveds.filter(Problem.index <= request.args['to'])
 
-        solveds = set(s.problem_id for s, p in solveds.all())
+        solveds = set(s.problem_index for s, p in solveds.all())
         for problem in problems:
-            if problem['id'] in solveds:
+            if problem['index'] in solveds:
                 problem['has_answered'] = True
             else:
                 del problem['answer']
@@ -141,20 +141,21 @@ def get_problem_info():
         'index': problem.index,
         'title': problem.title,
         'is_live': problem.is_live,
+        'release': str(problem.release),
         'active': problem.is_active(now),
         'solve_count': problem.solve_count(),
     } for problem in query.all()]
 
     if current_user.is_authenticated():
-        solveds = db_session.query(Solved, Problem).filter_by(user_id=current_user.id).filter(Solved.problem_id == Problem.id)
+        solveds = db_session.query(Solved, Problem).filter_by(user_id=current_user.id).filter(Solved.problem_index == Problem.index)
         if 'from' in request.args:
             solveds = solveds.filter(Problem.index >= request.args['from'])
         if 'to' in request.args:
             solveds = solveds.filter(Problem.index <= request.args['to'])
 
-        solveds = set(s.problem_id for s, p in solveds.all())
+        solveds = set(s.problem_index for s, p in solveds.all())
         for problem in problems:
-            if problem['id'] in solveds:
+            if problem['index'] in solveds:
                 problem['has_answered'] = True
             problem['can_answer'] = True
             problem['can_edit'] = current_user.is_admin
@@ -170,7 +171,7 @@ def get_problem(index):
         problem = problem.details()
         problem['release'] = str(problem['release'])
         if current_user.is_authenticated():
-            if Solved.query.filter_by(user_id=current_user.id, problem_id=problem['id']).count() > 0:
+            if Solved.query.filter_by(user_id=current_user.id, problem_index=problem['index']).count() > 0:
                 problem['has_answered'] = True
             elif not current_user.is_admin:
                 del problem['answer']
@@ -190,8 +191,8 @@ def answer_problem(index):
     problem = Problem.query.filter_by(index=index).first()
     if problem.is_active():
         if answer == problem.answer:
-            if Solved.query.filter_by(user_id=current_user.id, problem_id=problem.id).count() == 0:
-                solved = Solved(user_id=current_user.id, problem_id=problem.id)
+            if Solved.query.filter_by(user_id=current_user.id, problem_index=problem.index).count() == 0:
+                solved = Solved(user_id=current_user.id, created_at=datetime.now(), problem_index=problem.index)
                 db_session.add(solved)
                 db_session.commit()
             return json.dumps({'ok': True, 'correct': True, 'answer': problem.answer})
@@ -243,6 +244,69 @@ def get_current_user():
         return json.dumps({'ok': True, 'user': current_user.details()})
     else:
         return json.dumps({'ok': False})
+
+@app.route('/problems/<int:index>/posts', methods=['GET'], strict_slashes=False)
+@login_required
+def get_posts(index):
+    if current_user.is_admin or Solved.query.filter_by(problem_index=index, user_id=current_user.id).count() > 0:
+        posts = Post.query.filter_by(problem_index=index)
+
+        posts = [post.details() for post in posts.all()]
+
+        return json.dumps(posts)
+    return json.dumps([])
+
+@app.route('/problems/<int:index>/posts', methods=['POST'], strict_slashes=False)
+@login_required
+def make_post(index):
+    if current_user.is_admin or Solved.query.filter_by(problem_index=index, user_id=current_user.id).count() > 0:
+        content = request.json['content']
+        post = Post(problem_index=index, content=content, author_id=current_user.id, created_at=datetime.now())
+        db_session.add(post)
+        db_session.commit()
+        return "OK"
+    return 'Forbidden', 403
+
+@app.route('/problems/<int:index>/posts/<int:post_id>', methods=['PUT'], strict_slashes=False)
+@login_required
+def update_post(index, post_id):
+    if current_user.is_admin or Solved.query.filter_by(problem_index=index, user_id=current_user.id).count() > 0:
+        post = Post.query.get(post_id)
+        if current_user.is_admin or post.author_id == current_user.id:
+            post.content = request.json['content']
+            db_session.add(post)
+            db_session.commit()
+            return "OK"
+    return 'Forbidden', 403
+
+@app.route('/problems/<int:index>/posts/<int:post_id>', methods=['PUT'], strict_slashes=False)
+@login_required
+def delete_post(index, post_id):
+    if current_user.is_admin or Solved.query.filter_by(problem_index=index, user_id=current_user.id).count() > 0:
+        post = Post.query.get(post_id)
+        if current_user.is_admin or post.author_id == current_user.id:
+            Post.query.filter_id(id=post_id).delete()
+            db_session.commit()
+            return "OK"
+    return 'Forbidden', 403
+
+@app.route('/problems/<int:index>/solvers/', methods=['GET'], strict_slashes=False)
+@login_required
+def get_solvers(index):
+    limit = request.args.get('limit', 20)
+    query = db_session.query(User, Solved)
+    query = query.filter(User.id == Solved.user_id)
+    query = query.filter(Solved.problem_index == index)
+    query = query.limit(limit)
+
+    users = [{
+        'created_at': str(solved.created_at),
+        'user': user.details(),
+    } for user, solved in query.all()]
+
+    return json.dumps(users)
+
+
 if __name__ == '__main__':
     print 'Listening on port 8080...'
     app.run(host='0.0.0.0', port=8080, debug=True)

@@ -1,0 +1,12 @@
+#scoreboard.container
+  h3 Problem Scoreboards
+  div(ng-show="loadingProblem")
+    i.icon-spinner.icon-spin
+    |  Loading  
+  .tabbable.tabs-right
+    ul.nav.nav-tabs
+      li.problem-tab(ng-repeat="problem in problems | orderBy: 'index'", ng-class="{active: problem.index == currentIndex}")
+        a(ng-click="setProblem(problem)") {{problem.index}}
+          span(ng-show="!problem.active") *
+    .tab-content(ng-show="!loadingProblem && problemMap[currentIndex] != null")
+      div(mm-scoreboard="problemMap[currentIndex]", solvers="solvers")

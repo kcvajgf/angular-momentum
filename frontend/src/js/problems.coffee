@@ -77,6 +77,61 @@ momentum.controller 'ProblemOneCtrl', [
       $scope.submitting = false
 ]
 
+momentum.controller 'ScoreboardCtrl', [
+ '$scope', 'Problem', '$http', 'toastr', '$routeParams', '$location',
+ ($scope,   Problem,   $http,   toastr,   $routeParams,   $location) ->
+  $scope.currentIndex = parseInt $routeParams.index
+  $scope.showInactive = $location.search().showinactive
+  width = 10
+
+  loadStuff = ->
+    if not $scope.loadingProblem  
+      $scope.loadingProblem = true
+      $http.get("/api/problems/#{$scope.currentIndex}/solvers")
+      .success (response) ->
+        $scope.solvers = response
+        for solver in $scope.solvers
+          solver.created_at = new Date solver.created_at
+        $scope.loadingProblem = false
+      .error (errorResponse) ->
+        console.error "Some error", errorResponse
+        $scope.loadingProblem = false
+      
+    if not $scope.loadingProblems
+      $scope.loadingProblems = true
+      $http.get("/api/problems/info/"
+        params:
+          from: $scope.currentIndex - width
+          to: $scope.currentIndex + width
+      ).success (response) ->
+        $scope.problems = response
+        $scope.problemMap = {}
+        for problem in $scope.problems
+          $scope.problemMap[problem.index] = problem
+        $scope.loadingProblems = false
+      .error (errorResponse) ->
+        console.error "Some error", errorResponse
+
+      $http.get("/api/problems/upcoming/")
+      .success (response) ->
+        $scope.upcomingProblems = response
+      .error (errorResponse) ->
+        console.error "Some error", errorResponse
+
+  loadStuff()
+
+  $scope.$watch (->
+    if $scope.upcomingProblems?
+      for problem in $scope.upcomingProblems
+        if problem.release <= problem.now
+          loadStuff()
+          break
+    null
+  )
+  $scope.setProblem = (problem) ->
+    $location.path "/problems/#{problem.index}/scoreboard/"
+]
+
 momentum.controller 'ProblemsCtrl', [
  '$scope', 'Problem', '$http', 'toastr', '$routeParams', '$location',
  ($scope,   Problem,   $http,   toastr,   $routeParams,   $location) ->

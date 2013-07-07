@@ -7,7 +7,7 @@ from datetime import datetime
 class Solved(Base):
     __tablename__ = "solved"
     user_id = Column(Integer, ForeignKey('users.id'), primary_key=True)
-    problem_id = Column(Integer, ForeignKey('problems.id'), primary_key=True)
+    problem_index = Column(Integer, ForeignKey('problems.index'), primary_key=True)
     created_at = Column(DateTime, index=True)
     problem = relationship("Problem")
 
@@ -36,7 +36,7 @@ class Problem(Base):
     id = Column(Integer, primary_key=True)
     index = Column(Integer, unique=True)
     title = Column(String(255), index=True)
-    html = Column(String)
+    html = Column(Text)
     answer = Column(String(255))
     release = Column(DateTime, index=True)
     is_live = Column(Boolean, index=True)
@@ -55,7 +55,7 @@ class Problem(Base):
         }
 
     def solve_count(self):
-        return db_session.query(Solved).filter_by(problem_id=self.id).count()
+        return db_session.query(Solved).filter_by(problem_index=self.index).count()
 
     def is_active(self, now=None):
         if now is None:
@@ -74,3 +74,19 @@ class Problem(Base):
             now = datetime.now()
         return (cls.is_live == True) & (cls.release > now)
 
+class Post(Base):
+    __tablename__ = "posts"
+    id = Column(Integer, primary_key=True)
+    problem_index = Column(Integer, ForeignKey('problems.index'))
+    content = Column(Text)
+    author_id = Column(Integer, ForeignKey('users.id'))
+    created_at = Column(DateTime)
+
+    def details(self):
+        return {
+            'id': self.id,
+            'problem_index': self.problem_index,
+            'content': self.content,
+            'author': User.query.get(self.author_id).details(),
+            'created_at': str(self.created_at),
+        }

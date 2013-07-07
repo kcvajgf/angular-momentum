@@ -1,6 +1,6 @@
 .problem
   .index 
-    a(ng-show="problem.can_edit", ng-href='#/problems/edit/{{problem.index}}?#') 
+    a(ng-show="problem.can_edit", ng-href='#/problems/{{problem.index}}/edit/?#') 
       i.icon-edit
       span.words  Problem {{problem.index}} 
     span.words(ng-hide="problem.can_edit") 

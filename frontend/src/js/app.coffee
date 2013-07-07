@@ -22,7 +22,11 @@ momentum.config ["$routeProvider", ($routeProvider) ->
     templateUrl: "/html/admin_new_problem.html"
     controller: "NewProblemCtrl"
 
-  $routeProvider.when "/problems/edit/:index",
+  $routeProvider.when "/problems/:index/scoreboard",
+    templateUrl: "/html/problem_scoreboard.html"
+    controller: "ScoreboardCtrl"
+
+  $routeProvider.when "/problems/:index/edit",
     templateUrl: "/html/admin_problem.html"
     controller: "EditProblemCtrl"
 

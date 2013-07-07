@@ -135,3 +135,14 @@ momentum.directive 'mmUpcoming', [->
     scope.$watch 'problem.release', (release) ->
       scope.release = new Date release
 ]
+
+momentum.directive 'mmScoreboard', [->
+  scope:
+    problem: '=mmScoreboard'
+    solvers: '='
+  templateUrl: '/html/scoreboard.html'
+  link: (scope, element, attrs) ->
+    scope.$watch 'problem.release', (release) ->
+      scope.release = new Date release
+
+]
