@@ -17,9 +17,6 @@ momentum.config ["$routeProvider", ($routeProvider) ->
     templateUrl: "/html/problems.html"
     controller: "ProblemsCtrl"
     reloadOnSearch: false
-
-  $routeProvider.when "/problems/",
-    redirectTo: "/problems"
     
   $routeProvider.when "/problems/all",
     templateUrl: "/html/all_problems.html"
