@@ -1,0 +1,31 @@
+#threads.container
+  h3 All Threads
+  div
+    | &nbsp;
+    span(ng-show="loading")
+      i.icon-spinner.icon-spin
+      |  Loading
+  .listing
+    .threads-title
+      .row-fluid
+        .span7 Subject
+        .span1 
+        .span2 Created
+        .span2 Last Message
+    .row-fluid.threads-listing(ng-repeat="thread in threads | orderBy: '-last_updated'")
+      .span6
+        a(ng-href="/#/threads/{{thread.id}}?#") {{thread.subject}}
+        span(ng-hide="hasRead(thread)")
+          | &nbsp;
+          i.icon-file-alt
+      .span1.message-count
+        span(ng-show="thread.messages.length > 1")
+          {{thread.messages.length}} posts 
+      .span3 
+        | {{thread.created|date:"medium"}} 
+        span(ng-show="thread.author")  by 
+          span.author  {{thread.author}}
+      .span2
+        | {{thread.last_message|date:"medium"}} 
+        span(ng-show="thread.last_message_author")  by
+          span.author  {{thread.last_message_author}}

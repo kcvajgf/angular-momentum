@@ -1,0 +1,8 @@
+#problems.container
+  h3 View Thread
+  div
+    | &nbsp;
+    span(ng-show="loading")
+      i.icon-spinner.icon-spin
+      |  Loading
+  div(mm-thread="thread", user="CurrentUser.user", reply="reply(newMessage)", modify="modify(message, newMessage)", scroll-to-message="scrollMessage")

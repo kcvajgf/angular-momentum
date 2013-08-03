@@ -53,6 +53,11 @@ footer.navbar {
     font-weight bold
     font-size 15px
     background-color #eee
+  .subject
+    padding 2px 2px 2px 12px
+    height: 30px
+    width: 95%
+    font-size 15px
   .body
     padding 10px
   .answer
@@ -87,10 +92,17 @@ footer.navbar {
   input[type='text'], input[type='email'], input[type='password']
     height 30px
 
-textarea.html-area
-  min-height 400px
-  width 100%
-
+textarea
+  &.html-area
+    min-height 400px
+    width 100%
+  &.text-area
+    min-height 200px
+    width 100%
+    &.modify
+      min-height 100px
+.textarea-container
+  margin 10px
 .toast-top-center
   top 12px
   left 50%
@@ -107,3 +119,24 @@ textarea.html-area
 @media all and (min-width: 321px) and (max-width: 480px)
   .toast-top-center
     margin-left -96px
+
+
+.listing
+  border 1px solid black
+  margin -1px
+  .threads-title
+    font-weight bold
+    font-size 20px
+    padding 5px
+    background-color #EEE
+
+  .threads-listing
+    padding 0 5px 5px 5px
+    margin-top 20px
+    .message-count
+      text-align right
+
+.author-div
+  padding-right 5px
+.author
+  font-weight bold

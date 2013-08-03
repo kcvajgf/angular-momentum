@@ -1,9 +1,24 @@
 
 momentum = angular.module "Momentum.register", []
 
+momentum.factory 'handleError', ['toastr', (toastr) ->
+  (error, defaultMessage = "Please try again later.") ->
+    switch error.code
+      when "EMAIL_TAKEN"
+        toastr.error "Email already taken."
+      when "INVALID_EMAIL"
+        toastr.error "Invalid email."
+      when "INVALID_PASSWORD"
+        toastr.error "Invalid password."
+      when "INVALID_USER"
+        toastr.error "User doesn't exist."
+      when "USER_DENIED", "UNKNOWN_ERROR", "AUTHENTICATION_DISABLED", "INVALID_FIREBASE", "INVALID_ORIGIN"
+        toastr.info defaultMessage
+      else toastr.info defaultMessage
+]
 momentum.controller 'AuthCtrl', [
- '$scope', 'CurrentUser', '$location', 'toastr',
- ($scope,   CurrentUser,   $location,   toastr) ->
+ '$scope', 'CurrentUser', '$location', 'toastr', 'handleError',
+ ($scope,   CurrentUser,   $location,   toastr,   handleError) ->
   $scope.CurrentUser = CurrentUser
   $scope.logOut = ->
     return if $scope.processingAuth
@@ -14,13 +29,14 @@ momentum.controller 'AuthCtrl', [
       $scope.processingAuth = false
       $location.path '/'
     , (error) ->
+      handleError error, "Log out failed. Please try again later."
       console.error "Error", error
-      toastr.info "Log out failed. Please try again later."
+      
       $scope.processingAuth = false
 ]
 momentum.controller 'RegisterCtrl', [
- '$scope', 'CurrentUser', '$location', 'toastr',
- ($scope,   CurrentUser,   $location,   toastr) ->
+ '$scope', 'CurrentUser', '$location', 'toastr', 'handleError',
+ ($scope,   CurrentUser,   $location,   toastr,   handleError) ->
   $scope.redirectNext = ->
     next = $location.search().next or '/'
     nextSearch = angular.fromJson $location.search().nextSearch or {}
@@ -43,7 +59,7 @@ momentum.controller 'RegisterCtrl', [
       $scope.login.email = $scope.login.password = ''
       $scope.redirectNext()
     , (error) ->
-      toastr.info "Sign up failed. Please try again later."
+      handleError error, "Sign up failed. Please try again later."
       console.error "Error", error
       $scope.processing = false
   $scope.login = ->
@@ -61,8 +77,7 @@ momentum.controller 'RegisterCtrl', [
       $scope.login.email = $scope.login.password = ''
       $scope.redirectNext()
     , (error) ->
-      console.log "Error", error
-      toastr.info "Login failed. Please try again later."
+      handleError error, "Login failed. Please try again later."
       $scope.processing = false
   $scope.loginOrSignup = (type) ->
     console.log "hey", $scope.login

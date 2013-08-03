@@ -7,6 +7,8 @@ momentum.factory 'toastr', [->
 ]
 
 momentum.value 'firebaseURL', 'https://unrealtime-forum.firebaseio.com'
+momentum.value 'firebaseThreadsURL', 'https://unrealtime-forum.firebaseio.com/threads'
+momentum.value 'firebaseUsersURL', 'https://unrealtime-forum.firebaseio.com/users'
 
 momentum.factory 'firebaseRoot', (firebaseURL) ->
   new Firebase firebaseURL
@@ -28,7 +30,7 @@ momentum.factory 'firebaseAuth', (firebaseRoot, $timeout) ->
   auth
 
 momentum.factory 'CurrentUser', [
- '$q', '$http', '$window', '$timeout', 'firebaseAuth', '$rootScope', '$location'
+ '$q', '$http', '$window', '$timeout', 'firebaseAuth', '$rootScope', '$location',
  ($q,   $http,   $window,   $timeout,   firebaseAuth,   $rootScope,   $location) ->
   safeApply = (f) ->
     if $rootScope.$$phase == '$apply' or $rootScope.$$phase = '$digest'
@@ -57,7 +59,7 @@ momentum.factory 'CurrentUser', [
       console.log "signup!!", data
       d = $q.defer()
       firebaseAuth.createUser data.email, data.password, (error, user) =>
-        $rootScope.$apply =>
+        f = =>
           if error
             console.error "Didn't successfully sign up", error
             d.reject error
@@ -67,6 +69,11 @@ momentum.factory 'CurrentUser', [
           else
             console.log "Successfully signed up but no user?!"
             d.reject null
+        if $rootScope.$$phase == '$apply' or $rootScope.$$phase == '$digest'
+          f()
+        else
+          $rootScope.$apply f
+
       d.promise
     logIn: (data) ->
       d = $q.defer()

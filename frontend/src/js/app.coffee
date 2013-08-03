@@ -1,6 +1,6 @@
 
 momentum = angular.module "Momentum", [
-  "Momentum.problems"
+  "Momentum.threads"
   "Momentum.register"
   "Momentum.directives"
   "Momentum.resources"
@@ -17,10 +17,12 @@ momentum.config ["$routeProvider", ($routeProvider) ->
 
   $routeProvider.when "/threads/new",
     templateUrl: "/html/new_thread.html"
+    controller: "NewThreadCtrl"
     reloadOnSearch: false
 
   $routeProvider.when "/threads/:id",
     templateUrl: "/html/thread.html"
+    controller: "ThreadCtrl"
     reloadOnSearch: false
 
   $routeProvider.when "/register",

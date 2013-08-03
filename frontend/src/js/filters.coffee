@@ -1,6 +1,13 @@
 
 momentum = angular.module "Momentum.filters", []
 
+momentum.filter 'reply', [->
+  (subject) ->
+    if "#{subject}".toLowerCase().trim()[...3] == "re:"
+      subject
+    else
+      "Re: #{subject}"
+]
 momentum.filter 'timeFrom', [->
   (dateTo, dateFrom) ->
     to = new Date dateTo
