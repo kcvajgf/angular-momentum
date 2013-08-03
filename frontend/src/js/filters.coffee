@@ -8,6 +8,14 @@ momentum.filter 'reply', [->
     else
       "Re: #{subject}"
 ]
+momentum.filter 'marked', [->
+  converter = new Showdown.converter()
+  (args...) -> 
+    v = converter.makeHtml args...
+    console.log "v=", v
+    v
+]
+
 momentum.filter 'timeFrom', [->
   (dateTo, dateFrom) ->
     to = new Date dateTo

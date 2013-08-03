@@ -2,13 +2,13 @@
   h3 All Threads
   div
     | &nbsp;
-    span(ng-show="loading")
+    span.loading(ng-show="loading")
       i.icon-spinner.icon-spin
       |  Loading
   .listing
     .threads-title
       .row-fluid
-        .span7 Subject
+        .span7 Thread
         .span1 
         .span2 Created
         .span2 Last Message
@@ -18,6 +18,11 @@
         span(ng-hide="hasRead(thread)")
           | &nbsp;
           i.icon-file-alt
+        br
+        span(ng-repeat="name in names(thread)")
+          span(ng-hide="$first || $last") , 
+          span(ng-show="!$first && $last")  and 
+          span.author {{name}}
       .span1.message-count
         span(ng-show="thread.messages.length > 1")
           {{thread.messages.length}} posts 

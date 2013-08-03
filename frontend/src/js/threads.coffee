@@ -23,6 +23,16 @@ momentum.controller 'ThreadsCtrl', [
     else
       console.log "hasRead nO"
     $scope.userData? and $scope.userData["thread_#{thread.id}"] >= thread.last_message
+  $scope.names = (thread) ->
+    console.log "messages", thread.messages
+    allNames = []
+    allNameSet = {}
+    for msg in thread.messages
+      if msg.author not of allNameSet
+        allNameSet[msg.author] = msg
+        allNames.push msg.author
+    console.log "names = ", allNames
+    allNames
 ]
 
 momentum.controller 'ThreadCtrl', [

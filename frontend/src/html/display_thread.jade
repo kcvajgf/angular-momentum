@@ -1,7 +1,7 @@
-.problem
+.thread
   .index
     h3 {{thread.subject}}
-  .problem(ng-repeat="message in thread.messages")
+  .thread(ng-repeat="message in thread.messages")
     .index(mm-scroll-when="scrollToMessage != null && scrollToMessage.id == message.id", done-scroll="clearScroll()")
       a(ng-show="message.author == user.email", ng-click='toggleEditing(message.id)') 
         i.icon-undo(ng-show="editing == message.id && editing != null")
@@ -14,8 +14,8 @@
         |  by
         span.author  {{message.author}}
     .body(ng-hide="editing == message.id && editing != null")
-      | {{message.body}}
-    form.new-problem(ng-submit="_modify(message)", ng-show="editing == message.id && editing != null")
+      div(mm-render="{{message.body}}")
+    form.new-thread(ng-submit="_modify(message)", ng-show="editing == message.id && editing != null")
       textarea.text-area.modify(ng-model="newMessage2.body", placeholder="Message body...")
       div(ng-show="saving")
         i.icon-spinner.icon-spin
@@ -25,7 +25,7 @@
            button.btn.btn-primary(type="submit", ng-disabled="saving") 
             i.icon-save
             |  Save
-  form.new-problem(ng-submit="_reply()", ng-show="thread.created && user != null")
+  form.new-thread(ng-submit="_reply()", ng-show="thread.created && user != null")
     .textarea-container
       h3 Reply
       textarea.text-area(ng-model="newMessage.body", placeholder="Message body...")

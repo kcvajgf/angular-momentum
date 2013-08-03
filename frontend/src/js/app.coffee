@@ -3,7 +3,6 @@ momentum = angular.module "Momentum", [
   "Momentum.threads"
   "Momentum.register"
   "Momentum.directives"
-  "Momentum.resources"
   "Momentum.services"
   "Momentum.filters"
   'firebase'
