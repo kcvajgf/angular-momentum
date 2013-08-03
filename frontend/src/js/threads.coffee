@@ -88,6 +88,7 @@ momentum.controller 'ThreadCtrl', [
         created: today
         last_updated: today
         id: $scope.thread.messages.length
+      $scope.userData?["thread_#{$scope.thread.id}"] = today
       newMessage.body = ''
 ]
 
