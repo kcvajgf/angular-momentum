@@ -1,19 +1,19 @@
 #threads.container
   h3 All Threads
-  div
+  .loading
     | &nbsp;
-    span.loading(ng-show="loading")
+    span(ng-show="loading")
       i.icon-spinner.icon-spin
       |  Loading
   .listing
     .threads-title
       .row-fluid
-        .span7 Thread
+        .span5 Thread
         .span1 
-        .span2 Created
-        .span2 Last Message
+        .span3 Created
+        .span3 Last Message
     .row-fluid.threads-listing(ng-repeat="thread in threads | orderBy: '-last_updated'")
-      .span6
+      .span5
         a(ng-href="/#/threads/{{thread.id}}?#") {{thread.subject}}
         span(ng-hide="hasRead(thread)")
           | &nbsp;
@@ -28,9 +28,11 @@
           {{thread.messages.length}} posts 
       .span3 
         | {{thread.created|date:"medium"}} 
+        br
         span(ng-show="thread.author")  by 
           span.author  {{thread.author}}
-      .span2
+      .span3
         | {{thread.last_message|date:"medium"}} 
+        br
         span(ng-show="thread.last_message_author")  by
           span.author  {{thread.last_message_author}}

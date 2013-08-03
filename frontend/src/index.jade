@@ -27,7 +27,7 @@ html(ng-app="Momentum")
             a.brand(href='#/?#') Unrealtime Forum
             .ng-cloak
               ul.nav
-                li(ng-if="CurrentUser.isLoggedIn()")
+                li
                   a(href='#/threads?#') Threads
                 li(ng-if="CurrentUser.isLoggedIn()")
                   a(href='#/threads/new?#') New Thread
