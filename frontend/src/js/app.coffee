@@ -6,57 +6,42 @@ momentum = angular.module "Momentum", [
   "Momentum.resources"
   "Momentum.services"
   "Momentum.filters"
+  'firebase'
 ]
 
 momentum.config ["$routeProvider", ($routeProvider) ->
 
-  $routeProvider.when "/home",
-    templateUrl: "/html/home.html"
+  $routeProvider.when "/threads",
+    templateUrl: "/html/threads.html"
+    controller: "ThreadsCtrl"
 
-  $routeProvider.when "/problems",
-    templateUrl: "/html/problems.html"
-    controller: "ProblemsCtrl"
-    reloadOnSearch: false
-    
-  $routeProvider.when "/problems/all",
-    templateUrl: "/html/all_problems.html"
-    controller: "AllProblemsCtrl"
+  $routeProvider.when "/threads/new",
+    templateUrl: "/html/new_thread.html"
     reloadOnSearch: false
 
-  $routeProvider.when "/problems/new",
-    templateUrl: "/html/admin_new_problem.html"
-    controller: "NewProblemCtrl"
-
-  $routeProvider.when "/problems/:index/scoreboard",
-    templateUrl: "/html/problem_scoreboard.html"
-    controller: "ScoreboardCtrl"
-
-  $routeProvider.when "/problems/:index/forum",
-    templateUrl: "/html/problem_forum.html"
-    controller: "ForumCtrl"
-
-  $routeProvider.when "/problems/:index/edit",
-    templateUrl: "/html/admin_problem.html"
-    controller: "EditProblemCtrl"
-
-  $routeProvider.when "/problems/:index",
-    templateUrl: "/html/problem_one.html"
-    controller: "ProblemOneCtrl"
+  $routeProvider.when "/threads/:id",
+    templateUrl: "/html/thread.html"
     reloadOnSearch: false
 
   $routeProvider.when "/register",
     templateUrl: "/html/register.html"
     controller: "RegisterCtrl"
 
+  $routeProvider.when "/account",
+    templateUrl: "/html/account.html"
+
   $routeProvider.when "/404",
     templateUrl: "/html/404.html"
     controller: "NotFoundCtrl"
 
+  $routeProvider.when "/home",
+    redirectTo: "/threads"
+
   $routeProvider.when "/",
-    redirectTo: "/home"
+    redirectTo: "/threads"
 
   $routeProvider.when "",
-    redirectTo: "/home"
+    redirectTo: "/threads"
   
   $routeProvider.otherwise redirectTo: "/404"
 ]

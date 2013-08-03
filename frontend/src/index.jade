@@ -19,12 +19,60 @@ html(ng-app="Momentum")
     // CSS from libraries
     link(href='/lib/toastr/toastr.css', rel='stylesheet')
 
+  body(ng-controller="AuthCtrl")
+    #sticky-wrap
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            a.brand(href='#/?#') Unrealtime Board
+            .ng-cloak
+              ul.nav
+                li(ng-if="!CurrentUser.isLoggedIn()")
+                  a(href='#/register?#') Threads
+                li(ng-if="CurrentUser.isLoggedIn()")
+                  a(href='#/threads?#') Threads
+                li(ng-if="CurrentUser.isLoggedIn()")
+                  a(href='#/threads/new?#') New Thread
+              .pull-right(ng-hide="CurrentUser.isLoggedIn()", ng-controller="RegisterCtrl")
+                form.navbar-form.form-inline.navbar-login(ng-submit="login()")
+                  i.icon-spinner.icon-spin(ng-show="processing")
+                  |  
+                  input(type='text', ng-model="login.email", placeholder="Email...")
+                  |  
+                  input(type='password', ng-model="login.password", placeholder="Password...")
+                  |  
+                  button.btn.btn-primary(type='submit', ng-disabled="processing") Login
+                  |  
+                  button.btn(type='button', ng-click="loginOrSignup('signup')", ng-disabled="processing") Sign Up
+              .pull-right(ng-show="CurrentUser.isLoggedIn()")
+                a.btn(href='#/account?#')
+                  i.icon-user
+                  |  {{CurrentUser.user.email}}
+                |  
+                a.btn(ng-click='logOut()') Log out
+      #content.ng-cloak(ng-view)
+      #sticky-push
+    footer.navbar
+      .navbar-inner
+        .container
+          .outer-wrapper
+            .inner-wrapper
+              a.brand(href='#/?#') Solve
+              ul.nav.ng-cloak
+                li
+                  a(href='#/about?#') About
+
     // import the jquery, bootstrap, and Angular JS libraries
     script(src='/lib/jquery-1.9.1.js') 
     script(src='/lib/bootstrap/js/bootstrap.js')
     script(src='/lib/angular-1.1.5/angular.js')
     script(src='/lib/angular-1.1.5/angular-resource.js')
+    script(src='/lib/underscore.js')
     script(src='/lib/toastr/toastr.js')
+    script(src='https://cdn.firebase.com/v0/firebase.js', type='text/javascript')
+    script(src='/lib/angularFire.js', type='text/javascript')
+    script(src='https://cdn.firebase.com/v0/firebase-simple-login.js', type='text/javascript'
+  )
 
     // import the javascript code we created in the /js/ folder
     script(src='/js/app.js', type='text/javascript')
@@ -34,50 +82,3 @@ html(ng-app="Momentum")
     script(src='/js/resources.js', type='text/javascript')
     script(src='/js/services.js', type='text/javascript')
     script(src='/js/filters.js', type='text/javascript')
-
-    // mathjax
-    script(src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML", type="text/javascript")
-  body(ng-controller="AuthCtrl")
-    #sticky-wrap
-      .navbar.navbar-fixed-top
-        .navbar-inner
-          .container
-            a.brand(href='#/?#') Solve
-            div
-              ul.nav
-                li
-                  a(href='#/problems?#') Problems
-                li(ng-if="CurrentUser.isLoggedIn()")
-                  a(href='#/profile?#') Profile
-                li(ng-if="CurrentUser.isLoggedIn() && CurrentUser.user.is_admin")
-                  a(href='#/problems/new?#') New Problem
-              .pull-right(ng-hide="CurrentUser.isLoggedIn()", ng-controller="RegisterCtrl")
-                form.navbar-form.form-inline.navbar-login(ng-submit="login()")
-                  input(type='text', ng-model="login.username", placeholder="Username...")
-                  |  
-                  input(type='password', ng-model="login.password", placeholder="Password...")
-                  |  
-                  button.btn.btn-primary(type='submit', ng-disabled="processing") Login
-                  |  
-                  a.btn(href='#/register?#') Sign up
-              .pull-right(ng-show="CurrentUser.isLoggedIn()")
-                a.btn(href='#/account?#')
-                  i.icon-user
-                  |  {{CurrentUser.user.username}}
-                |  
-                a.btn(ng-click='logOut()') Log out
-      #content(ng-view)
-      #sticky-push
-    footer.navbar
-      .navbar-inner
-        .container
-          .outer-wrapper
-            .inner-wrapper
-              a.brand(href='#/?#') Solve
-              ul.nav
-                li
-                  a(href='#/scoreboard?#') Scoreboard
-                li
-                  a(href='#/statistics?#') Statistics
-                li
-                  a(href='#/news?#') News
