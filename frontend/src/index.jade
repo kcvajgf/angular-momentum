@@ -1,6 +1,6 @@
 html(ng-app="Momentum")
   head
-    title Unrealtime Forum
+    title Typeeng
 
     // import the bootstrap stylesheets
     link(href='/lib/flatstrap/css/bootstrap.css', rel='stylesheet')
@@ -19,46 +19,26 @@ html(ng-app="Momentum")
     // CSS from libraries
     link(href='/lib/toastr/toastr.css', rel='stylesheet')
 
-  body(ng-controller="AuthCtrl")
+  body(ng-controller="GlobalCtrl")
     #sticky-wrap
       .navbar.navbar-fixed-top
         .navbar-inner
           .container
-            a.brand(href='#/?#') Unrealtime Forum
+            a.brand(href='#/?#') Typeeng
             .ng-cloak
               ul.nav
                 li
-                  a(href='#/threads?#') Threads
-                li(ng-if="CurrentUser.isLoggedIn()")
-                  a(href='#/threads/new?#') New Thread
-              .pull-right(ng-hide="CurrentUser.isLoggedIn()", ng-controller="RegisterCtrl")
-                form.navbar-form.form-inline.navbar-login(ng-submit="login()")
-                  i.icon-spinner.icon-spin(ng-show="processing")
-                  |  
-                  input(type='text', ng-model="login.email", placeholder="Email...")
-                  |  
-                  input(type='password', ng-model="login.password", placeholder="Password...")
-                  |  
-                  button.btn.btn-primary(type='submit', ng-disabled="processing") Login
-                  |  
-                  button.btn(type='button', ng-click="loginOrSignup('signup')", ng-disabled="processing") Sign Up
-              .pull-right(ng-show="CurrentUser.isLoggedIn()")
-                a.btn(href='#/account?#')
-                  i.icon-user
-                  |  {{CurrentUser.user.email}}
-                |  
-                a.btn(ng-click='logOut()') Log out
-      #content.ng-cloak(ng-view)
-      #sticky-push
-    footer.navbar
-      .navbar-inner
-        .container
-          .outer-wrapper
-            .inner-wrapper
-              a.brand(href='#/?#') Unrealtime Forum
-              ul.nav.ng-cloak
+                  a(href='#/home?#') Start
                 li
                   a(href='#/about?#') About
+              .pull-right
+                .btn.btn-link
+                  i.icon-user
+                  |  {{CurrentUser.name || "Guest"}}
+                |  
+                // a.btn(ng-click='logOut()') Foo
+      #content.ng-cloak(ng-view)
+      #sticky-push
 
     // import the jquery, bootstrap, and Angular JS libraries
     script(src='/lib/jquery-1.9.1.js') 
@@ -74,8 +54,7 @@ html(ng-app="Momentum")
 
     // import the javascript code we created in the /js/ folder
     script(src='/js/app.js', type='text/javascript')
-    script(src='/js/threads.js', type='text/javascript')
+    script(src='/js/game.js', type='text/javascript')
     script(src='/js/directives.js', type='text/javascript')
-    script(src='/js/register.js', type='text/javascript')
     script(src='/js/services.js', type='text/javascript')
     script(src='/js/filters.js', type='text/javascript')

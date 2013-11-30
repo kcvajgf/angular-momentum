@@ -1,0 +1,117 @@
+README.mascSenseIA.rounds2-5.data.round5
+
+The data files are in the format required by Ron Artstein's
+calculate-alpha.perl script
+
+From his script documentation:
+### <data-file> is a tab-separated text file: the first line is
+### annotator id's separated by tabs, and subsequent lines are
+### annotation data, with each line representing a single item, and
+### individual values separated by tabs. Values must be numeric;
+
+annotators: 107, 109
+sentences: N=50 per word; see round4-become-v-sentences.txt, etc.
+words (N=10): become-v, byzantine-j, force-n, greek-j, island-n, part-n, people-n, power-n, transfer-v, write-v
+senses become-v:
+ masc_sense_id | wn_sensenum |     wn_sense     
+---------------+-------------+------------------
+           101 |           1 | become%2:30:00::
+           102 |           2 | become%2:42:01::
+           103 |           3 | become%2:42:00::
+           104 |           4 | become%2:42:03::
+           999 |         999 | GLOB
+senses byzantine-j:
+ masc_sense_id | wn_sensenum |           wn_sense           
+---------------+-------------+------------------------------
+           101 |           1 | byzantine%3:01:01::
+           102 |           2 | byzantine%3:01:00::
+           103 |           3 | byzantine%5:00:00:complex:00
+           999 |         999 | GLOB
+senses force-n:
+---------------+-------------+--------------------------
+           101 |           1 | force%1:07:01::
+           102 |           2 | force%1:19:00::
+           103 |           3 | forcefulness%1:07:00::
+           104 |           4 | force%1:14:00::
+           105 |           5 | military_force%1:14:00::
+           106 |           6 | force%1:04:01::
+           107 |           7 | force%1:18:00::
+           108 |           8 | force%1:14:02::
+           109 |           9 | force%1:07:02::
+           110 |          10 | force_play%1:04:00::
+           999 |         999 | GLOB
+senses greek-j:
+ masc_sense_id | wn_sensenum |    wn_sense     
+---------------+-------------+-----------------
+           101 |           1 | greek%3:01:01::
+           999 |         999 | GLOB
+senses island-n:
+ masc_sense_id | wn_sensenum |     wn_sense     
+---------------+-------------+------------------
+           101 |           1 | island%1:17:00::
+           102 |           2 | island%1:06:00::
+           999 |         999 | GLOB
+senses part-n:
+ masc_sense_id | wn_sensenum |     wn_sense      
+---------------+-------------+-------------------
+           101 |           1 | part%1:24:00::
+           102 |           2 | part%1:06:00::
+           103 |           3 | part%1:17:00::
+           104 |           4 | part%1:09:02::
+           105 |           5 | part%1:15:00::
+           106 |           6 | part%1:04:01::
+           107 |           7 | part%1:09:01::
+           108 |           8 | part%1:21:00::
+           109 |           9 | part%1:09:00::
+           110 |          10 | parting%1:08:00::
+           111 |          11 | part%1:10:00::
+           112 |          12 | part%1:04:03::
+           113 |          13 | part%1:06:01::
+           999 |         999 | GLOB
+senses people-n:
+ masc_sense_id | wn_sensenum |     wn_sense     
+---------------+-------------+------------------
+           101 |           1 | people%1:14:00::
+           102 |           2 | people%1:14:01::
+           103 |           3 | people%1:14:02::
+           104 |           4 | people%1:14:03::
+           999 |         999 | GLOB
+senses power-n:
+ masc_sense_id | wn_sensenum |        wn_sense        
+---------------+-------------+------------------------
+           101 |           1 | powerfulness%1:07:00::
+           102 |           2 | power%1:19:00::
+           103 |           3 | power%1:09:01::
+           104 |           4 | power%1:26:00::
+           105 |           5 | power%1:18:00::
+           106 |           6 | power%1:10:00::
+           107 |           7 | power%1:07:02::
+           108 |           8 | world_power%1:14:00::
+           109 |           9 | power%1:19:01::
+           110 |          10 | power%1:18:01::
+           999 |         999 | GLOB
+senses transfer-v:
+ masc_sense_id | wn_sensenum |      wn_sense      
+---------------+-------------+--------------------
+           101 |           1 | transfer%2:41:00::
+           102 |           2 | transfer%2:40:01::
+           103 |           3 | transfer%2:38:05::
+           104 |           4 | transfer%2:38:00::
+           105 |           5 | transfer%2:40:00::
+           106 |           6 | transfer%2:38:02::
+           107 |           7 | transfer%2:35:00::
+           108 |           8 | transfer%2:38:01::
+           109 |           9 | transfer%2:30:00::
+           999 |         999 | GLOB
+senses write-v:
+ masc_sense_id | wn_sensenum |    wn_sense     
+---------------+-------------+-----------------
+           101 |           1 | write%2:36:00::
+           102 |           2 | write%2:32:00::
+           103 |           3 | write%2:32:08::
+           104 |           4 | write%2:36:04::
+           105 |           5 | write%2:36:01::
+           106 |           6 | write%2:32:03::
+           107 |           7 | write%2:36:03::
+           108 |           8 | write%2:36:10::
+           999 |         999 | GLOB

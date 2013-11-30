@@ -1,0 +1,12 @@
+word	alpha
+----	-----
+become-v	1.00
+byzantine-j	0.959
+force-n		0.838
+greek-j		0.705
+island-n	0.674
+part-n		0.861
+people-n	0.967
+power-n		0.265
+transfer-v	-0.0939
+write-v		0.097

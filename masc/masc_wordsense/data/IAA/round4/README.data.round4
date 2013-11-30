@@ -1,0 +1,120 @@
+README.mascSenseIA.rounds2-5.data.round4
+
+The data files are in the format required by Ron Artstein's
+calculate-alpha.perl script
+
+From his script documentation:
+### <data-file> is a tab-separated text file: the first line is
+### annotator id's separated by tabs, and subsequent lines are
+### annotation data, with each line representing a single item, and
+### individual values separated by tabs. Values must be numeric;
+
+annotators: 101, 102
+sentences: N=varies with word; see round4-curious-j-sentences.txt, etc.
+words (N=13): curious-j, entitle-v, exercise-n, exercise-v, mature-v, maturity-n, officer-n, rate-n, smart-j, succeed-v, success-n, succession-n, suspicious-j
+senses curious-j:
+ masc_sense_id | wn_sensenum |          wn_sense          
+---------------+-------------+----------------------------
+           101 |           1 | curious%5:00:00:strange:00
+           102 |           2 | curious%3:00:00::
+           999 |         999 | GLOB
+senses entitle-v:
+ masc_sense_id | wn_sensenum |     wn_sense      
+---------------+-------------+-------------------
+           101 |           1 | entitle%2:41:00::
+           102 |           2 | entitle%2:32:00::
+           103 |           3 | entitle%2:41:01::
+           999 |         999 | GLOB
+senses exercise-n:
+ masc_sense_id | wn_sensenum |          wn_sense           
+---------------+-------------+-----------------------------
+           101 |           1 | physical_exercise%1:04:00::
+           102 |           2 | exercise%1:04:03::
+           103 |           3 | exercise%1:04:02::
+           104 |           4 | exercise%1:04:01::
+           105 |           5 | exercise%1:11:01::
+           999 |         999 | GLOB
+senses exercise-v:
+ masc_sense_id | wn_sensenum |      wn_sense      
+---------------+-------------+--------------------
+           101 |           1 | exercise%2:34:00::
+           102 |           2 | exercise%2:41:00::
+           103 |           3 | exercise%2:29:01::
+           104 |           4 | exercise%2:29:00::
+           105 |           5 | exercise%2:31:00::
+           999 |         999 | GLOB
+senses mature-v:
+ masc_sense_id | wn_sensenum |     wn_sense     
+---------------+-------------+------------------
+           101 |           1 | mature%2:30:00::
+           102 |           2 | mature%2:32:00::
+           103 |           3 | mature%2:30:03::
+           104 |           4 | mature%2:30:04::
+           105 |           5 | mature%2:30:01::
+           106 |           6 | mature%2:29:04::
+           999 |         999 | GLOB
+senses maturity-n:
+ masc_sense_id | wn_sensenum |        wn_sense         
+---------------+-------------+-------------------------
+           101 |           1 | maturity%1:28:00::
+           102 |           2 | maturity%1:26:00::
+           103 |           3 | maturity_date%1:28:00::
+           999 |         999 | GLOB
+senses officer-n:
+ masc_sense_id | wn_sensenum |         wn_sense         
+---------------+-------------+--------------------------
+           101 |           1 | officer%1:18:03::
+           102 |           2 | officer%1:18:02::
+           103 |           3 | police_officer%1:18:00::
+           104 |           4 | ship's_officer%1:18:00::
+           999 |         999 | GLOB
+senses rate-n:
+ masc_sense_id | wn_sensenum |    wn_sense    
+---------------+-------------+----------------
+           101 |           1 | rate%1:28:00::
+           102 |           2 | rate%1:21:00::
+           103 |           3 | rate%1:07:00::
+           104 |           4 | rate%1:24:00::
+           999 |         999 | GLOB
+senses smart-j:
+ masc_sense_id | wn_sensenum |           wn_sense           
+---------------+-------------+------------------------------
+           101 |           1 | smart%3:00:00::
+           102 |           2 | smart%5:00:00:stylish:00
+           103 |           3 | smart%5:00:00:intelligent:00
+           104 |           4 | smart%5:00:00:forward:02
+           105 |           5 | smart%5:00:00:intense:00
+           106 |           6 | smart%5:00:00:fast:01
+           107 |           7 | smart%5:00:00:automatic:00
+           999 |         999 | GLOB
+senses succeed-v:
+ masc_sense_id | wn_sensenum |     wn_sense      
+---------------+-------------+-------------------
+           101 |           1 | succeed%2:41:00::
+           102 |           2 | succeed%2:41:01::
+           999 |         999 | GLOB
+senses success-n:
+ masc_sense_id | wn_sensenum |     wn_sense      
+---------------+-------------+-------------------
+           101 |           1 | success%1:11:00::
+           102 |           2 | success%1:04:00::
+           103 |           3 | success%1:26:00::
+           104 |           4 | success%1:18:00::
+           999 |         999 | GLOB
+senses succession-n:
+ masc_sense_id | wn_sensenum |       wn_sense       
+---------------+-------------+----------------------
+           101 |           1 | succession%1:07:00::
+           102 |           2 | succession%1:14:00::
+           103 |           3 | succession%1:04:00::
+           104 |           4 | succession%1:22:00::
+           105 |           5 | succession%1:04:01::
+           999 |         999 | GLOB
+senses suspicious-j:
+ masc_sense_id | wn_sensenum |              wn_sense              
+---------------+-------------+------------------------------------
+           101 |           1 | suspicious%5:00:00:distrustful:00
+           102 |           2 | suspicious%5:00:00:questionable:00
+           999 |         999 | GLOB
+
+

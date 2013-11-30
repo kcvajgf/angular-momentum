@@ -1,0 +1,144 @@
+-----------------------------
+ROUND 3 - FULL SET ANNOTATION
+-----------------------------
+
+   WORDS (N=10) : 
+
+   SENSE INVENTORY
+   ---------------
+   
+   	wn-3.1 sense  |   wn-sense-key
+  	--------------+---------------------------------------
+  	CHANCE, noun
+  	         1    |   chance%1:26:00::
+  	         2    |   chance%1:19:00::
+  	         3    |   chance%1:04:00::
+  	         4    |   chance%1:07:00::
+  	         5    |   chance%1:26:01::
+  	--------------+---------------------------------------
+  	COOL, adj
+  	         1    |   cool%3:00:01::
+  	         2    |   coolheaded%5:00:00:composed:00
+  	         3    |   cool%3:00:03::
+  	         4    |   cool%3:00:02::
+  	         5    |   cool%5:00:00:unqualified:02
+  	         6    |   cool%5:00:00:fashionable:00
+  	--------------+---------------------------------------
+  	FAMILIAR, adj
+  	         1    |   familiar%3:00:00::
+  	         2    |   familiar%3:00:02::
+  	         3    |   familiar%5:00:00:informed:00
+  	         4    |   familiar%5:00:00:close:02
+  	--------------+---------------------------------------
+  	FORGET, verb
+  	         1    |   forget%2:31:01::
+  	         2    |   forget%2:31:00::
+  	         3    |   forget%2:31:03::
+  	         4    |   forget%2:31:02::
+  	--------------+---------------------------------------
+  	JUICE, noun
+  	         1    |   juice%1:13:00::
+  	         2    |   juice%1:26:00::
+  	         3    |   juice%1:19:00::
+  	         4    |   juice%1:08:00::
+  	--------------+---------------------------------------
+  	JUSTIFY, verb
+  	         1    |   justify%2:32:00::
+  	         2    |   justify%2:32:04::
+  	         3    |   justify%2:30:00::
+  	--------------+---------------------------------------
+  	PLAYER, noun
+  	         1    |   player%1:18:01::
+  	         2    |   player%1:18:02::
+  	         3    |   role_player%1:18:00::
+  	         4    |   player%1:18:04::
+  	         5    |   player%1:18:03::
+  	--------------+---------------------------------------
+  	RAPID, adj
+  	         1    |   rapid%5:00:00:fast:01
+  	         2    |   rapid%5:00:02:fast:01
+  	--------------+---------------------------------------
+  	RIP, verb
+  	         1    |   rip%2:35:00::
+  	         2    |   rip%2:38:00::
+  	         3    |   rip%2:35:01::
+  	         4    |   rip_off%2:40:00::
+  	         5    |   rip%2:32:00::
+  	--------------+---------------------------------------
+  	TRY, verb
+  	         1    |   try%2:41:00::
+  	         2    |   try_out%2:41:00::
+  	         3    |   try%2:41:06::
+  	         4    |   try_out%2:34:00::
+  	         5    |   try%2:41:05::
+  	         6    |   try%2:37:01::
+  	         7    |   try%2:37:00::
+  	         8    |   try%2:30:00::
+  	         9    |   try_on%2:29:00::  
+   
+   
+
+   ANNOTATION SUMMARY
+   ------------------
+    
+	Word:	chance
+	Pos:	n
+	WNSenses:	5
+	WNSensesUsed:	5 
+	Total Number Occurrences: 983
+
+	Word:	cool
+	Pos:	j
+	WNSenses:	6
+	WNSensesUsed:	5 
+	Total Number Occurrences: 54
+
+  	Word:	familiar
+  	Pos:	j
+  	WNSenses:	 4	
+  	WNSensesUsed:	4
+	Total Number Occurrences: 850
+
+	Word:	forget
+	Pos:	v
+	WNSenses:	4
+	WNSensesUsed:	4 
+	Total Number Occurrences: 953
+
+	Word:	juice
+	Pos:	n
+	WNSenses:	4
+	WNSensesUsed:	4 
+	Total Number Occurrences: 131
+
+	Word:	justify
+	Pos:	v
+	WNSenses:	5
+	WNSensesUsed:	3
+	Total Number Occurrences: 268
+
+	Word:	player
+	Pos:	n
+	WNSenses:	5
+	WNSensesUsed:	5 
+	Total Number Occurrences: 915
+
+	Word:	rapid
+	Pos:	j
+	WNSenses:	2
+	WNSensesUsed:	2 
+	Total Number Occurrences: 665 
+
+	Word:	rip
+	Pos:	v
+	WNSenses:	4
+	WNSensesUsed:	4 
+	Total Number Occurrences: 88
+
+	Word:	try
+	Pos:	v
+	WNSenses:	9
+	WNSensesUsed:	7 
+	Total Number Occurrences: 992
+
+    TOTAL NUMBER OF OCCURRENCES: 5899

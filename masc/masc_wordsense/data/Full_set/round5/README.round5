@@ -1,0 +1,158 @@
+-----------------------------
+ROUND 5 - FULL SET ANNOTATION
+-----------------------------
+
+   WORDS (N=10) : 
+
+   SENSE INVENTORY
+   ---------------
+     	wn-3.1 sense  |   wn-sense-key
+  	--------------+---------------------------------------
+  	BECOME, verb
+  	         1    |   become%2:30:00::
+  	         2    |   become%2:42:01::
+  	         3    |   become%2:42:00::
+  	         4    |   become%2:42:03::
+  	--------------+---------------------------------------
+  	BYZANTINE, adj
+  	         1    |   byzantine%3:01:01::
+  	         2    |   byzantine%3:01:00::
+  	         3    |   byzantine%5:00:00:complex:00
+  	--------------+---------------------------------------
+  	FORCE, noun
+  	         1    |   force%1:07:01::
+  	         2    |   force%1:19:00::
+  	         3    |   forcefulness%1:07:00::
+  	         4    |   force%1:14:00::
+  	         5    |   military_force%1:14:00::
+  	         6    |   force%1:04:01::
+  	         7    |   force%1:18:00::
+  	         8    |   force%1:14:02::
+  	         9    |   force%1:07:02::
+  	        10    |   force_play%1:04:00::
+  	--------------+---------------------------------------
+  	GREEK, adj
+  	         1    |   greek%3:01:01::
+  	--------------+---------------------------------------
+  	ISLAND, noun
+  	         1    |   island%1:17:00::
+  	         2    |   island%1:06:00::
+  	--------------+---------------------------------------
+  	PART, noun
+  	         1    |   part%1:24:00::
+  	         2    |   part%1:06:00::
+  	         3    |   part%1:17:00::
+  	         4    |   part%1:09:02::
+  	         5    |   part%1:15:00::
+  	         6    |   part%1:04:01::
+  	         7    |   part%1:09:01::
+  	         8    |   part%1:21:00::
+  	         9    |   part%1:09:00::
+  	        10    |   parting%1:08:00::
+  	        11    |   part%1:10:00::
+  	        12    |   part%1:04:03::
+  	        13    |   part%1:06:01::
+  	--------------+---------------------------------------
+  	PEOPLE, noun
+  	         1    |   people%1:14:00::
+  	         2    |   people%1:14:01::
+  	         3    |   people%1:14:02::
+  	         4    |   people%1:14:03::
+  	--------------+---------------------------------------
+  	POWER, noun
+  	         1    |   powerfulness%1:07:00::
+  	         2    |   power%1:19:00::
+  	         3    |   power%1:09:01::
+  	         4    |   power%1:26:00::
+  	         5    |   power%1:18:00::
+  	         6    |   power%1:10:00::
+  	         7    |   power%1:07:02::
+  	         8    |   world_power%1:14:00::
+  	         9    |   power%1:19:01::
+  	        10    |   power%1:18:01::
+  	--------------+---------------------------------------
+  	TRANSFER, verb
+  	         1    |   transfer%2:41:00::
+  	         2    |   transfer%2:40:01::
+  	         3    |   transfer%2:38:05::
+  	         4    |   transfer%2:38:00::
+  	         5    |   transfer%2:40:00::
+  	         6    |   transfer%2:38:02::
+  	         7    |   transfer%2:35:00::
+  	         8    |   transfer%2:38:01::
+  	         9    |   transfer%2:30:00::
+  	--------------+---------------------------------------
+  	WRITE, verb
+  	         1    |   write%2:36:00::
+  	         2    |   write%2:32:00::
+  	         3    |   write%2:32:08::
+  	         4    |   write%2:36:04::
+  	         5    |   write%2:36:01::
+  	         6    |   write%2:32:03::
+  	         7    |   write%2:36:03::
+  	         8    |   write%2:36:10::
+
+   
+   ANNOTATION SUMMARY
+   ------------------   	    
+	Word:	become
+	Pos:	v
+	WNSenses:	4
+	WNSensesUsed:	3 
+	Total Number Occurrences: 968
+
+  	Word:	byzantine
+  	Pos:	j
+  	WNSenses:	 3
+  	WNSensesUsed:	3
+	Total Number Occurrences: 117
+
+	Word:	force
+	Pos:	n
+	WNSenses:	10
+	WNSensesUsed:	8 
+	Total Number Occurrences: 711
+
+	Word:	greek
+	Pos:	j
+	WNSenses:	1
+	WNSensesUsed:	1 
+	Total Number Occurrences: 604
+
+	Word:	island
+	Pos:	n
+	WNSenses:	2
+	WNSensesUsed:	2 
+	Total Number Occurrences: 987
+
+	Word:	part
+	Pos:	n
+	WNSenses:	13
+	WNSensesUsed:	8 
+	Total Number Occurrences: 574
+
+	Word:	people
+	Pos:	n
+	WNSenses:	4
+	WNSensesUsed:	3 
+	Total Number Occurrences: 953
+
+  	Word:	power
+  	Pos:	n
+  	WNSenses	10		
+  	WNSensesUsed:	8			
+	Total Number Occurrences: 969
+
+  	Word:	transfer
+  	Pos:	v
+  	WNSenses:	9		
+  	WNSensesUsed:	6
+	Total Number Occurrences: 820
+
+  	Word:	write
+  	Pos:	v
+  	WNSenses:	8		
+  	WNSensesUsed:	8
+	Total Number Occurrences: 982
+
+TOTAL NUMBER OF OCCURRENCES: 7685

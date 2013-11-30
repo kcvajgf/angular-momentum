@@ -1,0 +1,16 @@
+A script to calculate Alpha, by Ron Artstein, has been included here
+(version 1.20, 2010-02-17; see
+http://ron.artstein.org/resources/calculate-alpha.perl).
+
+This script can also calculate confidence intervals for Alpha, and for
+N annotators > 2, it will also calculate Alpha for all subsets of
+annotators from 2 to N. It does not use distance metrics.
+
+To compute the Alpha scores for the round5 data where annotators could
+assign a set of WordNet senses, we use a script by Becky Passonneau
+that incorporates MASI, a set-based distance metric (Passonneau,
+2006).  The latter script is not ready for public distribution, but
+Becky Passonneau is working with Jim Lemon to add masi to his irr
+package for the R statistical package. (The irr package is available
+at http://cran.r-project.org/web/packages/irr/.)
+

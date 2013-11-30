@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="s" occurs="118"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="wn_r0" anchors="0 290"/>
+    <region xml:id="wn_r1" anchors="292 522"/>
+    <region xml:id="wn_r2" anchors="524 749"/>
+    <region xml:id="wn_r3" anchors="751 1052"/>
+    <region xml:id="wn_r4" anchors="1054 1079"/>
+    <region xml:id="wn_r5" anchors="1081 1223"/>
+    <region xml:id="wn_r6" anchors="1225 1352"/>
+    <region xml:id="wn_r7" anchors="1354 1519"/>
+    <region xml:id="wn_r8" anchors="1521 1645"/>
+    <region xml:id="wn_r9" anchors="1647 1752"/>
+    <region xml:id="wn_r10" anchors="1754 1874"/>
+    <region xml:id="wn_r11" anchors="1876 2059"/>
+    <region xml:id="wn_r12" anchors="2061 2208"/>
+    <region xml:id="wn_r13" anchors="2210 2320"/>
+    <region xml:id="wn_r14" anchors="2322 2426"/>
+    <region xml:id="wn_r15" anchors="2428 2558"/>
+    <region xml:id="wn_r16" anchors="2560 2785"/>
+    <region xml:id="wn_r17" anchors="2787 2989"/>
+    <region xml:id="wn_r18" anchors="2991 3193"/>
+    <region xml:id="wn_r19" anchors="3195 3421"/>
+    <region xml:id="wn_r20" anchors="3423 3667"/>
+    <region xml:id="wn_r21" anchors="3669 3801"/>
+    <region xml:id="wn_r22" anchors="3803 4068"/>
+    <region xml:id="wn_r23" anchors="4070 4195"/>
+    <region xml:id="wn_r24" anchors="4197 4468"/>
+    <region xml:id="wn_r25" anchors="4470 4651"/>
+    <region xml:id="wn_r26" anchors="4653 4791"/>
+    <region xml:id="wn_r27" anchors="4793 5046"/>
+    <region xml:id="wn_r28" anchors="5048 5288"/>
+    <region xml:id="wn_r29" anchors="5290 5408"/>
+    <region xml:id="wn_r30" anchors="5410 5564"/>
+    <region xml:id="wn_r31" anchors="5566 5899"/>
+    <region xml:id="wn_r32" anchors="5901 6068"/>
+    <region xml:id="wn_r33" anchors="6070 6220"/>
+    <region xml:id="wn_r34" anchors="6222 6308"/>
+    <region xml:id="wn_r35" anchors="6310 6413"/>
+    <region xml:id="wn_r36" anchors="6415 6486"/>
+    <region xml:id="wn_r37" anchors="6488 6561"/>
+    <region xml:id="wn_r38" anchors="6563 6825"/>
+    <region xml:id="wn_r39" anchors="6827 6877"/>
+    <region xml:id="wn_r40" anchors="6879 6990"/>
+    <region xml:id="wn_r41" anchors="6992 7172"/>
+    <region xml:id="wn_r42" anchors="7174 7344"/>
+    <region xml:id="wn_r43" anchors="7346 7590"/>
+    <region xml:id="wn_r44" anchors="7592 7817"/>
+    <region xml:id="wn_r45" anchors="7819 8025"/>
+    <region xml:id="wn_r46" anchors="8027 8364"/>
+    <region xml:id="wn_r47" anchors="8366 8433"/>
+    <region xml:id="wn_r48" anchors="8435 8576"/>
+    <region xml:id="wn_r49" anchors="8578 8931"/>
+    <region xml:id="wn_r50" anchors="8933 9212"/>
+    <region xml:id="wn_r51" anchors="9214 9540"/>
+    <region xml:id="wn_r52" anchors="9542 9675"/>
+    <region xml:id="wn_r53" anchors="9677 9905"/>
+    <region xml:id="wn_r54" anchors="9907 10098"/>
+    <region xml:id="wn_r55" anchors="10100 10323"/>
+    <region xml:id="wn_r56" anchors="10325 10509"/>
+    <region xml:id="wn_r57" anchors="10511 10891"/>
+    <region xml:id="wn_r58" anchors="10893 11152"/>
+    <region xml:id="wn_r59" anchors="11154 11227"/>
+    <region xml:id="wn_r60" anchors="11229 11545"/>
+    <region xml:id="wn_r61" anchors="11547 11789"/>
+    <region xml:id="wn_r62" anchors="11791 11996"/>
+    <region xml:id="wn_r63" anchors="11998 12199"/>
+    <region xml:id="wn_r64" anchors="12201 12311"/>
+    <region xml:id="wn_r65" anchors="12313 12713"/>
+    <region xml:id="wn_r66" anchors="12715 12835"/>
+    <region xml:id="wn_r67" anchors="12837 12973"/>
+    <region xml:id="wn_r68" anchors="12975 13278"/>
+    <region xml:id="wn_r69" anchors="13280 13381"/>
+    <region xml:id="wn_r70" anchors="13383 13510"/>
+    <region xml:id="wn_r71" anchors="13512 13803"/>
+    <region xml:id="wn_r72" anchors="13805 13876"/>
+    <region xml:id="wn_r73" anchors="13878 14193"/>
+    <region xml:id="wn_r74" anchors="14195 14352"/>
+    <region xml:id="wn_r75" anchors="14354 14657"/>
+    <region xml:id="wn_r76" anchors="14659 14723"/>
+    <region xml:id="wn_r77" anchors="14725 14919"/>
+    <region xml:id="wn_r78" anchors="14921 15084"/>
+    <region xml:id="wn_r79" anchors="15086 15105"/>
+    <region xml:id="wn_r80" anchors="15107 15263"/>
+    <region xml:id="wn_r81" anchors="15265 15478"/>
+    <region xml:id="wn_r82" anchors="15480 15678"/>
+    <region xml:id="wn_r83" anchors="15680 15839"/>
+    <region xml:id="wn_r84" anchors="15841 15909"/>
+    <region xml:id="wn_r85" anchors="15911 16172"/>
+    <region xml:id="wn_r86" anchors="16174 16279"/>
+    <region xml:id="wn_r87" anchors="16281 16563"/>
+    <region xml:id="wn_r88" anchors="16565 16689"/>
+    <region xml:id="wn_r89" anchors="16691 16942"/>
+    <region xml:id="wn_r90" anchors="16944 16999"/>
+    <region xml:id="wn_r91" anchors="17001 17131"/>
+    <region xml:id="wn_r92" anchors="17133 17465"/>
+    <region xml:id="wn_r93" anchors="17467 17736"/>
+    <region xml:id="wn_r94" anchors="17738 17939"/>
+    <region xml:id="wn_r95" anchors="17941 18120"/>
+    <region xml:id="wn_r96" anchors="18122 18450"/>
+    <region xml:id="wn_r97" anchors="18452 18710"/>
+    <region xml:id="wn_r98" anchors="18712 18975"/>
+    <region xml:id="wn_r99" anchors="18977 19486"/>
+    <region xml:id="wn_r100" anchors="19488 19614"/>
+    <region xml:id="wn_r101" anchors="19616 19885"/>
+    <region xml:id="wn_r102" anchors="19887 20170"/>
+    <region xml:id="wn_r103" anchors="20172 20330"/>
+    <region xml:id="wn_r104" anchors="20332 20547"/>
+    <region xml:id="wn_r105" anchors="20549 20762"/>
+    <region xml:id="wn_r106" anchors="20764 20884"/>
+    <region xml:id="wn_r107" anchors="20886 21043"/>
+    <region xml:id="wn_r108" anchors="21045 21174"/>
+    <region xml:id="wn_r109" anchors="21176 21426"/>
+    <region xml:id="wn_r110" anchors="21428 21646"/>
+    <region xml:id="wn_r111" anchors="21648 21839"/>
+    <region xml:id="wn_r112" anchors="21841 21887"/>
+    <region xml:id="wn_r113" anchors="21889 22080"/>
+    <region xml:id="wn_r114" anchors="22082 22267"/>
+    <region xml:id="wn_r115" anchors="22269 22470"/>
+    <region xml:id="wn_r116" anchors="22472 22724"/>
+    <region xml:id="wn_r117" anchors="22726 23352"/>
+    <node xml:id="wn_n0">
+        <link targets="wn_r0"/>
+    </node>
+    <a label="s" ref="wn_n0">
+        <fs>
+            <f name="path" value="OANC/data/written_2/non-fiction/OUP/Fletcher/ch5.anc"/>
+            <f name="orig-start" value="12648"/>
+            <f name="orig-end" value="12938"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n1">
+        <link targets="wn_r1"/>
+    </node>
+    <a label="s" ref="wn_n1">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Canada-History.anc"/>
+            <f name="orig-start" value="5591"/>
+            <f name="orig-end" value="5821"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n10">
+        <link targets="wn_r10"/>
+    </node>
+    <a label="s" ref="wn_n10">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/CostaBlanca-History.anc"/>
+            <f name="orig-start" value="9793"/>
+            <f name="orig-end" value="9913"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n100">
+        <link targets="wn_r100"/>
+    </node>
+    <a label="s" ref="wn_n100">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/911report/chapter-5.anc"/>
+            <f name="orig-start" value="64956"/>
+            <f name="orig-end" value="65098"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n101">
+        <link targets="wn_r101"/>
+    </node>
+    <a label="s" ref="wn_n101">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1471-2105-3-6.anc"/>
+            <f name="orig-start" value="1271"/>
+            <f name="orig-end" value="1572"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n102">
+        <link targets="wn_r102"/>
+    </node>
+    <a label="s" ref="wn_n102">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1472-6807-3-1.anc"/>
+            <f name="orig-start" value="38193"/>
+            <f name="orig-end" value="38526"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n103">
+        <link targets="wn_r103"/>
+    </node>
+    <a label="s" ref="wn_n103">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/Testimony_d01609t.anc"/>
+            <f name="orig-start" value="34754"/>
+            <f name="orig-end" value="34912"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n104">
+        <link targets="wn_r104"/>
+    </node>
+    <a label="s" ref="wn_n104">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1471-2105-3-6.anc"/>
+            <f name="orig-start" value="10635"/>
+            <f name="orig-end" value="10890"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n105">
+        <link targets="wn_r105"/>
+    </node>
+    <a label="s" ref="wn_n105">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1475-925X-2-3.anc"/>
+            <f name="orig-start" value="7903"/>
+            <f name="orig-end" value="8156"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n106">
+        <link targets="wn_r106"/>
+    </node>
+    <a label="s" ref="wn_n106">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Bali-WhereToGo.anc"/>
+            <f name="orig-start" value="37760"/>
+            <f name="orig-end" value="37880"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n107">
+        <link targets="wn_r107"/>
+    </node>
+    <a label="s" ref="wn_n107">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/38/ArticleIP_2647.anc"/>
+            <f name="orig-start" value="1398"/>
+            <f name="orig-end" value="1555"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n108">
+        <link targets="wn_r108"/>
+    </node>
+    <a label="s" ref="wn_n108">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/HistoryItaly.anc"/>
+            <f name="orig-start" value="27758"/>
+            <f name="orig-end" value="27903"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n109">
+        <link targets="wn_r109"/>
+    </node>
+    <a label="s" ref="wn_n109">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/14/Article247_3725.anc"/>
+            <f name="orig-start" value="259"/>
+            <f name="orig-end" value="509"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n11">
+        <link targets="wn_r11"/>
+    </node>
+    <a label="s" ref="wn_n11">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.anc"/>
+            <f name="orig-start" value="17652"/>
+            <f name="orig-end" value="17835"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n110">
+        <link targets="wn_r110"/>
+    </node>
+    <a label="s" ref="wn_n110">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/WhereToMadrid.anc"/>
+            <f name="orig-start" value="32228"/>
+            <f name="orig-end" value="32470"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n111">
+        <link targets="wn_r111"/>
+    </node>
+    <a label="s" ref="wn_n111">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/49/ArticleIP_19110.anc"/>
+            <f name="orig-start" value="6934"/>
+            <f name="orig-end" value="7125"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n112">
+        <link targets="wn_r112"/>
+    </node>
+    <a label="s" ref="wn_n112">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/China-History.anc"/>
+            <f name="orig-start" value="27472"/>
+            <f name="orig-end" value="27518"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n113">
+        <link targets="wn_r113"/>
+    </node>
+    <a label="s" ref="wn_n113">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/49/ArticleIP_18314.anc"/>
+            <f name="orig-start" value="4804"/>
+            <f name="orig-end" value="4995"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n114">
+        <link targets="wn_r114"/>
+    </node>
+    <a label="s" ref="wn_n114">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/51/ArticleIP_32874.anc"/>
+            <f name="orig-start" value="2076"/>
+            <f name="orig-end" value="2261"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n115">
+        <link targets="wn_r115"/>
+    </node>
+    <a label="s" ref="wn_n115">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/40/ArticleIP_2939.anc"/>
+            <f name="orig-start" value="3759"/>
+            <f name="orig-end" value="3960"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n116">
+        <link targets="wn_r116"/>
+    </node>
+    <a label="s" ref="wn_n116">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/35/ArticleIP_2316.anc"/>
+            <f name="orig-start" value="512"/>
+            <f name="orig-end" value="764"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n117">
+        <link targets="wn_r117"/>
+    </node>
+    <a label="s" ref="wn_n117">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/verbatim/VOL18_4.anc"/>
+            <f name="orig-start" value="103200"/>
+            <f name="orig-end" value="103826"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n12">
+        <link targets="wn_r12"/>
+    </node>
+    <a label="s" ref="wn_n12">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/CostaBlanca-History.anc"/>
+            <f name="orig-start" value="7435"/>
+            <f name="orig-end" value="7582"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n13">
+        <link targets="wn_r13"/>
+    </node>
+    <a label="s" ref="wn_n13">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Barcelona-History.anc"/>
+            <f name="orig-start" value="5818"/>
+            <f name="orig-end" value="5928"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n14">
+        <link targets="wn_r14"/>
+    </node>
+    <a label="s" ref="wn_n14">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/HistoryIstanbul.anc"/>
+            <f name="orig-start" value="11784"/>
+            <f name="orig-end" value="11896"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n15">
+        <link targets="wn_r15"/>
+    </node>
+    <a label="s" ref="wn_n15">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Costa-WhereToGo.anc"/>
+            <f name="orig-start" value="21857"/>
+            <f name="orig-end" value="21987"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n16">
+        <link targets="wn_r16"/>
+    </node>
+    <a label="s" ref="wn_n16">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Cuba-WhereToGo.anc"/>
+            <f name="orig-start" value="52462"/>
+            <f name="orig-end" value="52687"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n17">
+        <link targets="wn_r17"/>
+    </node>
+    <a label="s" ref="wn_n17">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.anc"/>
+            <f name="orig-start" value="44840"/>
+            <f name="orig-end" value="45042"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n18">
+        <link targets="wn_r18"/>
+    </node>
+    <a label="s" ref="wn_n18">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/CanaryIslands-History.anc"/>
+            <f name="orig-start" value="4796"/>
+            <f name="orig-end" value="4998"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n19">
+        <link targets="wn_r19"/>
+    </node>
+    <a label="s" ref="wn_n19">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Barcelona-History.anc"/>
+            <f name="orig-start" value="6048"/>
+            <f name="orig-end" value="6274"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n2">
+        <link targets="wn_r2"/>
+    </node>
+    <a label="s" ref="wn_n2">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1471-2121-3-4.anc"/>
+            <f name="orig-start" value="37406"/>
+            <f name="orig-end" value="37671"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n20">
+        <link targets="wn_r20"/>
+    </node>
+    <a label="s" ref="wn_n20">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/HistoryItaly.anc"/>
+            <f name="orig-start" value="6803"/>
+            <f name="orig-end" value="7071"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n21">
+        <link targets="wn_r21"/>
+    </node>
+    <a label="s" ref="wn_n21">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Canada-History.anc"/>
+            <f name="orig-start" value="28604"/>
+            <f name="orig-end" value="28736"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n22">
+        <link targets="wn_r22"/>
+    </node>
+    <a label="s" ref="wn_n22">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/HistoryMadrid.anc"/>
+            <f name="orig-start" value="5731"/>
+            <f name="orig-end" value="6020"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n23">
+        <link targets="wn_r23"/>
+    </node>
+    <a label="s" ref="wn_n23">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.anc"/>
+            <f name="orig-start" value="10128"/>
+            <f name="orig-end" value="10253"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n24">
+        <link targets="wn_r24"/>
+    </node>
+    <a label="s" ref="wn_n24">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Bali-History.anc"/>
+            <f name="orig-start" value="10883"/>
+            <f name="orig-end" value="11154"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n25">
+        <link targets="wn_r25"/>
+    </node>
+    <a label="s" ref="wn_n25">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Costa-History.anc"/>
+            <f name="orig-start" value="3742"/>
+            <f name="orig-end" value="3923"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n26">
+        <link targets="wn_r26"/>
+    </node>
+    <a label="s" ref="wn_n26">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.anc"/>
+            <f name="orig-start" value="5578"/>
+            <f name="orig-end" value="5716"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n27">
+        <link targets="wn_r27"/>
+    </node>
+    <a label="s" ref="wn_n27">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/WhereToItaly.anc"/>
+            <f name="orig-start" value="254063"/>
+            <f name="orig-end" value="254340"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n28">
+        <link targets="wn_r28"/>
+    </node>
+    <a label="s" ref="wn_n28">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/6/Article247_793.anc"/>
+            <f name="orig-start" value="3024"/>
+            <f name="orig-end" value="3264"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n29">
+        <link targets="wn_r29"/>
+    </node>
+    <a label="s" ref="wn_n29">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.anc"/>
+            <f name="orig-start" value="38674"/>
+            <f name="orig-end" value="38792"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n3">
+        <link targets="wn_r3"/>
+    </node>
+    <a label="s" ref="wn_n3">
+        <fs>
+            <f name="path" value="oanc/data/written_2/non-fiction/OUP/Kauffman/ch3.anc"/>
+            <f name="orig-start" value="26960"/>
+            <f name="orig-end" value="27261"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n30">
+        <link targets="wn_r30"/>
+    </node>
+    <a label="s" ref="wn_n30">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/50/ArticleIP_21711.anc"/>
+            <f name="orig-start" value="5203"/>
+            <f name="orig-end" value="5357"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n31">
+        <link targets="wn_r31"/>
+    </node>
+    <a label="s" ref="wn_n31">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/CostaBlanca-History.anc"/>
+            <f name="orig-start" value="7583"/>
+            <f name="orig-end" value="7916"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n32">
+        <link targets="wn_r32"/>
+    </node>
+    <a label="s" ref="wn_n32">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/50/ArticleIP_22998.anc"/>
+            <f name="orig-start" value="2530"/>
+            <f name="orig-end" value="2697"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n33">
+        <link targets="wn_r33"/>
+    </node>
+    <a label="s" ref="wn_n33">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/WhereToMallorca.anc"/>
+            <f name="orig-start" value="18937"/>
+            <f name="orig-end" value="19103"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n34">
+        <link targets="wn_r34"/>
+    </node>
+    <a label="s" ref="wn_n34">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/38/ArticleIP_2647.anc"/>
+            <f name="orig-start" value="7191"/>
+            <f name="orig-end" value="7277"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n35">
+        <link targets="wn_r35"/>
+    </node>
+    <a label="s" ref="wn_n35">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/China-History.anc"/>
+            <f name="orig-start" value="7670"/>
+            <f name="orig-end" value="7773"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n36">
+        <link targets="wn_r36"/>
+    </node>
+    <a label="s" ref="wn_n36">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/35/ArticleIP_2364.anc"/>
+            <f name="orig-start" value="2193"/>
+            <f name="orig-end" value="2264"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n37">
+        <link targets="wn_r37"/>
+    </node>
+    <a label="s" ref="wn_n37">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/44/ArticleIP_3455.anc"/>
+            <f name="orig-start" value="5914"/>
+            <f name="orig-end" value="5987"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n38">
+        <link targets="wn_r38"/>
+    </node>
+    <a label="s" ref="wn_n38">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/17/Article247_4097.anc"/>
+            <f name="orig-start" value="87"/>
+            <f name="orig-end" value="349"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n39">
+        <link targets="wn_r39"/>
+    </node>
+    <a label="s" ref="wn_n39">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/1/Article247_98.anc"/>
+            <f name="orig-start" value="5470"/>
+            <f name="orig-end" value="5520"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n4">
+        <link targets="wn_r4"/>
+    </node>
+    <a label="s" ref="wn_n4">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/1/Article247_98.anc"/>
+            <f name="orig-start" value="1833"/>
+            <f name="orig-end" value="1858"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n40">
+        <link targets="wn_r40"/>
+    </node>
+    <a label="s" ref="wn_n40">
+        <fs>
+            <f name="path" value="oanc/data/written_2/non-fiction/OUP/Fletcher/ch9.anc"/>
+            <f name="orig-start" value="17713"/>
+            <f name="orig-end" value="17824"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n41">
+        <link targets="wn_r41"/>
+    </node>
+    <a label="s" ref="wn_n41">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/35/ArticleIP_2361.anc"/>
+            <f name="orig-start" value="5965"/>
+            <f name="orig-end" value="6145"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n42">
+        <link targets="wn_r42"/>
+    </node>
+    <a label="s" ref="wn_n42">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.anc"/>
+            <f name="orig-start" value="43964"/>
+            <f name="orig-end" value="44134"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n43">
+        <link targets="wn_r43"/>
+    </node>
+    <a label="s" ref="wn_n43">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/About_LSC/State_Planning_Report.anc"/>
+            <f name="orig-start" value="133396"/>
+            <f name="orig-end" value="133640"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n44">
+        <link targets="wn_r44"/>
+    </node>
+    <a label="s" ref="wn_n44">
+        <fs>
+            <f name="path" value="oanc/data/written_2/non-fiction/OUP/Kauffman/ch8.anc"/>
+            <f name="orig-start" value="50219"/>
+            <f name="orig-end" value="50444"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n45">
+        <link targets="wn_r45"/>
+    </node>
+    <a label="s" ref="wn_n45">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/37/ArticleIP_2563.anc"/>
+            <f name="orig-start" value="3340"/>
+            <f name="orig-end" value="3546"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n46">
+        <link targets="wn_r46"/>
+    </node>
+    <a label="s" ref="wn_n46">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/13/Article247_3625.anc"/>
+            <f name="orig-start" value="148"/>
+            <f name="orig-end" value="485"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n47">
+        <link targets="wn_r47"/>
+    </node>
+    <a label="s" ref="wn_n47">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/18/Article247_4175.anc"/>
+            <f name="orig-start" value="2462"/>
+            <f name="orig-end" value="2529"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n48">
+        <link targets="wn_r48"/>
+    </node>
+    <a label="s" ref="wn_n48">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/35/ArticleIP_2393.anc"/>
+            <f name="orig-start" value="7274"/>
+            <f name="orig-end" value="7415"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n49">
+        <link targets="wn_r49"/>
+    </node>
+    <a label="s" ref="wn_n49">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/54/ArticleIP_67759.anc"/>
+            <f name="orig-start" value="3087"/>
+            <f name="orig-end" value="3440"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n5">
+        <link targets="wn_r5"/>
+    </node>
+    <a label="s" ref="wn_n5">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/HistoryMallorca.anc"/>
+            <f name="orig-start" value="7118"/>
+            <f name="orig-end" value="7276"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n50">
+        <link targets="wn_r50"/>
+    </node>
+    <a label="s" ref="wn_n50">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/20/Article247_4376.anc"/>
+            <f name="orig-start" value="3102"/>
+            <f name="orig-end" value="3381"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n51">
+        <link targets="wn_r51"/>
+    </node>
+    <a label="s" ref="wn_n51">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/40/ArticleIP_2923.anc"/>
+            <f name="orig-start" value="7853"/>
+            <f name="orig-end" value="8179"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n52">
+        <link targets="wn_r52"/>
+    </node>
+    <a label="s" ref="wn_n52">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/54/ArticleIP_67759.anc"/>
+            <f name="orig-start" value="2953"/>
+            <f name="orig-end" value="3086"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n53">
+        <link targets="wn_r53"/>
+    </node>
+    <a label="s" ref="wn_n53">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/42/ArticleIP_3160.anc"/>
+            <f name="orig-start" value="7579"/>
+            <f name="orig-end" value="7807"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n54">
+        <link targets="wn_r54"/>
+    </node>
+    <a label="s" ref="wn_n54">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/20/Article247_4376.anc"/>
+            <f name="orig-start" value="2848"/>
+            <f name="orig-end" value="3039"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n55">
+        <link targets="wn_r55"/>
+    </node>
+    <a label="s" ref="wn_n55">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/51/ArticleIP_32290.anc"/>
+            <f name="orig-start" value="8909"/>
+            <f name="orig-end" value="9132"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n56">
+        <link targets="wn_r56"/>
+    </node>
+    <a label="s" ref="wn_n56">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/3/Article247_441.anc"/>
+            <f name="orig-start" value="2171"/>
+            <f name="orig-end" value="2355"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n57">
+        <link targets="wn_r57"/>
+    </node>
+    <a label="s" ref="wn_n57">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/40/ArticleIP_2956.anc"/>
+            <f name="orig-start" value="3224"/>
+            <f name="orig-end" value="3620"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n58">
+        <link targets="wn_r58"/>
+    </node>
+    <a label="s" ref="wn_n58">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/3/Article247_434.anc"/>
+            <f name="orig-start" value="3855"/>
+            <f name="orig-end" value="4114"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n59">
+        <link targets="wn_r59"/>
+    </node>
+    <a label="s" ref="wn_n59">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/26/ArticleIP_1404.anc"/>
+            <f name="orig-start" value="295"/>
+            <f name="orig-end" value="368"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n6">
+        <link targets="wn_r6"/>
+    </node>
+    <a label="s" ref="wn_n6">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Cuba-WhereToGo.anc"/>
+            <f name="orig-start" value="63997"/>
+            <f name="orig-end" value="64124"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n60">
+        <link targets="wn_r60"/>
+    </node>
+    <a label="s" ref="wn_n60">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/28/ArticleIP_1612.anc"/>
+            <f name="orig-start" value="1602"/>
+            <f name="orig-end" value="1918"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n61">
+        <link targets="wn_r61"/>
+    </node>
+    <a label="s" ref="wn_n61">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/50/ArticleIP_23492.anc"/>
+            <f name="orig-start" value="3289"/>
+            <f name="orig-end" value="3531"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n62">
+        <link targets="wn_r62"/>
+    </node>
+    <a label="s" ref="wn_n62">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/49/ArticleIP_18897.anc"/>
+            <f name="orig-start" value="1218"/>
+            <f name="orig-end" value="1423"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n63">
+        <link targets="wn_r63"/>
+    </node>
+    <a label="s" ref="wn_n63">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/1/Article247_98.anc"/>
+            <f name="orig-start" value="1410"/>
+            <f name="orig-end" value="1611"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n64">
+        <link targets="wn_r64"/>
+    </node>
+    <a label="s" ref="wn_n64">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/35/ArticleIP_2305.anc"/>
+            <f name="orig-start" value="3370"/>
+            <f name="orig-end" value="3480"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n65">
+        <link targets="wn_r65"/>
+    </node>
+    <a label="s" ref="wn_n65">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/16/Article247_3957.anc"/>
+            <f name="orig-start" value="2432"/>
+            <f name="orig-end" value="2832"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n66">
+        <link targets="wn_r66"/>
+    </node>
+    <a label="s" ref="wn_n66">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/35/ArticleIP_2361.anc"/>
+            <f name="orig-start" value="541"/>
+            <f name="orig-end" value="661"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n67">
+        <link targets="wn_r67"/>
+    </node>
+    <a label="s" ref="wn_n67">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/46/ArticleIP_3851.anc"/>
+            <f name="orig-start" value="2406"/>
+            <f name="orig-end" value="2542"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n68">
+        <link targets="wn_r68"/>
+    </node>
+    <a label="s" ref="wn_n68">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/WhereToIndia.anc"/>
+            <f name="orig-start" value="90381"/>
+            <f name="orig-end" value="90716"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n69">
+        <link targets="wn_r69"/>
+    </node>
+    <a label="s" ref="wn_n69">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/29/ArticleIP_1739.anc"/>
+            <f name="orig-start" value="4268"/>
+            <f name="orig-end" value="4369"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n7">
+        <link targets="wn_r7"/>
+    </node>
+    <a label="s" ref="wn_n7">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz1/WhereToMallorca.anc"/>
+            <f name="orig-start" value="49899"/>
+            <f name="orig-end" value="50088"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n70">
+        <link targets="wn_r70"/>
+    </node>
+    <a label="s" ref="wn_n70">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Algarve-History.anc"/>
+            <f name="orig-start" value="8013"/>
+            <f name="orig-end" value="8140"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n71">
+        <link targets="wn_r71"/>
+    </node>
+    <a label="s" ref="wn_n71">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/verbatim/VOL16_3.anc"/>
+            <f name="orig-start" value="21274"/>
+            <f name="orig-end" value="21565"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n72">
+        <link targets="wn_r72"/>
+    </node>
+    <a label="s" ref="wn_n72">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Bali-WhereToGo.anc"/>
+            <f name="orig-start" value="64570"/>
+            <f name="orig-end" value="64641"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n73">
+        <link targets="wn_r73"/>
+    </node>
+    <a label="s" ref="wn_n73">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/49/ArticleIP_13865.anc"/>
+            <f name="orig-start" value="466"/>
+            <f name="orig-end" value="781"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n74">
+        <link targets="wn_r74"/>
+    </node>
+    <a label="s" ref="wn_n74">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.anc"/>
+            <f name="orig-start" value="1211"/>
+            <f name="orig-end" value="1368"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n75">
+        <link targets="wn_r75"/>
+    </node>
+    <a label="s" ref="wn_n75">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/51/ArticleIP_35005.anc"/>
+            <f name="orig-start" value="9432"/>
+            <f name="orig-end" value="9735"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n76">
+        <link targets="wn_r76"/>
+    </node>
+    <a label="s" ref="wn_n76">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/32/ArticleIP_2075.anc"/>
+            <f name="orig-start" value="11401"/>
+            <f name="orig-end" value="11465"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n77">
+        <link targets="wn_r77"/>
+    </node>
+    <a label="s" ref="wn_n77">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/40/ArticleIP_2950.anc"/>
+            <f name="orig-start" value="7317"/>
+            <f name="orig-end" value="7511"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n78">
+        <link targets="wn_r78"/>
+    </node>
+    <a label="s" ref="wn_n78">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/10/Article247_3368.anc"/>
+            <f name="orig-start" value="1941"/>
+            <f name="orig-end" value="2104"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n79">
+        <link targets="wn_r79"/>
+    </node>
+    <a label="s" ref="wn_n79">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/51/ArticleIP_34108.anc"/>
+            <f name="orig-start" value="4526"/>
+            <f name="orig-end" value="4545"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n8">
+        <link targets="wn_r8"/>
+    </node>
+    <a label="s" ref="wn_n8">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Costa-History.anc"/>
+            <f name="orig-start" value="10970"/>
+            <f name="orig-end" value="11094"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n80">
+        <link targets="wn_r80"/>
+    </node>
+    <a label="s" ref="wn_n80">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/plos/journal.pbio.0020147.anc"/>
+            <f name="orig-start" value="5527"/>
+            <f name="orig-end" value="5700"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n81">
+        <link targets="wn_r81"/>
+    </node>
+    <a label="s" ref="wn_n81">
+        <fs>
+            <f name="path" value="oanc/data/written_1/journal/slate/5/Article247_628.anc"/>
+            <f name="orig-start" value="3373"/>
+            <f name="orig-end" value="3586"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n82">
+        <link targets="wn_r82"/>
+    </node>
+    <a label="s" ref="wn_n82">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Cuba-WhereToGo.anc"/>
+            <f name="orig-start" value="8583"/>
+            <f name="orig-end" value="8781"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n83">
+        <link targets="wn_r83"/>
+    </node>
+    <a label="s" ref="wn_n83">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/Testimony_Jul15-2002_d02940t.anc"/>
+            <f name="orig-start" value="25361"/>
+            <f name="orig-end" value="25520"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n84">
+        <link targets="wn_r84"/>
+    </node>
+    <a label="s" ref="wn_n84">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/plos/journal.pbio.0020145.anc"/>
+            <f name="orig-start" value="2065"/>
+            <f name="orig-end" value="2141"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n85">
+        <link targets="wn_r85"/>
+    </node>
+    <a label="s" ref="wn_n85">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/gb-2002-3-9-research0045.anc"/>
+            <f name="orig-start" value="708"/>
+            <f name="orig-end" value="1009"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n86">
+        <link targets="wn_r86"/>
+    </node>
+    <a label="s" ref="wn_n86">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/plos/journal.pbio.0020147.anc"/>
+            <f name="orig-start" value="5233"/>
+            <f name="orig-end" value="5346"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n87">
+        <link targets="wn_r87"/>
+    </node>
+    <a label="s" ref="wn_n87">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/About_LSC/conference_highlights.anc"/>
+            <f name="orig-start" value="9768"/>
+            <f name="orig-end" value="10050"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n88">
+        <link targets="wn_r88"/>
+    </node>
+    <a label="s" ref="wn_n88">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1471-2431-3-3.anc"/>
+            <f name="orig-start" value="5903"/>
+            <f name="orig-end" value="6047"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n89">
+        <link targets="wn_r89"/>
+    </node>
+    <a label="s" ref="wn_n89">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/Testimony_cg00010t.anc"/>
+            <f name="orig-start" value="73851"/>
+            <f name="orig-end" value="74102"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n9">
+        <link targets="wn_r9"/>
+    </node>
+    <a label="s" ref="wn_n9">
+        <fs>
+            <f name="path" value="oanc/data/written_2/travel_guides/berlitz2/Nepal-WhereToGo.anc"/>
+            <f name="orig-start" value="27129"/>
+            <f name="orig-end" value="27234"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n90">
+        <link targets="wn_r90"/>
+    </node>
+    <a label="s" ref="wn_n90">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/plos/journal.pbio.0020133.anc"/>
+            <f name="orig-start" value="8112"/>
+            <f name="orig-end" value="8176"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n91">
+        <link targets="wn_r91"/>
+    </node>
+    <a label="s" ref="wn_n91">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/gb-2001-2-7-research0025.anc"/>
+            <f name="orig-start" value="46292"/>
+            <f name="orig-end" value="46442"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n92">
+        <link targets="wn_r92"/>
+    </node>
+    <a label="s" ref="wn_n92">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/gb-2001-2-12-research0051.anc"/>
+            <f name="orig-start" value="9984"/>
+            <f name="orig-end" value="10376"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n93">
+        <link targets="wn_r93"/>
+    </node>
+    <a label="s" ref="wn_n93">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1472-6793-2-18.anc"/>
+            <f name="orig-start" value="15092"/>
+            <f name="orig-end" value="15401"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n94">
+        <link targets="wn_r94"/>
+    </node>
+    <a label="s" ref="wn_n94">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/InternalControl_ai00021p.anc"/>
+            <f name="orig-start" value="15025"/>
+            <f name="orig-end" value="15226"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n95">
+        <link targets="wn_r95"/>
+    </node>
+    <a label="s" ref="wn_n95">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/Testimony_d01609t.anc"/>
+            <f name="orig-start" value="20087"/>
+            <f name="orig-end" value="20266"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n96">
+        <link targets="wn_r96"/>
+    </node>
+    <a label="s" ref="wn_n96">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1471-2105-3-6.anc"/>
+            <f name="orig-start" value="30919"/>
+            <f name="orig-end" value="31295"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n97">
+        <link targets="wn_r97"/>
+    </node>
+    <a label="s" ref="wn_n97">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/Testimony_cg00010t.anc"/>
+            <f name="orig-start" value="74531"/>
+            <f name="orig-end" value="74789"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n98">
+        <link targets="wn_r98"/>
+    </node>
+    <a label="s" ref="wn_n98">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/government/Gen_Account_Office/Testimony_cg00010t.anc"/>
+            <f name="orig-start" value="71150"/>
+            <f name="orig-end" value="71413"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n99">
+        <link targets="wn_r99"/>
+    </node>
+    <a label="s" ref="wn_n99">
+        <fs>
+            <f name="path" value="oanc/data/written_2/technical/biomed/1471-2105-3-6.anc"/>
+            <f name="orig-start" value="1809"/>
+            <f name="orig-end" value="2390"/>
+        </fs>
+    </a>
+</graph>

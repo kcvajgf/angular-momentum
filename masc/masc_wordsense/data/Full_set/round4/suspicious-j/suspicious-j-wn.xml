@@ -1,0 +1,4360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="WordNet" occurs="148"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="WordNet" type="http://wordnet.princeton.edu/"/>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="wn_r1" anchors="0 102"/>
+    <region xml:id="wn_r0" anchors="54 64"/>
+    <region xml:id="wn_r3" anchors="104 194"/>
+    <region xml:id="wn_r2" anchors="183 193"/>
+    <region xml:id="wn_r5" anchors="196 480"/>
+    <region xml:id="wn_r4" anchors="315 325"/>
+    <region xml:id="wn_r7" anchors="482 646"/>
+    <region xml:id="wn_r6" anchors="531 541"/>
+    <region xml:id="wn_r9" anchors="648 802"/>
+    <region xml:id="wn_r8" anchors="670 680"/>
+    <region xml:id="wn_r11" anchors="804 943"/>
+    <region xml:id="wn_r10" anchors="909 919"/>
+    <region xml:id="wn_r13" anchors="945 1109"/>
+    <region xml:id="wn_r12" anchors="1042 1052"/>
+    <region xml:id="wn_r16" anchors="1111 1264"/>
+    <region xml:id="wn_r14" anchors="1148 1158"/>
+    <region xml:id="wn_r15" anchors="1239 1249"/>
+    <region xml:id="wn_r18" anchors="1266 1516"/>
+    <region xml:id="wn_r17" anchors="1417 1427"/>
+    <region xml:id="wn_r20" anchors="1518 1554"/>
+    <region xml:id="wn_r19" anchors="1536 1546"/>
+    <region xml:id="wn_r23" anchors="1556 1709"/>
+    <region xml:id="wn_r21" anchors="1593 1603"/>
+    <region xml:id="wn_r22" anchors="1684 1694"/>
+    <region xml:id="wn_r25" anchors="1711 1856"/>
+    <region xml:id="wn_r24" anchors="1817 1827"/>
+    <region xml:id="wn_r27" anchors="1858 2061"/>
+    <region xml:id="wn_r26" anchors="1975 1985"/>
+    <region xml:id="wn_r29" anchors="2063 2229"/>
+    <region xml:id="wn_r28" anchors="2187 2197"/>
+    <region xml:id="wn_r31" anchors="2231 2479"/>
+    <region xml:id="wn_r30" anchors="2364 2374"/>
+    <region xml:id="wn_r33" anchors="2481 2797"/>
+    <region xml:id="wn_r32" anchors="2786 2796"/>
+    <region xml:id="wn_r35" anchors="2799 3023"/>
+    <region xml:id="wn_r34" anchors="2833 2843"/>
+    <region xml:id="wn_r37" anchors="3025 3168"/>
+    <region xml:id="wn_r36" anchors="3085 3095"/>
+    <region xml:id="wn_r39" anchors="3170 3379"/>
+    <region xml:id="wn_r38" anchors="3264 3274"/>
+    <region xml:id="wn_r41" anchors="3381 3561"/>
+    <region xml:id="wn_r40" anchors="3450 3460"/>
+    <region xml:id="wn_r43" anchors="3563 3750"/>
+    <region xml:id="wn_r42" anchors="3730 3740"/>
+    <region xml:id="wn_r45" anchors="3752 3910"/>
+    <region xml:id="wn_r44" anchors="3834 3844"/>
+    <region xml:id="wn_r47" anchors="3912 4098"/>
+    <region xml:id="wn_r46" anchors="3962 3972"/>
+    <region xml:id="wn_r49" anchors="4100 4263"/>
+    <region xml:id="wn_r48" anchors="4129 4139"/>
+    <region xml:id="wn_r51" anchors="4265 4351"/>
+    <region xml:id="wn_r50" anchors="4304 4314"/>
+    <region xml:id="wn_r53" anchors="4353 4522"/>
+    <region xml:id="wn_r52" anchors="4423 4433"/>
+    <region xml:id="wn_r55" anchors="4524 4640"/>
+    <region xml:id="wn_r54" anchors="4603 4613"/>
+    <region xml:id="wn_r57" anchors="4642 4840"/>
+    <region xml:id="wn_r56" anchors="4710 4720"/>
+    <region xml:id="wn_r59" anchors="4842 5067"/>
+    <region xml:id="wn_r58" anchors="4884 4894"/>
+    <region xml:id="wn_r61" anchors="5069 5139"/>
+    <region xml:id="wn_r60" anchors="5100 5110"/>
+    <region xml:id="wn_r63" anchors="5141 5346"/>
+    <region xml:id="wn_r62" anchors="5163 5173"/>
+    <region xml:id="wn_r65" anchors="5348 5421"/>
+    <region xml:id="wn_r64" anchors="5409 5419"/>
+    <region xml:id="wn_r67" anchors="5423 5490"/>
+    <region xml:id="wn_r66" anchors="5470 5480"/>
+    <region xml:id="wn_r69" anchors="5492 5562"/>
+    <region xml:id="wn_r68" anchors="5551 5561"/>
+    <region xml:id="wn_r71" anchors="5564 5719"/>
+    <region xml:id="wn_r70" anchors="5599 5609"/>
+    <region xml:id="wn_r73" anchors="5721 5852"/>
+    <region xml:id="wn_r72" anchors="5810 5820"/>
+    <region xml:id="wn_r75" anchors="5854 5957"/>
+    <region xml:id="wn_r74" anchors="5869 5879"/>
+    <region xml:id="wn_r77" anchors="5959 6154"/>
+    <region xml:id="wn_r76" anchors="6055 6065"/>
+    <region xml:id="wn_r79" anchors="6156 6351"/>
+    <region xml:id="wn_r78" anchors="6263 6273"/>
+    <region xml:id="wn_r81" anchors="6353 6434"/>
+    <region xml:id="wn_r80" anchors="6397 6407"/>
+    <region xml:id="wn_r83" anchors="6436 6595"/>
+    <region xml:id="wn_r82" anchors="6567 6577"/>
+    <region xml:id="wn_r85" anchors="6597 6844"/>
+    <region xml:id="wn_r84" anchors="6781 6791"/>
+    <region xml:id="wn_r87" anchors="6846 6965"/>
+    <region xml:id="wn_r86" anchors="6941 6951"/>
+    <region xml:id="wn_r89" anchors="6967 7150"/>
+    <region xml:id="wn_r88" anchors="6999 7009"/>
+    <region xml:id="wn_r91" anchors="7152 7426"/>
+    <region xml:id="wn_r90" anchors="7256 7266"/>
+    <region xml:id="wn_r93" anchors="7428 7534"/>
+    <region xml:id="wn_r92" anchors="7523 7533"/>
+    <region xml:id="wn_r95" anchors="7536 7749"/>
+    <region xml:id="wn_r94" anchors="7558 7568"/>
+    <region xml:id="wn_r97" anchors="7751 7895"/>
+    <region xml:id="wn_r96" anchors="7771 7781"/>
+    <region xml:id="wn_r99" anchors="7897 8050"/>
+    <region xml:id="wn_r98" anchors="8007 8017"/>
+    <region xml:id="wn_r101" anchors="8052 8164"/>
+    <region xml:id="wn_r100" anchors="8141 8151"/>
+    <region xml:id="wn_r103" anchors="8166 8179"/>
+    <region xml:id="wn_r102" anchors="8169 8179"/>
+    <region xml:id="wn_r105" anchors="8181 8273"/>
+    <region xml:id="wn_r104" anchors="8244 8254"/>
+    <region xml:id="wn_r107" anchors="8275 8476"/>
+    <region xml:id="wn_r106" anchors="8451 8461"/>
+    <region xml:id="wn_r109" anchors="8478 8600"/>
+    <region xml:id="wn_r108" anchors="8513 8523"/>
+    <region xml:id="wn_r111" anchors="8602 8794"/>
+    <region xml:id="wn_r110" anchors="8752 8762"/>
+    <region xml:id="wn_r113" anchors="8796 8902"/>
+    <region xml:id="wn_r112" anchors="8891 8901"/>
+    <region xml:id="wn_r115" anchors="8904 9059"/>
+    <region xml:id="wn_r114" anchors="8959 8969"/>
+    <region xml:id="wn_r117" anchors="9061 9349"/>
+    <region xml:id="wn_r116" anchors="9300 9310"/>
+    <region xml:id="wn_r119" anchors="9351 9603"/>
+    <region xml:id="wn_r118" anchors="9513 9523"/>
+    <region xml:id="wn_r121" anchors="9605 9785"/>
+    <region xml:id="wn_r120" anchors="9627 9637"/>
+    <region xml:id="wn_r123" anchors="9787 9873"/>
+    <region xml:id="wn_r122" anchors="9862 9872"/>
+    <region xml:id="wn_r125" anchors="9875 10162"/>
+    <region xml:id="wn_r124" anchors="9977 9987"/>
+    <region xml:id="wn_r127" anchors="10164 10263"/>
+    <region xml:id="wn_r126" anchors="10195 10205"/>
+    <region xml:id="wn_r129" anchors="10265 10341"/>
+    <region xml:id="wn_r128" anchors="10330 10340"/>
+    <region xml:id="wn_r131" anchors="10343 10525"/>
+    <region xml:id="wn_r130" anchors="10435 10445"/>
+    <region xml:id="wn_r134" anchors="10527 10669"/>
+    <region xml:id="wn_r132" anchors="10617 10625"/>
+    <region xml:id="wn_r133" anchors="10652 10662"/>
+    <region xml:id="wn_r136" anchors="10671 10858"/>
+    <region xml:id="wn_r135" anchors="10829 10839"/>
+    <region xml:id="wn_r138" anchors="10860 11040"/>
+    <region xml:id="wn_r137" anchors="11014 11024"/>
+    <region xml:id="wn_r140" anchors="11042 11134"/>
+    <region xml:id="wn_r139" anchors="11093 11103"/>
+    <region xml:id="wn_r142" anchors="11136 11276"/>
+    <region xml:id="wn_r141" anchors="11148 11158"/>
+    <region xml:id="wn_r144" anchors="11278 11470"/>
+    <region xml:id="wn_r143" anchors="11428 11438"/>
+    <region xml:id="wn_r146" anchors="11472 11655"/>
+    <region xml:id="wn_r145" anchors="11504 11514"/>
+    <region xml:id="wn_r148" anchors="11657 11895"/>
+    <region xml:id="wn_r147" anchors="11725 11735"/>
+    <region xml:id="wn_r150" anchors="11897 12115"/>
+    <region xml:id="wn_r149" anchors="11912 11922"/>
+    <region xml:id="wn_r152" anchors="12117 12342"/>
+    <region xml:id="wn_r151" anchors="12132 12142"/>
+    <region xml:id="wn_r154" anchors="12344 12586"/>
+    <region xml:id="wn_r153" anchors="12407 12417"/>
+    <region xml:id="wn_r156" anchors="12588 12877"/>
+    <region xml:id="wn_r155" anchors="12730 12740"/>
+    <region xml:id="wn_r158" anchors="12879 13294"/>
+    <region xml:id="wn_r157" anchors="12900 12910"/>
+    <region xml:id="wn_r160" anchors="13296 13625"/>
+    <region xml:id="wn_r159" anchors="13517 13527"/>
+    <region xml:id="wn_r162" anchors="13627 13744"/>
+    <region xml:id="wn_r161" anchors="13665 13675"/>
+    <region xml:id="wn_r164" anchors="13746 13810"/>
+    <region xml:id="wn_r163" anchors="13761 13771"/>
+    <region xml:id="wn_r166" anchors="13812 13934"/>
+    <region xml:id="wn_r165" anchors="13847 13857"/>
+    <region xml:id="wn_r168" anchors="13936 14209"/>
+    <region xml:id="wn_r167" anchors="13985 13995"/>
+    <region xml:id="wn_r170" anchors="14211 14328"/>
+    <region xml:id="wn_r169" anchors="14233 14243"/>
+    <region xml:id="wn_r172" anchors="14330 14598"/>
+    <region xml:id="wn_r171" anchors="14578 14588"/>
+    <region xml:id="wn_r174" anchors="14600 14656"/>
+    <region xml:id="wn_r173" anchors="14619 14629"/>
+    <region xml:id="wn_r176" anchors="14658 14787"/>
+    <region xml:id="wn_r175" anchors="14680 14690"/>
+    <region xml:id="wn_r178" anchors="14789 14906"/>
+    <region xml:id="wn_r177" anchors="14895 14905"/>
+    <region xml:id="wn_r180" anchors="14908 15271"/>
+    <region xml:id="wn_r179" anchors="14953 14963"/>
+    <region xml:id="wn_r182" anchors="15273 15374"/>
+    <region xml:id="wn_r181" anchors="15344 15354"/>
+    <region xml:id="wn_r184" anchors="15376 15720"/>
+    <region xml:id="wn_r183" anchors="15678 15688"/>
+    <region xml:id="wn_r186" anchors="15722 15793"/>
+    <region xml:id="wn_r185" anchors="15764 15774"/>
+    <region xml:id="wn_r188" anchors="15795 16019"/>
+    <region xml:id="wn_r187" anchors="16002 16012"/>
+    <region xml:id="wn_r190" anchors="16021 16428"/>
+    <region xml:id="wn_r189" anchors="16259 16269"/>
+    <region xml:id="wn_r192" anchors="16430 16527"/>
+    <region xml:id="wn_r191" anchors="16434 16444"/>
+    <region xml:id="wn_r194" anchors="16529 16656"/>
+    <region xml:id="wn_r193" anchors="16635 16645"/>
+    <region xml:id="wn_r196" anchors="16658 16793"/>
+    <region xml:id="wn_r195" anchors="16737 16747"/>
+    <region xml:id="wn_r198" anchors="16795 16909"/>
+    <region xml:id="wn_r197" anchors="16879 16889"/>
+    <region xml:id="wn_r200" anchors="16911 17351"/>
+    <region xml:id="wn_r199" anchors="16949 16959"/>
+    <region xml:id="wn_r202" anchors="17353 17529"/>
+    <region xml:id="wn_r201" anchors="17464 17474"/>
+    <region xml:id="wn_r204" anchors="17531 17731"/>
+    <region xml:id="wn_r203" anchors="17665 17675"/>
+    <region xml:id="wn_r206" anchors="17733 17834"/>
+    <region xml:id="wn_r205" anchors="17745 17755"/>
+    <region xml:id="wn_r208" anchors="17836 18027"/>
+    <region xml:id="wn_r207" anchors="17969 17979"/>
+    <region xml:id="wn_r210" anchors="18029 18191"/>
+    <region xml:id="wn_r209" anchors="18147 18157"/>
+    <region xml:id="wn_r212" anchors="18193 18428"/>
+    <region xml:id="wn_r211" anchors="18333 18343"/>
+    <region xml:id="wn_r214" anchors="18430 18625"/>
+    <region xml:id="wn_r213" anchors="18509 18519"/>
+    <region xml:id="wn_r216" anchors="18627 18731"/>
+    <region xml:id="wn_r215" anchors="18638 18648"/>
+    <region xml:id="wn_r218" anchors="18733 18844"/>
+    <region xml:id="wn_r217" anchors="18756 18766"/>
+    <region xml:id="wn_r220" anchors="18846 18920"/>
+    <region xml:id="wn_r219" anchors="18909 18919"/>
+    <region xml:id="wn_r222" anchors="18922 19636"/>
+    <region xml:id="wn_r221" anchors="19320 19330"/>
+    <region xml:id="wn_r224" anchors="19638 19856"/>
+    <region xml:id="wn_r223" anchors="19676 19686"/>
+    <region xml:id="wn_r226" anchors="19858 19964"/>
+    <region xml:id="wn_r225" anchors="19922 19932"/>
+    <region xml:id="wn_r228" anchors="19966 20016"/>
+    <region xml:id="wn_r227" anchors="19994 20004"/>
+    <region xml:id="wn_r230" anchors="20018 20194"/>
+    <region xml:id="wn_r229" anchors="20033 20043"/>
+    <region xml:id="wn_r232" anchors="20196 20407"/>
+    <region xml:id="wn_r231" anchors="20396 20406"/>
+    <region xml:id="wn_r234" anchors="20409 20648"/>
+    <region xml:id="wn_r233" anchors="20617 20627"/>
+    <region xml:id="wn_r236" anchors="20650 20805"/>
+    <region xml:id="wn_r235" anchors="20694 20704"/>
+    <region xml:id="wn_r238" anchors="20807 20980"/>
+    <region xml:id="wn_r237" anchors="20969 20979"/>
+    <region xml:id="wn_r240" anchors="20982 21280"/>
+    <region xml:id="wn_r239" anchors="21054 21064"/>
+    <region xml:id="wn_r242" anchors="21282 21506"/>
+    <region xml:id="wn_r241" anchors="21315 21325"/>
+    <region xml:id="wn_r244" anchors="21508 21671"/>
+    <region xml:id="wn_r243" anchors="21526 21536"/>
+    <region xml:id="wn_r247" anchors="21673 21778"/>
+    <region xml:id="wn_r245" anchors="21704 21712"/>
+    <region xml:id="wn_r246" anchors="21744 21754"/>
+    <region xml:id="wn_r249" anchors="21780 21855"/>
+    <region xml:id="wn_r248" anchors="21835 21845"/>
+    <region xml:id="wn_r251" anchors="21857 22133"/>
+    <region xml:id="wn_r250" anchors="21901 21911"/>
+    <region xml:id="wn_r253" anchors="22135 22395"/>
+    <region xml:id="wn_r252" anchors="22148 22158"/>
+    <region xml:id="wn_r255" anchors="22397 22749"/>
+    <region xml:id="wn_r254" anchors="22712 22722"/>
+    <region xml:id="wn_r257" anchors="22751 22831"/>
+    <region xml:id="wn_r256" anchors="22813 22823"/>
+    <region xml:id="wn_r259" anchors="22833 23059"/>
+    <region xml:id="wn_r258" anchors="23024 23034"/>
+    <region xml:id="wn_r261" anchors="23061 23247"/>
+    <region xml:id="wn_r260" anchors="23218 23228"/>
+    <region xml:id="wn_r263" anchors="23249 23349"/>
+    <region xml:id="wn_r262" anchors="23280 23290"/>
+    <region xml:id="wn_r265" anchors="23351 23570"/>
+    <region xml:id="wn_r264" anchors="23497 23507"/>
+    <region xml:id="wn_r267" anchors="23572 23699"/>
+    <region xml:id="wn_r266" anchors="23614 23624"/>
+    <region xml:id="wn_r269" anchors="23701 23827"/>
+    <region xml:id="wn_r268" anchors="23736 23746"/>
+    <region xml:id="wn_r271" anchors="23829 24007"/>
+    <region xml:id="wn_r270" anchors="23976 23986"/>
+    <region xml:id="wn_r273" anchors="24009 24102"/>
+    <region xml:id="wn_r272" anchors="24063 24073"/>
+    <region xml:id="wn_r275" anchors="24104 24379"/>
+    <region xml:id="wn_r274" anchors="24236 24246"/>
+    <region xml:id="wn_r277" anchors="24381 24434"/>
+    <region xml:id="wn_r276" anchors="24423 24433"/>
+    <region xml:id="wn_r279" anchors="24436 24628"/>
+    <region xml:id="wn_r278" anchors="24579 24589"/>
+    <region xml:id="wn_r281" anchors="24630 24844"/>
+    <region xml:id="wn_r280" anchors="24778 24788"/>
+    <region xml:id="wn_r283" anchors="24846 25036"/>
+    <region xml:id="wn_r282" anchors="24897 24907"/>
+    <region xml:id="wn_r285" anchors="25038 25246"/>
+    <region xml:id="wn_r284" anchors="25160 25170"/>
+    <region xml:id="wn_r287" anchors="25248 25332"/>
+    <region xml:id="wn_r286" anchors="25266 25276"/>
+    <region xml:id="wn_r289" anchors="25334 25555"/>
+    <region xml:id="wn_r288" anchors="25530 25540"/>
+    <region xml:id="wn_r291" anchors="25557 25738"/>
+    <region xml:id="wn_r290" anchors="25709 25719"/>
+    <region xml:id="wn_r293" anchors="25740 26140"/>
+    <region xml:id="wn_r292" anchors="25755 25765"/>
+    <region xml:id="wn_r295" anchors="26142 26282"/>
+    <region xml:id="wn_r294" anchors="26271 26281"/>
+    <node xml:id="wn_n0">
+        <link targets="wn_r0"/>
+    </node>
+    <a label="WordNet" ref="wn_n0" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n1">
+        <link targets="wn_r2"/>
+    </node>
+    <a label="WordNet" ref="wn_n1" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n10">
+        <link targets="wn_r19"/>
+    </node>
+    <a label="WordNet" ref="wn_n10" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n100">
+        <link targets="wn_r199"/>
+    </node>
+    <a label="WordNet" ref="wn_n100" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n101">
+        <link targets="wn_r201"/>
+    </node>
+    <a label="WordNet" ref="wn_n101" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n102">
+        <link targets="wn_r203"/>
+    </node>
+    <a label="WordNet" ref="wn_n102" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n103">
+        <link targets="wn_r205"/>
+    </node>
+    <a label="WordNet" ref="wn_n103" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n104">
+        <link targets="wn_r207"/>
+    </node>
+    <a label="WordNet" ref="wn_n104" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n105">
+        <link targets="wn_r209"/>
+    </node>
+    <a label="WordNet" ref="wn_n105" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n106">
+        <link targets="wn_r211"/>
+    </node>
+    <a label="WordNet" ref="wn_n106" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n107">
+        <link targets="wn_r213"/>
+    </node>
+    <a label="WordNet" ref="wn_n107" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n108">
+        <link targets="wn_r215"/>
+    </node>
+    <a label="WordNet" ref="wn_n108" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n109">
+        <link targets="wn_r217"/>
+    </node>
+    <a label="WordNet" ref="wn_n109" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n11">
+        <link targets="wn_r21"/>
+    </node>
+    <a label="WordNet" ref="wn_n11" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n110">
+        <link targets="wn_r219"/>
+    </node>
+    <a label="WordNet" ref="wn_n110" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n111">
+        <link targets="wn_r221"/>
+    </node>
+    <a label="WordNet" ref="wn_n111" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n112">
+        <link targets="wn_r223"/>
+    </node>
+    <a label="WordNet" ref="wn_n112" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n113">
+        <link targets="wn_r225"/>
+    </node>
+    <a label="WordNet" ref="wn_n113" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n114">
+        <link targets="wn_r227"/>
+    </node>
+    <a label="WordNet" ref="wn_n114" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n115">
+        <link targets="wn_r229"/>
+    </node>
+    <a label="WordNet" ref="wn_n115" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n116">
+        <link targets="wn_r231"/>
+    </node>
+    <a label="WordNet" ref="wn_n116" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n117">
+        <link targets="wn_r233"/>
+    </node>
+    <a label="WordNet" ref="wn_n117" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n118">
+        <link targets="wn_r235"/>
+    </node>
+    <a label="WordNet" ref="wn_n118" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n119">
+        <link targets="wn_r237"/>
+    </node>
+    <a label="WordNet" ref="wn_n119" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n12">
+        <link targets="wn_r22"/>
+    </node>
+    <a label="WordNet" ref="wn_n12" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n120">
+        <link targets="wn_r239"/>
+    </node>
+    <a label="WordNet" ref="wn_n120" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n121">
+        <link targets="wn_r241"/>
+    </node>
+    <a label="WordNet" ref="wn_n121" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n122">
+        <link targets="wn_r243"/>
+    </node>
+    <a label="WordNet" ref="wn_n122" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n123">
+        <link targets="wn_r246"/>
+    </node>
+    <a label="WordNet" ref="wn_n123" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n124">
+        <link targets="wn_r248"/>
+    </node>
+    <a label="WordNet" ref="wn_n124" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n125">
+        <link targets="wn_r250"/>
+    </node>
+    <a label="WordNet" ref="wn_n125" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n126">
+        <link targets="wn_r252"/>
+    </node>
+    <a label="WordNet" ref="wn_n126" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n127">
+        <link targets="wn_r254"/>
+    </node>
+    <a label="WordNet" ref="wn_n127" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n128">
+        <link targets="wn_r256"/>
+    </node>
+    <a label="WordNet" ref="wn_n128" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n129">
+        <link targets="wn_r258"/>
+    </node>
+    <a label="WordNet" ref="wn_n129" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n13">
+        <link targets="wn_r24"/>
+    </node>
+    <a label="WordNet" ref="wn_n13" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n130">
+        <link targets="wn_r260"/>
+    </node>
+    <a label="WordNet" ref="wn_n130" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n131">
+        <link targets="wn_r262"/>
+    </node>
+    <a label="WordNet" ref="wn_n131" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n132">
+        <link targets="wn_r264"/>
+    </node>
+    <a label="WordNet" ref="wn_n132" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n133">
+        <link targets="wn_r266"/>
+    </node>
+    <a label="WordNet" ref="wn_n133" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n134">
+        <link targets="wn_r268"/>
+    </node>
+    <a label="WordNet" ref="wn_n134" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n135">
+        <link targets="wn_r270"/>
+    </node>
+    <a label="WordNet" ref="wn_n135" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n136">
+        <link targets="wn_r272"/>
+    </node>
+    <a label="WordNet" ref="wn_n136" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n137">
+        <link targets="wn_r274"/>
+    </node>
+    <a label="WordNet" ref="wn_n137" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n138">
+        <link targets="wn_r276"/>
+    </node>
+    <a label="WordNet" ref="wn_n138" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n139">
+        <link targets="wn_r278"/>
+    </node>
+    <a label="WordNet" ref="wn_n139" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n14">
+        <link targets="wn_r26"/>
+    </node>
+    <a label="WordNet" ref="wn_n14" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n140">
+        <link targets="wn_r280"/>
+    </node>
+    <a label="WordNet" ref="wn_n140" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n141">
+        <link targets="wn_r282"/>
+    </node>
+    <a label="WordNet" ref="wn_n141" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n142">
+        <link targets="wn_r284"/>
+    </node>
+    <a label="WordNet" ref="wn_n142" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n143">
+        <link targets="wn_r286"/>
+    </node>
+    <a label="WordNet" ref="wn_n143" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n144">
+        <link targets="wn_r288"/>
+    </node>
+    <a label="WordNet" ref="wn_n144" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n145">
+        <link targets="wn_r290"/>
+    </node>
+    <a label="WordNet" ref="wn_n145" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n146">
+        <link targets="wn_r292"/>
+    </node>
+    <a label="WordNet" ref="wn_n146" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n147">
+        <link targets="wn_r294"/>
+    </node>
+    <a label="WordNet" ref="wn_n147" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n15">
+        <link targets="wn_r28"/>
+    </node>
+    <a label="WordNet" ref="wn_n15" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n16">
+        <link targets="wn_r30"/>
+    </node>
+    <a label="WordNet" ref="wn_n16" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n17">
+        <link targets="wn_r32"/>
+    </node>
+    <a label="WordNet" ref="wn_n17" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n18">
+        <link targets="wn_r34"/>
+    </node>
+    <a label="WordNet" ref="wn_n18" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n19">
+        <link targets="wn_r36"/>
+    </node>
+    <a label="WordNet" ref="wn_n19" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n2">
+        <link targets="wn_r4"/>
+    </node>
+    <a label="WordNet" ref="wn_n2" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n20">
+        <link targets="wn_r38"/>
+    </node>
+    <a label="WordNet" ref="wn_n20" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n21">
+        <link targets="wn_r40"/>
+    </node>
+    <a label="WordNet" ref="wn_n21" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n22">
+        <link targets="wn_r42"/>
+    </node>
+    <a label="WordNet" ref="wn_n22" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n23">
+        <link targets="wn_r44"/>
+    </node>
+    <a label="WordNet" ref="wn_n23" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n24">
+        <link targets="wn_r46"/>
+    </node>
+    <a label="WordNet" ref="wn_n24" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n25">
+        <link targets="wn_r48"/>
+    </node>
+    <a label="WordNet" ref="wn_n25" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n26">
+        <link targets="wn_r50"/>
+    </node>
+    <a label="WordNet" ref="wn_n26" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n27">
+        <link targets="wn_r52"/>
+    </node>
+    <a label="WordNet" ref="wn_n27" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n28">
+        <link targets="wn_r54"/>
+    </node>
+    <a label="WordNet" ref="wn_n28" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n29">
+        <link targets="wn_r56"/>
+    </node>
+    <a label="WordNet" ref="wn_n29" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n3">
+        <link targets="wn_r6"/>
+    </node>
+    <a label="WordNet" ref="wn_n3" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n30">
+        <link targets="wn_r58"/>
+    </node>
+    <a label="WordNet" ref="wn_n30" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n31">
+        <link targets="wn_r60"/>
+    </node>
+    <a label="WordNet" ref="wn_n31" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n32">
+        <link targets="wn_r62"/>
+    </node>
+    <a label="WordNet" ref="wn_n32" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n33">
+        <link targets="wn_r64"/>
+    </node>
+    <a label="WordNet" ref="wn_n33" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n34">
+        <link targets="wn_r66"/>
+    </node>
+    <a label="WordNet" ref="wn_n34" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n35">
+        <link targets="wn_r68"/>
+    </node>
+    <a label="WordNet" ref="wn_n35" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n36">
+        <link targets="wn_r70"/>
+    </node>
+    <a label="WordNet" ref="wn_n36" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n37">
+        <link targets="wn_r72"/>
+    </node>
+    <a label="WordNet" ref="wn_n37" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n38">
+        <link targets="wn_r74"/>
+    </node>
+    <a label="WordNet" ref="wn_n38" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n39">
+        <link targets="wn_r76"/>
+    </node>
+    <a label="WordNet" ref="wn_n39" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n4">
+        <link targets="wn_r8"/>
+    </node>
+    <a label="WordNet" ref="wn_n4" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n40">
+        <link targets="wn_r78"/>
+    </node>
+    <a label="WordNet" ref="wn_n40" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n41">
+        <link targets="wn_r80"/>
+    </node>
+    <a label="WordNet" ref="wn_n41" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n42">
+        <link targets="wn_r82"/>
+    </node>
+    <a label="WordNet" ref="wn_n42" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n43">
+        <link targets="wn_r84"/>
+    </node>
+    <a label="WordNet" ref="wn_n43" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n44">
+        <link targets="wn_r86"/>
+    </node>
+    <a label="WordNet" ref="wn_n44" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n45">
+        <link targets="wn_r88"/>
+    </node>
+    <a label="WordNet" ref="wn_n45" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n46">
+        <link targets="wn_r90"/>
+    </node>
+    <a label="WordNet" ref="wn_n46" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n47">
+        <link targets="wn_r92"/>
+    </node>
+    <a label="WordNet" ref="wn_n47" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n48">
+        <link targets="wn_r94"/>
+    </node>
+    <a label="WordNet" ref="wn_n48" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n49">
+        <link targets="wn_r96"/>
+    </node>
+    <a label="WordNet" ref="wn_n49" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n5">
+        <link targets="wn_r10"/>
+    </node>
+    <a label="WordNet" ref="wn_n5" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n50">
+        <link targets="wn_r98"/>
+    </node>
+    <a label="WordNet" ref="wn_n50" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n51">
+        <link targets="wn_r100"/>
+    </node>
+    <a label="WordNet" ref="wn_n51" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n52">
+        <link targets="wn_r102"/>
+    </node>
+    <a label="WordNet" ref="wn_n52" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n53">
+        <link targets="wn_r104"/>
+    </node>
+    <a label="WordNet" ref="wn_n53" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n54">
+        <link targets="wn_r106"/>
+    </node>
+    <a label="WordNet" ref="wn_n54" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n55">
+        <link targets="wn_r108"/>
+    </node>
+    <a label="WordNet" ref="wn_n55" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n56">
+        <link targets="wn_r110"/>
+    </node>
+    <a label="WordNet" ref="wn_n56" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n57">
+        <link targets="wn_r112"/>
+    </node>
+    <a label="WordNet" ref="wn_n57" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n58">
+        <link targets="wn_r114"/>
+    </node>
+    <a label="WordNet" ref="wn_n58" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n59">
+        <link targets="wn_r116"/>
+    </node>
+    <a label="WordNet" ref="wn_n59" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n6">
+        <link targets="wn_r12"/>
+    </node>
+    <a label="WordNet" ref="wn_n6" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n60">
+        <link targets="wn_r118"/>
+    </node>
+    <a label="WordNet" ref="wn_n60" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n61">
+        <link targets="wn_r120"/>
+    </node>
+    <a label="WordNet" ref="wn_n61" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n62">
+        <link targets="wn_r122"/>
+    </node>
+    <a label="WordNet" ref="wn_n62" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n63">
+        <link targets="wn_r124"/>
+    </node>
+    <a label="WordNet" ref="wn_n63" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n64">
+        <link targets="wn_r126"/>
+    </node>
+    <a label="WordNet" ref="wn_n64" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n65">
+        <link targets="wn_r128"/>
+    </node>
+    <a label="WordNet" ref="wn_n65" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n66">
+        <link targets="wn_r130"/>
+    </node>
+    <a label="WordNet" ref="wn_n66" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n67">
+        <link targets="wn_r133"/>
+    </node>
+    <a label="WordNet" ref="wn_n67" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n68">
+        <link targets="wn_r135"/>
+    </node>
+    <a label="WordNet" ref="wn_n68" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n69">
+        <link targets="wn_r137"/>
+    </node>
+    <a label="WordNet" ref="wn_n69" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n7">
+        <link targets="wn_r14"/>
+    </node>
+    <a label="WordNet" ref="wn_n7" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n70">
+        <link targets="wn_r139"/>
+    </node>
+    <a label="WordNet" ref="wn_n70" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n71">
+        <link targets="wn_r141"/>
+    </node>
+    <a label="WordNet" ref="wn_n71" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n72">
+        <link targets="wn_r143"/>
+    </node>
+    <a label="WordNet" ref="wn_n72" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n73">
+        <link targets="wn_r145"/>
+    </node>
+    <a label="WordNet" ref="wn_n73" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n74">
+        <link targets="wn_r147"/>
+    </node>
+    <a label="WordNet" ref="wn_n74" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n75">
+        <link targets="wn_r149"/>
+    </node>
+    <a label="WordNet" ref="wn_n75" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n76">
+        <link targets="wn_r151"/>
+    </node>
+    <a label="WordNet" ref="wn_n76" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n77">
+        <link targets="wn_r153"/>
+    </node>
+    <a label="WordNet" ref="wn_n77" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n78">
+        <link targets="wn_r155"/>
+    </node>
+    <a label="WordNet" ref="wn_n78" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n79">
+        <link targets="wn_r157"/>
+    </node>
+    <a label="WordNet" ref="wn_n79" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n8">
+        <link targets="wn_r15"/>
+    </node>
+    <a label="WordNet" ref="wn_n8" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n80">
+        <link targets="wn_r159"/>
+    </node>
+    <a label="WordNet" ref="wn_n80" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n81">
+        <link targets="wn_r161"/>
+    </node>
+    <a label="WordNet" ref="wn_n81" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n82">
+        <link targets="wn_r163"/>
+    </node>
+    <a label="WordNet" ref="wn_n82" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n83">
+        <link targets="wn_r165"/>
+    </node>
+    <a label="WordNet" ref="wn_n83" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n84">
+        <link targets="wn_r167"/>
+    </node>
+    <a label="WordNet" ref="wn_n84" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n85">
+        <link targets="wn_r169"/>
+    </node>
+    <a label="WordNet" ref="wn_n85" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n86">
+        <link targets="wn_r171"/>
+    </node>
+    <a label="WordNet" ref="wn_n86" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n87">
+        <link targets="wn_r173"/>
+    </node>
+    <a label="WordNet" ref="wn_n87" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n88">
+        <link targets="wn_r175"/>
+    </node>
+    <a label="WordNet" ref="wn_n88" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n89">
+        <link targets="wn_r177"/>
+    </node>
+    <a label="WordNet" ref="wn_n89" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n9">
+        <link targets="wn_r17"/>
+    </node>
+    <a label="WordNet" ref="wn_n9" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/41/ArticleIP_3041.anc"/>
+                    <f name="orig-start" value="5393"/>
+                    <f name="orig-end" value="5505"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n90">
+        <link targets="wn_r179"/>
+    </node>
+    <a label="WordNet" ref="wn_n90" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n91">
+        <link targets="wn_r181"/>
+    </node>
+    <a label="WordNet" ref="wn_n91" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n92">
+        <link targets="wn_r183"/>
+    </node>
+    <a label="WordNet" ref="wn_n92" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n93">
+        <link targets="wn_r185"/>
+    </node>
+    <a label="WordNet" ref="wn_n93" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n94">
+        <link targets="wn_r187"/>
+    </node>
+    <a label="WordNet" ref="wn_n94" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n95">
+        <link targets="wn_r189"/>
+    </node>
+    <a label="WordNet" ref="wn_n95" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n96">
+        <link targets="wn_r191"/>
+    </node>
+    <a label="WordNet" ref="wn_n96" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n97">
+        <link targets="wn_r193"/>
+    </node>
+    <a label="WordNet" ref="wn_n97" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n98">
+        <link targets="wn_r195"/>
+    </node>
+    <a label="WordNet" ref="wn_n98" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/50/ArticleIP_20620.anc"/>
+                    <f name="orig-start" value="738"/>
+                    <f name="orig-end" value="873"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n99">
+        <link targets="wn_r197"/>
+    </node>
+    <a label="WordNet" ref="wn_n99" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:distrustful:00"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_1/journal/slate/17/Article247_4007.anc"/>
+                    <f name="orig-start" value="5794"/>
+                    <f name="orig-end" value="5934"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="suspicious%5:00:00:questionable:00"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+</graph>

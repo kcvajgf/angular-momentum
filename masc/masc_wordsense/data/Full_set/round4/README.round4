@@ -1,0 +1,171 @@
+-----------------------------
+ROUND 4 - FULL SET ANNOTATION
+-----------------------------
+
+   WORDS (N=13) : 
+
+   SENSE INVENTORY
+   ---------------
+    wn-3.1 sense  |   wn-sense-key
+  	--------------+---------------------------------------
+  	CURIOUS, adj
+  	         1 	curious%5:00:00:strange:00
+  	         2 	curious%3:00:00::
+  	--------------+---------------------------------------
+  	ENTITLE, verb
+  	         1 	entitle%2:41:00::
+  	         2 	entitle%2:32:00::
+  	         3 	entitle%2:41:01::
+  	--------------+---------------------------------------
+  	EXERCISE, noun
+  	         1 	physical_exercise%1:04:00::
+  	         2 	exercise%1:04:03::
+  	         3 	exercise%1:04:02::
+  	         4 	exercise%1:04:01::
+  	         5 	exercise%1:11:01::
+  	--------------+---------------------------------------
+  	EXERCISE, verb
+  	         1 	exercise%2:34:00::
+  	         2 	exercise%2:41:00::
+  	         3 	exercise%2:29:01::
+  	         4 	exercise%2:29:00::
+  	         5 	exercise%2:31:00::
+  	--------------+---------------------------------------
+  	MATURE, verb
+  	         1 	mature%2:30:00::
+  	         2 	mature%2:32:00::
+  	         3 	mature%2:30:03::
+  	         4 	mature%2:30:04::
+  	         5 	mature%2:30:01::
+  	         6 	mature%2:29:04::
+  	--------------+---------------------------------------
+  	MATURITY, noun
+  	         1 	maturity%1:28:00::
+  	         2 	maturity%1:26:00::
+  	         3 	maturity_date%1:28:00::
+  	--------------+---------------------------------------
+  	OFFICER, noun
+  	         1 	officer%1:18:03::
+  	         2 	officer%1:18:02::
+  	         3 	police_officer%1:18:00::
+  	         4 	ship's_officer%1:18:00::
+  	--------------+---------------------------------------
+  	RATE, noun
+  	         1 	rate%1:28:00::
+  	         2 	rate%1:21:00::
+  	         3 	rate%1:07:00::
+  	         4 	rate%1:24:00::
+  	--------------+---------------------------------------
+  	SMART, adj
+  	         1 	smart%3:00:00::
+  	         2 	smart%5:00:00:stylish:00
+  	         3 	smart%5:00:00:intelligent:00
+  	         4 	smart%5:00:00:forward:02
+  	         5 	smart%5:00:00:intense:00
+  	         6 	smart%5:00:00:fast:01
+  	         7 	smart%5:00:00:automatic:00
+  	--------------+---------------------------------------
+  	SUCCEED, verb
+  	         1 	succeed%2:41:00::
+  	         2 	succeed%2:41:01::
+  	--------------+---------------------------------------
+  	SUCCESS, noun
+  	         1 	success%1:11:00::
+  	         2 	success%1:04:00::
+  	         3 	success%1:26:00::
+  	         4 	success%1:18:00::
+  	--------------+---------------------------------------
+  	SUCCESSION, noun
+  	         1 	succession%1:07:00::
+  	         2 	succession%1:14:00::
+  	         3 	succession%1:04:00::
+  	         4 	succession%1:22:00::
+  	         5 	succession%1:04:01::
+  	--------------+---------------------------------------
+  	SUSPICIOUS, adj
+  	         1 	suspicious%5:00:00:distrustful:00
+  	         2 	suspicious%5:00:00:questionable:00
+  	         
+
+   ANNOTATION SUMMARY
+   ------------------   	         
+
+  	Word:	curious
+	Pos:	j
+	WNSenses:	2
+	WNSensesUsed:	2 
+	Total Number Occurrences: 296
+
+  	Word:	entitle
+	Pos:	v
+	WNSenses:	3
+	WNSensesUsed:	2 
+	Total Number Occurrences: 300
+
+  	Word:	exercise
+  	Pos:		 n
+  	WNSenses:	5
+  	WNSensesUsed:	4
+	Total Number Occurrences: 758
+
+  	Word:	exercise
+  	Pos:	v
+  	WNSenses:	 5		
+  	WNSensesUsed:	4
+	Total Number Occurrences: 383
+
+  	Word:	mature
+	Pos:	v
+	WNSenses:	6
+	WNSensesUsed:	5 
+	Total Number Occurrences: 438
+
+  	Word:	maturity
+  	Pos:	 n
+  	WNSenses:	3
+  	WNSensesUsed:	3
+	Total Number Occurrences: 91
+
+  	Word:	officer
+	Pos:	n
+	WNSenses:	4
+	WNSensesUsed:	4 
+	Total Number Occurrences: 994
+
+  	Word:	rate
+	Pos:	n
+	WNSenses:	4
+	WNSensesUsed:	4 
+	Total Number Occurrences: 998
+
+  	Word:	smart
+	Pos:	j
+	WNSenses:	7
+	WNSensesUsed:	5 
+	Total Number Occurrences: 426
+
+  	Word:	succeed
+	Pos:	v
+	WNSenses:	2
+	WNSensesUsed:	2 
+	Total Number Occurrences: 469
+
+  	Word:	success
+	Pos:	n
+	WNSenses:	5
+	WNSensesUsed:	4 
+	Total Number Occurrences: 979
+
+  	Word:	succession
+  	Pos:	 n
+  	WNSenses:	5
+  	WNSensesUsed:	5
+	Total Number Occurrences: 118 
+
+  	Word:	suspicious
+  	Pos	:	 j
+  	WNSenses:	2
+  	WNSensesUsed:	2
+	Total Number Occurrences: 146
+
+TOTAL NUMBER OF OCCURRENCES: 6396

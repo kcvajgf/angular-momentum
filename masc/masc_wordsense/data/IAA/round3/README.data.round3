@@ -1,0 +1,102 @@
+README.mascSenseIA.rounds2-5.data.round3
+
+The data files are in the format required by Ron Artstein's
+calculate-alpha.perl script
+
+From his script documentation:
+### <data-file> is a tab-separated text file: the first line is
+### annotator id's separated by tabs, and subsequent lines are
+### annotation data, with each line representing a single item, and
+### individual values separated by tabs. Values must be numeric;
+
+annotators: 107, 108, 105
+sentences: N=50 per word; see round3-chance-n-sentences.txt, etc.
+words (N=10): chance-n, cool-j, familiar-j, forget-v, juice-n, justify-v, player-n, rapid-j, rip-v, try-v
+senses,chance-n:
+ masc_sense_id | wn_sensenum |     wn_sense     
+---------------+-------------+------------------
+           101 |           1 | chance%1:26:00::
+           102 |           2 | chance%1:19:00::
+           103 |           3 | chance%1:04:00::
+           104 |           4 | chance%1:07:00::
+           105 |           5 | chance%1:26:01::
+           999 |         999 | GLOB
+senses,cool-j:
+ masc_sense_id | wn_sensenum |            wn_sense            
+---------------+-------------+--------------------------------
+           101 |           1 | cool%3:00:01::
+           102 |           2 | coolheaded%5:00:00:composed:00
+           103 |           3 | cool%3:00:03::
+           104 |           4 | cool%3:00:02::
+           105 |           5 | cool%5:00:00:unqualified:02
+           106 |           6 | cool%5:00:00:fashionable:00
+           999 |         999 | GLOB
+senses,familiar-j:
+ masc_sense_id | wn_sensenum |           wn_sense           
+---------------+-------------+------------------------------
+           101 |           1 | familiar%3:00:00::
+           102 |           2 | familiar%3:00:02::
+           103 |           3 | familiar%5:00:00:informed:00
+           104 |           4 | familiar%5:00:00:close:02
+           999 |         999 | GLOB
+senses,forget-v:
+ masc_sense_id | wn_sensenum |     wn_sense     
+---------------+-------------+------------------
+           101 |           1 | forget%2:31:01::
+           102 |           2 | forget%2:31:00::
+           103 |           3 | forget%2:31:03::
+           104 |           4 | forget%2:31:02::
+           999 |         999 | GLOB
+senses,juice-n:
+ masc_sense_id | wn_sensenum |    wn_sense     
+---------------+-------------+-----------------
+           101 |           1 | juice%1:13:00::
+           102 |           2 | juice%1:26:00::
+           103 |           3 | juice%1:19:00::
+           104 |           4 | juice%1:08:00::
+           999 |         999 | GLOB
+senses,justify-v:
+ masc_sense_id | wn_sensenum |     wn_sense      
+---------------+-------------+-------------------
+           101 |           1 | justify%2:32:01::
+           102 |           2 | justify%2:32:00::
+           103 |           3 | justify%2:32:02::
+           104 |           4 | justify%2:32:03::
+           105 |           5 | justify%2:30:00::
+           999 |         999 | GLOB
+senses,player-n:
+ masc_sense_id | wn_sensenum |       wn_sense        
+---------------+-------------+-----------------------
+           101 |           1 | player%1:18:01::
+           102 |           2 | player%1:18:02::
+           103 |           3 | role_player%1:18:00::
+           104 |           4 | player%1:18:04::
+           105 |           5 | player%1:18:03::
+           999 |         999 | GLOB
+senses,rapid-j:
+ masc_sense_id | wn_sensenum |       wn_sense        
+---------------+-------------+-----------------------
+           101 |           1 | rapid%5:00:00:fast:01
+           102 |           2 | rapid%5:00:02:fast:01
+           999 |         999 | GLOB
+senses,rip-v:
+ masc_sense_id | wn_sensenum |   wn_sense    
+---------------+-------------+---------------
+           101 |           1 | rip%2:35:00::
+           102 |           2 | rip%2:38:00::
+           103 |           3 | rip%2:35:01::
+           104 |           4 | rip%2:32:00::
+           999 |         999 | GLOB
+senses,try-v:
+ masc_sense_id | wn_sensenum |     wn_sense      
+---------------+-------------+-------------------
+           101 |           1 | try%2:41:00::
+           102 |           2 | try_out%2:41:00::
+           103 |           3 | try%2:41:06::
+           104 |           4 | try_out%2:34:00::
+           105 |           5 | try%2:41:05::
+           106 |           6 | try%2:37:01::
+           107 |           7 | try%2:37:00::
+           108 |           8 | try%2:30:00::
+           109 |           9 | try_on%2:29:00::
+           999 |         999 | GLOB

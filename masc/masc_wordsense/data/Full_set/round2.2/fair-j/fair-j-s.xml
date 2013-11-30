@@ -1,0 +1,5212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="s" occurs="473"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="wn_r0" anchors="0 213"/>
+    <region xml:id="wn_r1" anchors="215 443"/>
+    <region xml:id="wn_r2" anchors="445 543"/>
+    <region xml:id="wn_r3" anchors="545 750"/>
+    <region xml:id="wn_r4" anchors="752 896"/>
+    <region xml:id="wn_r5" anchors="898 925"/>
+    <region xml:id="wn_r6" anchors="927 1078"/>
+    <region xml:id="wn_r7" anchors="1080 1149"/>
+    <region xml:id="wn_r8" anchors="1151 1266"/>
+    <region xml:id="wn_r9" anchors="1268 1293"/>
+    <region xml:id="wn_r10" anchors="1295 1502"/>
+    <region xml:id="wn_r11" anchors="1504 1613"/>
+    <region xml:id="wn_r12" anchors="1615 1716"/>
+    <region xml:id="wn_r13" anchors="1718 1859"/>
+    <region xml:id="wn_r14" anchors="1861 2179"/>
+    <region xml:id="wn_r15" anchors="2181 2413"/>
+    <region xml:id="wn_r16" anchors="2415 2503"/>
+    <region xml:id="wn_r17" anchors="2505 2715"/>
+    <region xml:id="wn_r18" anchors="2717 2864"/>
+    <region xml:id="wn_r19" anchors="2866 2975"/>
+    <region xml:id="wn_r20" anchors="2977 3048"/>
+    <region xml:id="wn_r21" anchors="3050 3190"/>
+    <region xml:id="wn_r22" anchors="3192 3247"/>
+    <region xml:id="wn_r23" anchors="3249 3573"/>
+    <region xml:id="wn_r24" anchors="3575 3765"/>
+    <region xml:id="wn_r25" anchors="3767 4181"/>
+    <region xml:id="wn_r26" anchors="4183 4512"/>
+    <region xml:id="wn_r27" anchors="4514 4639"/>
+    <region xml:id="wn_r28" anchors="4641 4775"/>
+    <region xml:id="wn_r29" anchors="4777 4947"/>
+    <region xml:id="wn_r30" anchors="4949 5106"/>
+    <region xml:id="wn_r31" anchors="5108 5269"/>
+    <region xml:id="wn_r32" anchors="5271 5465"/>
+    <region xml:id="wn_r33" anchors="5467 5538"/>
+    <region xml:id="wn_r34" anchors="5540 5587"/>
+    <region xml:id="wn_r35" anchors="5589 5656"/>
+    <region xml:id="wn_r36" anchors="5658 5891"/>
+    <region xml:id="wn_r37" anchors="5893 6011"/>
+    <region xml:id="wn_r38" anchors="6013 6167"/>
+    <region xml:id="wn_r39" anchors="6169 6379"/>
+    <region xml:id="wn_r40" anchors="6381 6556"/>
+    <region xml:id="wn_r41" anchors="6558 6603"/>
+    <region xml:id="wn_r42" anchors="6605 6889"/>
+    <region xml:id="wn_r43" anchors="6891 7127"/>
+    <region xml:id="wn_r44" anchors="7129 7207"/>
+    <region xml:id="wn_r45" anchors="7209 7239"/>
+    <region xml:id="wn_r46" anchors="7241 7355"/>
+    <region xml:id="wn_r47" anchors="7357 7651"/>
+    <region xml:id="wn_r48" anchors="7653 7719"/>
+    <region xml:id="wn_r49" anchors="7721 7788"/>
+    <region xml:id="wn_r50" anchors="7790 7884"/>
+    <region xml:id="wn_r51" anchors="7886 8098"/>
+    <region xml:id="wn_r52" anchors="8100 8206"/>
+    <region xml:id="wn_r53" anchors="8208 8482"/>
+    <region xml:id="wn_r54" anchors="8484 8566"/>
+    <region xml:id="wn_r55" anchors="8568 8718"/>
+    <region xml:id="wn_r56" anchors="8720 8828"/>
+    <region xml:id="wn_r57" anchors="8830 9003"/>
+    <region xml:id="wn_r58" anchors="9005 9058"/>
+    <region xml:id="wn_r59" anchors="9060 9182"/>
+    <region xml:id="wn_r60" anchors="9184 9331"/>
+    <region xml:id="wn_r61" anchors="9333 9413"/>
+    <region xml:id="wn_r62" anchors="9415 9554"/>
+    <region xml:id="wn_r63" anchors="9556 9827"/>
+    <region xml:id="wn_r64" anchors="9829 9902"/>
+    <region xml:id="wn_r65" anchors="9904 10005"/>
+    <region xml:id="wn_r66" anchors="10007 10083"/>
+    <region xml:id="wn_r67" anchors="10085 10384"/>
+    <region xml:id="wn_r68" anchors="10386 10572"/>
+    <region xml:id="wn_r69" anchors="10574 10788"/>
+    <region xml:id="wn_r70" anchors="10790 10886"/>
+    <region xml:id="wn_r71" anchors="10888 11117"/>
+    <region xml:id="wn_r72" anchors="11119 11302"/>
+    <region xml:id="wn_r73" anchors="11304 11515"/>
+    <region xml:id="wn_r74" anchors="11517 11751"/>
+    <region xml:id="wn_r75" anchors="11753 11855"/>
+    <region xml:id="wn_r76" anchors="11857 12124"/>
+    <region xml:id="wn_r77" anchors="12126 12286"/>
+    <region xml:id="wn_r78" anchors="12288 12390"/>
+    <region xml:id="wn_r79" anchors="12392 12588"/>
+    <region xml:id="wn_r80" anchors="12590 12853"/>
+    <region xml:id="wn_r81" anchors="12855 12903"/>
+    <region xml:id="wn_r82" anchors="12905 13115"/>
+    <region xml:id="wn_r83" anchors="13117 13196"/>
+    <region xml:id="wn_r84" anchors="13198 13240"/>
+    <region xml:id="wn_r85" anchors="13242 13398"/>
+    <region xml:id="wn_r86" anchors="13400 13488"/>
+    <region xml:id="wn_r87" anchors="13490 13669"/>
+    <region xml:id="wn_r88" anchors="13671 13828"/>
+    <region xml:id="wn_r89" anchors="13830 13959"/>
+    <region xml:id="wn_r90" anchors="13961 14163"/>
+    <region xml:id="wn_r91" anchors="14165 14316"/>
+    <region xml:id="wn_r92" anchors="14318 14628"/>
+    <region xml:id="wn_r93" anchors="14630 14823"/>
+    <region xml:id="wn_r94" anchors="14825 14893"/>
+    <region xml:id="wn_r95" anchors="14895 15154"/>
+    <region xml:id="wn_r96" anchors="15156 15795"/>
+    <region xml:id="wn_r97" anchors="15797 15833"/>
+    <region xml:id="wn_r98" anchors="15835 16066"/>
+    <region xml:id="wn_r99" anchors="16068 16243"/>
+    <region xml:id="wn_r100" anchors="16245 16306"/>
+    <region xml:id="wn_r101" anchors="16308 16394"/>
+    <region xml:id="wn_r102" anchors="16396 16533"/>
+    <region xml:id="wn_r103" anchors="16535 16681"/>
+    <region xml:id="wn_r104" anchors="16683 17157"/>
+    <region xml:id="wn_r105" anchors="17159 17348"/>
+    <region xml:id="wn_r106" anchors="17350 17588"/>
+    <region xml:id="wn_r107" anchors="17590 17717"/>
+    <region xml:id="wn_r108" anchors="17719 17896"/>
+    <region xml:id="wn_r109" anchors="17898 18077"/>
+    <region xml:id="wn_r110" anchors="18079 18147"/>
+    <region xml:id="wn_r111" anchors="18149 18218"/>
+    <region xml:id="wn_r112" anchors="18220 18284"/>
+    <region xml:id="wn_r113" anchors="18286 18403"/>
+    <region xml:id="wn_r114" anchors="18405 18637"/>
+    <region xml:id="wn_r115" anchors="18639 18752"/>
+    <region xml:id="wn_r116" anchors="18754 18860"/>
+    <region xml:id="wn_r117" anchors="18862 19094"/>
+    <region xml:id="wn_r118" anchors="19096 19702"/>
+    <region xml:id="wn_r119" anchors="19704 19782"/>
+    <region xml:id="wn_r120" anchors="19784 20050"/>
+    <region xml:id="wn_r121" anchors="20052 20207"/>
+    <region xml:id="wn_r122" anchors="20209 20324"/>
+    <region xml:id="wn_r123" anchors="20326 20414"/>
+    <region xml:id="wn_r124" anchors="20416 20566"/>
+    <region xml:id="wn_r125" anchors="20568 20727"/>
+    <region xml:id="wn_r126" anchors="20729 20957"/>
+    <region xml:id="wn_r127" anchors="20959 21071"/>
+    <region xml:id="wn_r128" anchors="21073 21236"/>
+    <region xml:id="wn_r129" anchors="21238 21577"/>
+    <region xml:id="wn_r130" anchors="21579 21893"/>
+    <region xml:id="wn_r131" anchors="21895 21952"/>
+    <region xml:id="wn_r132" anchors="21954 22048"/>
+    <region xml:id="wn_r133" anchors="22050 22370"/>
+    <region xml:id="wn_r134" anchors="22372 22500"/>
+    <region xml:id="wn_r135" anchors="22502 22586"/>
+    <region xml:id="wn_r136" anchors="22588 22730"/>
+    <region xml:id="wn_r137" anchors="22732 22806"/>
+    <region xml:id="wn_r138" anchors="22808 22841"/>
+    <region xml:id="wn_r139" anchors="22843 23022"/>
+    <region xml:id="wn_r140" anchors="23024 23272"/>
+    <region xml:id="wn_r141" anchors="23274 23389"/>
+    <region xml:id="wn_r142" anchors="23391 23557"/>
+    <region xml:id="wn_r143" anchors="23559 23776"/>
+    <region xml:id="wn_r144" anchors="23778 23992"/>
+    <region xml:id="wn_r145" anchors="23994 24011"/>
+    <region xml:id="wn_r146" anchors="24013 24282"/>
+    <region xml:id="wn_r147" anchors="24284 24367"/>
+    <region xml:id="wn_r148" anchors="24369 24481"/>
+    <region xml:id="wn_r149" anchors="24483 24590"/>
+    <region xml:id="wn_r150" anchors="24592 24701"/>
+    <region xml:id="wn_r151" anchors="24703 24756"/>
+    <region xml:id="wn_r152" anchors="24758 24961"/>
+    <region xml:id="wn_r153" anchors="24963 25241"/>
+    <region xml:id="wn_r154" anchors="25243 25382"/>
+    <region xml:id="wn_r155" anchors="25384 25507"/>
+    <region xml:id="wn_r156" anchors="25509 25669"/>
+    <region xml:id="wn_r157" anchors="25671 25729"/>
+    <region xml:id="wn_r158" anchors="25731 25807"/>
+    <region xml:id="wn_r159" anchors="25809 26003"/>
+    <region xml:id="wn_r160" anchors="26005 26152"/>
+    <region xml:id="wn_r161" anchors="26154 26373"/>
+    <region xml:id="wn_r162" anchors="26375 26498"/>
+    <region xml:id="wn_r163" anchors="26500 26540"/>
+    <region xml:id="wn_r164" anchors="26542 26642"/>
+    <region xml:id="wn_r165" anchors="26644 26849"/>
+    <region xml:id="wn_r166" anchors="26851 27004"/>
+    <region xml:id="wn_r167" anchors="27006 27108"/>
+    <region xml:id="wn_r168" anchors="27110 27284"/>
+    <region xml:id="wn_r169" anchors="27286 27322"/>
+    <region xml:id="wn_r170" anchors="27324 27435"/>
+    <region xml:id="wn_r171" anchors="27437 27632"/>
+    <region xml:id="wn_r172" anchors="27634 27781"/>
+    <region xml:id="wn_r173" anchors="27783 27975"/>
+    <region xml:id="wn_r174" anchors="27977 28047"/>
+    <region xml:id="wn_r175" anchors="28049 28222"/>
+    <region xml:id="wn_r176" anchors="28224 28587"/>
+    <region xml:id="wn_r177" anchors="28589 28841"/>
+    <region xml:id="wn_r178" anchors="28843 29011"/>
+    <region xml:id="wn_r179" anchors="29013 29236"/>
+    <region xml:id="wn_r180" anchors="29238 29342"/>
+    <region xml:id="wn_r181" anchors="29344 29632"/>
+    <region xml:id="wn_r182" anchors="29634 29848"/>
+    <region xml:id="wn_r183" anchors="29850 30041"/>
+    <region xml:id="wn_r184" anchors="30043 30181"/>
+    <region xml:id="wn_r185" anchors="30183 30395"/>
+    <region xml:id="wn_r186" anchors="30397 30592"/>
+    <region xml:id="wn_r187" anchors="30594 30677"/>
+    <region xml:id="wn_r188" anchors="30679 30787"/>
+    <region xml:id="wn_r189" anchors="30789 30974"/>
+    <region xml:id="wn_r190" anchors="30976 31680"/>
+    <region xml:id="wn_r191" anchors="31682 31866"/>
+    <region xml:id="wn_r192" anchors="31868 31956"/>
+    <region xml:id="wn_r193" anchors="31958 32034"/>
+    <region xml:id="wn_r194" anchors="32036 32208"/>
+    <region xml:id="wn_r195" anchors="32210 32337"/>
+    <region xml:id="wn_r196" anchors="32339 32412"/>
+    <region xml:id="wn_r197" anchors="32414 32519"/>
+    <region xml:id="wn_r198" anchors="32521 32660"/>
+    <region xml:id="wn_r199" anchors="32662 32824"/>
+    <region xml:id="wn_r200" anchors="32826 32967"/>
+    <region xml:id="wn_r201" anchors="32969 33085"/>
+    <region xml:id="wn_r202" anchors="33087 33130"/>
+    <region xml:id="wn_r203" anchors="33132 33502"/>
+    <region xml:id="wn_r204" anchors="33504 33797"/>
+    <region xml:id="wn_r205" anchors="33799 33935"/>
+    <region xml:id="wn_r206" anchors="33937 34118"/>
+    <region xml:id="wn_r207" anchors="34120 34221"/>
+    <region xml:id="wn_r208" anchors="34223 34294"/>
+    <region xml:id="wn_r209" anchors="34296 34468"/>
+    <region xml:id="wn_r210" anchors="34470 34550"/>
+    <region xml:id="wn_r211" anchors="34552 34689"/>
+    <region xml:id="wn_r212" anchors="34691 34924"/>
+    <region xml:id="wn_r213" anchors="34926 35022"/>
+    <region xml:id="wn_r214" anchors="35024 35284"/>
+    <region xml:id="wn_r215" anchors="35286 35466"/>
+    <region xml:id="wn_r216" anchors="35468 35637"/>
+    <region xml:id="wn_r217" anchors="35639 35755"/>
+    <region xml:id="wn_r218" anchors="35757 35870"/>
+    <region xml:id="wn_r219" anchors="35872 35990"/>
+    <region xml:id="wn_r220" anchors="35992 36165"/>
+    <region xml:id="wn_r221" anchors="36167 36317"/>
+    <region xml:id="wn_r222" anchors="36319 36372"/>
+    <region xml:id="wn_r223" anchors="36374 36577"/>
+    <region xml:id="wn_r224" anchors="36579 36664"/>
+    <region xml:id="wn_r225" anchors="36666 36797"/>
+    <region xml:id="wn_r226" anchors="36799 36861"/>
+    <region xml:id="wn_r227" anchors="36863 36980"/>
+    <region xml:id="wn_r228" anchors="36982 37261"/>
+    <region xml:id="wn_r229" anchors="37263 37501"/>
+    <region xml:id="wn_r230" anchors="37503 37626"/>
+    <region xml:id="wn_r231" anchors="37628 37868"/>
+    <region xml:id="wn_r232" anchors="37870 37992"/>
+    <region xml:id="wn_r233" anchors="37994 38170"/>
+    <region xml:id="wn_r234" anchors="38172 38331"/>
+    <region xml:id="wn_r235" anchors="38333 38539"/>
+    <region xml:id="wn_r236" anchors="38541 38761"/>
+    <region xml:id="wn_r237" anchors="38763 38930"/>
+    <region xml:id="wn_r238" anchors="38932 39043"/>
+    <region xml:id="wn_r239" anchors="39045 39330"/>
+    <region xml:id="wn_r240" anchors="39332 39445"/>
+    <region xml:id="wn_r241" anchors="39447 39714"/>
+    <region xml:id="wn_r242" anchors="39716 39834"/>
+    <region xml:id="wn_r243" anchors="39836 39931"/>
+    <region xml:id="wn_r244" anchors="39933 40230"/>
+    <region xml:id="wn_r245" anchors="40232 40631"/>
+    <region xml:id="wn_r246" anchors="40633 40843"/>
+    <region xml:id="wn_r247" anchors="40845 40978"/>
+    <region xml:id="wn_r248" anchors="40980 41163"/>
+    <region xml:id="wn_r249" anchors="41165 41355"/>
+    <region xml:id="wn_r250" anchors="41357 41473"/>
+    <region xml:id="wn_r251" anchors="41475 41531"/>
+    <region xml:id="wn_r252" anchors="41533 41681"/>
+    <region xml:id="wn_r253" anchors="41683 41785"/>
+    <region xml:id="wn_r254" anchors="41787 41941"/>
+    <region xml:id="wn_r255" anchors="41943 42075"/>
+    <region xml:id="wn_r256" anchors="42077 42166"/>
+    <region xml:id="wn_r257" anchors="42168 42237"/>
+    <region xml:id="wn_r258" anchors="42239 42314"/>
+    <region xml:id="wn_r259" anchors="42316 42432"/>
+    <region xml:id="wn_r260" anchors="42434 42538"/>
+    <region xml:id="wn_r261" anchors="42540 42657"/>
+    <region xml:id="wn_r262" anchors="42659 42834"/>
+    <region xml:id="wn_r263" anchors="42836 42994"/>
+    <region xml:id="wn_r264" anchors="42996 43064"/>
+    <region xml:id="wn_r265" anchors="43066 43201"/>
+    <region xml:id="wn_r266" anchors="43203 43362"/>
+    <region xml:id="wn_r267" anchors="43364 43423"/>
+    <region xml:id="wn_r268" anchors="43425 43526"/>
+    <region xml:id="wn_r269" anchors="43528 43671"/>
+    <region xml:id="wn_r270" anchors="43673 43753"/>
+    <region xml:id="wn_r271" anchors="43755 43782"/>
+    <region xml:id="wn_r272" anchors="43784 43912"/>
+    <region xml:id="wn_r273" anchors="43914 44204"/>
+    <region xml:id="wn_r274" anchors="44206 44314"/>
+    <region xml:id="wn_r275" anchors="44316 44588"/>
+    <region xml:id="wn_r276" anchors="44590 44720"/>
+    <region xml:id="wn_r277" anchors="44722 44857"/>
+    <region xml:id="wn_r278" anchors="44859 45019"/>
+    <region xml:id="wn_r279" anchors="45021 45371"/>
+    <region xml:id="wn_r280" anchors="45373 45559"/>
+    <region xml:id="wn_r281" anchors="45561 45586"/>
+    <region xml:id="wn_r282" anchors="45588 45781"/>
+    <region xml:id="wn_r283" anchors="45783 45876"/>
+    <region xml:id="wn_r284" anchors="45878 46152"/>
+    <region xml:id="wn_r285" anchors="46154 46463"/>
+    <region xml:id="wn_r286" anchors="46465 46588"/>
+    <region xml:id="wn_r287" anchors="46590 46664"/>
+    <region xml:id="wn_r288" anchors="46666 47161"/>
+    <region xml:id="wn_r289" anchors="47163 47383"/>
+    <region xml:id="wn_r290" anchors="47385 47595"/>
+    <region xml:id="wn_r291" anchors="47597 47777"/>
+    <region xml:id="wn_r292" anchors="47779 48049"/>
+    <region xml:id="wn_r293" anchors="48051 48146"/>
+    <region xml:id="wn_r294" anchors="48148 48296"/>
+    <region xml:id="wn_r295" anchors="48298 48385"/>
+    <region xml:id="wn_r296" anchors="48387 48512"/>
+    <region xml:id="wn_r297" anchors="48514 48724"/>
+    <region xml:id="wn_r298" anchors="48726 48821"/>
+    <region xml:id="wn_r299" anchors="48823 49071"/>
+    <region xml:id="wn_r300" anchors="49073 49252"/>
+    <region xml:id="wn_r301" anchors="49254 49487"/>
+    <region xml:id="wn_r302" anchors="49489 49723"/>
+    <region xml:id="wn_r303" anchors="49725 49890"/>
+    <region xml:id="wn_r304" anchors="49892 49917"/>
+    <region xml:id="wn_r305" anchors="49919 49946"/>
+    <region xml:id="wn_r306" anchors="49948 50197"/>
+    <region xml:id="wn_r307" anchors="50199 50239"/>
+    <region xml:id="wn_r308" anchors="50241 50489"/>
+    <region xml:id="wn_r309" anchors="50491 50643"/>
+    <region xml:id="wn_r310" anchors="50645 50805"/>
+    <region xml:id="wn_r311" anchors="50807 50834"/>
+    <region xml:id="wn_r312" anchors="50836 50893"/>
+    <region xml:id="wn_r313" anchors="50895 50962"/>
+    <region xml:id="wn_r314" anchors="50964 51091"/>
+    <region xml:id="wn_r315" anchors="51093 51239"/>
+    <region xml:id="wn_r316" anchors="51241 51400"/>
+    <region xml:id="wn_r317" anchors="51402 51658"/>
+    <region xml:id="wn_r318" anchors="51660 51741"/>
+    <region xml:id="wn_r319" anchors="51743 51762"/>
+    <region xml:id="wn_r320" anchors="51764 51775"/>
+    <region xml:id="wn_r321" anchors="51777 51848"/>
+    <region xml:id="wn_r322" anchors="51850 51991"/>
+    <region xml:id="wn_r323" anchors="51993 52157"/>
+    <region xml:id="wn_r324" anchors="52159 52309"/>
+    <region xml:id="wn_r325" anchors="52311 52507"/>
+    <region xml:id="wn_r326" anchors="52509 52524"/>
+    <region xml:id="wn_r327" anchors="52526 52593"/>
+    <region xml:id="wn_r328" anchors="52595 52903"/>
+    <region xml:id="wn_r329" anchors="52905 53076"/>
+    <region xml:id="wn_r330" anchors="53078 53256"/>
+    <region xml:id="wn_r331" anchors="53258 53338"/>
+    <region xml:id="wn_r332" anchors="53340 53580"/>
+    <region xml:id="wn_r333" anchors="53582 53631"/>
+    <region xml:id="wn_r334" anchors="53633 53825"/>
+    <region xml:id="wn_r335" anchors="53827 53904"/>
+    <region xml:id="wn_r336" anchors="53906 54138"/>
+    <region xml:id="wn_r337" anchors="54140 54241"/>
+    <region xml:id="wn_r338" anchors="54243 54300"/>
+    <region xml:id="wn_r339" anchors="54302 54389"/>
+    <region xml:id="wn_r340" anchors="54391 54801"/>
+    <region xml:id="wn_r341" anchors="54803 55117"/>
+    <region xml:id="wn_r342" anchors="55119 55213"/>
+    <region xml:id="wn_r343" anchors="55215 55360"/>
+    <region xml:id="wn_r344" anchors="55362 55406"/>
+    <region xml:id="wn_r345" anchors="55408 55488"/>
+    <region xml:id="wn_r346" anchors="55490 55590"/>
+    <region xml:id="wn_r347" anchors="55592 55771"/>
+    <region xml:id="wn_r348" anchors="55773 55789"/>
+    <region xml:id="wn_r349" anchors="55791 56019"/>
+    <region xml:id="wn_r350" anchors="56021 56147"/>
+    <region xml:id="wn_r351" anchors="56149 56538"/>
+    <region xml:id="wn_r352" anchors="56540 56715"/>
+    <region xml:id="wn_r353" anchors="56717 56783"/>
+    <region xml:id="wn_r354" anchors="56785 56891"/>
+    <region xml:id="wn_r355" anchors="56893 57016"/>
+    <region xml:id="wn_r356" anchors="57018 57179"/>
+    <region xml:id="wn_r357" anchors="57181 57493"/>
+    <region xml:id="wn_r358" anchors="57495 57637"/>
+    <region xml:id="wn_r359" anchors="57639 57764"/>
+    <region xml:id="wn_r360" anchors="57766 57870"/>
+    <region xml:id="wn_r361" anchors="57872 57961"/>
+    <region xml:id="wn_r362" anchors="57963 58111"/>
+    <region xml:id="wn_r363" anchors="58113 58189"/>
+    <region xml:id="wn_r364" anchors="58191 58425"/>
+    <region xml:id="wn_r365" anchors="58427 58515"/>
+    <region xml:id="wn_r366" anchors="58517 58660"/>
+    <region xml:id="wn_r367" anchors="58662 58683"/>
+    <region xml:id="wn_r368" anchors="58685 58793"/>
+    <region xml:id="wn_r369" anchors="58795 58842"/>
+    <region xml:id="wn_r370" anchors="58844 59107"/>
+    <region xml:id="wn_r371" anchors="59109 59383"/>
+    <region xml:id="wn_r372" anchors="59385 59460"/>
+    <region xml:id="wn_r373" anchors="59462 59555"/>
+    <region xml:id="wn_r374" anchors="59557 59717"/>
+    <region xml:id="wn_r375" anchors="59719 59808"/>
+    <region xml:id="wn_r376" anchors="59810 60035"/>
+    <region xml:id="wn_r377" anchors="60037 60362"/>
+    <region xml:id="wn_r378" anchors="60364 60657"/>
+    <region xml:id="wn_r379" anchors="60659 60683"/>
+    <region xml:id="wn_r380" anchors="60685 60791"/>
+    <region xml:id="wn_r381" anchors="60793 60905"/>
+    <region xml:id="wn_r382" anchors="60907 61096"/>
+    <region xml:id="wn_r383" anchors="61098 61225"/>
+    <region xml:id="wn_r384" anchors="61227 61403"/>
+    <region xml:id="wn_r385" anchors="61405 61582"/>
+    <region xml:id="wn_r386" anchors="61584 61720"/>
+    <region xml:id="wn_r387" anchors="61722 61988"/>
+    <region xml:id="wn_r388" anchors="61990 62059"/>
+    <region xml:id="wn_r389" anchors="62061 62258"/>
+    <region xml:id="wn_r390" anchors="62260 62314"/>
+    <region xml:id="wn_r391" anchors="62316 62456"/>
+    <region xml:id="wn_r392" anchors="62458 62623"/>
+    <region xml:id="wn_r393" anchors="62625 62689"/>
+    <region xml:id="wn_r394" anchors="62691 62911"/>
+    <region xml:id="wn_r395" anchors="62913 63102"/>
+    <region xml:id="wn_r396" anchors="63104 63232"/>
+    <region xml:id="wn_r397" anchors="63234 63432"/>
+    <region xml:id="wn_r398" anchors="63434 63675"/>
+    <region xml:id="wn_r399" anchors="63677 63848"/>
+    <region xml:id="wn_r400" anchors="63850 63977"/>
+    <region xml:id="wn_r401" anchors="63979 64248"/>
+    <region xml:id="wn_r402" anchors="64250 64417"/>
+    <region xml:id="wn_r403" anchors="64419 64525"/>
+    <region xml:id="wn_r404" anchors="64527 64678"/>
+    <region xml:id="wn_r405" anchors="64680 64828"/>
+    <region xml:id="wn_r406" anchors="64830 65156"/>
+    <region xml:id="wn_r407" anchors="65158 65231"/>
+    <region xml:id="wn_r408" anchors="65233 65449"/>
+    <region xml:id="wn_r409" anchors="65451 65585"/>
+    <region xml:id="wn_r410" anchors="65587 65758"/>
+    <region xml:id="wn_r411" anchors="65760 66074"/>
+    <region xml:id="wn_r412" anchors="66076 66270"/>
+    <region xml:id="wn_r413" anchors="66272 66370"/>
+    <region xml:id="wn_r414" anchors="66372 66546"/>
+    <region xml:id="wn_r415" anchors="66548 66699"/>
+    <region xml:id="wn_r416" anchors="66701 66823"/>
+    <region xml:id="wn_r417" anchors="66825 67010"/>
+    <region xml:id="wn_r418" anchors="67012 67186"/>
+    <region xml:id="wn_r419" anchors="67188 67295"/>
+    <region xml:id="wn_r420" anchors="67297 67448"/>
+    <region xml:id="wn_r421" anchors="67450 67622"/>
+    <region xml:id="wn_r422" anchors="67624 67648"/>
+    <region xml:id="wn_r423" anchors="67650 67924"/>
+    <region xml:id="wn_r424" anchors="67926 68164"/>
+    <region xml:id="wn_r425" anchors="68166 68610"/>
+    <region xml:id="wn_r426" anchors="68612 68708"/>
+    <region xml:id="wn_r427" anchors="68710 68922"/>
+    <region xml:id="wn_r428" anchors="68924 69093"/>
+    <region xml:id="wn_r429" anchors="69095 69403"/>
+    <region xml:id="wn_r430" anchors="69405 69535"/>
+    <region xml:id="wn_r431" anchors="69537 69744"/>
+    <region xml:id="wn_r432" anchors="69746 69961"/>
+    <region xml:id="wn_r433" anchors="69963 70048"/>
+    <region xml:id="wn_r434" anchors="70050 70138"/>
+    <region xml:id="wn_r435" anchors="70140 70250"/>
+    <region xml:id="wn_r436" anchors="70252 70439"/>
+    <region xml:id="wn_r437" anchors="70441 70544"/>
+    <region xml:id="wn_r438" anchors="70546 70766"/>
+    <region xml:id="wn_r439" anchors="70768 71052"/>
+    <region xml:id="wn_r440" anchors="71054 71351"/>
+    <region xml:id="wn_r441" anchors="71353 71530"/>
+    <region xml:id="wn_r442" anchors="71532 71904"/>
+    <region xml:id="wn_r443" anchors="71906 72090"/>
+    <region xml:id="wn_r444" anchors="72092 72113"/>
+    <region xml:id="wn_r445" anchors="72115 72258"/>
+    <region xml:id="wn_r446" anchors="72260 72348"/>
+    <region xml:id="wn_r447" anchors="72350 72507"/>
+    <region xml:id="wn_r448" anchors="72509 72632"/>
+    <region xml:id="wn_r449" anchors="72634 72744"/>
+    <region xml:id="wn_r450" anchors="72746 72968"/>
+    <region xml:id="wn_r451" anchors="72970 73051"/>
+    <region xml:id="wn_r452" anchors="73053 73100"/>
+    <region xml:id="wn_r453" anchors="73102 73299"/>
+    <region xml:id="wn_r454" anchors="73301 73496"/>
+    <region xml:id="wn_r455" anchors="73498 73544"/>
+    <region xml:id="wn_r456" anchors="73546 73584"/>
+    <region xml:id="wn_r457" anchors="73586 73698"/>
+    <region xml:id="wn_r458" anchors="73700 74024"/>
+    <region xml:id="wn_r459" anchors="74026 74196"/>
+    <region xml:id="wn_r460" anchors="74198 74253"/>
+    <region xml:id="wn_r461" anchors="74255 74279"/>
+    <region xml:id="wn_r462" anchors="74281 74396"/>
+    <region xml:id="wn_r463" anchors="74398 74594"/>
+    <region xml:id="wn_r464" anchors="74596 74764"/>
+    <region xml:id="wn_r465" anchors="74766 74898"/>
+    <region xml:id="wn_r466" anchors="74900 75050"/>
+    <region xml:id="wn_r467" anchors="75052 75140"/>
+    <region xml:id="wn_r468" anchors="75142 75365"/>
+    <region xml:id="wn_r469" anchors="75367 75470"/>
+    <region xml:id="wn_r470" anchors="75472 75715"/>
+    <region xml:id="wn_r471" anchors="75717 75872"/>
+    <region xml:id="wn_r472" anchors="75874 76102"/>
+    <node xml:id="wn_n0">
+        <link targets="wn_r0"/>
+    </node>
+    <a label="s" ref="wn_n0">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n1">
+        <link targets="wn_r1"/>
+    </node>
+    <a label="s" ref="wn_n1">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3832.anc"/>
+            <f name="orig-start" value="6303"/>
+            <f name="orig-end" value="6531"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n10">
+        <link targets="wn_r10"/>
+    </node>
+    <a label="s" ref="wn_n10">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/6/Article247_767.anc"/>
+            <f name="orig-start" value="2789"/>
+            <f name="orig-end" value="2996"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n100">
+        <link targets="wn_r100"/>
+    </node>
+    <a label="s" ref="wn_n100">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="24028"/>
+            <f name="orig-end" value="24089"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n101">
+        <link targets="wn_r101"/>
+    </node>
+    <a label="s" ref="wn_n101">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="48781"/>
+            <f name="orig-end" value="48868"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n102">
+        <link targets="wn_r102"/>
+    </node>
+    <a label="s" ref="wn_n102">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/letters/icic/407CQL124.anc"/>
+            <f name="orig-start" value="13877"/>
+            <f name="orig-end" value="14026"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n103">
+        <link targets="wn_r103"/>
+    </node>
+    <a label="s" ref="wn_n103">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToLakeDistrict.anc"/>
+            <f name="orig-start" value="12727"/>
+            <f name="orig-end" value="12889"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n104">
+        <link targets="wn_r104"/>
+    </node>
+    <a label="s" ref="wn_n104">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0020050.anc"/>
+            <f name="orig-start" value="22489"/>
+            <f name="orig-end" value="23003"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n105">
+        <link targets="wn_r105"/>
+    </node>
+    <a label="s" ref="wn_n105">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/journal.pbio.0020121.anc"/>
+            <f name="orig-start" value="10115"/>
+            <f name="orig-end" value="10320"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n106">
+        <link targets="wn_r106"/>
+    </node>
+    <a label="s" ref="wn_n106">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Assuring_Underprivileged.anc"/>
+            <f name="orig-start" value="1202"/>
+            <f name="orig-end" value="1440"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n107">
+        <link targets="wn_r107"/>
+    </node>
+    <a label="s" ref="wn_n107">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToFrance.anc"/>
+            <f name="orig-start" value="1992"/>
+            <f name="orig-end" value="2127"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n108">
+        <link targets="wn_r108"/>
+    </node>
+    <a label="s" ref="wn_n108">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_23263.anc"/>
+            <f name="orig-start" value="1422"/>
+            <f name="orig-end" value="1599"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n109">
+        <link targets="wn_r109"/>
+    </node>
+    <a label="s" ref="wn_n109">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="55047"/>
+            <f name="orig-end" value="55226"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n11">
+        <link targets="wn_r11"/>
+    </node>
+    <a label="s" ref="wn_n11">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/45/ArticleIP_3569.anc"/>
+            <f name="orig-start" value="3143"/>
+            <f name="orig-end" value="3252"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n110">
+        <link targets="wn_r110"/>
+    </node>
+    <a label="s" ref="wn_n110">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/53/ArticleIP_55759.anc"/>
+            <f name="orig-start" value="3789"/>
+            <f name="orig-end" value="3857"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n111">
+        <link targets="wn_r111"/>
+    </node>
+    <a label="s" ref="wn_n111">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Advocate_for_Poor.anc"/>
+            <f name="orig-start" value="2439"/>
+            <f name="orig-end" value="2508"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n112">
+        <link targets="wn_r112"/>
+    </node>
+    <a label="s" ref="wn_n112">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Costa-WhereToGo.anc"/>
+            <f name="orig-start" value="7609"/>
+            <f name="orig-end" value="7673"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n113">
+        <link targets="wn_r113"/>
+    </node>
+    <a label="s" ref="wn_n113">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1785.anc"/>
+            <f name="orig-start" value="3236"/>
+            <f name="orig-end" value="3353"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n114">
+        <link targets="wn_r114"/>
+    </node>
+    <a label="s" ref="wn_n114">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Service_Agency.anc"/>
+            <f name="orig-start" value="1753"/>
+            <f name="orig-end" value="1985"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n115">
+        <link targets="wn_r115"/>
+    </node>
+    <a label="s" ref="wn_n115">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2094.anc"/>
+            <f name="orig-start" value="3495"/>
+            <f name="orig-end" value="3608"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n116">
+        <link targets="wn_r116"/>
+    </node>
+    <a label="s" ref="wn_n116">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToFWI.anc"/>
+            <f name="orig-start" value="301"/>
+            <f name="orig-end" value="415"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n117">
+        <link targets="wn_r117"/>
+    </node>
+    <a label="s" ref="wn_n117">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/9/Article247_3279.anc"/>
+            <f name="orig-start" value="4068"/>
+            <f name="orig-end" value="4300"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n118">
+        <link targets="wn_r118"/>
+    </node>
+    <a label="s" ref="wn_n118">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1468-6708-3-3.anc"/>
+            <f name="orig-start" value="8283"/>
+            <f name="orig-end" value="8978"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n119">
+        <link targets="wn_r119"/>
+    </node>
+    <a label="s" ref="wn_n119">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhereToMadeira.anc"/>
+            <f name="orig-start" value="32041"/>
+            <f name="orig-end" value="32135"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n12">
+        <link targets="wn_r12"/>
+    </node>
+    <a label="s" ref="wn_n12">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/10/Article247_3361.anc"/>
+            <f name="orig-start" value="2799"/>
+            <f name="orig-end" value="2900"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n120">
+        <link targets="wn_r120"/>
+    </node>
+    <a label="s" ref="wn_n120">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4343.anc"/>
+            <f name="orig-start" value="3646"/>
+            <f name="orig-end" value="3912"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n121">
+        <link targets="wn_r121"/>
+    </node>
+    <a label="s" ref="wn_n121">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3918.anc"/>
+            <f name="orig-start" value="9468"/>
+            <f name="orig-end" value="9623"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n122">
+        <link targets="wn_r122"/>
+    </node>
+    <a label="s" ref="wn_n122">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_30632.anc"/>
+            <f name="orig-start" value="11144"/>
+            <f name="orig-end" value="11259"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n123">
+        <link targets="wn_r123"/>
+    </node>
+    <a label="s" ref="wn_n123">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3862.anc"/>
+            <f name="orig-start" value="4422"/>
+            <f name="orig-end" value="4510"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n124">
+        <link targets="wn_r124"/>
+    </node>
+    <a label="s" ref="wn_n124">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/38/ArticleIP_2618.anc"/>
+            <f name="orig-start" value="1820"/>
+            <f name="orig-end" value="1970"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n125">
+        <link targets="wn_r125"/>
+    </node>
+    <a label="s" ref="wn_n125">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/54/ArticleIP_68165.anc"/>
+            <f name="orig-start" value="286"/>
+            <f name="orig-end" value="445"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n126">
+        <link targets="wn_r126"/>
+    </node>
+    <a label="s" ref="wn_n126">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_35438.anc"/>
+            <f name="orig-start" value="209"/>
+            <f name="orig-end" value="437"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n127">
+        <link targets="wn_r127"/>
+    </node>
+    <a label="s" ref="wn_n127">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3971.anc"/>
+            <f name="orig-start" value="2760"/>
+            <f name="orig-end" value="2872"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n128">
+        <link targets="wn_r128"/>
+    </node>
+    <a label="s" ref="wn_n128">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3807.anc"/>
+            <f name="orig-start" value="672"/>
+            <f name="orig-end" value="835"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n129">
+        <link targets="wn_r129"/>
+    </node>
+    <a label="s" ref="wn_n129">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/35/ArticleIP_2304.anc"/>
+            <f name="orig-start" value="1487"/>
+            <f name="orig-end" value="1826"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n13">
+        <link targets="wn_r13"/>
+    </node>
+    <a label="s" ref="wn_n13">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_22951.anc"/>
+            <f name="orig-start" value="6062"/>
+            <f name="orig-end" value="6203"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n130">
+        <link targets="wn_r130"/>
+    </node>
+    <a label="s" ref="wn_n130">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3926.anc"/>
+            <f name="orig-start" value="4161"/>
+            <f name="orig-end" value="4475"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n131">
+        <link targets="wn_r131"/>
+    </node>
+    <a label="s" ref="wn_n131">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3616.anc"/>
+            <f name="orig-start" value="5477"/>
+            <f name="orig-end" value="5534"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n132">
+        <link targets="wn_r132"/>
+    </node>
+    <a label="s" ref="wn_n132">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/22/ArticleIP_1055.anc"/>
+            <f name="orig-start" value="1465"/>
+            <f name="orig-end" value="1559"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n133">
+        <link targets="wn_r133"/>
+    </node>
+    <a label="s" ref="wn_n133">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL17_1.anc"/>
+            <f name="orig-start" value="88343"/>
+            <f name="orig-end" value="88663"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n134">
+        <link targets="wn_r134"/>
+    </node>
+    <a label="s" ref="wn_n134">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3860.anc"/>
+            <f name="orig-start" value="2534"/>
+            <f name="orig-end" value="2662"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n135">
+        <link targets="wn_r135"/>
+    </node>
+    <a label="s" ref="wn_n135">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/28/ArticleIP_1648.anc"/>
+            <f name="orig-start" value="3480"/>
+            <f name="orig-end" value="3564"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n136">
+        <link targets="wn_r136"/>
+    </node>
+    <a label="s" ref="wn_n136">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2458.anc"/>
+            <f name="orig-start" value="3862"/>
+            <f name="orig-end" value="4004"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n137">
+        <link targets="wn_r137"/>
+    </node>
+    <a label="s" ref="wn_n137">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_38054.anc"/>
+            <f name="orig-start" value="1703"/>
+            <f name="orig-end" value="1777"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n138">
+        <link targets="wn_r138"/>
+    </node>
+    <a label="s" ref="wn_n138">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/37/ArticleIP_2546.anc"/>
+            <f name="orig-start" value="5707"/>
+            <f name="orig-end" value="5740"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n139">
+        <link targets="wn_r139"/>
+    </node>
+    <a label="s" ref="wn_n139">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/14/Article247_3748.anc"/>
+            <f name="orig-start" value="5584"/>
+            <f name="orig-end" value="5764"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n14">
+        <link targets="wn_r14"/>
+    </node>
+    <a label="s" ref="wn_n14">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1701.anc"/>
+            <f name="orig-start" value="3275"/>
+            <f name="orig-end" value="3593"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n140">
+        <link targets="wn_r140"/>
+    </node>
+    <a label="s" ref="wn_n140">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_3.anc"/>
+            <f name="orig-start" value="119416"/>
+            <f name="orig-end" value="119664"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n141">
+        <link targets="wn_r141"/>
+    </node>
+    <a label="s" ref="wn_n141">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL23_2.anc"/>
+            <f name="orig-start" value="108525"/>
+            <f name="orig-end" value="108640"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n142">
+        <link targets="wn_r142"/>
+    </node>
+    <a label="s" ref="wn_n142">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/28/ArticleIP_1659.anc"/>
+            <f name="orig-start" value="5160"/>
+            <f name="orig-end" value="5326"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n143">
+        <link targets="wn_r143"/>
+    </node>
+    <a label="s" ref="wn_n143">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/13/Article247_3697.anc"/>
+            <f name="orig-start" value="5280"/>
+            <f name="orig-end" value="5497"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n144">
+        <link targets="wn_r144"/>
+    </node>
+    <a label="s" ref="wn_n144">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3887.anc"/>
+            <f name="orig-start" value="3429"/>
+            <f name="orig-end" value="3643"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n145">
+        <link targets="wn_r145"/>
+    </node>
+    <a label="s" ref="wn_n145">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/28/ArticleIP_1608.anc"/>
+            <f name="orig-start" value="2087"/>
+            <f name="orig-end" value="2104"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n146">
+        <link targets="wn_r146"/>
+    </node>
+    <a label="s" ref="wn_n146">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3873.anc"/>
+            <f name="orig-start" value="1405"/>
+            <f name="orig-end" value="1674"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n147">
+        <link targets="wn_r147"/>
+    </node>
+    <a label="s" ref="wn_n147">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3909.anc"/>
+            <f name="orig-start" value="1457"/>
+            <f name="orig-end" value="1540"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n148">
+        <link targets="wn_r148"/>
+    </node>
+    <a label="s" ref="wn_n148">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_12950.anc"/>
+            <f name="orig-start" value="2963"/>
+            <f name="orig-end" value="3075"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n149">
+        <link targets="wn_r149"/>
+    </node>
+    <a label="s" ref="wn_n149">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/10/Article247_3383.anc"/>
+            <f name="orig-start" value="2135"/>
+            <f name="orig-end" value="2242"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n15">
+        <link targets="wn_r15"/>
+    </node>
+    <a label="s" ref="wn_n15">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/California-WhereToGo.anc"/>
+            <f name="orig-start" value="65800"/>
+            <f name="orig-end" value="66032"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n150">
+        <link targets="wn_r150"/>
+    </node>
+    <a label="s" ref="wn_n150">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/30/ArticleIP_1846.anc"/>
+            <f name="orig-start" value="6195"/>
+            <f name="orig-end" value="6304"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n151">
+        <link targets="wn_r151"/>
+    </node>
+    <a label="s" ref="wn_n151">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3921.anc"/>
+            <f name="orig-start" value="8454"/>
+            <f name="orig-end" value="8507"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n152">
+        <link targets="wn_r152"/>
+    </node>
+    <a label="s" ref="wn_n152">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_33821.anc"/>
+            <f name="orig-start" value="2814"/>
+            <f name="orig-end" value="3017"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n153">
+        <link targets="wn_r153"/>
+    </node>
+    <a label="s" ref="wn_n153">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/14/Article247_3780.anc"/>
+            <f name="orig-start" value="2563"/>
+            <f name="orig-end" value="2841"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n154">
+        <link targets="wn_r154"/>
+    </node>
+    <a label="s" ref="wn_n154">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/45/ArticleIP_3535.anc"/>
+            <f name="orig-start" value="4771"/>
+            <f name="orig-end" value="4910"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n155">
+        <link targets="wn_r155"/>
+    </node>
+    <a label="s" ref="wn_n155">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/5/Article247_676.anc"/>
+            <f name="orig-start" value="1691"/>
+            <f name="orig-end" value="1814"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n156">
+        <link targets="wn_r156"/>
+    </node>
+    <a label="s" ref="wn_n156">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3857.anc"/>
+            <f name="orig-start" value="4976"/>
+            <f name="orig-end" value="5136"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n157">
+        <link targets="wn_r157"/>
+    </node>
+    <a label="s" ref="wn_n157">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/11/Article247_3405.anc"/>
+            <f name="orig-start" value="2923"/>
+            <f name="orig-end" value="2981"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n158">
+        <link targets="wn_r158"/>
+    </node>
+    <a label="s" ref="wn_n158">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_22067.anc"/>
+            <f name="orig-start" value="4014"/>
+            <f name="orig-end" value="4090"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n159">
+        <link targets="wn_r159"/>
+    </node>
+    <a label="s" ref="wn_n159">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/33/ArticleIP_2133.anc"/>
+            <f name="orig-start" value="4136"/>
+            <f name="orig-end" value="4330"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n16">
+        <link targets="wn_r16"/>
+    </node>
+    <a label="s" ref="wn_n16">
+        <fs>
+            <f name="path" value="OANC/data/written_1/journal/verbatim/VOL15_3.anc"/>
+            <f name="orig-start" value="32023"/>
+            <f name="orig-end" value="32111"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n160">
+        <link targets="wn_r160"/>
+    </node>
+    <a label="s" ref="wn_n160">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/2/Article247_379.anc"/>
+            <f name="orig-start" value="1757"/>
+            <f name="orig-end" value="1904"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n161">
+        <link targets="wn_r161"/>
+    </node>
+    <a label="s" ref="wn_n161">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_33585.anc"/>
+            <f name="orig-start" value="4275"/>
+            <f name="orig-end" value="4494"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n162">
+        <link targets="wn_r162"/>
+    </node>
+    <a label="s" ref="wn_n162">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/45/ArticleIP_3549.anc"/>
+            <f name="orig-start" value="1897"/>
+            <f name="orig-end" value="2020"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n163">
+        <link targets="wn_r163"/>
+    </node>
+    <a label="s" ref="wn_n163">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/27/ArticleIP_1559.anc"/>
+            <f name="orig-start" value="1913"/>
+            <f name="orig-end" value="1953"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n164">
+        <link targets="wn_r164"/>
+    </node>
+    <a label="s" ref="wn_n164">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3921.anc"/>
+            <f name="orig-start" value="2930"/>
+            <f name="orig-end" value="3030"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n165">
+        <link targets="wn_r165"/>
+    </node>
+    <a label="s" ref="wn_n165">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_34172.anc"/>
+            <f name="orig-start" value="3500"/>
+            <f name="orig-end" value="3705"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n166">
+        <link targets="wn_r166"/>
+    </node>
+    <a label="s" ref="wn_n166">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/5/Article247_622.anc"/>
+            <f name="orig-start" value="1384"/>
+            <f name="orig-end" value="1537"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n167">
+        <link targets="wn_r167"/>
+    </node>
+    <a label="s" ref="wn_n167">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/37/ArticleIP_2546.anc"/>
+            <f name="orig-start" value="5297"/>
+            <f name="orig-end" value="5399"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n168">
+        <link targets="wn_r168"/>
+    </node>
+    <a label="s" ref="wn_n168">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_25545.anc"/>
+            <f name="orig-start" value="556"/>
+            <f name="orig-end" value="730"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n169">
+        <link targets="wn_r169"/>
+    </node>
+    <a label="s" ref="wn_n169">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/34/ArticleIP_2208.anc"/>
+            <f name="orig-start" value="752"/>
+            <f name="orig-end" value="788"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n17">
+        <link targets="wn_r17"/>
+    </node>
+    <a label="s" ref="wn_n17">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Athens-WhatToDo.anc"/>
+            <f name="orig-start" value="4724"/>
+            <f name="orig-end" value="4934"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n170">
+        <link targets="wn_r170"/>
+    </node>
+    <a label="s" ref="wn_n170">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3816.anc"/>
+            <f name="orig-start" value="3002"/>
+            <f name="orig-end" value="3113"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n171">
+        <link targets="wn_r171"/>
+    </node>
+    <a label="s" ref="wn_n171">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/14/Article247_3717.anc"/>
+            <f name="orig-start" value="1925"/>
+            <f name="orig-end" value="2120"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n172">
+        <link targets="wn_r172"/>
+    </node>
+    <a label="s" ref="wn_n172">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/53/ArticleIP_57518.anc"/>
+            <f name="orig-start" value="4499"/>
+            <f name="orig-end" value="4646"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n173">
+        <link targets="wn_r173"/>
+    </node>
+    <a label="s" ref="wn_n173">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL17_2.anc"/>
+            <f name="orig-start" value="10745"/>
+            <f name="orig-end" value="10937"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n174">
+        <link targets="wn_r174"/>
+    </node>
+    <a label="s" ref="wn_n174">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/1/Article247_94.anc"/>
+            <f name="orig-start" value="2108"/>
+            <f name="orig-end" value="2178"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n175">
+        <link targets="wn_r175"/>
+    </node>
+    <a label="s" ref="wn_n175">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/19/Article247_4251.anc"/>
+            <f name="orig-start" value="3280"/>
+            <f name="orig-end" value="3453"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n176">
+        <link targets="wn_r176"/>
+    </node>
+    <a label="s" ref="wn_n176">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/5/Article247_606.anc"/>
+            <f name="orig-start" value="1441"/>
+            <f name="orig-end" value="1804"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n177">
+        <link targets="wn_r177"/>
+    </node>
+    <a label="s" ref="wn_n177">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/6/Article247_735.anc"/>
+            <f name="orig-start" value="4738"/>
+            <f name="orig-end" value="4990"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n178">
+        <link targets="wn_r178"/>
+    </node>
+    <a label="s" ref="wn_n178">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL15_4.anc"/>
+            <f name="orig-start" value="85397"/>
+            <f name="orig-end" value="85566"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n179">
+        <link targets="wn_r179"/>
+    </node>
+    <a label="s" ref="wn_n179">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/35/ArticleIP_2322.anc"/>
+            <f name="orig-start" value="3741"/>
+            <f name="orig-end" value="3964"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n18">
+        <link targets="wn_r18"/>
+    </node>
+    <a label="s" ref="wn_n18">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/45/ArticleIP_3510.anc"/>
+            <f name="orig-start" value="3864"/>
+            <f name="orig-end" value="4011"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n180">
+        <link targets="wn_r180"/>
+    </node>
+    <a label="s" ref="wn_n180">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/24/ArticleIP_1248.anc"/>
+            <f name="orig-start" value="5796"/>
+            <f name="orig-end" value="5900"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n181">
+        <link targets="wn_r181"/>
+    </node>
+    <a label="s" ref="wn_n181">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1732.anc"/>
+            <f name="orig-start" value="4341"/>
+            <f name="orig-end" value="4629"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n182">
+        <link targets="wn_r182"/>
+    </node>
+    <a label="s" ref="wn_n182">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL22_3.anc"/>
+            <f name="orig-start" value="60323"/>
+            <f name="orig-end" value="60537"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n183">
+        <link targets="wn_r183"/>
+    </node>
+    <a label="s" ref="wn_n183">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2401.anc"/>
+            <f name="orig-start" value="3363"/>
+            <f name="orig-end" value="3554"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n184">
+        <link targets="wn_r184"/>
+    </node>
+    <a label="s" ref="wn_n184">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/4/Article247_561.anc"/>
+            <f name="orig-start" value="4801"/>
+            <f name="orig-end" value="4939"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n185">
+        <link targets="wn_r185"/>
+    </node>
+    <a label="s" ref="wn_n185">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4353.anc"/>
+            <f name="orig-start" value="3466"/>
+            <f name="orig-end" value="3678"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n186">
+        <link targets="wn_r186"/>
+    </node>
+    <a label="s" ref="wn_n186">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_7108.anc"/>
+            <f name="orig-start" value="4465"/>
+            <f name="orig-end" value="4660"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n187">
+        <link targets="wn_r187"/>
+    </node>
+    <a label="s" ref="wn_n187">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3869.anc"/>
+            <f name="orig-start" value="9616"/>
+            <f name="orig-end" value="9699"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n188">
+        <link targets="wn_r188"/>
+    </node>
+    <a label="s" ref="wn_n188">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/21/Article247_4402.anc"/>
+            <f name="orig-start" value="8124"/>
+            <f name="orig-end" value="8232"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n189">
+        <link targets="wn_r189"/>
+    </node>
+    <a label="s" ref="wn_n189">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/38/ArticleIP_2639.anc"/>
+            <f name="orig-start" value="4737"/>
+            <f name="orig-end" value="4922"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n19">
+        <link targets="wn_r19"/>
+    </node>
+    <a label="s" ref="wn_n19">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_19914.anc"/>
+            <f name="orig-start" value="6076"/>
+            <f name="orig-end" value="6185"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n190">
+        <link targets="wn_r190"/>
+    </node>
+    <a label="s" ref="wn_n190">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2980.anc"/>
+            <f name="orig-start" value="259"/>
+            <f name="orig-end" value="963"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n191">
+        <link targets="wn_r191"/>
+    </node>
+    <a label="s" ref="wn_n191">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/4/Article247_595.anc"/>
+            <f name="orig-start" value="3832"/>
+            <f name="orig-end" value="4016"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n192">
+        <link targets="wn_r192"/>
+    </node>
+    <a label="s" ref="wn_n192">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL15_3.anc"/>
+            <f name="orig-start" value="32023"/>
+            <f name="orig-end" value="32111"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n193">
+        <link targets="wn_r193"/>
+    </node>
+    <a label="s" ref="wn_n193">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/22/ArticleIP_1056.anc"/>
+            <f name="orig-start" value="3581"/>
+            <f name="orig-end" value="3657"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n194">
+        <link targets="wn_r194"/>
+    </node>
+    <a label="s" ref="wn_n194">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="24091"/>
+            <f name="orig-end" value="24265"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n195">
+        <link targets="wn_r195"/>
+    </node>
+    <a label="s" ref="wn_n195">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Kauffman/ch10.anc"/>
+            <f name="orig-start" value="3563"/>
+            <f name="orig-end" value="3690"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n196">
+        <link targets="wn_r196"/>
+    </node>
+    <a label="s" ref="wn_n196">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_36880.anc"/>
+            <f name="orig-start" value="3933"/>
+            <f name="orig-end" value="4006"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n197">
+        <link targets="wn_r197"/>
+    </node>
+    <a label="s" ref="wn_n197">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.anc"/>
+            <f name="orig-start" value="34237"/>
+            <f name="orig-end" value="34342"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n198">
+        <link targets="wn_r198"/>
+    </node>
+    <a label="s" ref="wn_n198">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Portugal-WhereToGo.anc"/>
+            <f name="orig-start" value="95465"/>
+            <f name="orig-end" value="95604"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n199">
+        <link targets="wn_r199"/>
+    </node>
+    <a label="s" ref="wn_n199">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Canada-WhereToGo.anc"/>
+            <f name="orig-start" value="212133"/>
+            <f name="orig-end" value="212295"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n2">
+        <link targets="wn_r2"/>
+    </node>
+    <a label="s" ref="wn_n2">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3896.anc"/>
+            <f name="orig-start" value="4409"/>
+            <f name="orig-end" value="4507"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n20">
+        <link targets="wn_r20"/>
+    </node>
+    <a label="s" ref="wn_n20">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/55/ArticleIP_73366.anc"/>
+            <f name="orig-start" value="272"/>
+            <f name="orig-end" value="343"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n200">
+        <link targets="wn_r200"/>
+    </node>
+    <a label="s" ref="wn_n200">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_4278.anc"/>
+            <f name="orig-start" value="3940"/>
+            <f name="orig-end" value="4081"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n201">
+        <link targets="wn_r201"/>
+    </node>
+    <a label="s" ref="wn_n201">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03419sp.anc"/>
+            <f name="orig-start" value="9661"/>
+            <f name="orig-end" value="9777"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n202">
+        <link targets="wn_r202"/>
+    </node>
+    <a label="s" ref="wn_n202">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/54/ArticleIP_67912.anc"/>
+            <f name="orig-start" value="5571"/>
+            <f name="orig-end" value="5614"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n203">
+        <link targets="wn_r203"/>
+    </node>
+    <a label="s" ref="wn_n203">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToIndia.anc"/>
+            <f name="orig-start" value="10171"/>
+            <f name="orig-end" value="10581"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n204">
+        <link targets="wn_r204"/>
+    </node>
+    <a label="s" ref="wn_n204">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3929.anc"/>
+            <f name="orig-start" value="8261"/>
+            <f name="orig-end" value="8554"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n205">
+        <link targets="wn_r205"/>
+    </node>
+    <a label="s" ref="wn_n205">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="152633"/>
+            <f name="orig-end" value="152769"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n206">
+        <link targets="wn_r206"/>
+    </node>
+    <a label="s" ref="wn_n206">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToFrance.anc"/>
+            <f name="orig-start" value="1464"/>
+            <f name="orig-end" value="1661"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n207">
+        <link targets="wn_r207"/>
+    </node>
+    <a label="s" ref="wn_n207">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/8/Article247_933.anc"/>
+            <f name="orig-start" value="2776"/>
+            <f name="orig-end" value="2877"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n208">
+        <link targets="wn_r208"/>
+    </node>
+    <a label="s" ref="wn_n208">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Legal_Aid_campaign.anc"/>
+            <f name="orig-start" value="1435"/>
+            <f name="orig-end" value="1506"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n209">
+        <link targets="wn_r209"/>
+    </node>
+    <a label="s" ref="wn_n209">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/2/Article247_374.anc"/>
+            <f name="orig-start" value="1446"/>
+            <f name="orig-end" value="1618"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n21">
+        <link targets="wn_r21"/>
+    </node>
+    <a label="s" ref="wn_n21">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/19/Article247_4286.anc"/>
+            <f name="orig-start" value="196"/>
+            <f name="orig-end" value="336"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n210">
+        <link targets="wn_r210"/>
+    </node>
+    <a label="s" ref="wn_n210">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Canada-WhereToGo.anc"/>
+            <f name="orig-start" value="20548"/>
+            <f name="orig-end" value="20628"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n211">
+        <link targets="wn_r211"/>
+    </node>
+    <a label="s" ref="wn_n211">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Unusual_Woodburn.anc"/>
+            <f name="orig-start" value="1655"/>
+            <f name="orig-end" value="1792"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n212">
+        <link targets="wn_r212"/>
+    </node>
+    <a label="s" ref="wn_n212">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/911report/chapter-9.anc"/>
+            <f name="orig-start" value="121354"/>
+            <f name="orig-end" value="121619"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n213">
+        <link targets="wn_r213"/>
+    </node>
+    <a label="s" ref="wn_n213">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.anc"/>
+            <f name="orig-start" value="241120"/>
+            <f name="orig-end" value="241216"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n214">
+        <link targets="wn_r214"/>
+    </node>
+    <a label="s" ref="wn_n214">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0020162.anc"/>
+            <f name="orig-start" value="16516"/>
+            <f name="orig-end" value="16800"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n215">
+        <link targets="wn_r215"/>
+    </node>
+    <a label="s" ref="wn_n215">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Paper_Walker11-2002_acpro122.anc"/>
+            <f name="orig-start" value="2442"/>
+            <f name="orig-end" value="2622"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n216">
+        <link targets="wn_r216"/>
+    </node>
+    <a label="s" ref="wn_n216">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Bridging_legal_aid_gap.anc"/>
+            <f name="orig-start" value="4386"/>
+            <f name="orig-end" value="4555"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n217">
+        <link targets="wn_r217"/>
+    </node>
+    <a label="s" ref="wn_n217">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="135166"/>
+            <f name="orig-end" value="135282"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n218">
+        <link targets="wn_r218"/>
+    </node>
+    <a label="s" ref="wn_n218">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Survey.anc"/>
+            <f name="orig-start" value="8595"/>
+            <f name="orig-end" value="8708"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n219">
+        <link targets="wn_r219"/>
+    </node>
+    <a label="s" ref="wn_n219">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0020162.anc"/>
+            <f name="orig-start" value="16845"/>
+            <f name="orig-end" value="16979"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n22">
+        <link targets="wn_r22"/>
+    </node>
+    <a label="s" ref="wn_n22">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_4.anc"/>
+            <f name="orig-start" value="8671"/>
+            <f name="orig-end" value="8726"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n220">
+        <link targets="wn_r220"/>
+    </node>
+    <a label="s" ref="wn_n220">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="92793"/>
+            <f name="orig-end" value="92966"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n221">
+        <link targets="wn_r221"/>
+    </node>
+    <a label="s" ref="wn_n221">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d01145g.anc"/>
+            <f name="orig-start" value="1798"/>
+            <f name="orig-end" value="1948"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n222">
+        <link targets="wn_r222"/>
+    </node>
+    <a label="s" ref="wn_n222">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Law_Schools.anc"/>
+            <f name="orig-start" value="8470"/>
+            <f name="orig-end" value="8523"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n223">
+        <link targets="wn_r223"/>
+    </node>
+    <a label="s" ref="wn_n223">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03232sp.anc"/>
+            <f name="orig-start" value="3245"/>
+            <f name="orig-end" value="3448"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n224">
+        <link targets="wn_r224"/>
+    </node>
+    <a label="s" ref="wn_n224">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Post_Rate_Comm/Gleiman_EMASpeech.anc"/>
+            <f name="orig-start" value="21249"/>
+            <f name="orig-end" value="21334"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n225">
+        <link targets="wn_r225"/>
+    </node>
+    <a label="s" ref="wn_n225">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03419sp.anc"/>
+            <f name="orig-start" value="46780"/>
+            <f name="orig-end" value="46911"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n226">
+        <link targets="wn_r226"/>
+    </node>
+    <a label="s" ref="wn_n226">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1468-6708-3-1.anc"/>
+            <f name="orig-start" value="23923"/>
+            <f name="orig-end" value="23993"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n227">
+        <link targets="wn_r227"/>
+    </node>
+    <a label="s" ref="wn_n227">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="149105"/>
+            <f name="orig-end" value="149222"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n228">
+        <link targets="wn_r228"/>
+    </node>
+    <a label="s" ref="wn_n228">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="203026"/>
+            <f name="orig-end" value="203305"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n229">
+        <link targets="wn_r229"/>
+    </node>
+    <a label="s" ref="wn_n229">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/pe1019.anc"/>
+            <f name="orig-start" value="34697"/>
+            <f name="orig-end" value="34935"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n23">
+        <link targets="wn_r23"/>
+    </node>
+    <a label="s" ref="wn_n23">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/7/Article247_819.anc"/>
+            <f name="orig-start" value="1953"/>
+            <f name="orig-end" value="2277"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n230">
+        <link targets="wn_r230"/>
+    </node>
+    <a label="s" ref="wn_n230">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Assuring_Underprivileged.anc"/>
+            <f name="orig-start" value="1573"/>
+            <f name="orig-end" value="1696"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n231">
+        <link targets="wn_r231"/>
+    </node>
+    <a label="s" ref="wn_n231">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Barnes_new_job.anc"/>
+            <f name="orig-start" value="2178"/>
+            <f name="orig-end" value="2418"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n232">
+        <link targets="wn_r232"/>
+    </node>
+    <a label="s" ref="wn_n232">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="200449"/>
+            <f name="orig-end" value="200571"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n233">
+        <link targets="wn_r233"/>
+    </node>
+    <a label="s" ref="wn_n233">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1472-6920-2-1.anc"/>
+            <f name="orig-start" value="5994"/>
+            <f name="orig-end" value="6218"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n234">
+        <link targets="wn_r234"/>
+    </node>
+    <a label="s" ref="wn_n234">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="190067"/>
+            <f name="orig-end" value="190226"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n235">
+        <link targets="wn_r235"/>
+    </node>
+    <a label="s" ref="wn_n235">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1471-2474-2-3.anc"/>
+            <f name="orig-start" value="24776"/>
+            <f name="orig-end" value="25006"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n236">
+        <link targets="wn_r236"/>
+    </node>
+    <a label="s" ref="wn_n236">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Sept27-2002_d02966.anc"/>
+            <f name="orig-start" value="49151"/>
+            <f name="orig-end" value="49371"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n237">
+        <link targets="wn_r237"/>
+    </node>
+    <a label="s" ref="wn_n237">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="93119"/>
+            <f name="orig-end" value="93286"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n238">
+        <link targets="wn_r238"/>
+    </node>
+    <a label="s" ref="wn_n238">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="152521"/>
+            <f name="orig-end" value="152632"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n239">
+        <link targets="wn_r239"/>
+    </node>
+    <a label="s" ref="wn_n239">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.anc"/>
+            <f name="orig-start" value="23170"/>
+            <f name="orig-end" value="23455"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n24">
+        <link targets="wn_r24"/>
+    </node>
+    <a label="s" ref="wn_n24">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Barcelona-WhereToGo.anc"/>
+            <f name="orig-start" value="55396"/>
+            <f name="orig-end" value="55586"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n240">
+        <link targets="wn_r240"/>
+    </node>
+    <a label="s" ref="wn_n240">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Post_Rate_Comm/ReportToCongress2002WEB.anc"/>
+            <f name="orig-start" value="24215"/>
+            <f name="orig-end" value="24328"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n241">
+        <link targets="wn_r241"/>
+    </node>
+    <a label="s" ref="wn_n241">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/pe1019.anc"/>
+            <f name="orig-start" value="51660"/>
+            <f name="orig-end" value="51927"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n242">
+        <link targets="wn_r242"/>
+    </node>
+    <a label="s" ref="wn_n242">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Post_Rate_Comm/Mitchell_6-17-Mit.anc"/>
+            <f name="orig-start" value="6188"/>
+            <f name="orig-end" value="6306"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n243">
+        <link targets="wn_r243"/>
+    </node>
+    <a label="s" ref="wn_n243">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/37/ArticleIP_2572.anc"/>
+            <f name="orig-start" value="1009"/>
+            <f name="orig-end" value="1104"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n244">
+        <link targets="wn_r244"/>
+    </node>
+    <a label="s" ref="wn_n244">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/9/Article247_3274.anc"/>
+            <f name="orig-start" value="121"/>
+            <f name="orig-end" value="418"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n245">
+        <link targets="wn_r245"/>
+    </node>
+    <a label="s" ref="wn_n245">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL18_4.anc"/>
+            <f name="orig-start" value="56571"/>
+            <f name="orig-end" value="56970"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n246">
+        <link targets="wn_r246"/>
+    </node>
+    <a label="s" ref="wn_n246">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/13/Article247_3667.anc"/>
+            <f name="orig-start" value="3957"/>
+            <f name="orig-end" value="4167"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n247">
+        <link targets="wn_r247"/>
+    </node>
+    <a label="s" ref="wn_n247">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2497.anc"/>
+            <f name="orig-start" value="3041"/>
+            <f name="orig-end" value="3174"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n248">
+        <link targets="wn_r248"/>
+    </node>
+    <a label="s" ref="wn_n248">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/9/Article247_3297.anc"/>
+            <f name="orig-start" value="1300"/>
+            <f name="orig-end" value="1483"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n249">
+        <link targets="wn_r249"/>
+    </node>
+    <a label="s" ref="wn_n249">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/2/Article247_353.anc"/>
+            <f name="orig-start" value="1546"/>
+            <f name="orig-end" value="1736"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n25">
+        <link targets="wn_r25"/>
+    </node>
+    <a label="s" ref="wn_n25">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL16_1.anc"/>
+            <f name="orig-start" value="61057"/>
+            <f name="orig-end" value="61472"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n250">
+        <link targets="wn_r250"/>
+    </node>
+    <a label="s" ref="wn_n250">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_21944.anc"/>
+            <f name="orig-start" value="941"/>
+            <f name="orig-end" value="1057"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n251">
+        <link targets="wn_r251"/>
+    </node>
+    <a label="s" ref="wn_n251">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/30/ArticleIP_1878.anc"/>
+            <f name="orig-start" value="5528"/>
+            <f name="orig-end" value="5584"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n252">
+        <link targets="wn_r252"/>
+    </node>
+    <a label="s" ref="wn_n252">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL16_3.anc"/>
+            <f name="orig-start" value="89624"/>
+            <f name="orig-end" value="89772"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n253">
+        <link targets="wn_r253"/>
+    </node>
+    <a label="s" ref="wn_n253">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/38/ArticleIP_2631.anc"/>
+            <f name="orig-start" value="7499"/>
+            <f name="orig-end" value="7601"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n254">
+        <link targets="wn_r254"/>
+    </node>
+    <a label="s" ref="wn_n254">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_18810.anc"/>
+            <f name="orig-start" value="5002"/>
+            <f name="orig-end" value="5156"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n255">
+        <link targets="wn_r255"/>
+    </node>
+    <a label="s" ref="wn_n255">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2956.anc"/>
+            <f name="orig-start" value="9655"/>
+            <f name="orig-end" value="9787"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n256">
+        <link targets="wn_r256"/>
+    </node>
+    <a label="s" ref="wn_n256">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL23_2.anc"/>
+            <f name="orig-start" value="117922"/>
+            <f name="orig-end" value="118011"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n257">
+        <link targets="wn_r257"/>
+    </node>
+    <a label="s" ref="wn_n257">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2499.anc"/>
+            <f name="orig-start" value="7141"/>
+            <f name="orig-end" value="7210"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n258">
+        <link targets="wn_r258"/>
+    </node>
+    <a label="s" ref="wn_n258">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/53/ArticleIP_55965.anc"/>
+            <f name="orig-start" value="7367"/>
+            <f name="orig-end" value="7442"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n259">
+        <link targets="wn_r259"/>
+    </node>
+    <a label="s" ref="wn_n259">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2031.anc"/>
+            <f name="orig-start" value="3642"/>
+            <f name="orig-end" value="3758"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n26">
+        <link targets="wn_r26"/>
+    </node>
+    <a label="s" ref="wn_n26">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="202184"/>
+            <f name="orig-end" value="202513"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n260">
+        <link targets="wn_r260"/>
+    </node>
+    <a label="s" ref="wn_n260">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2935.anc"/>
+            <f name="orig-start" value="6658"/>
+            <f name="orig-end" value="6762"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n261">
+        <link targets="wn_r261"/>
+    </node>
+    <a label="s" ref="wn_n261">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_27730.anc"/>
+            <f name="orig-start" value="204"/>
+            <f name="orig-end" value="321"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n262">
+        <link targets="wn_r262"/>
+    </node>
+    <a label="s" ref="wn_n262">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1785.anc"/>
+            <f name="orig-start" value="2858"/>
+            <f name="orig-end" value="3033"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n263">
+        <link targets="wn_r263"/>
+    </node>
+    <a label="s" ref="wn_n263">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/18/Article247_4196.anc"/>
+            <f name="orig-start" value="2291"/>
+            <f name="orig-end" value="2449"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n264">
+        <link targets="wn_r264"/>
+    </node>
+    <a label="s" ref="wn_n264">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_21008.anc"/>
+            <f name="orig-start" value="2724"/>
+            <f name="orig-end" value="2792"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n265">
+        <link targets="wn_r265"/>
+    </node>
+    <a label="s" ref="wn_n265">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_20511.anc"/>
+            <f name="orig-start" value="2410"/>
+            <f name="orig-end" value="2545"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n266">
+        <link targets="wn_r266"/>
+    </node>
+    <a label="s" ref="wn_n266">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL18_3.anc"/>
+            <f name="orig-start" value="69061"/>
+            <f name="orig-end" value="69220"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n267">
+        <link targets="wn_r267"/>
+    </node>
+    <a label="s" ref="wn_n267">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2057.anc"/>
+            <f name="orig-start" value="1713"/>
+            <f name="orig-end" value="1772"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n268">
+        <link targets="wn_r268"/>
+    </node>
+    <a label="s" ref="wn_n268">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/22/ArticleIP_1056.anc"/>
+            <f name="orig-start" value="5693"/>
+            <f name="orig-end" value="5794"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n269">
+        <link targets="wn_r269"/>
+    </node>
+    <a label="s" ref="wn_n269">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4370.anc"/>
+            <f name="orig-start" value="604"/>
+            <f name="orig-end" value="747"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n27">
+        <link targets="wn_r27"/>
+    </node>
+    <a label="s" ref="wn_n27">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/22/ArticleIP_1053.anc"/>
+            <f name="orig-start" value="1316"/>
+            <f name="orig-end" value="1441"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n270">
+        <link targets="wn_r270"/>
+    </node>
+    <a label="s" ref="wn_n270">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/42/ArticleIP_3107.anc"/>
+            <f name="orig-start" value="6081"/>
+            <f name="orig-end" value="6161"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n271">
+        <link targets="wn_r271"/>
+    </node>
+    <a label="s" ref="wn_n271">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_36993.anc"/>
+            <f name="orig-start" value="3277"/>
+            <f name="orig-end" value="3304"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n272">
+        <link targets="wn_r272"/>
+    </node>
+    <a label="s" ref="wn_n272">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1727.anc"/>
+            <f name="orig-start" value="2322"/>
+            <f name="orig-end" value="2450"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n273">
+        <link targets="wn_r273"/>
+    </node>
+    <a label="s" ref="wn_n273">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_1.anc"/>
+            <f name="orig-start" value="52931"/>
+            <f name="orig-end" value="53221"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n274">
+        <link targets="wn_r274"/>
+    </node>
+    <a label="s" ref="wn_n274">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL21_2.anc"/>
+            <f name="orig-start" value="23371"/>
+            <f name="orig-end" value="23479"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n275">
+        <link targets="wn_r275"/>
+    </node>
+    <a label="s" ref="wn_n275">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_7108.anc"/>
+            <f name="orig-start" value="3742"/>
+            <f name="orig-end" value="4014"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n276">
+        <link targets="wn_r276"/>
+    </node>
+    <a label="s" ref="wn_n276">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2962.anc"/>
+            <f name="orig-start" value="10400"/>
+            <f name="orig-end" value="10530"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n277">
+        <link targets="wn_r277"/>
+    </node>
+    <a label="s" ref="wn_n277">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_32343.anc"/>
+            <f name="orig-start" value="562"/>
+            <f name="orig-end" value="697"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n278">
+        <link targets="wn_r278"/>
+    </node>
+    <a label="s" ref="wn_n278">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/12/Article247_3577.anc"/>
+            <f name="orig-start" value="2772"/>
+            <f name="orig-end" value="2932"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n279">
+        <link targets="wn_r279"/>
+    </node>
+    <a label="s" ref="wn_n279">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3861.anc"/>
+            <f name="orig-start" value="2542"/>
+            <f name="orig-end" value="2892"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n28">
+        <link targets="wn_r28"/>
+    </node>
+    <a label="s" ref="wn_n28">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/911report/chapter-3.anc"/>
+            <f name="orig-start" value="223904"/>
+            <f name="orig-end" value="224070"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n280">
+        <link targets="wn_r280"/>
+    </node>
+    <a label="s" ref="wn_n280">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="28220"/>
+            <f name="orig-end" value="28408"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n281">
+        <link targets="wn_r281"/>
+    </node>
+    <a label="s" ref="wn_n281">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="51161"/>
+            <f name="orig-end" value="51239"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n282">
+        <link targets="wn_r282"/>
+    </node>
+    <a label="s" ref="wn_n282">
+        <fs>
+            <f name="path" value="masc/xces/A1.E2-NEW.anc"/>
+            <f name="orig-start" value="1259"/>
+            <f name="orig-end" value="1461"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n283">
+        <link targets="wn_r283"/>
+    </node>
+    <a label="s" ref="wn_n283">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToHongKong.anc"/>
+            <f name="orig-start" value="11757"/>
+            <f name="orig-end" value="11858"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n284">
+        <link targets="wn_r284"/>
+    </node>
+    <a label="s" ref="wn_n284">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/About_LSC/Progress_report.anc"/>
+            <f name="orig-start" value="41344"/>
+            <f name="orig-end" value="41618"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n285">
+        <link targets="wn_r285"/>
+    </node>
+    <a label="s" ref="wn_n285">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/letters/icic/105CWL066.anc"/>
+            <f name="orig-start" value="1818"/>
+            <f name="orig-end" value="2151"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n286">
+        <link targets="wn_r286"/>
+    </node>
+    <a label="s" ref="wn_n286">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_8104.anc"/>
+            <f name="orig-start" value="412"/>
+            <f name="orig-end" value="535"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n287">
+        <link targets="wn_r287"/>
+    </node>
+    <a label="s" ref="wn_n287">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/33/ArticleIP_2129.anc"/>
+            <f name="orig-start" value="6334"/>
+            <f name="orig-end" value="6408"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n288">
+        <link targets="wn_r288"/>
+    </node>
+    <a label="s" ref="wn_n288">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3901.anc"/>
+            <f name="orig-start" value="1017"/>
+            <f name="orig-end" value="1512"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n289">
+        <link targets="wn_r289"/>
+    </node>
+    <a label="s" ref="wn_n289">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/1/Article247_96.anc"/>
+            <f name="orig-start" value="5046"/>
+            <f name="orig-end" value="5266"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n29">
+        <link targets="wn_r29"/>
+    </node>
+    <a label="s" ref="wn_n29">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Kauffman/ch1.anc"/>
+            <f name="orig-start" value="14944"/>
+            <f name="orig-end" value="15114"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n290">
+        <link targets="wn_r290"/>
+    </node>
+    <a label="s" ref="wn_n290">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.anc"/>
+            <f name="orig-start" value="154286"/>
+            <f name="orig-end" value="154496"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n291">
+        <link targets="wn_r291"/>
+    </node>
+    <a label="s" ref="wn_n291">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/IntroMalaysia.anc"/>
+            <f name="orig-start" value="4962"/>
+            <f name="orig-end" value="5158"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n292">
+        <link targets="wn_r292"/>
+    </node>
+    <a label="s" ref="wn_n292">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL22_3.anc"/>
+            <f name="orig-start" value="79574"/>
+            <f name="orig-end" value="79844"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n293">
+        <link targets="wn_r293"/>
+    </node>
+    <a label="s" ref="wn_n293">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1468-6708-3-1.anc"/>
+            <f name="orig-start" value="10522"/>
+            <f name="orig-end" value="10625"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n294">
+        <link targets="wn_r294"/>
+    </node>
+    <a label="s" ref="wn_n294">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Canada-WhereToGo.anc"/>
+            <f name="orig-start" value="93254"/>
+            <f name="orig-end" value="93402"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n295">
+        <link targets="wn_r295"/>
+    </node>
+    <a label="s" ref="wn_n295">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/53/ArticleIP_56291.anc"/>
+            <f name="orig-start" value="4957"/>
+            <f name="orig-end" value="5044"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n296">
+        <link targets="wn_r296"/>
+    </node>
+    <a label="s" ref="wn_n296">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/911report/chapter-12.anc"/>
+            <f name="orig-start" value="109934"/>
+            <f name="orig-end" value="110091"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n297">
+        <link targets="wn_r297"/>
+    </node>
+    <a label="s" ref="wn_n297">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.anc"/>
+            <f name="orig-start" value="123489"/>
+            <f name="orig-end" value="123699"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n298">
+        <link targets="wn_r298"/>
+    </node>
+    <a label="s" ref="wn_n298">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Nepal-WhatToDo.anc"/>
+            <f name="orig-start" value="3712"/>
+            <f name="orig-end" value="3807"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n299">
+        <link targets="wn_r299"/>
+    </node>
+    <a label="s" ref="wn_n299">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3809.anc"/>
+            <f name="orig-start" value="2244"/>
+            <f name="orig-end" value="2492"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n3">
+        <link targets="wn_r3"/>
+    </node>
+    <a label="s" ref="wn_n3">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1778.anc"/>
+            <f name="orig-start" value="2758"/>
+            <f name="orig-end" value="2963"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n30">
+        <link targets="wn_r30"/>
+    </node>
+    <a label="s" ref="wn_n30">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL16_3.anc"/>
+            <f name="orig-start" value="92752"/>
+            <f name="orig-end" value="92909"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n300">
+        <link targets="wn_r300"/>
+    </node>
+    <a label="s" ref="wn_n300">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="55047"/>
+            <f name="orig-end" value="55226"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n301">
+        <link targets="wn_r301"/>
+    </node>
+    <a label="s" ref="wn_n301">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/47/ArticleIP_3926.anc"/>
+            <f name="orig-start" value="6901"/>
+            <f name="orig-end" value="7134"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n302">
+        <link targets="wn_r302"/>
+    </node>
+    <a label="s" ref="wn_n302">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.anc"/>
+            <f name="orig-start" value="71655"/>
+            <f name="orig-end" value="71889"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n303">
+        <link targets="wn_r303"/>
+    </node>
+    <a label="s" ref="wn_n303">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL23_4.anc"/>
+            <f name="orig-start" value="104738"/>
+            <f name="orig-end" value="104903"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n304">
+        <link targets="wn_r304"/>
+    </node>
+    <a label="s" ref="wn_n304">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_22397.anc"/>
+            <f name="orig-start" value="8333"/>
+            <f name="orig-end" value="8358"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n305">
+        <link targets="wn_r305"/>
+    </node>
+    <a label="s" ref="wn_n305">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL15_4.anc"/>
+            <f name="orig-start" value="92460"/>
+            <f name="orig-end" value="92487"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n306">
+        <link targets="wn_r306"/>
+    </node>
+    <a label="s" ref="wn_n306">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/4/Article247_553.anc"/>
+            <f name="orig-start" value="3349"/>
+            <f name="orig-end" value="3598"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n307">
+        <link targets="wn_r307"/>
+    </node>
+    <a label="s" ref="wn_n307">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/35/ArticleIP_2383.anc"/>
+            <f name="orig-start" value="1062"/>
+            <f name="orig-end" value="1102"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n308">
+        <link targets="wn_r308"/>
+    </node>
+    <a label="s" ref="wn_n308">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3809.anc"/>
+            <f name="orig-start" value="2244"/>
+            <f name="orig-end" value="2492"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n309">
+        <link targets="wn_r309"/>
+    </node>
+    <a label="s" ref="wn_n309">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/18/Article247_4115.anc"/>
+            <f name="orig-start" value="5114"/>
+            <f name="orig-end" value="5266"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n31">
+        <link targets="wn_r31"/>
+    </node>
+    <a label="s" ref="wn_n31">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL17_2.anc"/>
+            <f name="orig-start" value="91137"/>
+            <f name="orig-end" value="91298"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n310">
+        <link targets="wn_r310"/>
+    </node>
+    <a label="s" ref="wn_n310">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/41/ArticleIP_3025.anc"/>
+            <f name="orig-start" value="893"/>
+            <f name="orig-end" value="1053"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n311">
+        <link targets="wn_r311"/>
+    </node>
+    <a label="s" ref="wn_n311">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3863.anc"/>
+            <f name="orig-start" value="5381"/>
+            <f name="orig-end" value="5408"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n312">
+        <link targets="wn_r312"/>
+    </node>
+    <a label="s" ref="wn_n312">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_9085.anc"/>
+            <f name="orig-start" value="1583"/>
+            <f name="orig-end" value="1640"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n313">
+        <link targets="wn_r313"/>
+    </node>
+    <a label="s" ref="wn_n313">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3905.anc"/>
+            <f name="orig-start" value="5211"/>
+            <f name="orig-end" value="5278"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n314">
+        <link targets="wn_r314"/>
+    </node>
+    <a label="s" ref="wn_n314">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_36078.anc"/>
+            <f name="orig-start" value="281"/>
+            <f name="orig-end" value="408"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n315">
+        <link targets="wn_r315"/>
+    </node>
+    <a label="s" ref="wn_n315">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/38/ArticleIP_2678.anc"/>
+            <f name="orig-start" value="5178"/>
+            <f name="orig-end" value="5324"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n316">
+        <link targets="wn_r316"/>
+    </node>
+    <a label="s" ref="wn_n316">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/8/Article247_906.anc"/>
+            <f name="orig-start" value="909"/>
+            <f name="orig-end" value="1068"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n317">
+        <link targets="wn_r317"/>
+    </node>
+    <a label="s" ref="wn_n317">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2412.anc"/>
+            <f name="orig-start" value="1647"/>
+            <f name="orig-end" value="1903"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n318">
+        <link targets="wn_r318"/>
+    </node>
+    <a label="s" ref="wn_n318">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL17_3.anc"/>
+            <f name="orig-start" value="88430"/>
+            <f name="orig-end" value="88511"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n319">
+        <link targets="wn_r319"/>
+    </node>
+    <a label="s" ref="wn_n319">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_5113.anc"/>
+            <f name="orig-start" value="4292"/>
+            <f name="orig-end" value="4311"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n32">
+        <link targets="wn_r32"/>
+    </node>
+    <a label="s" ref="wn_n32">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL16_1.anc"/>
+            <f name="orig-start" value="44368"/>
+            <f name="orig-end" value="44563"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n320">
+        <link targets="wn_r320"/>
+    </node>
+    <a label="s" ref="wn_n320">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3852.anc"/>
+            <f name="orig-start" value="1497"/>
+            <f name="orig-end" value="1508"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n321">
+        <link targets="wn_r321"/>
+    </node>
+    <a label="s" ref="wn_n321">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_22384.anc"/>
+            <f name="orig-start" value="5905"/>
+            <f name="orig-end" value="5976"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n322">
+        <link targets="wn_r322"/>
+    </node>
+    <a label="s" ref="wn_n322">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL15_1.anc"/>
+            <f name="orig-start" value="94507"/>
+            <f name="orig-end" value="94648"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n323">
+        <link targets="wn_r323"/>
+    </node>
+    <a label="s" ref="wn_n323">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_32079.anc"/>
+            <f name="orig-start" value="2802"/>
+            <f name="orig-end" value="2966"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n324">
+        <link targets="wn_r324"/>
+    </node>
+    <a label="s" ref="wn_n324">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_3.anc"/>
+            <f name="orig-start" value="21975"/>
+            <f name="orig-end" value="22125"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n325">
+        <link targets="wn_r325"/>
+    </node>
+    <a label="s" ref="wn_n325">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_32173.anc"/>
+            <f name="orig-start" value="488"/>
+            <f name="orig-end" value="684"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n326">
+        <link targets="wn_r326"/>
+    </node>
+    <a label="s" ref="wn_n326">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_29335.anc"/>
+            <f name="orig-start" value="1919"/>
+            <f name="orig-end" value="1934"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n327">
+        <link targets="wn_r327"/>
+    </node>
+    <a label="s" ref="wn_n327">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/18/Article247_4153.anc"/>
+            <f name="orig-start" value="3946"/>
+            <f name="orig-end" value="4013"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n328">
+        <link targets="wn_r328"/>
+    </node>
+    <a label="s" ref="wn_n328">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/34/ArticleIP_2222.anc"/>
+            <f name="orig-start" value="4184"/>
+            <f name="orig-end" value="4492"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n329">
+        <link targets="wn_r329"/>
+    </node>
+    <a label="s" ref="wn_n329">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/6/Article247_751.anc"/>
+            <f name="orig-start" value="4643"/>
+            <f name="orig-end" value="4814"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n33">
+        <link targets="wn_r33"/>
+    </node>
+    <a label="s" ref="wn_n33">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Post_Rate_Comm/Gleiman_gca2000.anc"/>
+            <f name="orig-start" value="3761"/>
+            <f name="orig-end" value="3832"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n330">
+        <link targets="wn_r330"/>
+    </node>
+    <a label="s" ref="wn_n330">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_8104.anc"/>
+            <f name="orig-start" value="763"/>
+            <f name="orig-end" value="941"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n331">
+        <link targets="wn_r331"/>
+    </node>
+    <a label="s" ref="wn_n331">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_3.anc"/>
+            <f name="orig-start" value="141461"/>
+            <f name="orig-end" value="141541"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n332">
+        <link targets="wn_r332"/>
+    </node>
+    <a label="s" ref="wn_n332">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/7/Article247_807.anc"/>
+            <f name="orig-start" value="3875"/>
+            <f name="orig-end" value="4115"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n333">
+        <link targets="wn_r333"/>
+    </node>
+    <a label="s" ref="wn_n333">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_9085.anc"/>
+            <f name="orig-start" value="1099"/>
+            <f name="orig-end" value="1148"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n334">
+        <link targets="wn_r334"/>
+    </node>
+    <a label="s" ref="wn_n334">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3873.anc"/>
+            <f name="orig-start" value="7551"/>
+            <f name="orig-end" value="7743"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n335">
+        <link targets="wn_r335"/>
+    </node>
+    <a label="s" ref="wn_n335">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_36074.anc"/>
+            <f name="orig-start" value="1731"/>
+            <f name="orig-end" value="1808"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n336">
+        <link targets="wn_r336"/>
+    </node>
+    <a label="s" ref="wn_n336">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_20093.anc"/>
+            <f name="orig-start" value="3639"/>
+            <f name="orig-end" value="3871"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n337">
+        <link targets="wn_r337"/>
+    </node>
+    <a label="s" ref="wn_n337">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_7559.anc"/>
+            <f name="orig-start" value="2870"/>
+            <f name="orig-end" value="2971"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n338">
+        <link targets="wn_r338"/>
+    </node>
+    <a label="s" ref="wn_n338">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_29811.anc"/>
+            <f name="orig-start" value="6477"/>
+            <f name="orig-end" value="6534"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n339">
+        <link targets="wn_r339"/>
+    </node>
+    <a label="s" ref="wn_n339">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_36880.anc"/>
+            <f name="orig-start" value="4845"/>
+            <f name="orig-end" value="4932"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n34">
+        <link targets="wn_r34"/>
+    </node>
+    <a label="s" ref="wn_n34">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1472-6882-3-1.anc"/>
+            <f name="orig-start" value="41994"/>
+            <f name="orig-end" value="42049"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n340">
+        <link targets="wn_r340"/>
+    </node>
+    <a label="s" ref="wn_n340">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3809.anc"/>
+            <f name="orig-start" value="4547"/>
+            <f name="orig-end" value="5023"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n341">
+        <link targets="wn_r341"/>
+    </node>
+    <a label="s" ref="wn_n341">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4398.anc"/>
+            <f name="orig-start" value="4345"/>
+            <f name="orig-end" value="4659"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n342">
+        <link targets="wn_r342"/>
+    </node>
+    <a label="s" ref="wn_n342">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2490.anc"/>
+            <f name="orig-start" value="1195"/>
+            <f name="orig-end" value="1289"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n343">
+        <link targets="wn_r343"/>
+    </node>
+    <a label="s" ref="wn_n343">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/14/Article247_3724.anc"/>
+            <f name="orig-start" value="5104"/>
+            <f name="orig-end" value="5249"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n344">
+        <link targets="wn_r344"/>
+    </node>
+    <a label="s" ref="wn_n344">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_32261.anc"/>
+            <f name="orig-start" value="1218"/>
+            <f name="orig-end" value="1262"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n345">
+        <link targets="wn_r345"/>
+    </node>
+    <a label="s" ref="wn_n345">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_30174.anc"/>
+            <f name="orig-start" value="335"/>
+            <f name="orig-end" value="415"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n346">
+        <link targets="wn_r346"/>
+    </node>
+    <a label="s" ref="wn_n346">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL21_1.anc"/>
+            <f name="orig-start" value="113601"/>
+            <f name="orig-end" value="113701"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n347">
+        <link targets="wn_r347"/>
+    </node>
+    <a label="s" ref="wn_n347">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_2.anc"/>
+            <f name="orig-start" value="26622"/>
+            <f name="orig-end" value="26801"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n348">
+        <link targets="wn_r348"/>
+    </node>
+    <a label="s" ref="wn_n348">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_27735.anc"/>
+            <f name="orig-start" value="1540"/>
+            <f name="orig-end" value="1556"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n349">
+        <link targets="wn_r349"/>
+    </node>
+    <a label="s" ref="wn_n349">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3939.anc"/>
+            <f name="orig-start" value="4076"/>
+            <f name="orig-end" value="4304"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n35">
+        <link targets="wn_r35"/>
+    </node>
+    <a label="s" ref="wn_n35">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2989.anc"/>
+            <f name="orig-start" value="2787"/>
+            <f name="orig-end" value="2854"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n350">
+        <link targets="wn_r350"/>
+    </node>
+    <a label="s" ref="wn_n350">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_19037.anc"/>
+            <f name="orig-start" value="5700"/>
+            <f name="orig-end" value="5826"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n351">
+        <link targets="wn_r351"/>
+    </node>
+    <a label="s" ref="wn_n351">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_23270.anc"/>
+            <f name="orig-start" value="6113"/>
+            <f name="orig-end" value="6502"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n352">
+        <link targets="wn_r352"/>
+    </node>
+    <a label="s" ref="wn_n352">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3968.anc"/>
+            <f name="orig-start" value="1047"/>
+            <f name="orig-end" value="1222"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n353">
+        <link targets="wn_r353"/>
+    </node>
+    <a label="s" ref="wn_n353">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_9276.anc"/>
+            <f name="orig-start" value="331"/>
+            <f name="orig-end" value="397"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n354">
+        <link targets="wn_r354"/>
+    </node>
+    <a label="s" ref="wn_n354">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3859.anc"/>
+            <f name="orig-start" value="2530"/>
+            <f name="orig-end" value="2636"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n355">
+        <link targets="wn_r355"/>
+    </node>
+    <a label="s" ref="wn_n355">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_7884.anc"/>
+            <f name="orig-start" value="6951"/>
+            <f name="orig-end" value="7074"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n356">
+        <link targets="wn_r356"/>
+    </node>
+    <a label="s" ref="wn_n356">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3855.anc"/>
+            <f name="orig-start" value="2619"/>
+            <f name="orig-end" value="2780"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n357">
+        <link targets="wn_r357"/>
+    </node>
+    <a label="s" ref="wn_n357">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/19/Article247_4237.anc"/>
+            <f name="orig-start" value="3201"/>
+            <f name="orig-end" value="3513"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n358">
+        <link targets="wn_r358"/>
+    </node>
+    <a label="s" ref="wn_n358">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2928.anc"/>
+            <f name="orig-start" value="6474"/>
+            <f name="orig-end" value="6616"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n359">
+        <link targets="wn_r359"/>
+    </node>
+    <a label="s" ref="wn_n359">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_33239.anc"/>
+            <f name="orig-start" value="2523"/>
+            <f name="orig-end" value="2648"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n36">
+        <link targets="wn_r36"/>
+    </node>
+    <a label="s" ref="wn_n36">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL15_2.anc"/>
+            <f name="orig-start" value="33257"/>
+            <f name="orig-end" value="33490"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n360">
+        <link targets="wn_r360"/>
+    </node>
+    <a label="s" ref="wn_n360">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/27/ArticleIP_1559.anc"/>
+            <f name="orig-start" value="4772"/>
+            <f name="orig-end" value="4876"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n361">
+        <link targets="wn_r361"/>
+    </node>
+    <a label="s" ref="wn_n361">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_35656.anc"/>
+            <f name="orig-start" value="2193"/>
+            <f name="orig-end" value="2282"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n362">
+        <link targets="wn_r362"/>
+    </node>
+    <a label="s" ref="wn_n362">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/22/ArticleIP_1059.anc"/>
+            <f name="orig-start" value="4702"/>
+            <f name="orig-end" value="4850"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n363">
+        <link targets="wn_r363"/>
+    </node>
+    <a label="s" ref="wn_n363">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/54/ArticleIP_68641.anc"/>
+            <f name="orig-start" value="525"/>
+            <f name="orig-end" value="601"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n364">
+        <link targets="wn_r364"/>
+    </node>
+    <a label="s" ref="wn_n364">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/35/ArticleIP_2360.anc"/>
+            <f name="orig-start" value="6780"/>
+            <f name="orig-end" value="7014"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n365">
+        <link targets="wn_r365"/>
+    </node>
+    <a label="s" ref="wn_n365">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/34/ArticleIP_2282.anc"/>
+            <f name="orig-start" value="3484"/>
+            <f name="orig-end" value="3572"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n366">
+        <link targets="wn_r366"/>
+    </node>
+    <a label="s" ref="wn_n366">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4370.anc"/>
+            <f name="orig-start" value="604"/>
+            <f name="orig-end" value="747"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n367">
+        <link targets="wn_r367"/>
+    </node>
+    <a label="s" ref="wn_n367">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_32581.anc"/>
+            <f name="orig-start" value="3476"/>
+            <f name="orig-end" value="3497"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n368">
+        <link targets="wn_r368"/>
+    </node>
+    <a label="s" ref="wn_n368">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2499.anc"/>
+            <f name="orig-start" value="10151"/>
+            <f name="orig-end" value="10259"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n369">
+        <link targets="wn_r369"/>
+    </node>
+    <a label="s" ref="wn_n369">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2481.anc"/>
+            <f name="orig-start" value="5534"/>
+            <f name="orig-end" value="5581"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n37">
+        <link targets="wn_r37"/>
+    </node>
+    <a label="s" ref="wn_n37">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/6/Article247_735.anc"/>
+            <f name="orig-start" value="4619"/>
+            <f name="orig-end" value="4737"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n370">
+        <link targets="wn_r370"/>
+    </node>
+    <a label="s" ref="wn_n370">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL16_4.anc"/>
+            <f name="orig-start" value="76681"/>
+            <f name="orig-end" value="76944"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n371">
+        <link targets="wn_r371"/>
+    </node>
+    <a label="s" ref="wn_n371">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3958.anc"/>
+            <f name="orig-start" value="4066"/>
+            <f name="orig-end" value="4340"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n372">
+        <link targets="wn_r372"/>
+    </node>
+    <a label="s" ref="wn_n372">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/31/ArticleIP_1937.anc"/>
+            <f name="orig-start" value="1428"/>
+            <f name="orig-end" value="1503"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n373">
+        <link targets="wn_r373"/>
+    </node>
+    <a label="s" ref="wn_n373">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/10/Article247_3338.anc"/>
+            <f name="orig-start" value="2530"/>
+            <f name="orig-end" value="2623"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n374">
+        <link targets="wn_r374"/>
+    </node>
+    <a label="s" ref="wn_n374">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/18/Article247_4143.anc"/>
+            <f name="orig-start" value="1231"/>
+            <f name="orig-end" value="1391"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n375">
+        <link targets="wn_r375"/>
+    </node>
+    <a label="s" ref="wn_n375">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1775.anc"/>
+            <f name="orig-start" value="1311"/>
+            <f name="orig-end" value="1400"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n376">
+        <link targets="wn_r376"/>
+    </node>
+    <a label="s" ref="wn_n376">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/7/Article247_851.anc"/>
+            <f name="orig-start" value="3134"/>
+            <f name="orig-end" value="3359"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n377">
+        <link targets="wn_r377"/>
+    </node>
+    <a label="s" ref="wn_n377">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/24/ArticleIP_1281.anc"/>
+            <f name="orig-start" value="2485"/>
+            <f name="orig-end" value="2810"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n378">
+        <link targets="wn_r378"/>
+    </node>
+    <a label="s" ref="wn_n378">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="48026"/>
+            <f name="orig-end" value="48319"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n379">
+        <link targets="wn_r379"/>
+    </node>
+    <a label="s" ref="wn_n379">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="51240"/>
+            <f name="orig-end" value="51265"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n38">
+        <link targets="wn_r38"/>
+    </node>
+    <a label="s" ref="wn_n38">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_31876.anc"/>
+            <f name="orig-start" value="2061"/>
+            <f name="orig-end" value="2215"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n380">
+        <link targets="wn_r380"/>
+    </node>
+    <a label="s" ref="wn_n380">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/fiction/eggan/TheStory.anc"/>
+            <f name="orig-start" value="201682"/>
+            <f name="orig-end" value="201793"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n381">
+        <link targets="wn_r381"/>
+    </node>
+    <a label="s" ref="wn_n381">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL16_3.anc"/>
+            <f name="orig-start" value="80345"/>
+            <f name="orig-end" value="80457"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n382">
+        <link targets="wn_r382"/>
+    </node>
+    <a label="s" ref="wn_n382">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Env_Prot_Agen/ro_clear_skies_book.anc"/>
+            <f name="orig-start" value="12672"/>
+            <f name="orig-end" value="12861"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n383">
+        <link targets="wn_r383"/>
+    </node>
+    <a label="s" ref="wn_n383">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Kauffman/ch9.anc"/>
+            <f name="orig-start" value="23999"/>
+            <f name="orig-end" value="24126"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n384">
+        <link targets="wn_r384"/>
+    </node>
+    <a label="s" ref="wn_n384">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Kauffman/ch10.anc"/>
+            <f name="orig-start" value="4516"/>
+            <f name="orig-end" value="4692"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n385">
+        <link targets="wn_r385"/>
+    </node>
+    <a label="s" ref="wn_n385">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/About_LSC/Progress_report.anc"/>
+            <f name="orig-start" value="10513"/>
+            <f name="orig-end" value="10690"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n386">
+        <link targets="wn_r386"/>
+    </node>
+    <a label="s" ref="wn_n386">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/China-WhereToGo.anc"/>
+            <f name="orig-start" value="110557"/>
+            <f name="orig-end" value="110693"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n387">
+        <link targets="wn_r387"/>
+    </node>
+    <a label="s" ref="wn_n387">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/34/ArticleIP_2295.anc"/>
+            <f name="orig-start" value="5103"/>
+            <f name="orig-end" value="5369"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n388">
+        <link targets="wn_r388"/>
+    </node>
+    <a label="s" ref="wn_n388">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/911report/chapter-3.anc"/>
+            <f name="orig-start" value="225263"/>
+            <f name="orig-end" value="225352"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n389">
+        <link targets="wn_r389"/>
+    </node>
+    <a label="s" ref="wn_n389">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/NewOrleans-History.anc"/>
+            <f name="orig-start" value="16235"/>
+            <f name="orig-end" value="16432"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n39">
+        <link targets="wn_r39"/>
+    </node>
+    <a label="s" ref="wn_n39">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2408.anc"/>
+            <f name="orig-start" value="2471"/>
+            <f name="orig-end" value="2681"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n390">
+        <link targets="wn_r390"/>
+    </node>
+    <a label="s" ref="wn_n390">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/34/ArticleIP_2202.anc"/>
+            <f name="orig-start" value="859"/>
+            <f name="orig-end" value="913"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n391">
+        <link targets="wn_r391"/>
+    </node>
+    <a label="s" ref="wn_n391">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="189926"/>
+            <f name="orig-end" value="190066"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n392">
+        <link targets="wn_r392"/>
+    </node>
+    <a label="s" ref="wn_n392">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Portugal-WhereToGo.anc"/>
+            <f name="orig-start" value="62154"/>
+            <f name="orig-end" value="62319"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n393">
+        <link targets="wn_r393"/>
+    </node>
+    <a label="s" ref="wn_n393">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL19_4.anc"/>
+            <f name="orig-start" value="10538"/>
+            <f name="orig-end" value="10602"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n394">
+        <link targets="wn_r394"/>
+    </node>
+    <a label="s" ref="wn_n394">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03232sp.anc"/>
+            <f name="orig-start" value="25370"/>
+            <f name="orig-end" value="25590"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n395">
+        <link targets="wn_r395"/>
+    </node>
+    <a label="s" ref="wn_n395">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Vallarta-History.anc"/>
+            <f name="orig-start" value="9857"/>
+            <f name="orig-end" value="10046"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n396">
+        <link targets="wn_r396"/>
+    </node>
+    <a label="s" ref="wn_n396">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/52/ArticleIP_46415.anc"/>
+            <f name="orig-start" value="7157"/>
+            <f name="orig-end" value="7285"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n397">
+        <link targets="wn_r397"/>
+    </node>
+    <a label="s" ref="wn_n397">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/journal.pbio.0020161.anc"/>
+            <f name="orig-start" value="2174"/>
+            <f name="orig-end" value="2389"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n398">
+        <link targets="wn_r398"/>
+    </node>
+    <a label="s" ref="wn_n398">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/China-WhereToGo.anc"/>
+            <f name="orig-start" value="159704"/>
+            <f name="orig-end" value="159945"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n399">
+        <link targets="wn_r399"/>
+    </node>
+    <a label="s" ref="wn_n399">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="189749"/>
+            <f name="orig-end" value="189920"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n4">
+        <link targets="wn_r4"/>
+    </node>
+    <a label="s" ref="wn_n4">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Terrorist_Attack.anc"/>
+            <f name="orig-start" value="6612"/>
+            <f name="orig-end" value="6756"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n40">
+        <link targets="wn_r40"/>
+    </node>
+    <a label="s" ref="wn_n40">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToEdinburgh.anc"/>
+            <f name="orig-start" value="287"/>
+            <f name="orig-end" value="486"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n400">
+        <link targets="wn_r400"/>
+    </node>
+    <a label="s" ref="wn_n400">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Canada-WhereToGo.anc"/>
+            <f name="orig-start" value="203898"/>
+            <f name="orig-end" value="204025"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n401">
+        <link targets="wn_r401"/>
+    </node>
+    <a label="s" ref="wn_n401">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1471-2105-2-8.anc"/>
+            <f name="orig-start" value="59663"/>
+            <f name="orig-end" value="59982"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n402">
+        <link targets="wn_r402"/>
+    </node>
+    <a label="s" ref="wn_n402">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="53910"/>
+            <f name="orig-end" value="54077"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n403">
+        <link targets="wn_r403"/>
+    </node>
+    <a label="s" ref="wn_n403">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/gb-2002-3-7-research0036.anc"/>
+            <f name="orig-start" value="35521"/>
+            <f name="orig-end" value="35647"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n404">
+        <link targets="wn_r404"/>
+    </node>
+    <a label="s" ref="wn_n404">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="92967"/>
+            <f name="orig-end" value="93118"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n405">
+        <link targets="wn_r405"/>
+    </node>
+    <a label="s" ref="wn_n405">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Sept27-2002_d02966.anc"/>
+            <f name="orig-start" value="93881"/>
+            <f name="orig-end" value="94029"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n406">
+        <link targets="wn_r406"/>
+    </node>
+    <a label="s" ref="wn_n406">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.anc"/>
+            <f name="orig-start" value="10277"/>
+            <f name="orig-end" value="10603"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n407">
+        <link targets="wn_r407"/>
+    </node>
+    <a label="s" ref="wn_n407">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="54190"/>
+            <f name="orig-end" value="54263"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n408">
+        <link targets="wn_r408"/>
+    </node>
+    <a label="s" ref="wn_n408">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Legal_system_fails_poor.anc"/>
+            <f name="orig-start" value="1692"/>
+            <f name="orig-end" value="1908"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n409">
+        <link targets="wn_r409"/>
+    </node>
+    <a label="s" ref="wn_n409">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Testimony_cg00010t.anc"/>
+            <f name="orig-start" value="11253"/>
+            <f name="orig-end" value="11387"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n41">
+        <link targets="wn_r41"/>
+    </node>
+    <a label="s" ref="wn_n41">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL17_1.anc"/>
+            <f name="orig-start" value="54411"/>
+            <f name="orig-end" value="54456"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n410">
+        <link targets="wn_r410"/>
+    </node>
+    <a label="s" ref="wn_n410">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.anc"/>
+            <f name="orig-start" value="221343"/>
+            <f name="orig-end" value="221514"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n411">
+        <link targets="wn_r411"/>
+    </node>
+    <a label="s" ref="wn_n411">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1468-6708-3-1.anc"/>
+            <f name="orig-start" value="7237"/>
+            <f name="orig-end" value="7611"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n412">
+        <link targets="wn_r412"/>
+    </node>
+    <a label="s" ref="wn_n412">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0010022.anc"/>
+            <f name="orig-start" value="1452"/>
+            <f name="orig-end" value="1662"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n413">
+        <link targets="wn_r413"/>
+    </node>
+    <a label="s" ref="wn_n413">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03419sp.anc"/>
+            <f name="orig-start" value="38594"/>
+            <f name="orig-end" value="38692"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n414">
+        <link targets="wn_r414"/>
+    </node>
+    <a label="s" ref="wn_n414">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Post_Rate_Comm/ReportToCongress2002WEB.anc"/>
+            <f name="orig-start" value="6339"/>
+            <f name="orig-end" value="6513"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n415">
+        <link targets="wn_r415"/>
+    </node>
+    <a label="s" ref="wn_n415">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="92967"/>
+            <f name="orig-end" value="93118"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n416">
+        <link targets="wn_r416"/>
+    </node>
+    <a label="s" ref="wn_n416">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0020162.anc"/>
+            <f name="orig-start" value="10878"/>
+            <f name="orig-end" value="11010"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n417">
+        <link targets="wn_r417"/>
+    </node>
+    <a label="s" ref="wn_n417">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="32472"/>
+            <f name="orig-end" value="32657"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n418">
+        <link targets="wn_r418"/>
+    </node>
+    <a label="s" ref="wn_n418">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Post_Rate_Comm/Mitchell_6-17-Mit.anc"/>
+            <f name="orig-start" value="4069"/>
+            <f name="orig-end" value="4243"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n419">
+        <link targets="wn_r419"/>
+    </node>
+    <a label="s" ref="wn_n419">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Legal_system_fails_poor.anc"/>
+            <f name="orig-start" value="6633"/>
+            <f name="orig-end" value="6740"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n42">
+        <link targets="wn_r42"/>
+    </node>
+    <a label="s" ref="wn_n42">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz1/WhatToEdinburgh.anc"/>
+            <f name="orig-start" value="4081"/>
+            <f name="orig-end" value="4397"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n420">
+        <link targets="wn_r420"/>
+    </node>
+    <a label="s" ref="wn_n420">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="53758"/>
+            <f name="orig-end" value="53909"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n421">
+        <link targets="wn_r421"/>
+    </node>
+    <a label="s" ref="wn_n421">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="189278"/>
+            <f name="orig-end" value="189450"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n422">
+        <link targets="wn_r422"/>
+    </node>
+    <a label="s" ref="wn_n422">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/balance_scales_of_justice.anc"/>
+            <f name="orig-start" value="2308"/>
+            <f name="orig-end" value="2332"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n423">
+        <link targets="wn_r423"/>
+    </node>
+    <a label="s" ref="wn_n423">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1468-6708-3-1.anc"/>
+            <f name="orig-start" value="4085"/>
+            <f name="orig-end" value="4409"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n424">
+        <link targets="wn_r424"/>
+    </node>
+    <a label="s" ref="wn_n424">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Assuring_Underprivileged.anc"/>
+            <f name="orig-start" value="1202"/>
+            <f name="orig-end" value="1440"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n425">
+        <link targets="wn_r425"/>
+    </node>
+    <a label="s" ref="wn_n425">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Sept27-2002_d02966.anc"/>
+            <f name="orig-start" value="49479"/>
+            <f name="orig-end" value="49923"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n426">
+        <link targets="wn_r426"/>
+    </node>
+    <a label="s" ref="wn_n426">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0020050.anc"/>
+            <f name="orig-start" value="1252"/>
+            <f name="orig-end" value="1356"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n427">
+        <link targets="wn_r427"/>
+    </node>
+    <a label="s" ref="wn_n427">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03419sp.anc"/>
+            <f name="orig-start" value="38778"/>
+            <f name="orig-end" value="38990"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n428">
+        <link targets="wn_r428"/>
+    </node>
+    <a label="s" ref="wn_n428">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Assuring_Underprivileged.anc"/>
+            <f name="orig-start" value="846"/>
+            <f name="orig-end" value="1015"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n429">
+        <link targets="wn_r429"/>
+    </node>
+    <a label="s" ref="wn_n429">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/gb-2002-4-1-r2.anc"/>
+            <f name="orig-start" value="11053"/>
+            <f name="orig-end" value="11411"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n43">
+        <link targets="wn_r43"/>
+    </node>
+    <a label="s" ref="wn_n43">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Fletcher/ch10.anc"/>
+            <f name="orig-start" value="31281"/>
+            <f name="orig-end" value="31517"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n430">
+        <link targets="wn_r430"/>
+    </node>
+    <a label="s" ref="wn_n430">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_12950.anc"/>
+            <f name="orig-start" value="5120"/>
+            <f name="orig-end" value="5250"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n431">
+        <link targets="wn_r431"/>
+    </node>
+    <a label="s" ref="wn_n431">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_9143.anc"/>
+            <f name="orig-start" value="3778"/>
+            <f name="orig-end" value="3985"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n432">
+        <link targets="wn_r432"/>
+    </node>
+    <a label="s" ref="wn_n432">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL23_1.anc"/>
+            <f name="orig-start" value="121667"/>
+            <f name="orig-end" value="121882"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n433">
+        <link targets="wn_r433"/>
+    </node>
+    <a label="s" ref="wn_n433">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_22571.anc"/>
+            <f name="orig-start" value="3264"/>
+            <f name="orig-end" value="3349"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n434">
+        <link targets="wn_r434"/>
+    </node>
+    <a label="s" ref="wn_n434">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/27/ArticleIP_1546.anc"/>
+            <f name="orig-start" value="3109"/>
+            <f name="orig-end" value="3197"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n435">
+        <link targets="wn_r435"/>
+    </node>
+    <a label="s" ref="wn_n435">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/11/Article247_3405.anc"/>
+            <f name="orig-start" value="659"/>
+            <f name="orig-end" value="769"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n436">
+        <link targets="wn_r436"/>
+    </node>
+    <a label="s" ref="wn_n436">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_34859.anc"/>
+            <f name="orig-start" value="1206"/>
+            <f name="orig-end" value="1393"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n437">
+        <link targets="wn_r437"/>
+    </node>
+    <a label="s" ref="wn_n437">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_21866.anc"/>
+            <f name="orig-start" value="7102"/>
+            <f name="orig-end" value="7205"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n438">
+        <link targets="wn_r438"/>
+    </node>
+    <a label="s" ref="wn_n438">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/52/ArticleIP_46415.anc"/>
+            <f name="orig-start" value="6674"/>
+            <f name="orig-end" value="6894"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n439">
+        <link targets="wn_r439"/>
+    </node>
+    <a label="s" ref="wn_n439">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/19/Article247_4247.anc"/>
+            <f name="orig-start" value="3116"/>
+            <f name="orig-end" value="3400"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n44">
+        <link targets="wn_r44"/>
+    </node>
+    <a label="s" ref="wn_n44">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/5/Article247_613.anc"/>
+            <f name="orig-start" value="2624"/>
+            <f name="orig-end" value="2702"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n440">
+        <link targets="wn_r440"/>
+    </node>
+    <a label="s" ref="wn_n440">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/24/ArticleIP_1284.anc"/>
+            <f name="orig-start" value="3735"/>
+            <f name="orig-end" value="4032"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n441">
+        <link targets="wn_r441"/>
+    </node>
+    <a label="s" ref="wn_n441">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/41/ArticleIP_3053.anc"/>
+            <f name="orig-start" value="1657"/>
+            <f name="orig-end" value="1834"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n442">
+        <link targets="wn_r442"/>
+    </node>
+    <a label="s" ref="wn_n442">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/25/ArticleIP_1328.anc"/>
+            <f name="orig-start" value="958"/>
+            <f name="orig-end" value="1330"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n443">
+        <link targets="wn_r443"/>
+    </node>
+    <a label="s" ref="wn_n443">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/12/Article247_3558.anc"/>
+            <f name="orig-start" value="1502"/>
+            <f name="orig-end" value="1686"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n444">
+        <link targets="wn_r444"/>
+    </node>
+    <a label="s" ref="wn_n444">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/41/ArticleIP_3062.anc"/>
+            <f name="orig-start" value="4428"/>
+            <f name="orig-end" value="4449"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n445">
+        <link targets="wn_r445"/>
+    </node>
+    <a label="s" ref="wn_n445">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2082.anc"/>
+            <f name="orig-start" value="7829"/>
+            <f name="orig-end" value="7972"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n446">
+        <link targets="wn_r446"/>
+    </node>
+    <a label="s" ref="wn_n446">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL23_3.anc"/>
+            <f name="orig-start" value="54546"/>
+            <f name="orig-end" value="54634"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n447">
+        <link targets="wn_r447"/>
+    </node>
+    <a label="s" ref="wn_n447">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/3/Article247_472.anc"/>
+            <f name="orig-start" value="921"/>
+            <f name="orig-end" value="1078"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n448">
+        <link targets="wn_r448"/>
+    </node>
+    <a label="s" ref="wn_n448">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/30/ArticleIP_1829.anc"/>
+            <f name="orig-start" value="3844"/>
+            <f name="orig-end" value="3967"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n449">
+        <link targets="wn_r449"/>
+    </node>
+    <a label="s" ref="wn_n449">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/10/Article247_3397.anc"/>
+            <f name="orig-start" value="2220"/>
+            <f name="orig-end" value="2330"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n45">
+        <link targets="wn_r45"/>
+    </node>
+    <a label="s" ref="wn_n45">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2493.anc"/>
+            <f name="orig-start" value="4699"/>
+            <f name="orig-end" value="4729"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n450">
+        <link targets="wn_r450"/>
+    </node>
+    <a label="s" ref="wn_n450">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/38/ArticleIP_2693.anc"/>
+            <f name="orig-start" value="8914"/>
+            <f name="orig-end" value="9136"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n451">
+        <link targets="wn_r451"/>
+    </node>
+    <a label="s" ref="wn_n451">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/10/Article247_3386.anc"/>
+            <f name="orig-start" value="3329"/>
+            <f name="orig-end" value="3410"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n452">
+        <link targets="wn_r452"/>
+    </node>
+    <a label="s" ref="wn_n452">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/30/ArticleIP_1883.anc"/>
+            <f name="orig-start" value="4784"/>
+            <f name="orig-end" value="4831"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n453">
+        <link targets="wn_r453"/>
+    </node>
+    <a label="s" ref="wn_n453">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/3/Article247_465.anc"/>
+            <f name="orig-start" value="347"/>
+            <f name="orig-end" value="544"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n454">
+        <link targets="wn_r454"/>
+    </node>
+    <a label="s" ref="wn_n454">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2935.anc"/>
+            <f name="orig-start" value="1388"/>
+            <f name="orig-end" value="1583"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n455">
+        <link targets="wn_r455"/>
+    </node>
+    <a label="s" ref="wn_n455">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2967.anc"/>
+            <f name="orig-start" value="6016"/>
+            <f name="orig-end" value="6062"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n456">
+        <link targets="wn_r456"/>
+    </node>
+    <a label="s" ref="wn_n456">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL18_1.anc"/>
+            <f name="orig-start" value="98694"/>
+            <f name="orig-end" value="98732"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n457">
+        <link targets="wn_r457"/>
+    </node>
+    <a label="s" ref="wn_n457">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4355.anc"/>
+            <f name="orig-start" value="798"/>
+            <f name="orig-end" value="910"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n458">
+        <link targets="wn_r458"/>
+    </node>
+    <a label="s" ref="wn_n458">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/19/Article247_4239.anc"/>
+            <f name="orig-start" value="1096"/>
+            <f name="orig-end" value="1420"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n459">
+        <link targets="wn_r459"/>
+    </node>
+    <a label="s" ref="wn_n459">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3863.anc"/>
+            <f name="orig-start" value="5143"/>
+            <f name="orig-end" value="5313"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n46">
+        <link targets="wn_r46"/>
+    </node>
+    <a label="s" ref="wn_n46">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="291458"/>
+            <f name="orig-end" value="291572"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n460">
+        <link targets="wn_r460"/>
+    </node>
+    <a label="s" ref="wn_n460">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/53/ArticleIP_55913.anc"/>
+            <f name="orig-start" value="8687"/>
+            <f name="orig-end" value="8742"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n461">
+        <link targets="wn_r461"/>
+    </node>
+    <a label="s" ref="wn_n461">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/17/Article247_4091.anc"/>
+            <f name="orig-start" value="2620"/>
+            <f name="orig-end" value="2644"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n462">
+        <link targets="wn_r462"/>
+    </node>
+    <a label="s" ref="wn_n462">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL22_4.anc"/>
+            <f name="orig-start" value="63367"/>
+            <f name="orig-end" value="63482"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n463">
+        <link targets="wn_r463"/>
+    </node>
+    <a label="s" ref="wn_n463">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_32611.anc"/>
+            <f name="orig-start" value="1793"/>
+            <f name="orig-end" value="1989"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n464">
+        <link targets="wn_r464"/>
+    </node>
+    <a label="s" ref="wn_n464">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3814.anc"/>
+            <f name="orig-start" value="1114"/>
+            <f name="orig-end" value="1282"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n465">
+        <link targets="wn_r465"/>
+    </node>
+    <a label="s" ref="wn_n465">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/33/ArticleIP_2136.anc"/>
+            <f name="orig-start" value="1527"/>
+            <f name="orig-end" value="1659"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n466">
+        <link targets="wn_r466"/>
+    </node>
+    <a label="s" ref="wn_n466">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3859.anc"/>
+            <f name="orig-start" value="2637"/>
+            <f name="orig-end" value="2787"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n467">
+        <link targets="wn_r467"/>
+    </node>
+    <a label="s" ref="wn_n467">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/13/Article247_3687.anc"/>
+            <f name="orig-start" value="5500"/>
+            <f name="orig-end" value="5588"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n468">
+        <link targets="wn_r468"/>
+    </node>
+    <a label="s" ref="wn_n468">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3852.anc"/>
+            <f name="orig-start" value="4897"/>
+            <f name="orig-end" value="5120"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n469">
+        <link targets="wn_r469"/>
+    </node>
+    <a label="s" ref="wn_n469">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/18/Article247_4126.anc"/>
+            <f name="orig-start" value="1522"/>
+            <f name="orig-end" value="1625"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n47">
+        <link targets="wn_r47"/>
+    </node>
+    <a label="s" ref="wn_n47">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Kauffman/ch7.anc"/>
+            <f name="orig-start" value="28917"/>
+            <f name="orig-end" value="29211"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n470">
+        <link targets="wn_r470"/>
+    </node>
+    <a label="s" ref="wn_n470">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/30/ArticleIP_1868.anc"/>
+            <f name="orig-start" value="2575"/>
+            <f name="orig-end" value="2818"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n471">
+        <link targets="wn_r471"/>
+    </node>
+    <a label="s" ref="wn_n471">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_36502.anc"/>
+            <f name="orig-start" value="1575"/>
+            <f name="orig-end" value="1730"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n472">
+        <link targets="wn_r472"/>
+    </node>
+    <a label="s" ref="wn_n472">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_35569.anc"/>
+            <f name="orig-start" value="896"/>
+            <f name="orig-end" value="1124"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n48">
+        <link targets="wn_r48"/>
+    </node>
+    <a label="s" ref="wn_n48">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2028.anc"/>
+            <f name="orig-start" value="4124"/>
+            <f name="orig-end" value="4190"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n49">
+        <link targets="wn_r49"/>
+    </node>
+    <a label="s" ref="wn_n49">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_18472.anc"/>
+            <f name="orig-start" value="3348"/>
+            <f name="orig-end" value="3415"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n5">
+        <link targets="wn_r5"/>
+    </node>
+    <a label="s" ref="wn_n5">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_34172.anc"/>
+            <f name="orig-start" value="1979"/>
+            <f name="orig-end" value="2006"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n50">
+        <link targets="wn_r50"/>
+    </node>
+    <a label="s" ref="wn_n50">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_21663.anc"/>
+            <f name="orig-start" value="9005"/>
+            <f name="orig-end" value="9099"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n51">
+        <link targets="wn_r51"/>
+    </node>
+    <a label="s" ref="wn_n51">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03419sp.anc"/>
+            <f name="orig-start" value="38778"/>
+            <f name="orig-end" value="38990"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n52">
+        <link targets="wn_r52"/>
+    </node>
+    <a label="s" ref="wn_n52">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1471-2296-3-19.anc"/>
+            <f name="orig-start" value="13168"/>
+            <f name="orig-end" value="13290"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n53">
+        <link targets="wn_r53"/>
+    </node>
+    <a label="s" ref="wn_n53">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/About_LSC/Progress_report.anc"/>
+            <f name="orig-start" value="41344"/>
+            <f name="orig-end" value="41618"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n54">
+        <link targets="wn_r54"/>
+    </node>
+    <a label="s" ref="wn_n54">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4316.anc"/>
+            <f name="orig-start" value="123"/>
+            <f name="orig-end" value="205"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n55">
+        <link targets="wn_r55"/>
+    </node>
+    <a label="s" ref="wn_n55">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03232sp.anc"/>
+            <f name="orig-start" value="11095"/>
+            <f name="orig-end" value="11245"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n56">
+        <link targets="wn_r56"/>
+    </node>
+    <a label="s" ref="wn_n56">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_30044.anc"/>
+            <f name="orig-start" value="5310"/>
+            <f name="orig-end" value="5418"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n57">
+        <link targets="wn_r57"/>
+    </node>
+    <a label="s" ref="wn_n57">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="53584"/>
+            <f name="orig-end" value="53757"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n58">
+        <link targets="wn_r58"/>
+    </node>
+    <a label="s" ref="wn_n58">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/41/ArticleIP_3070.anc"/>
+            <f name="orig-start" value="5810"/>
+            <f name="orig-end" value="5863"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n59">
+        <link targets="wn_r59"/>
+    </node>
+    <a label="s" ref="wn_n59">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2050.anc"/>
+            <f name="orig-start" value="684"/>
+            <f name="orig-end" value="806"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n6">
+        <link targets="wn_r6"/>
+    </node>
+    <a label="s" ref="wn_n6">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1471-2296-3-19.anc"/>
+            <f name="orig-start" value="22131"/>
+            <f name="orig-end" value="22298"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n60">
+        <link targets="wn_r60"/>
+    </node>
+    <a label="s" ref="wn_n60">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/22/ArticleIP_1055.anc"/>
+            <f name="orig-start" value="1317"/>
+            <f name="orig-end" value="1464"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n61">
+        <link targets="wn_r61"/>
+    </node>
+    <a label="s" ref="wn_n61">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL17_3.anc"/>
+            <f name="orig-start" value="583"/>
+            <f name="orig-end" value="663"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n62">
+        <link targets="wn_r62"/>
+    </node>
+    <a label="s" ref="wn_n62">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/plos/pmed.0010042.anc"/>
+            <f name="orig-start" value="3265"/>
+            <f name="orig-end" value="3420"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n63">
+        <link targets="wn_r63"/>
+    </node>
+    <a label="s" ref="wn_n63">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/About_LSC/State_Planning_Special_Report.anc"/>
+            <f name="orig-start" value="11985"/>
+            <f name="orig-end" value="12256"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n64">
+        <link targets="wn_r64"/>
+    </node>
+    <a label="s" ref="wn_n64">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/letters/icic/402CWL184.anc"/>
+            <f name="orig-start" value="8004"/>
+            <f name="orig-end" value="8083"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n65">
+        <link targets="wn_r65"/>
+    </node>
+    <a label="s" ref="wn_n65">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Barcelona-WhatToDo.anc"/>
+            <f name="orig-start" value="8310"/>
+            <f name="orig-end" value="8411"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n66">
+        <link targets="wn_r66"/>
+    </node>
+    <a label="s" ref="wn_n66">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/15/Article247_3833.anc"/>
+            <f name="orig-start" value="3274"/>
+            <f name="orig-end" value="3350"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n67">
+        <link targets="wn_r67"/>
+    </node>
+    <a label="s" ref="wn_n67">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/33/ArticleIP_2192.anc"/>
+            <f name="orig-start" value="610"/>
+            <f name="orig-end" value="909"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n68">
+        <link targets="wn_r68"/>
+    </node>
+    <a label="s" ref="wn_n68">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_21655.anc"/>
+            <f name="orig-start" value="2736"/>
+            <f name="orig-end" value="2922"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n69">
+        <link targets="wn_r69"/>
+    </node>
+    <a label="s" ref="wn_n69">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/45/ArticleIP_3552.anc"/>
+            <f name="orig-start" value="4728"/>
+            <f name="orig-end" value="4942"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n7">
+        <link targets="wn_r7"/>
+    </node>
+    <a label="s" ref="wn_n7">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="145793"/>
+            <f name="orig-end" value="145795"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n70">
+        <link targets="wn_r70"/>
+    </node>
+    <a label="s" ref="wn_n70">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="55227"/>
+            <f name="orig-end" value="55323"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n71">
+        <link targets="wn_r71"/>
+    </node>
+    <a label="s" ref="wn_n71">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2953.anc"/>
+            <f name="orig-start" value="5573"/>
+            <f name="orig-end" value="5802"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n72">
+        <link targets="wn_r72"/>
+    </node>
+    <a label="s" ref="wn_n72">
+        <fs>
+            <f name="path" value="masc/xces/Day3PMSession.anc"/>
+            <f name="orig-start" value="49882"/>
+            <f name="orig-end" value="50065"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n73">
+        <link targets="wn_r73"/>
+    </node>
+    <a label="s" ref="wn_n73">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/36/ArticleIP_2444.anc"/>
+            <f name="orig-start" value="5466"/>
+            <f name="orig-end" value="5677"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n74">
+        <link targets="wn_r74"/>
+    </node>
+    <a label="s" ref="wn_n74">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/51/ArticleIP_31638.anc"/>
+            <f name="orig-start" value="3024"/>
+            <f name="orig-end" value="3258"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n75">
+        <link targets="wn_r75"/>
+    </node>
+    <a label="s" ref="wn_n75">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/38/ArticleIP_2631.anc"/>
+            <f name="orig-start" value="7499"/>
+            <f name="orig-end" value="7601"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n76">
+        <link targets="wn_r76"/>
+    </node>
+    <a label="s" ref="wn_n76">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/29/ArticleIP_1722.anc"/>
+            <f name="orig-start" value="5823"/>
+            <f name="orig-end" value="6090"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n77">
+        <link targets="wn_r77"/>
+    </node>
+    <a label="s" ref="wn_n77">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1468-6708-3-1.anc"/>
+            <f name="orig-start" value="5439"/>
+            <f name="orig-end" value="5629"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n78">
+        <link targets="wn_r78"/>
+    </node>
+    <a label="s" ref="wn_n78">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/20/Article247_4396.anc"/>
+            <f name="orig-start" value="2026"/>
+            <f name="orig-end" value="2128"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n79">
+        <link targets="wn_r79"/>
+    </node>
+    <a label="s" ref="wn_n79">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/26/ArticleIP_1433.anc"/>
+            <f name="orig-start" value="8364"/>
+            <f name="orig-end" value="8560"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n8">
+        <link targets="wn_r8"/>
+    </node>
+    <a label="s" ref="wn_n8">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Portugal-WhatToDo.anc"/>
+            <f name="orig-start" value="16706"/>
+            <f name="orig-end" value="16821"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n80">
+        <link targets="wn_r80"/>
+    </node>
+    <a label="s" ref="wn_n80">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/16/Article247_3985.anc"/>
+            <f name="orig-start" value="1459"/>
+            <f name="orig-end" value="1722"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n81">
+        <link targets="wn_r81"/>
+    </node>
+    <a label="s" ref="wn_n81">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/biomed/1472-6882-3-1.anc"/>
+            <f name="orig-start" value="29137"/>
+            <f name="orig-end" value="29185"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n82">
+        <link targets="wn_r82"/>
+    </node>
+    <a label="s" ref="wn_n82">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.anc"/>
+            <f name="orig-start" value="232579"/>
+            <f name="orig-end" value="232789"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n83">
+        <link targets="wn_r83"/>
+    </node>
+    <a label="s" ref="wn_n83">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/verbatim/VOL18_3.anc"/>
+            <f name="orig-start" value="7959"/>
+            <f name="orig-end" value="8038"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n84">
+        <link targets="wn_r84"/>
+    </node>
+    <a label="s" ref="wn_n84">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_10966.anc"/>
+            <f name="orig-start" value="4265"/>
+            <f name="orig-end" value="4307"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n85">
+        <link targets="wn_r85"/>
+    </node>
+    <a label="s" ref="wn_n85">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/48/ArticleIP_7884.anc"/>
+            <f name="orig-start" value="12739"/>
+            <f name="orig-end" value="12895"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n86">
+        <link targets="wn_r86"/>
+    </node>
+    <a label="s" ref="wn_n86">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/40/ArticleIP_2991.anc"/>
+            <f name="orig-start" value="7980"/>
+            <f name="orig-end" value="8068"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n87">
+        <link targets="wn_r87"/>
+    </node>
+    <a label="s" ref="wn_n87">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="55047"/>
+            <f name="orig-end" value="55226"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n88">
+        <link targets="wn_r88"/>
+    </node>
+    <a label="s" ref="wn_n88">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/32/ArticleIP_2012.anc"/>
+            <f name="orig-start" value="11019"/>
+            <f name="orig-end" value="11176"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n89">
+        <link targets="wn_r89"/>
+    </node>
+    <a label="s" ref="wn_n89">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/30/ArticleIP_1850.anc"/>
+            <f name="orig-start" value="65"/>
+            <f name="orig-end" value="194"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n9">
+        <link targets="wn_r9"/>
+    </node>
+    <a label="s" ref="wn_n9">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Media/Assuring_Underprivileged.anc"/>
+            <f name="orig-start" value="1696"/>
+            <f name="orig-end" value="1721"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n90">
+        <link targets="wn_r90"/>
+    </node>
+    <a label="s" ref="wn_n90">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/non-fiction/OUP/Fletcher/ch10.anc"/>
+            <f name="orig-start" value="31078"/>
+            <f name="orig-end" value="31280"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n91">
+        <link targets="wn_r91"/>
+    </node>
+    <a label="s" ref="wn_n91">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+            <f name="orig-start" value="53758"/>
+            <f name="orig-end" value="53909"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n92">
+        <link targets="wn_r92"/>
+    </node>
+    <a label="s" ref="wn_n92">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/travel_guides/berlitz2/Beijing-WhatToDo.anc"/>
+            <f name="orig-start" value="1433"/>
+            <f name="orig-end" value="1743"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n93">
+        <link targets="wn_r93"/>
+    </node>
+    <a label="s" ref="wn_n93">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/46/ArticleIP_3887.anc"/>
+            <f name="orig-start" value="6955"/>
+            <f name="orig-end" value="7148"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n94">
+        <link targets="wn_r94"/>
+    </node>
+    <a label="s" ref="wn_n94">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/49/ArticleIP_14137.anc"/>
+            <f name="orig-start" value="2538"/>
+            <f name="orig-end" value="2606"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n95">
+        <link targets="wn_r95"/>
+    </node>
+    <a label="s" ref="wn_n95">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/d03419sp.anc"/>
+            <f name="orig-start" value="33800"/>
+            <f name="orig-end" value="34059"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n96">
+        <link targets="wn_r96"/>
+    </node>
+    <a label="s" ref="wn_n96">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/og97002.anc"/>
+            <f name="orig-start" value="1091"/>
+            <f name="orig-end" value="1730"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n97">
+        <link targets="wn_r97"/>
+    </node>
+    <a label="s" ref="wn_n97">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/50/ArticleIP_25138.anc"/>
+            <f name="orig-start" value="2677"/>
+            <f name="orig-end" value="2713"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n98">
+        <link targets="wn_r98"/>
+    </node>
+    <a label="s" ref="wn_n98">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_2/technical/government/Gen_Account_Office/Testimony_cg00010t.anc"/>
+            <f name="orig-start" value="66018"/>
+            <f name="orig-end" value="66249"/>
+        </fs>
+    </a>
+    <node xml:id="wn_n99">
+        <link targets="wn_r99"/>
+    </node>
+    <a label="s" ref="wn_n99">
+        <fs>
+            <f name="path" value="file:/c:/OANC/data/written_1/journal/slate/35/ArticleIP_2320.anc"/>
+            <f name="orig-start" value="6165"/>
+            <f name="orig-end" value="6340"/>
+        </fs>
+    </a>
+</graph>

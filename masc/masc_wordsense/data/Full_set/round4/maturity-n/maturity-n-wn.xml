@@ -1,0 +1,2874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <header>
+        <tagsDecl>
+            <tagUsage gi="WordNet" occurs="96"/>
+        </tagsDecl>
+        <annotationSets>
+            <annotationSet name="WordNet" type="http://wordnet.princeton.edu/"/>
+            <annotationSet name="xces" type="http://www.xces.org/schema/2003"/>
+        </annotationSets>
+    </header>
+    <region xml:id="wn_r1" anchors="0 387"/>
+    <region xml:id="wn_r0" anchors="313 321"/>
+    <region xml:id="wn_r4" anchors="389 496"/>
+    <region xml:id="wn_r2" anchors="419 427"/>
+    <region xml:id="wn_r3" anchors="490 495"/>
+    <region xml:id="wn_r6" anchors="498 612"/>
+    <region xml:id="wn_r5" anchors="583 591"/>
+    <region xml:id="wn_r8" anchors="614 681"/>
+    <region xml:id="wn_r7" anchors="638 646"/>
+    <region xml:id="wn_r10" anchors="683 817"/>
+    <region xml:id="wn_r9" anchors="711 719"/>
+    <region xml:id="wn_r12" anchors="819 1343"/>
+    <region xml:id="wn_r11" anchors="1334 1342"/>
+    <region xml:id="wn_r14" anchors="1345 1476"/>
+    <region xml:id="wn_r13" anchors="1426 1434"/>
+    <region xml:id="wn_r16" anchors="1478 1595"/>
+    <region xml:id="wn_r15" anchors="1566 1574"/>
+    <region xml:id="wn_r18" anchors="1597 1842"/>
+    <region xml:id="wn_r17" anchors="1604 1612"/>
+    <region xml:id="wn_r20" anchors="1844 1955"/>
+    <region xml:id="wn_r19" anchors="1894 1902"/>
+    <region xml:id="wn_r22" anchors="1957 2086"/>
+    <region xml:id="wn_r21" anchors="2023 2031"/>
+    <region xml:id="wn_r24" anchors="2088 2223"/>
+    <region xml:id="wn_r23" anchors="2163 2171"/>
+    <region xml:id="wn_r27" anchors="2225 2590"/>
+    <region xml:id="wn_r25" anchors="2436 2444"/>
+    <region xml:id="wn_r26" anchors="2530 2536"/>
+    <region xml:id="wn_r29" anchors="2592 2659"/>
+    <region xml:id="wn_r28" anchors="2650 2658"/>
+    <region xml:id="wn_r31" anchors="2661 2765"/>
+    <region xml:id="wn_r30" anchors="2715 2723"/>
+    <region xml:id="wn_r33" anchors="2767 2962"/>
+    <region xml:id="wn_r32" anchors="2947 2955"/>
+    <region xml:id="wn_r35" anchors="2964 3203"/>
+    <region xml:id="wn_r34" anchors="3008 3016"/>
+    <region xml:id="wn_r37" anchors="3205 3320"/>
+    <region xml:id="wn_r36" anchors="3311 3319"/>
+    <region xml:id="wn_r39" anchors="3322 3459"/>
+    <region xml:id="wn_r38" anchors="3354 3362"/>
+    <region xml:id="wn_r41" anchors="3461 3501"/>
+    <region xml:id="wn_r40" anchors="3492 3500"/>
+    <region xml:id="wn_r43" anchors="3503 3832"/>
+    <region xml:id="wn_r42" anchors="3715 3723"/>
+    <region xml:id="wn_r45" anchors="3834 3947"/>
+    <region xml:id="wn_r44" anchors="3938 3946"/>
+    <region xml:id="wn_r47" anchors="3949 4040"/>
+    <region xml:id="wn_r46" anchors="3988 3996"/>
+    <region xml:id="wn_r49" anchors="4042 4206"/>
+    <region xml:id="wn_r48" anchors="4081 4089"/>
+    <region xml:id="wn_r51" anchors="4208 4255"/>
+    <region xml:id="wn_r50" anchors="4247 4255"/>
+    <region xml:id="wn_r53" anchors="4257 4500"/>
+    <region xml:id="wn_r52" anchors="4468 4476"/>
+    <region xml:id="wn_r55" anchors="4502 4624"/>
+    <region xml:id="wn_r54" anchors="4615 4623"/>
+    <region xml:id="wn_r57" anchors="4626 4854"/>
+    <region xml:id="wn_r56" anchors="4730 4738"/>
+    <region xml:id="wn_r59" anchors="4856 4986"/>
+    <region xml:id="wn_r58" anchors="4977 4985"/>
+    <region xml:id="wn_r61" anchors="4988 5036"/>
+    <region xml:id="wn_r60" anchors="5027 5035"/>
+    <region xml:id="wn_r63" anchors="5038 5145"/>
+    <region xml:id="wn_r62" anchors="5117 5125"/>
+    <region xml:id="wn_r65" anchors="5147 5309"/>
+    <region xml:id="wn_r64" anchors="5245 5253"/>
+    <region xml:id="wn_r67" anchors="5311 5471"/>
+    <region xml:id="wn_r66" anchors="5462 5470"/>
+    <region xml:id="wn_r69" anchors="5473 5506"/>
+    <region xml:id="wn_r68" anchors="5491 5499"/>
+    <region xml:id="wn_r71" anchors="5508 5619"/>
+    <region xml:id="wn_r70" anchors="5545 5553"/>
+    <region xml:id="wn_r74" anchors="5621 5753"/>
+    <region xml:id="wn_r72" anchors="5671 5679"/>
+    <region xml:id="wn_r73" anchors="5745 5753"/>
+    <region xml:id="wn_r76" anchors="5755 5912"/>
+    <region xml:id="wn_r75" anchors="5850 5858"/>
+    <region xml:id="wn_r78" anchors="5914 6066"/>
+    <region xml:id="wn_r77" anchors="5948 5956"/>
+    <region xml:id="wn_r80" anchors="6068 6113"/>
+    <region xml:id="wn_r79" anchors="6101 6109"/>
+    <region xml:id="wn_r82" anchors="6115 6264"/>
+    <region xml:id="wn_r81" anchors="6243 6251"/>
+    <region xml:id="wn_r84" anchors="6266 6384"/>
+    <region xml:id="wn_r83" anchors="6322 6330"/>
+    <region xml:id="wn_r87" anchors="6386 6518"/>
+    <region xml:id="wn_r85" anchors="6436 6444"/>
+    <region xml:id="wn_r86" anchors="6510 6518"/>
+    <region xml:id="wn_r90" anchors="6520 6629"/>
+    <region xml:id="wn_r88" anchors="6577 6585"/>
+    <region xml:id="wn_r89" anchors="6602 6606"/>
+    <region xml:id="wn_r92" anchors="6631 6809"/>
+    <region xml:id="wn_r91" anchors="6643 6651"/>
+    <region xml:id="wn_r96" anchors="6811 7083"/>
+    <region xml:id="wn_r93" anchors="6830 6834"/>
+    <region xml:id="wn_r94" anchors="6923 6931"/>
+    <region xml:id="wn_r95" anchors="6949 6957"/>
+    <region xml:id="wn_r98" anchors="7085 7448"/>
+    <region xml:id="wn_r97" anchors="7251 7259"/>
+    <region xml:id="wn_r102" anchors="7450 7649"/>
+    <region xml:id="wn_r99" anchors="7463 7467"/>
+    <region xml:id="wn_r100" anchors="7517 7521"/>
+    <region xml:id="wn_r101" anchors="7575 7583"/>
+    <region xml:id="wn_r104" anchors="7651 7856"/>
+    <region xml:id="wn_r103" anchors="7747 7755"/>
+    <region xml:id="wn_r106" anchors="7858 7972"/>
+    <region xml:id="wn_r105" anchors="7898 7906"/>
+    <region xml:id="wn_r108" anchors="7974 8206"/>
+    <region xml:id="wn_r107" anchors="8173 8181"/>
+    <region xml:id="wn_r111" anchors="8208 8332"/>
+    <region xml:id="wn_r109" anchors="8280 8284"/>
+    <region xml:id="wn_r110" anchors="8317 8325"/>
+    <region xml:id="wn_r113" anchors="8334 8484"/>
+    <region xml:id="wn_r112" anchors="8453 8461"/>
+    <region xml:id="wn_r115" anchors="8486 8686"/>
+    <region xml:id="wn_r114" anchors="8677 8685"/>
+    <region xml:id="wn_r117" anchors="8688 8776"/>
+    <region xml:id="wn_r116" anchors="8697 8705"/>
+    <region xml:id="wn_r119" anchors="8778 9010"/>
+    <region xml:id="wn_r118" anchors="8875 8883"/>
+    <region xml:id="wn_r121" anchors="9012 9205"/>
+    <region xml:id="wn_r120" anchors="9196 9204"/>
+    <region xml:id="wn_r123" anchors="9207 9446"/>
+    <region xml:id="wn_r122" anchors="9251 9259"/>
+    <region xml:id="wn_r125" anchors="9448 9558"/>
+    <region xml:id="wn_r124" anchors="9487 9495"/>
+    <region xml:id="wn_r127" anchors="9560 9613"/>
+    <region xml:id="wn_r126" anchors="9599 9607"/>
+    <region xml:id="wn_r129" anchors="9615 9771"/>
+    <region xml:id="wn_r128" anchors="9693 9701"/>
+    <region xml:id="wn_r131" anchors="9773 9914"/>
+    <region xml:id="wn_r130" anchors="9905 9913"/>
+    <region xml:id="wn_r133" anchors="9916 10106"/>
+    <region xml:id="wn_r132" anchors="10041 10049"/>
+    <region xml:id="wn_r135" anchors="10108 10227"/>
+    <region xml:id="wn_r134" anchors="10143 10151"/>
+    <region xml:id="wn_r137" anchors="10229 10433"/>
+    <region xml:id="wn_r136" anchors="10424 10432"/>
+    <region xml:id="wn_r139" anchors="10435 10785"/>
+    <region xml:id="wn_r138" anchors="10665 10673"/>
+    <region xml:id="wn_r141" anchors="10787 10883"/>
+    <region xml:id="wn_r140" anchors="10826 10834"/>
+    <region xml:id="wn_r143" anchors="10885 10998"/>
+    <region xml:id="wn_r142" anchors="10924 10932"/>
+    <region xml:id="wn_r145" anchors="11000 11196"/>
+    <region xml:id="wn_r144" anchors="11119 11127"/>
+    <region xml:id="wn_r147" anchors="11198 11344"/>
+    <region xml:id="wn_r146" anchors="11335 11343"/>
+    <region xml:id="wn_r151" anchors="11346 11618"/>
+    <region xml:id="wn_r148" anchors="11365 11369"/>
+    <region xml:id="wn_r149" anchors="11458 11466"/>
+    <region xml:id="wn_r150" anchors="11484 11492"/>
+    <region xml:id="wn_r155" anchors="11620 11841"/>
+    <region xml:id="wn_r152" anchors="11633 11637"/>
+    <region xml:id="wn_r153" anchors="11687 11691"/>
+    <region xml:id="wn_r154" anchors="11745 11753"/>
+    <region xml:id="wn_r157" anchors="11843 12081"/>
+    <region xml:id="wn_r156" anchors="12072 12080"/>
+    <region xml:id="wn_r159" anchors="12083 12319"/>
+    <region xml:id="wn_r158" anchors="12310 12318"/>
+    <region xml:id="wn_r161" anchors="12321 12463"/>
+    <region xml:id="wn_r160" anchors="12363 12371"/>
+    <region xml:id="wn_r163" anchors="12465 12535"/>
+    <region xml:id="wn_r162" anchors="12516 12524"/>
+    <region xml:id="wn_r165" anchors="12537 12723"/>
+    <region xml:id="wn_r164" anchors="12550 12558"/>
+    <region xml:id="wn_r167" anchors="12725 13442"/>
+    <region xml:id="wn_r166" anchors="13322 13330"/>
+    <region xml:id="wn_r169" anchors="13444 13602"/>
+    <region xml:id="wn_r168" anchors="13571 13579"/>
+    <region xml:id="wn_r171" anchors="13604 13730"/>
+    <region xml:id="wn_r170" anchors="13708 13716"/>
+    <region xml:id="wn_r173" anchors="13732 13842"/>
+    <region xml:id="wn_r172" anchors="13833 13841"/>
+    <region xml:id="wn_r175" anchors="13844 13925"/>
+    <region xml:id="wn_r174" anchors="13864 13872"/>
+    <region xml:id="wn_r177" anchors="13927 14172"/>
+    <region xml:id="wn_r176" anchors="14106 14114"/>
+    <region xml:id="wn_r179" anchors="14174 14630"/>
+    <region xml:id="wn_r178" anchors="14380 14388"/>
+    <region xml:id="wn_r181" anchors="14632 14744"/>
+    <region xml:id="wn_r180" anchors="14707 14715"/>
+    <region xml:id="wn_r183" anchors="14746 14893"/>
+    <region xml:id="wn_r182" anchors="14789 14797"/>
+    <region xml:id="wn_r186" anchors="14895 15325"/>
+    <region xml:id="wn_r184" anchors="15057 15061"/>
+    <region xml:id="wn_r185" anchors="15096 15104"/>
+    <region xml:id="wn_r189" anchors="15327 15540"/>
+    <region xml:id="wn_r187" anchors="15349 15353"/>
+    <region xml:id="wn_r188" anchors="15531 15539"/>
+    <region xml:id="wn_r191" anchors="15542 15948"/>
+    <region xml:id="wn_r190" anchors="15939 15947"/>
+    <region xml:id="wn_r193" anchors="15950 16111"/>
+    <region xml:id="wn_r192" anchors="15995 16003"/>
+    <region xml:id="wn_r195" anchors="16113 16250"/>
+    <region xml:id="wn_r194" anchors="16166 16174"/>
+    <region xml:id="wn_r197" anchors="16252 16360"/>
+    <region xml:id="wn_r196" anchors="16323 16331"/>
+    <node xml:id="wn_n0">
+        <link targets="wn_r0"/>
+    </node>
+    <a label="WordNet" ref="wn_n0" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n1">
+        <link targets="wn_r2"/>
+    </node>
+    <a label="WordNet" ref="wn_n1" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n10">
+        <link targets="wn_r21"/>
+    </node>
+    <a label="WordNet" ref="wn_n10" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="N"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n11">
+        <link targets="wn_r23"/>
+    </node>
+    <a label="WordNet" ref="wn_n11" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="N"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n12">
+        <link targets="wn_r25"/>
+    </node>
+    <a label="WordNet" ref="wn_n12" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n13">
+        <link targets="wn_r26"/>
+    </node>
+    <a label="WordNet" ref="wn_n13" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n14">
+        <link targets="wn_r28"/>
+    </node>
+    <a label="WordNet" ref="wn_n14" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n15">
+        <link targets="wn_r30"/>
+    </node>
+    <a label="WordNet" ref="wn_n15" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n16">
+        <link targets="wn_r32"/>
+    </node>
+    <a label="WordNet" ref="wn_n16" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n17">
+        <link targets="wn_r34"/>
+    </node>
+    <a label="WordNet" ref="wn_n17" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n18">
+        <link targets="wn_r36"/>
+    </node>
+    <a label="WordNet" ref="wn_n18" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n19">
+        <link targets="wn_r38"/>
+    </node>
+    <a label="WordNet" ref="wn_n19" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n2">
+        <link targets="wn_r5"/>
+    </node>
+    <a label="WordNet" ref="wn_n2" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n20">
+        <link targets="wn_r40"/>
+    </node>
+    <a label="WordNet" ref="wn_n20" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n21">
+        <link targets="wn_r42"/>
+    </node>
+    <a label="WordNet" ref="wn_n21" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n22">
+        <link targets="wn_r44"/>
+    </node>
+    <a label="WordNet" ref="wn_n22" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n23">
+        <link targets="wn_r46"/>
+    </node>
+    <a label="WordNet" ref="wn_n23" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n24">
+        <link targets="wn_r48"/>
+    </node>
+    <a label="WordNet" ref="wn_n24" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="N"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n25">
+        <link targets="wn_r50"/>
+    </node>
+    <a label="WordNet" ref="wn_n25" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n26">
+        <link targets="wn_r52"/>
+    </node>
+    <a label="WordNet" ref="wn_n26" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n27">
+        <link targets="wn_r54"/>
+    </node>
+    <a label="WordNet" ref="wn_n27" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n28">
+        <link targets="wn_r56"/>
+    </node>
+    <a label="WordNet" ref="wn_n28" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n29">
+        <link targets="wn_r58"/>
+    </node>
+    <a label="WordNet" ref="wn_n29" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n3">
+        <link targets="wn_r7"/>
+    </node>
+    <a label="WordNet" ref="wn_n3" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n30">
+        <link targets="wn_r60"/>
+    </node>
+    <a label="WordNet" ref="wn_n30" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n31">
+        <link targets="wn_r62"/>
+    </node>
+    <a label="WordNet" ref="wn_n31" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n32">
+        <link targets="wn_r64"/>
+    </node>
+    <a label="WordNet" ref="wn_n32" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n33">
+        <link targets="wn_r66"/>
+    </node>
+    <a label="WordNet" ref="wn_n33" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n34">
+        <link targets="wn_r68"/>
+    </node>
+    <a label="WordNet" ref="wn_n34" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n35">
+        <link targets="wn_r70"/>
+    </node>
+    <a label="WordNet" ref="wn_n35" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n36">
+        <link targets="wn_r72"/>
+    </node>
+    <a label="WordNet" ref="wn_n36" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n37">
+        <link targets="wn_r73"/>
+    </node>
+    <a label="WordNet" ref="wn_n37" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n38">
+        <link targets="wn_r75"/>
+    </node>
+    <a label="WordNet" ref="wn_n38" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n39">
+        <link targets="wn_r77"/>
+    </node>
+    <a label="WordNet" ref="wn_n39" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n4">
+        <link targets="wn_r9"/>
+    </node>
+    <a label="WordNet" ref="wn_n4" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n40">
+        <link targets="wn_r79"/>
+    </node>
+    <a label="WordNet" ref="wn_n40" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n41">
+        <link targets="wn_r81"/>
+    </node>
+    <a label="WordNet" ref="wn_n41" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n42">
+        <link targets="wn_r83"/>
+    </node>
+    <a label="WordNet" ref="wn_n42" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n43">
+        <link targets="wn_r85"/>
+    </node>
+    <a label="WordNet" ref="wn_n43" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n44">
+        <link targets="wn_r86"/>
+    </node>
+    <a label="WordNet" ref="wn_n44" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n45">
+        <link targets="wn_r88"/>
+    </node>
+    <a label="WordNet" ref="wn_n45" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n46">
+        <link targets="wn_r91"/>
+    </node>
+    <a label="WordNet" ref="wn_n46" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="P"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n47">
+        <link targets="wn_r94"/>
+    </node>
+    <a label="WordNet" ref="wn_n47" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n48">
+        <link targets="wn_r95"/>
+    </node>
+    <a label="WordNet" ref="wn_n48" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n49">
+        <link targets="wn_r97"/>
+    </node>
+    <a label="WordNet" ref="wn_n49" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n5">
+        <link targets="wn_r11"/>
+    </node>
+    <a label="WordNet" ref="wn_n5" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n50">
+        <link targets="wn_r101"/>
+    </node>
+    <a label="WordNet" ref="wn_n50" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n51">
+        <link targets="wn_r103"/>
+    </node>
+    <a label="WordNet" ref="wn_n51" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n52">
+        <link targets="wn_r105"/>
+    </node>
+    <a label="WordNet" ref="wn_n52" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n53">
+        <link targets="wn_r107"/>
+    </node>
+    <a label="WordNet" ref="wn_n53" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n54">
+        <link targets="wn_r110"/>
+    </node>
+    <a label="WordNet" ref="wn_n54" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n55">
+        <link targets="wn_r112"/>
+    </node>
+    <a label="WordNet" ref="wn_n55" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n56">
+        <link targets="wn_r114"/>
+    </node>
+    <a label="WordNet" ref="wn_n56" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n57">
+        <link targets="wn_r116"/>
+    </node>
+    <a label="WordNet" ref="wn_n57" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n58">
+        <link targets="wn_r118"/>
+    </node>
+    <a label="WordNet" ref="wn_n58" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n59">
+        <link targets="wn_r120"/>
+    </node>
+    <a label="WordNet" ref="wn_n59" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n6">
+        <link targets="wn_r13"/>
+    </node>
+    <a label="WordNet" ref="wn_n6" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n60">
+        <link targets="wn_r122"/>
+    </node>
+    <a label="WordNet" ref="wn_n60" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n61">
+        <link targets="wn_r124"/>
+    </node>
+    <a label="WordNet" ref="wn_n61" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n62">
+        <link targets="wn_r126"/>
+    </node>
+    <a label="WordNet" ref="wn_n62" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n63">
+        <link targets="wn_r128"/>
+    </node>
+    <a label="WordNet" ref="wn_n63" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n64">
+        <link targets="wn_r130"/>
+    </node>
+    <a label="WordNet" ref="wn_n64" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="299027"/>
+                    <f name="orig-end" value="299168"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n65">
+        <link targets="wn_r132"/>
+    </node>
+    <a label="WordNet" ref="wn_n65" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n66">
+        <link targets="wn_r134"/>
+    </node>
+    <a label="WordNet" ref="wn_n66" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n67">
+        <link targets="wn_r136"/>
+    </node>
+    <a label="WordNet" ref="wn_n67" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n68">
+        <link targets="wn_r138"/>
+    </node>
+    <a label="WordNet" ref="wn_n68" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n69">
+        <link targets="wn_r140"/>
+    </node>
+    <a label="WordNet" ref="wn_n69" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n7">
+        <link targets="wn_r15"/>
+    </node>
+    <a label="WordNet" ref="wn_n7" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n70">
+        <link targets="wn_r142"/>
+    </node>
+    <a label="WordNet" ref="wn_n70" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n71">
+        <link targets="wn_r144"/>
+    </node>
+    <a label="WordNet" ref="wn_n71" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n72">
+        <link targets="wn_r146"/>
+    </node>
+    <a label="WordNet" ref="wn_n72" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n73">
+        <link targets="wn_r149"/>
+    </node>
+    <a label="WordNet" ref="wn_n73" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n74">
+        <link targets="wn_r150"/>
+    </node>
+    <a label="WordNet" ref="wn_n74" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n75">
+        <link targets="wn_r154"/>
+    </node>
+    <a label="WordNet" ref="wn_n75" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n76">
+        <link targets="wn_r156"/>
+    </node>
+    <a label="WordNet" ref="wn_n76" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n77">
+        <link targets="wn_r158"/>
+    </node>
+    <a label="WordNet" ref="wn_n77" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n78">
+        <link targets="wn_r160"/>
+    </node>
+    <a label="WordNet" ref="wn_n78" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n79">
+        <link targets="wn_r162"/>
+    </node>
+    <a label="WordNet" ref="wn_n79" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n8">
+        <link targets="wn_r17"/>
+    </node>
+    <a label="WordNet" ref="wn_n8" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n80">
+        <link targets="wn_r164"/>
+    </node>
+    <a label="WordNet" ref="wn_n80" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n81">
+        <link targets="wn_r166"/>
+    </node>
+    <a label="WordNet" ref="wn_n81" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n82">
+        <link targets="wn_r168"/>
+    </node>
+    <a label="WordNet" ref="wn_n82" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n83">
+        <link targets="wn_r170"/>
+    </node>
+    <a label="WordNet" ref="wn_n83" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n84">
+        <link targets="wn_r172"/>
+    </node>
+    <a label="WordNet" ref="wn_n84" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n85">
+        <link targets="wn_r174"/>
+    </node>
+    <a label="WordNet" ref="wn_n85" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n86">
+        <link targets="wn_r176"/>
+    </node>
+    <a label="WordNet" ref="wn_n86" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n87">
+        <link targets="wn_r178"/>
+    </node>
+    <a label="WordNet" ref="wn_n87" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n88">
+        <link targets="wn_r180"/>
+    </node>
+    <a label="WordNet" ref="wn_n88" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n89">
+        <link targets="wn_r182"/>
+    </node>
+    <a label="WordNet" ref="wn_n89" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n9">
+        <link targets="wn_r19"/>
+    </node>
+    <a label="WordNet" ref="wn_n9" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/d02701.anc"/>
+                    <f name="orig-start" value="67825"/>
+                    <f name="orig-end" value="67932"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+            <f name="annotation2">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="103"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n90">
+        <link targets="wn_r185"/>
+    </node>
+    <a label="WordNet" ref="wn_n90" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n91">
+        <link targets="wn_r188"/>
+    </node>
+    <a label="WordNet" ref="wn_n91" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n92">
+        <link targets="wn_r190"/>
+    </node>
+    <a label="WordNet" ref="wn_n92" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n93">
+        <link targets="wn_r192"/>
+    </node>
+    <a label="WordNet" ref="wn_n93" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:26:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n94">
+        <link targets="wn_r194"/>
+    </node>
+    <a label="WordNet" ref="wn_n94" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+    <node xml:id="wn_n95">
+        <link targets="wn_r196"/>
+    </node>
+    <a label="WordNet" ref="wn_n95" as="WordNet">
+        <fs>
+            <f name="annotation0">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="101"/>
+                </fs>
+            </f>
+            <f name="orig-text-location">
+                <fs>
+                    <f name="orig-text" value="file:/D:/Corpora/oanc/data/written_2/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.anc"/>
+                    <f name="orig-start" value="303698"/>
+                    <f name="orig-end" value="303806"/>
+                </fs>
+            </f>
+            <f name="annotation1">
+                <fs>
+                    <f name="sense" value="maturity_date%1:28:00::"/>
+                    <f name="annotator" value="102"/>
+                </fs>
+            </f>
+        </fs>
+    </a>
+</graph>

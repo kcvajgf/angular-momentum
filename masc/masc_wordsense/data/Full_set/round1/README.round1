@@ -1,0 +1,157 @@
+-------------------------------
+ROUND 1 - FULL SET ANNOTATION
+-------------------------------
+
+WORDS (N = 10) :
+
+SENSE INVENTORY
+---------------
+
+  	wn-3.1 sense  |   wn-sense-key
+  	--------------+---------------------------------------
+  	DEMOLISH, verb
+             1    |    demolish%2:36:00::   
+             2    |    demolish%2:36:01::   
+             3    |    demolish%2:34:00::   
+             4    |    demolish%2:33:00::   
+  	--------------+---------------------------------------
+  	LEGENDARY, adj
+             1    |    legendary%5:00:00:known:00   
+             2    |    legendary%5:00:00:unreal:00   
+  	--------------+---------------------------------------
+  	HISTORY, noun
+             1    |    history%1:28:00::   
+             2    |    history%1:10:00::   
+             3    |    history%1:09:00::   
+             4    |    history%1:28:02::   
+             5    |    history%1:09:01::   
+  	--------------+---------------------------------------
+  	RULE, verb
+             1    |    rule%2:41:00::   
+             2    |    rule%2:31:00::   
+             3    |    rule%2:42:00::   
+             4    |    rule%2:32:00::   
+             5    |    rule%2:42:01::   
+             6    |    rule%2:36:00::   
+             7    |    rule%2:30:00::   
+  	--------------+---------------------------------------
+  	NAME, verb
+             1    |    name%2:32:03::   
+             2    |    name%2:32:02::   
+             3    |    name%2:41:01::   
+             4    |    name%2:41:00::   
+             5    |    name%2:32:07::   
+             6    |    name%2:32:04::   
+             7    |    name%2:31:01::   
+             8    |    name%2:32:09::   
+             9    |    name%2:31:00::   
+  	--------------+---------------------------------------
+  	INFLUENCE, noun
+             1    |    influence%1:07:00::   
+             2    |    influence%1:04:00::   
+             3    |    influence%1:09:00::   
+             4    |    influence%1:19:00::   
+             5    |    influence%1:18:00::   
+  	--------------+---------------------------------------
+  	DEVELOPMENT, noun
+             1    |    development%1:04:01::   
+             2    |    development%1:22:02::   
+             3    |    development%1:22:01::   
+             4    |    development%1:11:01::   
+             5    |    development%1:04:02::   
+             6    |    development%1:15:00::   
+             7    |    development%1:26:00::   
+             8    |    development%1:22:00::   
+             9    |    development%1:10:00::
+    --------------+---------------------------------------
+    ORDER, verb 
+             1    |    order%2:32:01::   
+             2    |    order%2:32:00::   
+             3    |    order%2:32:02::   
+             4    |    order%2:41:01::   
+             5    |    order%2:30:00::   
+             6    |    order%2:30:01::   
+             7    |    order%2:41:02::   
+             8    |    order%2:31:01::   
+             9    |    order%2:31:00::   
+  	--------------+---------------------------------------
+  	SUCCESSFUL, adj  
+             1    |    successful%3:00:00::   
+
+
+
+
+ANNOTATION SUMMARY
+------------------
+
+	Word:	demolish
+	Pos:	v
+	WNSenses:	4
+	Total Number Occcurrences: 63
+
+	Word:	legendary
+	Pos:	j
+	WNSenses:	2
+	Total Number Occcurrences: 164
+
+	Word:	history
+	Pos:	n
+	WNSenses:	5
+	Total Number Occcurrences: 3108
+
+	Word:	rule
+	Pos:	v
+	WNSenses:	7
+	Total Number Occcurrences: 540
+
+	Word:	name
+	Pos:	v
+	WNSenses:	9
+	Total Number Occcurrences: 1544
+
+	Word:	influence
+	Pos:	n
+	WNSenses:	5
+	Total Number Occcurrences: 830
+
+	Word:	development
+	Pos:	n
+	WNSenses:	9
+	Total Number Occcurrences: 3628
+
+	Word:	order
+	Pos:	v
+	WNSenses:	9
+	Total Number Occcurrences: 603
+
+	Word:	successful
+	Pos:	n
+	WNSenses:	1
+	Total Number Occcurrences: 585
+
+	Word: 	launch
+	Pos: 	v
+	WNSenses: 	6
+	Total Number Occurrences: 527
+
+
+TOTAL NUMBER OF OCCURRENCES: 11592
+
+
+
+WORDNET SENSES USED
+-------------------
+
+	word-pos 	wn senses 	senses used 	tokens
+	------------------------------------------------------
+	demolish-v 		4 		3 	63
+	development-n 		9 		9 	3628
+	history-n 		5 		5 	3108
+	influence-n 		5 		4 	830
+	legendary-j 		2 		2 	164
+	launch-v 		6 		5 	527
+	name-v 			9 		8 	1544
+	order-v 		9 		6 	603
+	rule-v 			7 		4 	540
+	successful-n 		1 		1 	585
+
