@@ -97,7 +97,8 @@ momentum.controller 'GlobalCtrl', [
   $scope.submitName = ->
     if CurrentUser.name and CurrentUser.nickname
       toastr.success "Hello, #{CurrentUser.nickname}!"
-      $location.path "/"
+      $location.path '/'
+      $scope.loadGame()
     else
       toastr.error "You must enter a name and a nickname!!!!"
 
@@ -119,6 +120,8 @@ momentum.controller 'GlobalCtrl', [
 
   $scope.lines = []
   $scope.lines.length = $scope.LINES
+  for i in [0...$scope.LINES]
+    $scope.lines[i] = []
 
   updateSearch = ->
     switch
@@ -133,27 +136,24 @@ momentum.controller 'GlobalCtrl', [
         $scope.generateWord = -> "#{cnumber++}"
       else
         # TODO
+        ###
         gIndex = 1 
         words = "ra xe sg shk the quick brown fox Lorem X BCLKJ Heyjudedontletmedown".split /\s+/g
         $scope.generateWord = ->
           word = words[(Math.random()*words.length) | 0]
           "#{word}#{gIndex++}"
+        ###
+
+        if $location.search()['text-level']? then Words.data.textLevel = parseInt $location.search()['text-level']
+        if $location.search()['text-level-max']? then Words.data.textLevelMax = parseInt $location.search()['text-level-max']
+        if $location.search()['lesson-level']? then Words.data.lessonLevel = parseInt $location.search()['lesson-level']
+        if $location.search()['lesson-level-max']? then Words.data.lessonLevelMax = parseInt $location.search()['lesson-level-max']
+        $scope.generateWord = -> Words.nextWord()
 
   $scope.$watch (-> $location.search()), updateSearch, true
 
   updateSearch()
   
-
-  currentWord = $scope.generateWord()
-  $scope.popWord = -> currentWord = $scope.generateWord()
-  $scope.generateLine = (length = LINE_LEN) ->
-    curr = 0
-    while true
-      word = currentWord
-      break if (curr += word.length + 1) > length
-      $scope.popWord()
-      word
-  # only one we want out of this is generateLine
 
   STREAM_INDEX = 1
   wordIndex = 1
@@ -251,12 +251,24 @@ momentum.controller 'GlobalCtrl', [
       updateTimeout()
 
 
-  $scope.lastLine = []
-  $scope.enterLine = ->
-    $scope.lastLine = $scope.lines.shift()
-    $scope.lines.push [process $scope.generateLine()]
 
-  $scope.enterLine() for i in [0...$scope.LINES]
+  $scope.lastLine = []
+  Words.promise.then ->
+    currentWord = $scope.generateWord()
+    $scope.popWord = -> currentWord = $scope.generateWord()
+    $scope.generateLine = (length = LINE_LEN) ->
+      curr = 0
+      while true
+        word = currentWord
+        break if (curr += word.length + 1) > length
+        $scope.popWord()
+        word
+    
+    $scope.enterLine = ->
+      $scope.lastLine = $scope.lines.shift()
+      $scope.lines.push [process $scope.generateLine()]
+
+    $scope.enterLine() for i in [0...$scope.LINES]
 
   $scope.data = 
     line: ''
