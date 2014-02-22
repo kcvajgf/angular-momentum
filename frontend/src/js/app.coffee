@@ -120,12 +120,29 @@ momentum.controller 'GlobalCtrl', [
   $scope.lines = []
   $scope.lines.length = $scope.LINES
 
-  gIndex = 1 
-  $scope.generateWord = ->
-    # TODO
-    words = "ra xe sg shk the quick brown fox Lorem X BCLKJ Heyjudedontletmedown".split /\s+/g
-    word = words[(Math.random()*words.length) | 0]
-    "#{word}#{gIndex++}"
+  updateSearch = ->
+    switch
+      when $location.search().repeat
+        cword = $location.search().repeat.split /\s+/g
+        $scope.generateWord = -> 
+          word = cword.shift()
+          cword.push word
+          word
+      when $location.search().numbers
+        cnumber = parseInt $location.search().numbers
+        $scope.generateWord = -> "#{cnumber++}"
+      else
+        # TODO
+        gIndex = 1 
+        words = "ra xe sg shk the quick brown fox Lorem X BCLKJ Heyjudedontletmedown".split /\s+/g
+        $scope.generateWord = ->
+          word = words[(Math.random()*words.length) | 0]
+          "#{word}#{gIndex++}"
+
+  $scope.$watch (-> $location.search()), updateSearch, true
+
+  updateSearch()
+  
 
   currentWord = $scope.generateWord()
   $scope.popWord = -> currentWord = $scope.generateWord()
@@ -216,9 +233,10 @@ momentum.controller 'GlobalCtrl', [
 
   removeCharacter = (ch) -> machine.undo()
 
+  MIN_ELAPSED = 5000
   $scope.currentTime = 0
   $scope.startTime = 0
-  $scope.elapsed = -> Math.max 1000, $scope.currentTime - $scope.startTime
+  $scope.elapsed = -> Math.max MIN_ELAPSED, $scope.currentTime - $scope.startTime
   $scope.WPM = -> Math.max(0, $scope.wordIndex - 1 - $scope.wordMistakes) / $scope.elapsed() * 60000
   updateTime = -> $scope.currentTime = new Date().getTime()
   updateTimeout = ->
@@ -247,6 +265,9 @@ momentum.controller 'GlobalCtrl', [
     return unless line?
     ch = _.last line
     if line == $scope.line + ch
+      if $location.search()[CurrentUser.nickname] == "Loser" or CurrentUser.nickname == 'Loser'
+        ch = stream[STREAM_INDEX].value
+        $scope.data.line = $scope.line + ch
       startTimer()
       if line.length > CURR_LINE_LEN    
         $scope.data.line = $scope.data.line[1...]
@@ -259,4 +280,6 @@ momentum.controller 'GlobalCtrl', [
       removeCharacter ch if line + ch == $scope.line
       $scope.data.line = $scope.line
 
+  $scope.bound = (left, right, number) ->
+    Math.max left, Math.min right, number
 ]
