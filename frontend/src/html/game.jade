@@ -6,9 +6,24 @@
       i.icon-spinner.icon-spin
       span.text-info  Loading... ({{loadingMessage}})
   div
-    button.btn.btn-danger(ng-click="fuul()") CLICK
-    div TEST
+    div
+      | DATA
+      | charPresses:{{charPresses}}
+      | charMistakes:{{charMistakes}}
+      | words:{{words}}
+      | wordMistakes:{{wordMistakes}}
+      | startTime:{{startTime}}
+      | wordIndex:{{wordIndex}}
+      | elapsed:{{elapsed()}}
+      | WPM:{{WPM()}}
+    form.typed
+      input(type='text', ng-model="data.line", placeholder="Type here...", ng-trim='false')
     .words
       ul.nav.nav-pills.nav-stacked
-        li.word(ng-animate="'animate'", ng-repeat="word in words")
-          | {{word[0]}}
+        li.word(ng-animate="'animate'", ng-repeat="line in [lastLine].concat(lines)")
+          //- line[0] so animate works
+          span(
+            ng-repeat="ch in line[0]"
+            class="status-{{ch.status}}"
+            ng-class="{'current-word': wordIndex == ch.wordIndex}"
+            ng-bind-html-unsafe="ch.display")
