@@ -31,9 +31,7 @@ momentum.factory 'Words', [
   letters = lowers + uppers
   alphanumerics = letters + digits
   textLevels = [
-    letters
-    digits
-    allSymbols
+    letters + digits + allSymbols
   ]
   wraps = [
     "''"
@@ -127,18 +125,22 @@ momentum.factory 'Words', [
 
 
   # TODO use masc_total_2
-  $http.get("/assets/masc_total_2_bak.txt").success (text, status, header, config) ->
+  $http.get("/assets/masc_total_2_300.txt").success (text, status, header, config) ->
+    console.log "RESOLVE lll"
     textObj.resolve textWrapper + text + textWrapper
+    console.log "RESOLVE lll"
 
   textObj.promise.then (text) ->
     $timeout ->
+      console.log "RESOLVE lower"
       lowerTextObj.resolve text.toLowerCase()
+      console.log "RESOLVE lower"
 
   textObj.promise.then (text) ->
     $timeout ->
       textLevelSplits = {}
       $q.all(
-        for letters, level in textLevels # TODO asynchronously split work
+        for letters, level in textLevels
           obj = $q.defer()
           do (level, obj) ->
             $timeout ->
@@ -156,7 +158,15 @@ momentum.factory 'Words', [
               obj.resolve()
           obj.promise
       ).then ->
+        console.log "RESOLVE tp"
         textLevelSplitsObj.resolve textLevelSplits
+        console.log "RESOLVE tp"
+
+  addSet = (st, val) ->
+    if val of st
+      st[val]++
+    else
+      st[val] = 1
 
   textLevelSplitsObj.promise.then (textLevelSplits) ->
     $timeout ->
@@ -164,9 +174,11 @@ momentum.factory 'Words', [
       for level, words of textLevelSplits
         for word in words
           nword = word.toLowerCase()
-          originalCases[nword] ?= []
-          originalCases[nword].push word
+          originalCases[nword] ?= {}
+          addSet originalCases[nword], word
+      console.log "RESOLVE orgc", originalCases
       originalCasesObj.resolve originalCases
+      console.log "RESOLVE orgc"
 
   goodInBank = (bank, words...) ->
     for word in words
@@ -182,18 +194,23 @@ momentum.factory 'Words', [
         words[lesson] = {}
         textBank = lessonLevelBanks[lesson]
         for letters, level in textLevels
-          words[lesson][level] = []
+          words[lesson][level] = {}
           for word in textLevelSplits[level]
-            words[lesson][level].push word if goodInBank textBank, word
-
+            addSet words[lesson][level], word if goodInBank textBank, word
+      console.log "RESOLVE wds"
       wordsObj.resolve words
+      console.log "RESOLVE wds"
 
   chainDict = (obj, first, words..., last) ->
+    oobj = {}
+    ofirst = first
     for word in words
-      obj[first] ?= {}
+      obj = obj[first] ?= {}
       first = word
-    obj[first] ?= []
-    obj[first].push last
+    obj[first] ?= {}
+    addSet obj[first], last  
+
+    
 
   chainGet = (obj, keys...) ->
     obj = obj[key] for key in keys
@@ -202,6 +219,7 @@ momentum.factory 'Words', [
   for grams, gIndex in [bigramsObj, trigramsObj, quadgramsObj]
     do (grams, gIndex) ->
       textLevelSplitsObj.promise.then (textLevelSplits) ->
+        console.log "DITO", gIndex, textLevelSplits
         $timeout ->
           gramMap = {}
           for letters, lesson in lessonLevels # TODO split asynchronously
@@ -213,18 +231,21 @@ momentum.factory 'Words', [
               for word, index in splits
                 continue if index <= gIndex
                 chainDict gramMap[lesson][level], splits[index-gIndex-1..index]... if goodInBank textBank, splits[index-gIndex-1..index]...
+          console.log "RESOLVE", gIndex
           grams.resolve gramMap
-          if gIndex == 2
-            window.foou = gramMap
+          console.log "RESOLVE", gIndex
 
   randomChoice = (arr) ->
+    arr = _.keys arr
     arr[(Math.random() * arr.length) | 0]
+
+
   data = 
     textLevel: textLevels.length-1
     textLevelMax: textLevels.length-1
     lessonLevel: 0
     lessonLevelMax: lessonLevels.length-1
-    lessonDelta: 100
+    lessonDelta: 30#100
     textDelta: 400
 
   _data = {}
@@ -234,8 +255,10 @@ momentum.factory 'Words', [
   quadgramsObj.promise.then (quadgrams) -> _data.quadgrams = quadgrams
   words = []
   wordCount = 0
+
+  console.log "HEREX"
   nextWord: ->
-    words.unshift() if words.length > 4
+    console.log "nextWord"
     lesson = data.lessonLevel
     level = data.textLevel
     chance = Math.random()
@@ -250,11 +273,12 @@ momentum.factory 'Words', [
         newWord = randomChoice get
 
     unless newWord? then newWord = 'foo'
+    words.unshift() if words.length > 4
     words.push newWord
 
     wordCount++
-    data.lessonLevel++ if wordCount % data.lessonDelta == 0
-    data.textLevel++ if wordCount % data.textDelta == 0
+    data.lessonLevel++ if data.lessonLevel < data.lessonLevelMax and wordCount % data.lessonDelta == 0
+    data.textLevel++ if data.textLevel < data.textLevelMax and wordCount % data.textDelta == 0
 
     newWord
 
@@ -271,7 +295,7 @@ momentum.factory 'Words', [
     textObj.promise
     lowerTextObj.promise
     textLevelSplitsObj.promise
-    originalCasesObj.promise
+    #originalCasesObj.promise
     wordsObj.promise
     bigramsObj.promise
     trigramsObj.promise

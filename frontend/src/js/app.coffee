@@ -108,7 +108,9 @@ momentum.controller 'GlobalCtrl', [
     $location.path "/"
     $scope.loadingGame = true
     $scope.loadingMessage = "Loading data from text file"
+    console.log "loading"
     Words.promise.then (data) ->
+      console.log "GOT data", data
       return if currGameId != $scope.gameId
       $scope.loadingGame = false
       $scope.loadingMessage = ""
