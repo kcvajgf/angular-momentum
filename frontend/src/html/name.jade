@@ -1,0 +1,20 @@
+#game.container
+  h3 Typeeng
+  .loading
+    | &nbsp;
+    span(ng-show="loading")
+      i.icon-spinner.icon-spin
+      |  Loading
+  form.form-horizontal(name="name", ng-submit="submitName()")
+    .control-group
+      label.control-label What is your full name?
+      .controls
+        input(type='text', ng-model="CurrentUser.name", placeholder="John Doe...")
+    .control-group
+      label.control-label Nickname?
+      .controls
+        input(type='text', ng-model="CurrentUser.nickname", placeholder="Joe...")
+    .control-group
+      .controls
+        button.btn(type='submit') Submit
+        

@@ -6,132 +6,149 @@ momentum.factory 'toastr', [->
   toastr
 ]
 
-momentum.value 'firebaseURL', 'https://unrealtime-forum.firebaseio.com'
-momentum.value 'firebaseThreadsURL', 'https://unrealtime-forum.firebaseio.com/threads'
-momentum.value 'firebaseUsersURL', 'https://unrealtime-forum.firebaseio.com/users'
-
-momentum.factory 'firebaseRoot', (firebaseURL) ->
-  new Firebase firebaseURL
-
-momentum.factory 'firebaseAuth', (firebaseRoot, $timeout) ->
-  listeners = []
-  currentUser = null
-  currentError = null
-  auth = new FirebaseSimpleLogin firebaseRoot, (error, user) ->
-    currentUser = user
-    currentError = error
-    console.log "User change!", error, user, listeners
-    for listener in listeners
-      listener error, user
-
-  auth.addListener = (listener) ->
-    listeners.push listener
-    listener currentUser, currentError
-  auth
-
 momentum.factory 'CurrentUser', [
- '$q', '$http', '$window', '$timeout', 'firebaseAuth', '$rootScope', '$location',
- ($q,   $http,   $window,   $timeout,   firebaseAuth,   $rootScope,   $location) ->
-  safeApply = (f) ->
-    if $rootScope.$$phase == '$apply' or $rootScope.$$phase = '$digest'
-      console.log "not applying!"
-      f()
-    else
-      console.log "applying!"
-      $rootScope.$apply f
+ '$q', '$http', '$window', '$timeout', '$rootScope', '$location',
+ ($q,   $http,   $window,   $timeout,   $rootScope,   $location) ->
+  {}
+]
 
-  deferreds = []
-  firebaseAuth.addListener (error, user) ->
-    f = ->
-      for deferred in deferreds
-        if error
-          deferred.reject error
-        else
-          deferred.resolve user
-    if $rootScope.$$phase == '$apply' or $rootScope.$$phase == '$digest'
-      f()
-    else
-      $rootScope.$apply f
-    deferreds = []
+momentum.factory 'Words', [
+ '$http', '$q', '$timeout',
+ ($http,   $q,   $timeout) ->
 
-  CurrentUser = 
-    signUp: (data) ->
-      console.log "signup!!", data
-      d = $q.defer()
-      firebaseAuth.createUser data.email, data.password, (error, user) =>
-        f = =>
-          if error
-            console.error "Didn't successfully sign up", error
-            d.reject error
-          else if user
-            console.log "Successfully signed up!", user
-            d.resolve @setData user
-          else
-            console.log "Successfully signed up but no user?!"
-            d.reject null
-        if $rootScope.$$phase == '$apply' or $rootScope.$$phase == '$digest'
-          f()
-        else
-          $rootScope.$apply f
 
-      d.promise
-    logIn: (data) ->
-      d = $q.defer()
-      deferreds.push d
-      firebaseAuth.login 'password',
-        email: data.email
-        password: data.password
-        rememberMe: false # TODO
-      d.promise.then (user) =>
-        if user
-          console.log "Successfully logged in!", user
-          d.resolve @setData user
-        else
-          console.log "Successfully logged in but no user?!"
-          d.reject user
-      , (error) =>
-        console.error "Didn't successfully log in", error
-        d.reject error
-      d.promise
-    logout: ->
-      d = $q.defer()
-      deferreds.push d
-      firebaseAuth.logout()
-      d.promise.then (user) =>
-        if user
-          console.log "Successfully logged out but user?!"
-          d.reject user
-        else
-          console.log "Successfully logged out!", user
-          d.resolve @setData user
-      , (error) =>
-        console.error "Didn't successfully log in", error
-        d.reject error
-      d.promise
-    setData: (data) ->
-      @user = data
-    isLoggedIn: ->
-      return @user?
-    user: null
+  sample = "The quick brown fox jumps over the lazy dog."
+  textWrapper = sample + sample + sample
+  lowers = "abcdefghijklmnopqrstuvwxyz"
+  uppers = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  digits = "0123456789"
+  puncts = ";,:.?!"
+  spacelikes = """/-+_@"""
+  wrapSymbols = """'"()[]{}<>`"""
+  symbols = "=$%^&#*~|\\"
+  spaces = """ \t\n"""
+  allSymbols = puncts + spacelikes + wrapSymbols + symbols
+  letters = lowers + uppers
+  alphanumerics = letters + digits
+  textLevels = [
+    letters
+    digits
+    allSymbols
+  ]
+  wraps = [
+    "''"
+    '""'
+    "()"
+    "[]"
+    "{}"
+    "<>"
+    "``"
+  ]
+  lessonLevels = [
+    '''asdf jkl;'''
+    '''ASDFJKL'''
+    '''rtyu'''
+    '''RTYU\t'''
+    '''cvb'''
+    '''CVB'''
+    '''nm,:'''
+    '''NM\n'''
+    '''wxo.'''
+    '''WXO'''
+    '''qzp'"'''
+    '''QZP'''
+    '''/?<>'''
+    '''-=_+[]'''
+    '''4567'''
+    '''$%^&'''
+    '''38'''
+    '''#*{}'''
+    '''290'''
+    '''@()'''
+    '''1!'''
+    '''`~\|'''
+  ]
+  textLevel = {}
+  for letters, level in textLevels
+    for c in letters
+      textLevel[c] = level
+  lessonLevel = {}
+  for letters, level in lessonLevels
+    for c in letters
+      lessonLevel[c] = level
+  opens = ""
+  closes = ""
+  pairs = {}
+  for pair in wraps
+    opens += pair[0]
+    closes += pair[1]
+    pairs[pair[0]] = pair[1]
+    pairs[pair[1]] = pair[0]
 
-  firebaseAuth.addListener (error, user) ->
-    console.log "HEY HEY HEY"
-    f = ->
-      if error
-        console.error "Error retrieving user...", error
-      else 
-        console.log "Got user!", user
-        CurrentUser.setData user
+  textObj = $q.defer()
+  lowerTextObj = $q.defer()
+  textLevelSplitsObj = $q.defer()
+  originalCasesObj = $q.defer()
 
-    if $rootScope.$$phase == '$apply' or $rootScope.$$phase == '$digest'
-      f()
-    else
-      $rootScope.$apply f
 
-  $window.onfocus = ->
-    console.log "ON FOCUS!"
-  $window.onblur = ->
-    console.log "ON BLUR!"
+  $http.get("/assets/masc_total_2_bak.txt").success (text, status, header, config) ->
+    textObj.resolve textWrapper + text + textWrapper
 
-  CurrentUser
+  textObj.promise.then (text) ->
+    $timeout ->
+      lowerTextObj.resolve text.toLowerCase()
+
+  textObj.promise.then (text) ->
+    $timeout ->
+      textLevelSplits = {}
+      textBank = {}
+      for letters, level in textLevels # TODO asynchronously split work
+        levelSplit = []
+        for letter in letters
+          textBank[letter] = 1
+        accWord = ''
+        for c in text
+          if c of textBank
+            accWord += c
+          else if accWord
+            levelSplit.push accWord
+        textLevelSplits[level] = levelSplit
+
+      textLevelSplitsObj.resolve textLevelSplits
+
+  textLevelSplitsObj.promise.then (textLevelSplits) ->
+    $timeout ->
+      originalCases = {}
+      for level, words of textLevelSplits
+        for word in words
+          nword = word.toLowerCase()
+          originalCases[nword] = [] if nword not of originalCases
+          originalCases[nword].push word
+      originalCasesObj.resolve originalCases
+
+  # collect unigrams
+  # collect bigrams
+  # collect trigrams
+  # collect quadgrams
+  # filter by lessonLevel:
+    # unigrams
+    # bigrams
+    # trigrams
+    # quadgrams
+
+
+  textPromise: textObj.promise
+  lowerTextPromise: lowerTextObj.promise
+  textLevelSplitsPromise: textLevelSplitsObj.promise
+  originalCasesPromise: originalCasesObj.promise
+  tokens:1
+  unigrams:1 
+  bigrams:1
+  trigrams: 1
+  promise: $q.all [
+    textObj.promise
+    lowerTextObj.promise
+    textLevelSplitsObj.promise
+    originalCasesObj.promise
+  ]
 ]

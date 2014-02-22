@@ -28,13 +28,15 @@ html(ng-app="Momentum")
             .ng-cloak
               ul.nav
                 li
-                  a(href='#/home?#') Start
+                  a(ng-click="startGame()") Start
                 li
                   a(href='#/about?#') About
               .pull-right
-                .btn.btn-link
+                a.btn.btn-link(href="#/name?#")
+                  | {{CurrentUser.name || "Guest"}} 
+                  span(ng-show="CurrentUser.nickname")
+                    | ({{CurrentUser.nickname}}) 
                   i.icon-user
-                  |  {{CurrentUser.name || "Guest"}}
                 |  
                 // a.btn(ng-click='logOut()') Foo
       #content.ng-cloak(ng-view)

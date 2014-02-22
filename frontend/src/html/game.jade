@@ -2,8 +2,13 @@
   h3 Typeeng
   .loading
     | &nbsp;
-    span(ng-show="loading")
+    span(ng-show="loadingGame")
       i.icon-spinner.icon-spin
-      |  Loading
+      span.text-info  Loading... ({{loadingMessage}})
   div
-    | Hoy
+    button.btn.btn-danger(ng-click="fuul()") CLICK
+    div TEST
+    .words
+      ul.nav.nav-pills.nav-stacked
+        li.word(ng-animate="'animate'", ng-repeat="word in words")
+          | {{word[0]}}
