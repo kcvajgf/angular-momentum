@@ -306,7 +306,7 @@ momentum.factory 'Words', [
 
 ###
 
-TODO gradient progress bar
+TODO moving gradient progress bar
 TODO google charts if may internet
   WPM over time
   accuracy (words) over time
