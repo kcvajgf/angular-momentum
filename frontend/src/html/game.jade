@@ -7,26 +7,31 @@
       span.text-info  Loading... ({{loadingMessage}})
   div
     .row
-      .span12 {{WPM() | number: 2}} words per minute 
+      h4.span12
+        | {{WPM() | number: 2}}
+        |  words per minute 
     .row
       .span12
         .progress.progress-striped.active
-          .bar.bar-info(style="width:{{bound(0,25,WPM()/2-0)}}%")
-          .bar.bar-success(style="width:{{bound(0,25,WPM()/2-25)}}%")
-          .bar.bar-warning(style="width:{{bound(0,25,WPM()/2-50)}}%")
+          .bar.bar-info(style="width:{{bound(0,10,WPM()/2-0)}}%")
+          .bar.bar-almost(style="width:{{bound(0,10,WPM()/2-10)}}%")
+          .bar.bar-success(style="width:{{bound(0,10,WPM()/2-20)}}%")
+          .bar.bar-caution(style="width:{{bound(0,10,WPM()/2-30)}}%")
+          .bar.bar-warning(style="width:{{bound(0,10,WPM()/2-40)}}%")
+          .bar.bar-distress(style="width:{{bound(0,25,WPM()/2-50)}}%")
           .bar.bar-danger(style="width:{{bound(0,25,WPM()/2-75)}}%")
     .row
-      .span10
+      h4.span10
         .text-error(ng-show="charMistakes", ng-pluralize, count="charMistakes", when="{\
             '0': '',\
             '1': '1 mistake!',\
             'other': '{} mistakes!'}")
-      .span2 &nbsp;
+      h4.span2 &nbsp;
     form.typed
       input(type='text', ng-model="data.line", placeholder="Type here...", ng-trim='false')
     .words
       ul.nav.nav-pills.nav-stacked
-        li.word(ng-animate="'animate'", ng-repeat="line in [lastLine].concat(lines)")
+        li.word(ng-animate="'animate'", ng-repeat="line in [lastLastLine, lastLine].concat(lines)", style="opacity:{{$index | opacity: lines.length+1}}")
           //- line[0] so animate works
           span(
             ng-repeat="ch in line[0]"

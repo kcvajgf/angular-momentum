@@ -2,9 +2,9 @@
   h3 Typeeng
   .loading
     | &nbsp;
-    span(ng-show="loading")
+    span(ng-show="loadingGame")
       i.icon-spinner.icon-spin
-      |  Loading
+      span.text-info  Loading... ({{loadingMessage}})
   form.form-horizontal(name="name", ng-submit="submitName()")
     .control-group
       label.control-label What is your full name?

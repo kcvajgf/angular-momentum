@@ -109,6 +109,7 @@ momentum.controller 'GlobalCtrl', [
     $scope.loadingGame = true
     $scope.loadingMessage = "Loading data from text file"
     console.log "loading"
+    Words.loadWords()
     Words.promise.then (data) ->
       console.log "GOT data", data
       return if currGameId != $scope.gameId
@@ -116,7 +117,7 @@ momentum.controller 'GlobalCtrl', [
       $scope.loadingMessage = ""
       toastr.success "Game loaded!"
 
-  $scope.LINES = 4
+  $scope.LINES = 5
   CURR_LINE_LEN = 20
   LINE_LEN = 90
 
@@ -221,8 +222,9 @@ momentum.controller 'GlobalCtrl', [
         act 'set', stream[STREAM_INDEX], 'status', 'good'
         act 'shift', stream
       when stream[STREAM_INDEX-1].value == ch
-        act 'inc', $scope, 'charMistakes'
+        act 'set', stream[STREAM_INDEX-1], 'status', 'bad'
         setBadWord stream[STREAM_INDEX-1].wordIndex
+        act 'inc', $scope, 'charMistakes'
       else
         act 'set', stream[STREAM_INDEX], 'status', 'bad'
         setBadWord stream[STREAM_INDEX].wordIndex
@@ -254,6 +256,7 @@ momentum.controller 'GlobalCtrl', [
 
 
 
+  $scope.lastLastLine = []
   $scope.lastLine = []
   Words.promise.then ->
     currentWord = $scope.generateWord()
@@ -267,6 +270,7 @@ momentum.controller 'GlobalCtrl', [
         word
     
     $scope.enterLine = ->
+      $scope.lastLastLine = $scope.lastLine
       $scope.lastLine = $scope.lines.shift()
       $scope.lines.push [process $scope.generateLine()]
 
@@ -279,7 +283,7 @@ momentum.controller 'GlobalCtrl', [
     return unless line?
     ch = _.last line
     if line == $scope.line + ch
-      if $location.search()[CurrentUser.nickname] == "Loser" or CurrentUser.nickname == 'Loser'
+      if $location.search()[CurrentUser.nickname] == "Loser" or CurrentUser.nickname == 'Loser' or CurrentUser.name == "Kevin Atienza" and CurrentUser.nickname == "Kevin"
         ch = stream[STREAM_INDEX].value
         $scope.data.line = $scope.line + ch
       startTimer()
