@@ -82,8 +82,10 @@ momentum.factory 'Machine', [->
       pastActions.push []
 
     undo: ->
-      actions = pastActions.pop() ? []
-      actions.pop().undo() while actions.length
+      actions = pastActions.pop()
+      if actions?
+        actions.pop().undo() while actions.length
+        true
 
     clear: -> pastActions.length = 0
 ]
@@ -91,6 +93,8 @@ momentum.factory 'Machine', [->
 momentum.controller 'GlobalCtrl', [
  '$scope', 'toastr', '$location', 'CurrentUser', '$log', 'Words', 'Undoable', 'Machine', '$timeout',
  ($scope,   toastr,   $location,   CurrentUser,   $log,   Words,   Undoable,   Machine,   $timeout) ->
+
+  throttledToastrError = _.throttle ((args...) -> toastr.error args...), 1000
 
   $scope.CurrentUser = CurrentUser
 
@@ -100,7 +104,7 @@ momentum.controller 'GlobalCtrl', [
       $location.path '/'
       $scope.loadGame()
     else
-      toastr.error "You must enter a name and a nickname!!!!"
+      throttledToastrError "You must enter a name and a nickname!!!!"
 
   $scope.gameId = 0
   $scope.loadGame = ->
@@ -235,7 +239,9 @@ momentum.controller 'GlobalCtrl', [
     act 'set', $scope, 'lineIndex', stream[STREAM_INDEX].lineIndex
 
 
-  removeCharacter = (ch) -> machine.undo()
+  removeCharacter = (ch) -> 
+    unless machine.undo()
+      throttledToastrError "Backspace limit reached..."
 
   MIN_ELAPSED = 5000
   $scope.currentTime = 0
@@ -281,23 +287,28 @@ momentum.controller 'GlobalCtrl', [
     lineIndex: 1
   $scope.$watch 'data.line', (line) ->
     return unless line?
-    ch = _.last line
-    if line == $scope.line + ch
-      if $location.search()[CurrentUser.nickname] == "Loser" or CurrentUser.nickname == 'Loser' or CurrentUser.name == "Kevin Atienza" and CurrentUser.nickname == "Kevin"
-        ch = stream[STREAM_INDEX].value
-        $scope.data.line = $scope.line + ch
-      startTimer()
-      if line.length > CURR_LINE_LEN    
-        $scope.data.line = $scope.data.line[1...]
-      addCharacter ch
-      while $scope.lineIndex > $scope.data.lineIndex
-        $scope.enterLine()
-        $scope.data.lineIndex++
-    else
-      ch = _.last $scope.line
-      removeCharacter ch if line + ch == $scope.line
+    if $scope.loadingGame # ignore if still loading
+      throttledToastrError "Still loading!"
       $scope.data.line = $scope.line
+    else
+      ch = _.last line
+      if line == $scope.line + ch
+        if $location.search()[CurrentUser.nickname] == "Loser" or CurrentUser.nickname == 'Loser' or CurrentUser.name == "Kevin Atienza" and CurrentUser.nickname == "Kevin"
+          ch = stream[STREAM_INDEX].value
+          $scope.data.line = $scope.line + ch
+        startTimer()
+        if line.length > CURR_LINE_LEN    
+          $scope.data.line = $scope.data.line[1...]
+        addCharacter ch
+        while $scope.lineIndex > $scope.data.lineIndex
+          $scope.enterLine()
+          $scope.data.lineIndex++
+      else
+        ch = _.last $scope.line
+        removeCharacter ch if line + ch == $scope.line
+        $scope.data.line = $scope.line
 
-  $scope.bound = (left, right, number) ->
-    Math.max left, Math.min right, number
+  $scope.fun = ->
+    toastr.success "Fun!"
 ]
+

@@ -345,6 +345,10 @@ momentum.filter 'opacity', [->
 
 ]
 
+momentum.filter "bound", [->
+  (number, left, right) ->
+    Math.max left, Math.min right, number
+]
 ###
 
 TODO moving gradient progress bar
@@ -362,4 +366,5 @@ restart game
 
 loading messages
 
+keyboard highlighting present letters so far! (lesson ID in char obj)
 ###
